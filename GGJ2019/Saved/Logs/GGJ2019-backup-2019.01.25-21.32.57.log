@@ -1,0 +1,848 @@
+﻿Log file open, 01/25/19 21:29:17
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: GGJ2019
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.426264
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.316s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) CPU E5-1620 v3 @ 3.50GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.008s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.25-21.29.17:843][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.25-21.29.17:843][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.25-21.29.17:870][  0]LogHAL: Display: Platform has ~ 16 GB [17092038656 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.25-21.29.17:871][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.25-21.29.17:871][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.25-21.29.17:872][  0]LogInit: Computer: C115-11
+[2019.01.25-21.29.17:872][  0]LogInit: User: w017177h
+[2019.01.25-21.29.17:872][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.25-21.29.17:872][  0]LogInit: High frequency timer resolution =3.410072 MHz
+[2019.01.25-21.29.17:873][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.25-21.29.17:873][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.25-21.29.17:873][  0]LogMemory: Process Physical Memory: 100.29 MB used, 100.29 MB peak
+[2019.01.25-21.29.17:874][  0]LogMemory: Process Virtual Memory: 91.06 MB used, 91.06 MB peak
+[2019.01.25-21.29.17:874][  0]LogMemory: Physical Memory: 6897.37 MB used,  9402.87 MB free, 16300.24 MB total
+[2019.01.25-21.29.17:874][  0]LogMemory: Virtual Memory: 4640.35 MB used,  9402.87 MB free, 134217728.00 MB total
+[2019.01.25-21.29.18:041][  0]LogInit: Using OS detected language (en-US).
+[2019.01.25-21.29.18:041][  0]LogInit: Using OS detected locale (en-GB).
+[2019.01.25-21.29.18:043][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.25-21.29.18:456][  0]LogStreaming: Display: Took  0.416s to InitEngineTextLocalization.
+[2019.01.25-21.29.18:457][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.25-21.29.18:490][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.25-21.29.18:490][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.25-21.29.18:826][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.25-21.29.18:826][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.25-21.29.18:911][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.01.25-21.29.18:911][  0]LogD3D11RHI:       4043/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.01.25-21.29.18:916][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.25-21.29.18:916][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.25-21.29.18:916][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.25-21.29.18:925][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.25-21.29.18:925][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.25-21.29.18:925][  0]LogWindows: EnumDisplayDevices:
+[2019.01.25-21.29.18:925][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.01.25-21.29.18:926][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2019.01.25-21.29.18:926][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.25-21.29.18:926][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.25-21.29.18:927][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.25-21.29.18:927][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.01.25-21.29.18:927][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2019.01.25-21.29.18:927][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2019.01.25-21.29.18:927][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2019.01.25-21.29.18:980][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.25-21.29.18:998][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.25-21.29.19:045][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Intermediate/Shaders/WorkingDirectory/22032/).
+[2019.01.25-21.29.19:046][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/w017177h.STUDENT/AppData/Local/Temp/UnrealShaderWorkingDir/2A4EFB944F88D2FDEC6C37801CE5C163/'.
+[2019.01.25-21.29.19:495][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.25-21.29.19:514][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.25-21.29.19:532][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.25-21.29.19:552][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.25-21.29.19:573][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.25-21.29.19:593][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.25-21.29.19:613][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.25-21.29.19:641][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.25-21.29.19:655][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.25-21.29.19:751][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.29.19:752][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.29.19:752][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.29.19:752][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.29.19:752][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.29.19:752][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.29.19:752][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.29.19:752][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.29.19:752][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.29.19:752][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.29.19:752][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.29.19:752][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.29.19:752][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.29.19:752][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.29.19:752][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.29.19:752][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.29.19:752][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.29.19:752][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.29.19:757][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.25-21.29.19:835][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.25-21.29.19:835][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.25-21.29.19:869][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.25-21.29.19:869][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.25-21.29.19:892][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.25-21.29.19:909][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.25-21.29.19:946][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.25-21.29.19:969][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.25-21.29.19:983][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.25-21.29.19:984][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.25-21.29.20:161][  0]LogXGEController: Cleaning working directory: C:/Users/w017177h.STUDENT/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.25-21.29.20:162][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.25-21.29.20:162][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.25-21.29.20:162][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.25-21.29.21:384][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.25-21.29.21:478][  0]LogDerivedDataCache: Loaded boot cache 0.09s 71MB C:/Users/w017177h.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.25-21.29.21:479][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/w017177h.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.25-21.29.21:479][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.25-21.29.21:479][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.25-21.29.21:480][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.25-21.29.21:480][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.25-21.29.21:493][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.25-21.29.21:508][  0]LogDerivedDataCache: Using Local data cache path C:/Users/w017177h.STUDENT/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.25-21.29.21:508][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.25-21.29.21:508][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.25-21.29.21:537][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.25-21.29.21:540][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.25-21.29.21:541][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.25-21.29.21:648][  0]LogAssetRegistry: FAssetRegistry took 0.0352 seconds to start up
+[2019.01.25-21.29.22:113][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.25-21.29.22:329][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.25-21.29.22:340][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.25-21.29.22:340][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.25-21.29.22:340][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.25-21.29.22:340][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.25-21.29.22:362][  0]LogNetVersion: GGJ2019 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 54619999)
+[2019.01.25-21.29.23:215][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.254739 seconds
+[2019.01.25-21.29.23:222][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.25-21.29.23:222][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.01.25-21.29.23:222][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.25-21.29.24:430][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.25-21.29.24:447][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.25-21.29.24:669][  0]SourceControl: Source control is disabled
+[2019.01.25-21.29.24:669][  0]SourceControl: Source control is disabled
+[2019.01.25-21.29.24:674][  0]SourceControl: Source control is disabled
+[2019.01.25-21.29.24:678][  0]SourceControl: Source control is disabled
+[2019.01.25-21.29.24:983][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.25-21.29.25:143][  0]LogOcInput: OculusInput pre-init called
+[2019.01.25-21.29.25:227][  0]LogEngine: Initializing Engine...
+[2019.01.25-21.29.25:228][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.25-21.29.25:231][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.25-21.29.25:232][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.25-21.29.25:233][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2019.01.25-21.29.25:233][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.25-21.29.25:526][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.25-21.29.25:561][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.25-21.29.25:584][  0]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-21.29.25:628][  0]LogInit: FAudioDevice initialized.
+[2019.01.25-21.29.25:628][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.25-21.29.25:719][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/w017177h.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.25-21.29.25:742][  0]LogInit: Texture streaming: Enabled
+[2019.01.25-21.29.25:795][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.25-21.29.25:816][  0]LogInit: Transaction tracking system initialized
+[2019.01.25-21.29.25:877][  0]BlueprintLog: New page: Editor Load
+[2019.01.25-21.29.26:068][  0]LocalizationService: Localization service is disabled
+[2019.01.25-21.29.26:471][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.25-21.29.26:471][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.25-21.29.26:472][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.25-21.29.26:472][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.25-21.29.26:472][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.25-21.29.26:472][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.25-21.29.26:472][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.25-21.29.26:700][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/' took 0.02s
+[2019.01.25-21.29.26:700][  0]SourceControl: Source control is disabled
+[2019.01.25-21.29.26:700][  0]Cmd: MAP LOAD FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.25-21.29.26:701][  0]LightingResults: New page: Lighting Build
+[2019.01.25-21.29.26:706][  0]MapCheck: New page: Map Check
+[2019.01.25-21.29.26:706][  0]LightingResults: New page: Lighting Build
+[2019.01.25-21.29.27:112][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.01.25-21.29.27:133][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.25-21.29.27:167][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.25-21.29.27:370][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 202.732ms to complete.
+[2019.01.25-21.29.27:370][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.671
+[2019.01.25-21.29.27:540][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.29.27:549][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.29.27:559][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.29.27:568][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.29.27:587][  0]LogCollectionManager: Loaded 0 collections in 0.004013 seconds
+[2019.01.25-21.29.27:641][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Collections/' took 0.01s
+[2019.01.25-21.29.27:642][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Developers/w017177h/Collections/' took 0.01s
+[2019.01.25-21.29.27:642][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Collections/' took 0.01s
+[2019.01.25-21.29.27:642][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.25-21.29.27:652][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2575 classes and 605 folders.
+[2019.01.25-21.29.27:665][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.25-21.29.27:755][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.25-21.29.27:766][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.01.25-21.29.27:786][  0]LogSlate: Took 0.000388 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.25-21.29.27:788][  0]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.25-21.29.27:797][  0]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.25-21.29.27:895][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.01.25-21.29.28:070][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.25-21.29.28:070][  0]LogLoad: (Engine Initialization) Total time: 14.10 seconds
+[2019.01.25-21.29.28:070][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.25-21.29.28:105][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.25-21.29.28:128][  0]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.25-21.29.28:149][  1]LogAssetRegistry: Asset discovery search completed in 6.5425 seconds
+[2019.01.25-21.29.28:151][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.25-21.29.28:151][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000141 seconds (updated 0 objects)
+[2019.01.25-21.29.30:832][126]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-21.29.32:100][275]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.25-21.29.32:145][275]LogAIModule: Creating AISystem for world JohnLevel
+[2019.01.25-21.29.32:153][275]LogAssetEditorManager: Opening Asset editor for World /Game/StarterContent/Maps/JohnLevel.JohnLevel
+[2019.01.25-21.29.32:176][275]Cmd: MAP LOAD FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/JohnLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.25-21.29.32:177][275]LightingResults: New page: Lighting Build
+[2019.01.25-21.29.32:177][275]LoadErrors: New page: Loading map: JohnLevel.umap
+[2019.01.25-21.29.32:178][275]MapCheck: New page: Map Check
+[2019.01.25-21.29.32:178][275]LightingResults: New page: Lighting Build
+[2019.01.25-21.29.32:215][275]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.25-21.29.32:265][275]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.25-21.29.32:496][275]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 232.241ms to complete.
+[2019.01.25-21.29.32:499][275]LogFileHelpers: Loading map 'JohnLevel' took 0.325
+[2019.01.25-21.29.33:604][384]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-21.29.33:619][384]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-21.29.33:633][384]PIE: New page: PIE session: JohnLevel (25 Jan 2019 21:29:33)
+[2019.01.25-21.29.33:634][384]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_JohnLevel
+[2019.01.25-21.29.33:636][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001909s)
+[2019.01.25-21.29.33:636][384]LogAIModule: Creating AISystem for world JohnLevel
+[2019.01.25-21.29.33:636][384]LogPlayLevel: PIE: World Init took: (0.000713s)
+[2019.01.25-21.29.33:636][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/JohnLevel.JohnLevel to /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel (0.002916s)
+[2019.01.25-21.29.33:666][384]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-21.29.33:677][384]LogInit: FAudioDevice initialized.
+[2019.01.25-21.29.33:726][384]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/GGJ2019.GGJ2019GameMode'
+[2019.01.25-21.29.33:727][384]LogLoad: Game class is 'GameModeBase'
+[2019.01.25-21.29.33:731][384]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel up for play (max tick rate 0) at 2019.01.25-21.29.33
+[2019.01.25-21.29.33:732][384]LogWorld: Bringing up level for play took: 0.002952
+[2019.01.25-21.29.33:765][384]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 10 classes and 0 folders.
+[2019.01.25-21.29.33:768][384]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_JohnLevel 0.961
+[2019.01.25-21.29.37:037][773]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.29.37:072][773]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-21.29.37:100][773]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.29.37:138][777]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.01.25-21.29.37:561][828]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-21.29.37:578][828]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-21.29.37:578][828]PIE: New page: PIE session: JohnLevel (25 Jan 2019 21:29:37)
+[2019.01.25-21.29.37:578][828]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_JohnLevel
+[2019.01.25-21.29.37:580][828]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001966s)
+[2019.01.25-21.29.37:581][828]LogAIModule: Creating AISystem for world JohnLevel
+[2019.01.25-21.29.37:581][828]LogPlayLevel: PIE: World Init took: (0.000858s)
+[2019.01.25-21.29.37:581][828]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/JohnLevel.JohnLevel to /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel (0.003113s)
+[2019.01.25-21.29.37:612][828]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-21.29.37:623][828]LogInit: FAudioDevice initialized.
+[2019.01.25-21.29.37:655][828]LogLoad: Game class is 'GameModeBase'
+[2019.01.25-21.29.37:657][828]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel up for play (max tick rate 0) at 2019.01.25-21.29.37
+[2019.01.25-21.29.37:657][828]LogWorld: Bringing up level for play took: 0.001971
+[2019.01.25-21.29.37:671][828]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_JohnLevel 0.874
+[2019.01.25-21.29.39:829][ 86]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.29.39:870][ 86]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-21.29.39:896][ 86]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.29.39:933][ 90]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.01.25-21.29.40:490][157]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-21.29.40:506][157]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-21.29.40:507][157]PIE: New page: PIE session: JohnLevel (25 Jan 2019 21:29:40)
+[2019.01.25-21.29.40:507][157]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_JohnLevel
+[2019.01.25-21.29.40:509][157]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001903s)
+[2019.01.25-21.29.40:509][157]LogAIModule: Creating AISystem for world JohnLevel
+[2019.01.25-21.29.40:510][157]LogPlayLevel: PIE: World Init took: (0.000723s)
+[2019.01.25-21.29.40:510][157]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/JohnLevel.JohnLevel to /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel (0.002936s)
+[2019.01.25-21.29.40:539][157]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-21.29.40:549][157]LogInit: FAudioDevice initialized.
+[2019.01.25-21.29.40:589][157]LogLoad: Game class is 'GameModeBase'
+[2019.01.25-21.29.40:592][157]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel up for play (max tick rate 0) at 2019.01.25-21.29.40
+[2019.01.25-21.29.40:593][157]LogWorld: Bringing up level for play took: 0.003156
+[2019.01.25-21.29.40:610][157]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_JohnLevel -0.181
+[2019.01.25-21.29.42:735][410]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.29.42:770][410]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-21.29.42:794][410]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.29.42:839][415]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.01.25-21.29.45:163][691]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.01.25-21.29.45:577][718]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base6)
+[2019.01.25-21.29.46:171][774]LogEditorViewport: Clicking on Actor (CTRL LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base5)
+[2019.01.25-21.29.46:754][841]LogEditorViewport: Clicking on Actor (CTRL LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base4)
+[2019.01.25-21.29.49:306][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.01.25-21.29.50:012][216]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-21.29.50:080][224]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-21.29.50:096][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-21.29.50:096][224]PIE: New page: PIE session: JohnLevel (25 Jan 2019 21:29:50)
+[2019.01.25-21.29.50:097][224]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_JohnLevel
+[2019.01.25-21.29.50:098][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001760s)
+[2019.01.25-21.29.50:099][224]LogAIModule: Creating AISystem for world JohnLevel
+[2019.01.25-21.29.50:099][224]LogPlayLevel: PIE: World Init took: (0.000849s)
+[2019.01.25-21.29.50:099][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/JohnLevel.JohnLevel to /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel (0.002908s)
+[2019.01.25-21.29.50:132][224]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-21.29.50:145][224]LogInit: FAudioDevice initialized.
+[2019.01.25-21.29.50:178][224]LogLoad: Game class is 'GameModeBase'
+[2019.01.25-21.29.50:180][224]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel up for play (max tick rate 0) at 2019.01.25-21.29.50
+[2019.01.25-21.29.50:180][224]LogWorld: Bringing up level for play took: 0.001386
+[2019.01.25-21.29.50:195][224]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_JohnLevel -0.575
+[2019.01.25-21.29.52:445][493]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.29.52:480][493]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-21.29.52:508][493]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.29.52:545][496]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.01.25-21.29.53:205][575]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base6)
+[2019.01.25-21.29.56:996][ 22]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base5)
+[2019.01.25-21.30.01:839][591]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-21.30.01:922][601]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-21.30.01:940][601]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-21.30.01:940][601]PIE: New page: PIE session: JohnLevel (25 Jan 2019 21:30:01)
+[2019.01.25-21.30.01:940][601]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_JohnLevel
+[2019.01.25-21.30.01:942][601]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001926s)
+[2019.01.25-21.30.01:943][601]LogAIModule: Creating AISystem for world JohnLevel
+[2019.01.25-21.30.01:943][601]LogPlayLevel: PIE: World Init took: (0.000742s)
+[2019.01.25-21.30.01:943][601]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/JohnLevel.JohnLevel to /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel (0.002968s)
+[2019.01.25-21.30.01:974][601]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-21.30.01:984][601]LogInit: FAudioDevice initialized.
+[2019.01.25-21.30.02:026][601]LogLoad: Game class is 'GameModeBase'
+[2019.01.25-21.30.02:029][601]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel up for play (max tick rate 0) at 2019.01.25-21.30.02
+[2019.01.25-21.30.02:029][601]LogWorld: Bringing up level for play took: 0.002125
+[2019.01.25-21.30.02:043][601]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_JohnLevel -0.698
+[2019.01.25-21.30.07:120][210]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.30.07:156][210]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-21.30.07:179][210]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.30.07:225][214]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.01.25-21.30.09:719][499]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base6)
+[2019.01.25-21.30.11:851][723]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base6)
+[2019.01.25-21.30.13:558][919]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-21.30.13:633][928]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-21.30.13:649][928]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-21.30.13:649][928]PIE: New page: PIE session: JohnLevel (25 Jan 2019 21:30:13)
+[2019.01.25-21.30.13:649][928]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_JohnLevel
+[2019.01.25-21.30.13:651][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002061s)
+[2019.01.25-21.30.13:652][928]LogAIModule: Creating AISystem for world JohnLevel
+[2019.01.25-21.30.13:652][928]LogPlayLevel: PIE: World Init took: (0.000706s)
+[2019.01.25-21.30.13:652][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/JohnLevel.JohnLevel to /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel (0.003049s)
+[2019.01.25-21.30.13:682][928]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-21.30.13:692][928]LogInit: FAudioDevice initialized.
+[2019.01.25-21.30.13:729][928]LogLoad: Game class is 'GameModeBase'
+[2019.01.25-21.30.13:731][928]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel up for play (max tick rate 0) at 2019.01.25-21.30.13
+[2019.01.25-21.30.13:731][928]LogWorld: Bringing up level for play took: 0.002041
+[2019.01.25-21.30.13:746][928]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_JohnLevel 1.031
+[2019.01.25-21.30.15:554][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.30.15:589][137]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-21.30.15:614][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.30.15:658][141]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.01.25-21.30.18:587][481]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base12)
+[2019.01.25-21.30.20:609][717]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base6)
+[2019.01.25-21.30.23:143][ 13]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base13)
+[2019.01.25-21.30.26:223][350]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-21.30.26:291][358]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-21.30.26:307][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-21.30.26:307][358]PIE: New page: PIE session: JohnLevel (25 Jan 2019 21:30:26)
+[2019.01.25-21.30.26:308][358]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_JohnLevel
+[2019.01.25-21.30.26:310][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001987s)
+[2019.01.25-21.30.26:310][358]LogAIModule: Creating AISystem for world JohnLevel
+[2019.01.25-21.30.26:310][358]LogPlayLevel: PIE: World Init took: (0.000667s)
+[2019.01.25-21.30.26:311][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/JohnLevel.JohnLevel to /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel (0.002917s)
+[2019.01.25-21.30.26:343][358]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-21.30.26:353][358]LogInit: FAudioDevice initialized.
+[2019.01.25-21.30.26:387][358]LogLoad: Game class is 'GameModeBase'
+[2019.01.25-21.30.26:390][358]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel up for play (max tick rate 0) at 2019.01.25-21.30.26
+[2019.01.25-21.30.26:390][358]LogWorld: Bringing up level for play took: 0.001736
+[2019.01.25-21.30.26:405][358]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_JohnLevel -0.282
+[2019.01.25-21.30.28:112][559]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.30.28:147][559]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-21.30.28:170][559]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.30.28:215][563]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.01.25-21.30.28:891][644]Cmd: TRANSACTION UNDO
+[2019.01.25-21.30.28:891][644]LogEditorTransaction: Undo Move Actors
+[2019.01.25-21.30.29:251][685]Cmd: TRANSACTION UNDO
+[2019.01.25-21.30.29:251][685]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.25-21.30.29:575][716]Cmd: TRANSACTION UNDO
+[2019.01.25-21.30.29:575][716]LogEditorTransaction: Undo Move Actors
+[2019.01.25-21.30.29:898][752]Cmd: TRANSACTION UNDO
+[2019.01.25-21.30.29:898][752]LogEditorTransaction: Undo Move Actors
+[2019.01.25-21.30.30:411][813]Cmd: TRANSACTION UNDO
+[2019.01.25-21.30.30:412][813]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.25-21.30.30:656][839]Cmd: TRANSACTION UNDO
+[2019.01.25-21.30.30:656][839]LogEditorTransaction: Undo Move Actors
+[2019.01.25-21.30.31:333][918]Cmd: TRANSACTION UNDO
+[2019.01.25-21.30.31:333][918]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.25-21.30.31:528][941]Cmd: TRANSACTION UNDO
+[2019.01.25-21.30.31:528][941]LogEditorTransaction: Undo Move Actors
+[2019.01.25-21.30.31:715][960]Cmd: TRANSACTION UNDO
+[2019.01.25-21.30.31:715][960]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.25-21.30.31:871][976]Cmd: TRANSACTION UNDO
+[2019.01.25-21.30.31:871][976]LogEditorTransaction: Undo Move Actors
+[2019.01.25-21.30.32:045][994]Cmd: TRANSACTION UNDO
+[2019.01.25-21.30.32:045][994]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.25-21.30.32:206][ 13]Cmd: TRANSACTION UNDO
+[2019.01.25-21.30.32:206][ 13]LogEditorTransaction: Undo Move Actors
+[2019.01.25-21.30.32:382][ 31]Cmd: TRANSACTION UNDO
+[2019.01.25-21.30.32:382][ 31]LogEditorTransaction: Undo Move Actors
+[2019.01.25-21.30.32:558][ 51]Cmd: TRANSACTION UNDO
+[2019.01.25-21.30.32:559][ 51]LogEditorTransaction: Undo Move Actors
+[2019.01.25-21.30.32:737][ 70]Cmd: TRANSACTION UNDO
+[2019.01.25-21.30.32:737][ 70]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.25-21.30.33:072][106]Cmd: TRANSACTION UNDO
+[2019.01.25-21.30.33:073][106]LogEditorTransaction: Undo Move Actors
+[2019.01.25-21.30.33:366][140]Cmd: TRANSACTION UNDO
+[2019.01.25-21.30.33:366][140]LogEditorTransaction: Undo Move Actors
+[2019.01.25-21.30.33:672][176]Cmd: TRANSACTION UNDO
+[2019.01.25-21.30.33:672][176]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.25-21.30.34:018][217]Cmd: TRANSACTION UNDO
+[2019.01.25-21.30.34:018][217]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.25-21.30.34:338][253]Cmd: TRANSACTION UNDO
+[2019.01.25-21.30.34:338][253]LogEditorTransaction: Undo Move Actors
+[2019.01.25-21.30.35:054][337]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.01.25-21.30.35:576][392]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base6)
+[2019.01.25-21.30.37:999][676]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-21.30.38:066][684]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-21.30.38:083][684]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-21.30.38:083][684]PIE: New page: PIE session: JohnLevel (25 Jan 2019 21:30:38)
+[2019.01.25-21.30.38:083][684]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_JohnLevel
+[2019.01.25-21.30.38:085][684]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001961s)
+[2019.01.25-21.30.38:085][684]LogAIModule: Creating AISystem for world JohnLevel
+[2019.01.25-21.30.38:085][684]LogPlayLevel: PIE: World Init took: (0.000967s)
+[2019.01.25-21.30.38:086][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/JohnLevel.JohnLevel to /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel (0.003269s)
+[2019.01.25-21.30.38:116][684]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-21.30.38:126][684]LogInit: FAudioDevice initialized.
+[2019.01.25-21.30.38:170][684]LogLoad: Game class is 'GameModeBase'
+[2019.01.25-21.30.38:174][684]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel up for play (max tick rate 0) at 2019.01.25-21.30.38
+[2019.01.25-21.30.38:175][684]LogWorld: Bringing up level for play took: 0.003157
+[2019.01.25-21.30.38:192][684]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_JohnLevel -0.467
+[2019.01.25-21.30.40:095][908]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.30.40:128][908]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-21.30.40:152][908]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.30.40:194][912]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.01.25-21.30.40:733][976]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base6)
+[2019.01.25-21.30.42:616][195]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-21.30.42:681][203]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-21.30.42:697][203]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-21.30.42:697][203]PIE: New page: PIE session: JohnLevel (25 Jan 2019 21:30:42)
+[2019.01.25-21.30.42:697][203]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_JohnLevel
+[2019.01.25-21.30.42:699][203]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001898s)
+[2019.01.25-21.30.42:700][203]LogAIModule: Creating AISystem for world JohnLevel
+[2019.01.25-21.30.42:700][203]LogPlayLevel: PIE: World Init took: (0.000739s)
+[2019.01.25-21.30.42:700][203]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/JohnLevel.JohnLevel to /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel (0.002927s)
+[2019.01.25-21.30.42:734][203]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-21.30.42:747][203]LogInit: FAudioDevice initialized.
+[2019.01.25-21.30.42:785][203]LogLoad: Game class is 'GameModeBase'
+[2019.01.25-21.30.42:787][203]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel up for play (max tick rate 0) at 2019.01.25-21.30.42
+[2019.01.25-21.30.42:788][203]LogWorld: Bringing up level for play took: 0.002337
+[2019.01.25-21.30.42:802][203]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_JohnLevel 0.154
+[2019.01.25-21.30.46:085][596]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-21.30.46:143][603]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.30.46:184][603]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-21.30.46:217][603]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.30.46:245][605]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.01.25-21.30.46:989][694]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base6)
+[2019.01.25-21.30.48:687][892]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-21.30.48:745][899]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-21.30.48:761][899]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-21.30.48:761][899]PIE: New page: PIE session: JohnLevel (25 Jan 2019 21:30:48)
+[2019.01.25-21.30.48:761][899]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_JohnLevel
+[2019.01.25-21.30.48:763][899]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001817s)
+[2019.01.25-21.30.48:764][899]LogAIModule: Creating AISystem for world JohnLevel
+[2019.01.25-21.30.48:764][899]LogPlayLevel: PIE: World Init took: (0.000763s)
+[2019.01.25-21.30.48:764][899]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/JohnLevel.JohnLevel to /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel (0.002903s)
+[2019.01.25-21.30.48:793][899]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-21.30.48:804][899]LogInit: FAudioDevice initialized.
+[2019.01.25-21.30.48:836][899]LogLoad: Game class is 'GameModeBase'
+[2019.01.25-21.30.48:839][899]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel up for play (max tick rate 0) at 2019.01.25-21.30.48
+[2019.01.25-21.30.48:839][899]LogWorld: Bringing up level for play took: 0.001788
+[2019.01.25-21.30.48:854][899]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_JohnLevel 0.219
+[2019.01.25-21.30.50:699][120]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.30.50:737][120]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-21.30.50:760][120]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.30.50:801][124]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.01.25-21.30.51:401][196]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base7)
+[2019.01.25-21.30.54:603][575]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.01.25-21.30.55:184][637]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base7)
+[2019.01.25-21.30.57:170][870]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base6)
+[2019.01.25-21.30.58:967][ 79]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-21.30.59:058][ 90]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-21.30.59:074][ 90]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-21.30.59:074][ 90]PIE: New page: PIE session: JohnLevel (25 Jan 2019 21:30:59)
+[2019.01.25-21.30.59:074][ 90]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_JohnLevel
+[2019.01.25-21.30.59:077][ 90]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002453s)
+[2019.01.25-21.30.59:077][ 90]LogAIModule: Creating AISystem for world JohnLevel
+[2019.01.25-21.30.59:078][ 90]LogPlayLevel: PIE: World Init took: (0.000896s)
+[2019.01.25-21.30.59:078][ 90]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/JohnLevel.JohnLevel to /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel (0.003683s)
+[2019.01.25-21.30.59:112][ 90]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-21.30.59:123][ 90]LogInit: FAudioDevice initialized.
+[2019.01.25-21.30.59:157][ 90]LogLoad: Game class is 'GameModeBase'
+[2019.01.25-21.30.59:159][ 90]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel up for play (max tick rate 0) at 2019.01.25-21.30.59
+[2019.01.25-21.30.59:159][ 90]LogWorld: Bringing up level for play took: 0.001401
+[2019.01.25-21.30.59:173][ 90]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_JohnLevel 0.563
+[2019.01.25-21.31.00:988][307]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.31.01:025][307]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-21.31.01:055][307]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.31.01:090][310]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.01.25-21.31.01:333][339]Cmd: TRANSACTION UNDO
+[2019.01.25-21.31.01:333][339]LogEditorTransaction: Undo Move Actors
+[2019.01.25-21.31.01:800][393]Cmd: TRANSACTION UNDO
+[2019.01.25-21.31.01:800][393]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.25-21.31.02:594][485]Cmd: TRANSACTION UNDO
+[2019.01.25-21.31.02:595][485]LogEditorTransaction: Undo Move Actors
+[2019.01.25-21.31.03:266][564]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base6)
+[2019.01.25-21.31.05:995][885]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-21.31.06:078][895]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-21.31.06:095][895]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-21.31.06:095][895]PIE: New page: PIE session: JohnLevel (25 Jan 2019 21:31:06)
+[2019.01.25-21.31.06:095][895]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_JohnLevel
+[2019.01.25-21.31.06:097][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001789s)
+[2019.01.25-21.31.06:098][895]LogAIModule: Creating AISystem for world JohnLevel
+[2019.01.25-21.31.06:098][895]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2019.01.25-21.31.06:098][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/JohnLevel.JohnLevel to /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel (0.002803s)
+[2019.01.25-21.31.06:126][895]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-21.31.06:137][895]LogInit: FAudioDevice initialized.
+[2019.01.25-21.31.06:174][895]LogLoad: Game class is 'GameModeBase'
+[2019.01.25-21.31.06:176][895]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel up for play (max tick rate 0) at 2019.01.25-21.31.06
+[2019.01.25-21.31.06:176][895]LogWorld: Bringing up level for play took: 0.001315
+[2019.01.25-21.31.06:191][895]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_JohnLevel -0.404
+[2019.01.25-21.31.07:783][ 84]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.31.07:825][ 84]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-21.31.07:852][ 84]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.31.07:889][ 88]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.01.25-21.31.08:152][119]Cmd: TRANSACTION UNDO
+[2019.01.25-21.31.08:152][119]LogEditorTransaction: Undo Move Actors
+[2019.01.25-21.31.08:922][209]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base6)
+[2019.01.25-21.31.10:765][422]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-21.31.10:847][432]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-21.31.10:865][432]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-21.31.10:865][432]PIE: New page: PIE session: JohnLevel (25 Jan 2019 21:31:10)
+[2019.01.25-21.31.10:865][432]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_JohnLevel
+[2019.01.25-21.31.10:869][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003354s)
+[2019.01.25-21.31.10:869][432]LogAIModule: Creating AISystem for world JohnLevel
+[2019.01.25-21.31.10:870][432]LogPlayLevel: PIE: World Init took: (0.000908s)
+[2019.01.25-21.31.10:870][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/JohnLevel.JohnLevel to /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel (0.004601s)
+[2019.01.25-21.31.10:899][432]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-21.31.10:909][432]LogInit: FAudioDevice initialized.
+[2019.01.25-21.31.10:941][432]LogLoad: Game class is 'GameModeBase'
+[2019.01.25-21.31.10:943][432]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel up for play (max tick rate 0) at 2019.01.25-21.31.10
+[2019.01.25-21.31.10:943][432]LogWorld: Bringing up level for play took: 0.001305
+[2019.01.25-21.31.10:959][432]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_JohnLevel 0.375
+[2019.01.25-21.31.12:854][657]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.31.12:888][657]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-21.31.12:914][657]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.31.12:960][662]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.01.25-21.31.13:272][699]Cmd: TRANSACTION UNDO
+[2019.01.25-21.31.13:272][699]LogEditorTransaction: Undo Move Actors
+[2019.01.25-21.31.14:034][789]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-21.31.14:050][789]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-21.31.14:050][789]PIE: New page: PIE session: JohnLevel (25 Jan 2019 21:31:14)
+[2019.01.25-21.31.14:050][789]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_JohnLevel
+[2019.01.25-21.31.14:052][789]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002030s)
+[2019.01.25-21.31.14:053][789]LogAIModule: Creating AISystem for world JohnLevel
+[2019.01.25-21.31.14:053][789]LogPlayLevel: PIE: World Init took: (0.000725s)
+[2019.01.25-21.31.14:053][789]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/JohnLevel.JohnLevel to /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel (0.003072s)
+[2019.01.25-21.31.14:084][789]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-21.31.14:095][789]LogInit: FAudioDevice initialized.
+[2019.01.25-21.31.14:128][789]LogLoad: Game class is 'GameModeBase'
+[2019.01.25-21.31.14:130][789]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel up for play (max tick rate 0) at 2019.01.25-21.31.14
+[2019.01.25-21.31.14:131][789]LogWorld: Bringing up level for play took: 0.001413
+[2019.01.25-21.31.14:145][789]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_JohnLevel -0.432
+[2019.01.25-21.31.19:146][389]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.31.19:186][389]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-21.31.19:230][389]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.31.19:253][390]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.01.25-21.31.22:226][730]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base4)
+[2019.01.25-21.31.22:659][775]Cmd: EDIT COPY
+[2019.01.25-21.31.23:013][815]Cmd: EDIT PASTE
+[2019.01.25-21.31.26:297][189]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.01.25-21.31.30:401][628]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base11)
+[2019.01.25-21.31.43:831][163]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-21.31.44:206][208]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-21.31.44:223][208]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-21.31.44:223][208]PIE: New page: PIE session: JohnLevel (25 Jan 2019 21:31:44)
+[2019.01.25-21.31.44:224][208]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_JohnLevel
+[2019.01.25-21.31.44:226][208]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002257s)
+[2019.01.25-21.31.44:227][208]LogAIModule: Creating AISystem for world JohnLevel
+[2019.01.25-21.31.44:227][208]LogPlayLevel: PIE: World Init took: (0.000749s)
+[2019.01.25-21.31.44:227][208]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/JohnLevel.JohnLevel to /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel (0.003319s)
+[2019.01.25-21.31.44:257][208]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-21.31.44:267][208]LogInit: FAudioDevice initialized.
+[2019.01.25-21.31.44:303][208]LogLoad: Game class is 'GameModeBase'
+[2019.01.25-21.31.44:308][208]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel up for play (max tick rate 0) at 2019.01.25-21.31.44
+[2019.01.25-21.31.44:309][208]LogWorld: Bringing up level for play took: 0.004130
+[2019.01.25-21.31.44:328][208]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_JohnLevel -0.179
+[2019.01.25-21.31.46:669][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.31.46:706][487]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-21.31.46:731][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.31.46:768][491]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.01.25-21.31.48:358][671]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base13)
+[2019.01.25-21.31.48:836][711]LogEditorViewport: Clicking on Actor (CTRL LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base12)
+[2019.01.25-21.31.49:445][775]LogEditorViewport: Clicking on Actor (CTRL LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base11)
+[2019.01.25-21.31.51:591][ 27]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.01.25-21.31.52:438][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-21.31.52:488][128]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-21.31.52:505][128]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-21.31.52:505][128]PIE: New page: PIE session: JohnLevel (25 Jan 2019 21:31:52)
+[2019.01.25-21.31.52:505][128]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_JohnLevel
+[2019.01.25-21.31.52:508][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002413s)
+[2019.01.25-21.31.52:508][128]LogAIModule: Creating AISystem for world JohnLevel
+[2019.01.25-21.31.52:509][128]LogPlayLevel: PIE: World Init took: (0.000971s)
+[2019.01.25-21.31.52:509][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/JohnLevel.JohnLevel to /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel (0.003737s)
+[2019.01.25-21.31.52:544][128]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-21.31.52:559][128]LogInit: FAudioDevice initialized.
+[2019.01.25-21.31.52:593][128]LogLoad: Game class is 'GameModeBase'
+[2019.01.25-21.31.52:596][128]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel up for play (max tick rate 0) at 2019.01.25-21.31.52
+[2019.01.25-21.31.52:596][128]LogWorld: Bringing up level for play took: 0.002043
+[2019.01.25-21.31.52:610][128]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_JohnLevel 0.122
+[2019.01.25-21.31.54:775][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.31.54:812][387]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-21.31.54:839][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.31.54:877][391]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.01.25-21.31.56:247][550]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube5)
+[2019.01.25-21.31.56:298][550]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-21.31.56:472][566]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube5)
+[2019.01.25-21.31.56:496][566]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-21.31.58:068][718]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base17)
+[2019.01.25-21.32.02:108][180]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-21.32.02:198][191]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-21.32.02:214][191]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-21.32.02:215][191]PIE: New page: PIE session: JohnLevel (25 Jan 2019 21:32:02)
+[2019.01.25-21.32.02:215][191]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_JohnLevel
+[2019.01.25-21.32.02:217][191]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002279s)
+[2019.01.25-21.32.02:218][191]LogAIModule: Creating AISystem for world JohnLevel
+[2019.01.25-21.32.02:218][191]LogPlayLevel: PIE: World Init took: (0.000863s)
+[2019.01.25-21.32.02:218][191]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/JohnLevel.JohnLevel to /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel (0.003447s)
+[2019.01.25-21.32.02:250][191]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-21.32.02:262][191]LogInit: FAudioDevice initialized.
+[2019.01.25-21.32.02:296][191]LogLoad: Game class is 'GameModeBase'
+[2019.01.25-21.32.02:298][191]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel up for play (max tick rate 0) at 2019.01.25-21.32.02
+[2019.01.25-21.32.02:299][191]LogWorld: Bringing up level for play took: 0.001756
+[2019.01.25-21.32.02:313][191]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_JohnLevel -0.154
+[2019.01.25-21.32.04:802][488]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.32.04:841][488]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-21.32.04:864][488]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.32.04:901][492]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.01.25-21.32.05:609][577]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-21.32.05:623][577]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-21.32.05:624][577]PIE: New page: PIE session: JohnLevel (25 Jan 2019 21:32:05)
+[2019.01.25-21.32.05:624][577]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_JohnLevel
+[2019.01.25-21.32.05:626][577]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002281s)
+[2019.01.25-21.32.05:627][577]LogAIModule: Creating AISystem for world JohnLevel
+[2019.01.25-21.32.05:627][577]LogPlayLevel: PIE: World Init took: (0.000816s)
+[2019.01.25-21.32.05:627][577]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/JohnLevel.JohnLevel to /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel (0.003398s)
+[2019.01.25-21.32.05:659][577]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-21.32.05:669][577]LogInit: FAudioDevice initialized.
+[2019.01.25-21.32.05:710][577]LogLoad: Game class is 'GameModeBase'
+[2019.01.25-21.32.05:712][577]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel up for play (max tick rate 0) at 2019.01.25-21.32.05
+[2019.01.25-21.32.05:713][577]LogWorld: Bringing up level for play took: 0.001673
+[2019.01.25-21.32.05:726][577]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_JohnLevel -0.732
+[2019.01.25-21.32.07:470][786]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.32.07:508][786]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-21.32.07:530][786]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.32.07:580][791]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.01.25-21.32.09:007][955]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base7)
+[2019.01.25-21.32.12:328][323]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-21.32.12:402][332]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-21.32.12:418][332]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-21.32.12:418][332]PIE: New page: PIE session: JohnLevel (25 Jan 2019 21:32:12)
+[2019.01.25-21.32.12:419][332]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_JohnLevel
+[2019.01.25-21.32.12:421][332]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002364s)
+[2019.01.25-21.32.12:422][332]LogAIModule: Creating AISystem for world JohnLevel
+[2019.01.25-21.32.12:422][332]LogPlayLevel: PIE: World Init took: (0.000828s)
+[2019.01.25-21.32.12:422][332]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/JohnLevel.JohnLevel to /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel (0.003480s)
+[2019.01.25-21.32.12:453][332]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-21.32.12:465][332]LogInit: FAudioDevice initialized.
+[2019.01.25-21.32.12:504][332]LogLoad: Game class is 'GameModeBase'
+[2019.01.25-21.32.12:507][332]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel up for play (max tick rate 0) at 2019.01.25-21.32.12
+[2019.01.25-21.32.12:507][332]LogWorld: Bringing up level for play took: 0.002094
+[2019.01.25-21.32.12:522][332]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_JohnLevel 0.078
+[2019.01.25-21.32.15:796][725]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.32.15:831][725]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-21.32.15:855][725]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.32.15:899][729]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.01.25-21.32.17:254][876]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base5)
+[2019.01.25-21.32.21:809][364]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-21.32.21:884][373]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-21.32.21:899][373]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-21.32.21:900][373]PIE: New page: PIE session: JohnLevel (25 Jan 2019 21:32:21)
+[2019.01.25-21.32.21:900][373]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_JohnLevel
+[2019.01.25-21.32.21:902][373]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002311s)
+[2019.01.25-21.32.21:903][373]LogAIModule: Creating AISystem for world JohnLevel
+[2019.01.25-21.32.21:903][373]LogPlayLevel: PIE: World Init took: (0.000764s)
+[2019.01.25-21.32.21:903][373]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/JohnLevel.JohnLevel to /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel (0.003366s)
+[2019.01.25-21.32.21:935][373]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-21.32.21:945][373]LogInit: FAudioDevice initialized.
+[2019.01.25-21.32.21:977][373]LogLoad: Game class is 'GameModeBase'
+[2019.01.25-21.32.21:979][373]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel up for play (max tick rate 0) at 2019.01.25-21.32.21
+[2019.01.25-21.32.21:980][373]LogWorld: Bringing up level for play took: 0.002084
+[2019.01.25-21.32.21:996][373]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_JohnLevel -0.429
+[2019.01.25-21.32.23:963][605]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.32.24:004][605]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-21.32.24:035][605]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.32.24:068][608]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.01.25-21.32.24:663][678]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base5)
+[2019.01.25-21.32.26:794][922]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-21.32.26:885][933]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-21.32.26:900][933]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-21.32.26:901][933]PIE: New page: PIE session: JohnLevel (25 Jan 2019 21:32:26)
+[2019.01.25-21.32.26:901][933]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_JohnLevel
+[2019.01.25-21.32.26:903][933]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002371s)
+[2019.01.25-21.32.26:904][933]LogAIModule: Creating AISystem for world JohnLevel
+[2019.01.25-21.32.26:904][933]LogPlayLevel: PIE: World Init took: (0.000754s)
+[2019.01.25-21.32.26:904][933]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/JohnLevel.JohnLevel to /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel (0.003431s)
+[2019.01.25-21.32.26:935][933]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-21.32.26:945][933]LogInit: FAudioDevice initialized.
+[2019.01.25-21.32.26:981][933]LogLoad: Game class is 'GameModeBase'
+[2019.01.25-21.32.26:985][933]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_JohnLevel.JohnLevel up for play (max tick rate 0) at 2019.01.25-21.32.26
+[2019.01.25-21.32.26:985][933]LogWorld: Bringing up level for play took: 0.002857
+[2019.01.25-21.32.27:003][933]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_JohnLevel 0.578
+[2019.01.25-21.32.29:095][181]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.32.29:143][181]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-21.32.29:165][181]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.32.29:195][184]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.01.25-21.32.30:436][320]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base5)
+[2019.01.25-21.32.32:843][581]Cmd: TRANSACTION UNDO
+[2019.01.25-21.32.32:843][581]LogEditorTransaction: Undo Move Actors
+[2019.01.25-21.32.33:250][622]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-21.32.33:344][622]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/JohnLevel10902D3B45CA0B03158250A96F1929F2.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/JohnLevel.umap'
+[2019.01.25-21.32.33:503][622]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/JohnLevel_BuiltDataD8993DBE48AF6E7DD0723983CBF0913C.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/JohnLevel_BuiltData.uasset'
+[2019.01.25-21.32.41:495][679]LogSlate: Took 0.000428 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.25-21.32.41:933][684]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.01.25-21.32.42:104][685]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-21.32.42:209][685]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/JohnLevel4CDE649C410C811CAB0ACCA7267301C4.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/JohnLevel.umap'
+[2019.01.25-21.32.42:317][685]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/JohnLevel_BuiltData6618326D432C68DCEA5A2698907C664B.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/JohnLevel_BuiltData.uasset'
+[2019.01.25-21.32.44:976][986]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-21.32.45:149][995]LogSlate: Window 'GGJ2019 - Unreal Editor' being destroyed
+[2019.01.25-21.32.45:150][995]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.25-21.32.45:363][996]Cmd: QUIT_EDITOR
+[2019.01.25-21.32.46:101][996]LogExit: Preparing to exit.
