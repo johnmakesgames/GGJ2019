@@ -4,7 +4,11 @@
 	<ItemGroup>
 		<None Include="..\..\GGJ2019.uproject" />
 		<Filter Include="Source">
+<<<<<<< HEAD
+			<UniqueIdentifier>{82C5E2B3-6EA2-4167-A74A-50DD5E973CDA}</UniqueIdentifier>
+=======
 			<UniqueIdentifier>{879ABC75-4C65-409C-8646-DB87B43AD160}</UniqueIdentifier>
+>>>>>>> master
 		</Filter>
 		<None Include="..\..\Source\GGJ2019.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +17,11 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
+<<<<<<< HEAD
+			<UniqueIdentifier>{7246B5EE-C7A0-44F0-A27D-3B89C6CF7BA0}</UniqueIdentifier>
+=======
 			<UniqueIdentifier>{23C47B7C-C296-4FE7-9B2D-ACA59BF9BEBB}</UniqueIdentifier>
+>>>>>>> master
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -25,7 +33,11 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\GGJ2019">
+<<<<<<< HEAD
+			<UniqueIdentifier>{89AB0AE9-06D8-4C98-A7E1-AB3F4000D6E5}</UniqueIdentifier>
+=======
 			<UniqueIdentifier>{CFA55C77-2CAE-4CAE-AE1D-2BD0F3FE43B2}</UniqueIdentifier>
+>>>>>>> master
 		</Filter>
 		<None Include="..\..\Source\GGJ2019\GGJ2019.Build.cs">
 			<Filter>Source\GGJ2019</Filter>
