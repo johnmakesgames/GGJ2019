@@ -147,7 +147,7 @@ void EmptyLinkFunctionForGeneratedCodePickup_Weapon() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APickup_Weapon, 4147310935);
+	IMPLEMENT_CLASS(APickup_Weapon, 4135923232);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APickup_Weapon(Z_Construct_UClass_APickup_Weapon, &APickup_Weapon::StaticClass, TEXT("/Script/GGJ2019"), TEXT("APickup_Weapon"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APickup_Weapon);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

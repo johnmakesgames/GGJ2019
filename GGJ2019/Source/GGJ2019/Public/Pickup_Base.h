@@ -7,7 +7,7 @@
 #include "Pickup_Base.generated.h"
 
 class USphereComponent;
-//class UBoxComponent;
+class UStaticMeshComponent;
 
 UCLASS()
 class GGJ2019_API APickup_Base : public AActor
@@ -21,17 +21,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	USphereComponent* pickupCollider;
 
-	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	//UBoxComponent* damageCollider;
-
-	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		//bool damageActive;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UStaticMeshComponent* baseMesh;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool pickupActive;
-
-	//UFUNCTION(BlueprintCallable)
-		//void OnWeaponBeginOverlap(TArray<AActor*> actor);
 
 protected:
 	// Called when the game starts or when spawned

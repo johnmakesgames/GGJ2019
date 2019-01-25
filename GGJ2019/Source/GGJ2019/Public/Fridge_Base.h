@@ -8,6 +8,7 @@
 #include "Fridge_Base.generated.h"
 
 class UStaticMeshComponent;
+class UBoxComponent;
 
 UCLASS()
 class GGJ2019_API AFridge_Base : public AActor
@@ -28,6 +29,9 @@ public:
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UStaticMeshComponent* fridgeMesh;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UBoxComponent* fridgeCollider;
 
 	TArray<FoodTypes> foodInFridge;
 

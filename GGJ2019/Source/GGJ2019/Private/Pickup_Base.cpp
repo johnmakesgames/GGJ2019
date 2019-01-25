@@ -10,6 +10,7 @@ APickup_Base::APickup_Base()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+	baseMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Base Mesh"));
 	pickupCollider = CreateDefaultSubobject<USphereComponent>(TEXT("Pickup Circle Collider"));
 	
 	pickupActive = true;
