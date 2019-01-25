@@ -4,8 +4,10 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Global_Variables.h"
 #include "Fridge_Base.generated.h"
-//#include "GGJ2019/Public/Globals.h"
+
+class UStaticMeshComponent;
 
 UCLASS()
 class GGJ2019_API AFridge_Base : public AActor
@@ -23,13 +25,15 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UStaticMeshComponent* fridgeMesh;
 
-	//remove food
-	//replace food
-	//all types of food in fridge
-	//amount of food in the fridge
+	TArray<FoodTypes> foodInFridge;
 
-	UFUNCTION(BlueprintCallable)
-		void PlaceFoodInTheFridge();
+	int GetFoodAmount() { return foodInFridge.Num(); }
+	FoodTypes RemoveFood();
+	void ReplaceFood(FoodTypes food);
+	void FridgeEmptied();
 	
 };

@@ -411,10 +411,11 @@
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\GGJ2019\Private\Fridge_Base.cpp" />
+    <ClCompile Include="..\..\Source\GGJ2019\Private\Global_Variables.cpp" />
     <ClCompile Include="..\..\Source\GGJ2019\Private\Pickup_Weapon.cpp" />
     <ClInclude Include="..\..\Source\GGJ2019\Public\Fridge_Base.h" />
+    <ClInclude Include="..\..\Source\GGJ2019\Public\Global_Variables.h" />
     <ClInclude Include="..\..\Source\GGJ2019\Public\Pickup_Weapon.h" />
-    <ClInclude Include="Globals.h" />
     <None Include="..\..\GGJ2019.uproject" />
     <None Include="..\..\Source\GGJ2019.Target.cs" />
     <None Include="..\..\Source\GGJ2019Editor.Target.cs" />

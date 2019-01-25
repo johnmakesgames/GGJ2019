@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeFridge_Base() {}
 	GGJ2019_API UClass* Z_Construct_UClass_AFridge_Base();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_GGJ2019();
+	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
 	void AFridge_Base::StaticRegisterNativesAFridge_Base()
 	{
@@ -31,6 +32,11 @@ void EmptyLinkFunctionForGeneratedCodeFridge_Base() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_fridgeMesh_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_fridgeMesh;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -44,6 +50,17 @@ void EmptyLinkFunctionForGeneratedCodeFridge_Base() {}
 		{ "ModuleRelativePath", "Public/Fridge_Base.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFridge_Base_Statics::NewProp_fridgeMesh_MetaData[] = {
+		{ "Category", "Fridge_Base" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/Fridge_Base.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFridge_Base_Statics::NewProp_fridgeMesh = { UE4CodeGen_Private::EPropertyClass::Object, "fridgeMesh", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x001000000008000d, 1, nullptr, STRUCT_OFFSET(AFridge_Base, fridgeMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFridge_Base_Statics::NewProp_fridgeMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_AFridge_Base_Statics::NewProp_fridgeMesh_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFridge_Base_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFridge_Base_Statics::NewProp_fridgeMesh,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AFridge_Base_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AFridge_Base>::IsAbstract,
 	};
@@ -52,7 +69,7 @@ void EmptyLinkFunctionForGeneratedCodeFridge_Base() {}
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x009000A0u,
 		nullptr, 0,
-		nullptr, 0,
+		Z_Construct_UClass_AFridge_Base_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_AFridge_Base_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
 		nullptr, 0,
@@ -67,7 +84,7 @@ void EmptyLinkFunctionForGeneratedCodeFridge_Base() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFridge_Base, 2275897429);
+	IMPLEMENT_CLASS(AFridge_Base, 1449959539);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AFridge_Base(Z_Construct_UClass_AFridge_Base, &AFridge_Base::StaticClass, TEXT("/Script/GGJ2019"), TEXT("AFridge_Base"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AFridge_Base);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

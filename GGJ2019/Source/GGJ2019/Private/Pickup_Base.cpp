@@ -19,7 +19,7 @@ APickup_Base::APickup_Base()
 void APickup_Base::BeginPlay()
 {
 	Super::BeginPlay();
-	}
+}
 
 // Called every frame
 void APickup_Base::Tick(float DeltaTime)

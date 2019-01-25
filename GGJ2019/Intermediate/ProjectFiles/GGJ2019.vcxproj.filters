@@ -61,7 +61,7 @@
     <ClInclude Include="..\..\Source\GGJ2019\Public\Fridge_Base.h">
       <Filter>Source\GGJ2019\Public</Filter>
     </ClInclude>
-    <ClInclude Include="Globals.h">
+    <ClInclude Include="..\..\Source\GGJ2019\Public\Global_Variables.h">
       <Filter>Source\GGJ2019\Public</Filter>
     </ClInclude>
   </ItemGroup>
@@ -70,6 +70,9 @@
       <Filter>Source\GGJ2019\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\GGJ2019\Private\Fridge_Base.cpp">
+      <Filter>Source\GGJ2019\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GGJ2019\Private\Global_Variables.cpp">
       <Filter>Source\GGJ2019\Private</Filter>
     </ClCompile>
   </ItemGroup>
