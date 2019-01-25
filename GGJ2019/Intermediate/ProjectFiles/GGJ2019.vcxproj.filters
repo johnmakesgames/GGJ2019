@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\GGJ2019.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{3F3430B3-44A3-490C-85AC-650FC97EFF8D}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\GGJ2019.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\GGJ2019Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{8585C069-92B8-48A5-88CB-C29B9C467D8A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\GGJ2019">
+			<UniqueIdentifier>{678F1C73-BCB9-4876-A598-98E420BD987E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\GGJ2019\GGJ2019.Build.cs">
+			<Filter>Source\GGJ2019</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\GGJ2019\GGJ2019.cpp">
+			<Filter>Source\GGJ2019</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\GGJ2019\GGJ2019.h">
+			<Filter>Source\GGJ2019</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\GGJ2019\GGJ2019GameModeBase.cpp">
+			<Filter>Source\GGJ2019</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\GGJ2019\GGJ2019GameModeBase.h">
+			<Filter>Source\GGJ2019</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
