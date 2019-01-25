@@ -11,7 +11,7 @@ AEnemy_Base::AEnemy_Base()
 	_alive = true;
 	_health = 1;
 	_hasFood = false;
-	_movementSpeed = 10;
+	_movementSpeed = 5;
 	_carriedObject = nullptr;
 	_body = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Body"));
 }
@@ -94,23 +94,30 @@ void AEnemy_Base::Damage(float damage)
 void AEnemy_Base::PathUsingNodes(TArray<ANavigationNode_Base*> nodes)
 {
 	TArray<ANavigationNode_Base*> nodesWithinDistance;
-	for (int i = 0; i < nodes.Num(); i++)
+	if (nodes.Num() > 0)
 	{
-		if (DistanceToMe(nodes[i]) > 20 && DistanceToMe(nodes[i]) < 200)
+		for (int i = 0; i < nodes.Num(); i++)
 		{
-			nodesWithinDistance.Add(nodes[i]);
+			if (DistanceToMe(nodes[i]) > 2 && DistanceToMe(nodes[i]) < 150)
+			{
+				nodesWithinDistance.Add(nodes[i]);
+			}
+		}
+
+		if (nodesWithinDistance.Num() > 0)
+		{
+			ANavigationNode_Base* currentBest;
+			currentBest = nodesWithinDistance[0];
+			for (int i = 1; i < nodesWithinDistance.Num(); i++)
+			{
+				if (nodesWithinDistance[i]->GetDistanceToFridge() < currentBest->GetDistanceToFridge())
+				{
+					currentBest = nodesWithinDistance[i];
+				}
+			}
+			targetNode = currentBest;
 		}
 	}
-	ANavigationNode_Base* currentBest;
-	currentBest = nodesWithinDistance[0];
-	for (int i = 1; i < nodesWithinDistance.Num(); i++)
-	{
-		if (nodesWithinDistance[i]->GetDistanceToFridge() < currentBest->GetDistanceToFridge())
-		{
-			currentBest = nodesWithinDistance[i];
-		}
-	}
-	targetNode = currentBest;
 }
 
 
