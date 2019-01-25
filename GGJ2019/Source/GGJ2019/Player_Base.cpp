@@ -45,6 +45,8 @@ void APlayer_Base::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	PlayerInputComponent->BindAxis("MoveForward", this, &APlayer_Base::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &APlayer_Base::MoveRight);
+
+	PlayerInputComponent->BindAction("Attack", this, &APlayer_Base::AttackEnemy);
 }
 
 void APlayer_Base::MoveForward(float value)
@@ -52,12 +54,12 @@ void APlayer_Base::MoveForward(float value)
 	movementVelocity.X = value * movementSpeed;
 }
 
-void APlayer_Base::TakeDamage()
-{
-
-}
-
 void APlayer_Base::MoveRight(float value)
 {
 	movementVelocity.Y = value * movementSpeed;
+}
+
+void APlayer_Base::AttackEnemy()
+{
+
 }

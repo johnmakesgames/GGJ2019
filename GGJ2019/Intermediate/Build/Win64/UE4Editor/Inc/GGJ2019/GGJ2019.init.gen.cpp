@@ -21,9 +21,12 @@ void EmptyLinkFunctionForGeneratedCodeGGJ2019_init() {}
 				PKG_CompiledIn | 0x00000000,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				0xC2E6B377,
 				0x3F073FD3,
 =======
+=======
+>>>>>>> RhiannonBranch
 				0x2E83C9F7,
 				0xF6B4AFE4,
 >>>>>>> master

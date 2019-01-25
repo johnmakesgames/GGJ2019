@@ -37,16 +37,19 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Stats")
 	float movementSpeed;
 
+	/*
 	//Damage
 	void TakeDamage();
-
-	//Stats
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Stats")
-	int maxHealth;
-
-	int playerHealth;
+	*/
 
 	//Player
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	USkeletalMeshComponent* playerBaseComponent;
+	
+	void AttackEnemy();
+		
+	//Stats
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Stats")
+	int maxHealth;
+	int playerHealth;
 };
