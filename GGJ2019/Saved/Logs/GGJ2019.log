@@ -1,4 +1,4 @@
-﻿Log file open, 01/25/19 15:36:47
+﻿Log file open, 01/25/19 15:53:55
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: GGJ2019
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.336759
+LogStats: Stats thread started at 0.332153
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.315s to configure plugins.
+LogStreaming: Display: Took  0.562s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -123,7 +123,7 @@ LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line: 
+LogInit: Command Line:  
 LogInit: Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
@@ -147,787 +147,513 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.01.25-15.36.47:589][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.25-15.36.47:589][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.01.25-15.36.47:621][  0]LogHAL: Display: Platform has ~ 16 GB [17092038656 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.01.25-15.36.47:621][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.01.25-15.36.47:621][  0]LogInit: Going up to parent DeviceProfile []
-[2019.01.25-15.36.47:622][  0]LogInit: Computer: C115-11
-[2019.01.25-15.36.47:622][  0]LogInit: User: w017177h
-[2019.01.25-15.36.47:622][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.01.25-15.36.47:622][  0]LogInit: High frequency timer resolution =3.410072 MHz
-[2019.01.25-15.36.47:623][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.01.25-15.36.47:623][  0]LogMemory: Platform Memory Stats for Windows
-[2019.01.25-15.36.47:623][  0]LogMemory: Process Physical Memory: 100.32 MB used, 100.32 MB peak
-[2019.01.25-15.36.47:623][  0]LogMemory: Process Virtual Memory: 89.36 MB used, 89.36 MB peak
-[2019.01.25-15.36.47:623][  0]LogMemory: Physical Memory: 4999.19 MB used,  11301.05 MB free, 16300.24 MB total
-[2019.01.25-15.36.47:623][  0]LogMemory: Virtual Memory: 4638.79 MB used,  11301.05 MB free, 134217728.00 MB total
-[2019.01.25-15.36.47:670][  0]LogInit: Using OS detected language (en-US).
-[2019.01.25-15.36.47:670][  0]LogInit: Using OS detected locale (en-GB).
-[2019.01.25-15.36.47:671][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.01.25-15.36.48:090][  0]LogStreaming: Display: Took  0.420s to InitEngineTextLocalization.
-[2019.01.25-15.36.48:090][  0]LogInit: Setting process to per monitor DPI aware
-[2019.01.25-15.36.48:142][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.01.25-15.36.48:142][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.01.25-15.36.48:476][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.25-15.36.48:476][  0]LogD3D11RHI: D3D11 adapters:
-[2019.01.25-15.36.48:541][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2019.01.25-15.36.48:541][  0]LogD3D11RHI:       4043/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.01.25-15.36.48:543][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.01.25-15.36.48:543][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.01.25-15.36.48:543][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.01.25-15.36.48:551][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.01.25-15.36.48:552][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2019.01.25-15.36.48:552][  0]LogWindows: EnumDisplayDevices:
-[2019.01.25-15.36.48:552][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2019.01.25-15.36.48:552][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
-[2019.01.25-15.36.48:553][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2019.01.25-15.36.48:553][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2019.01.25-15.36.48:553][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.01.25-15.36.48:553][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2019.01.25-15.36.48:553][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
-[2019.01.25-15.36.48:553][  0]LogD3D11RHI:      Driver Date: 7-30-2018
-[2019.01.25-15.36.48:553][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
-[2019.01.25-15.36.48:594][  0]LogD3D11RHI: Async texture creation enabled
-[2019.01.25-15.36.48:613][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.01.25-15.36.48:658][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Intermediate/Shaders/WorkingDirectory/10356/).
-[2019.01.25-15.36.48:658][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/w017177h.STUDENT/AppData/Local/Temp/UnrealShaderWorkingDir/B8B9A3714090C2D33A67538A3777C00B/'.
-[2019.01.25-15.36.48:983][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.01.25-15.36.48:999][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.01.25-15.36.49:015][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.01.25-15.36.49:031][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.01.25-15.36.49:047][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.01.25-15.36.49:063][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.01.25-15.36.49:079][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.01.25-15.36.49:095][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.01.25-15.36.49:109][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.01.25-15.36.49:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-15.36.49:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-15.36.49:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-15.36.49:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-15.36.49:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-15.36.49:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-15.36.49:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-15.36.49:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-15.36.49:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-15.36.49:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-15.36.49:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-15.36.49:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-15.36.49:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-15.36.49:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-15.36.49:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-15.36.49:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-15.36.49:201][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-15.36.49:201][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-15.36.49:203][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.01.25-15.36.49:268][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.25-15.36.49:268][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.25-15.36.49:294][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.25-15.36.49:294][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.25-15.36.49:307][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.01.25-15.36.49:322][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.01.25-15.36.49:336][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.01.25-15.36.49:351][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.01.25-15.36.49:362][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.01.25-15.36.49:362][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.01.25-15.36.49:481][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.01.25-15.36.49:481][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.01.25-15.36.49:481][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.01.25-15.36.50:536][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.01.25-15.36.50:651][  0]LogDerivedDataCache: Loaded boot cache 0.11s 87MB C:/Users/w017177h.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.01.25-15.36.50:653][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/w017177h.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.01.25-15.36.50:653][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.01.25-15.36.50:653][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.01.25-15.36.50:653][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.01.25-15.36.50:653][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.01.25-15.36.50:666][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.01.25-15.36.50:678][  0]LogDerivedDataCache: Using Local data cache path C:/Users/w017177h.STUDENT/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.01.25-15.36.50:678][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.01.25-15.36.50:678][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.01.25-15.36.50:697][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.01.25-15.36.50:699][  0]LogSlate: Using FreeType 2.6.0
-[2019.01.25-15.36.50:700][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.01.25-15.36.50:791][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
-[2019.01.25-15.36.51:262][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.25-15.36.51:366][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.01.25-15.36.51:375][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.01.25-15.36.51:375][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.01.25-15.36.51:376][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.01.25-15.36.51:376][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.01.25-15.36.51:532][  0]LogNetVersion: GGJ2019 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 54619999)
-[2019.01.25-15.36.52:581][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.385314 seconds
-[2019.01.25-15.36.52:593][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.01.25-15.36.52:593][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2019.01.25-15.36.52:593][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.01.25-15.36.54:176][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.01.25-15.36.54:217][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.01.25-15.36.54:409][  0]SourceControl: Source control is disabled
-[2019.01.25-15.36.54:409][  0]SourceControl: Source control is disabled
-[2019.01.25-15.36.54:412][  0]SourceControl: Source control is disabled
-[2019.01.25-15.36.54:414][  0]SourceControl: Source control is disabled
-[2019.01.25-15.36.54:661][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.01.25-15.36.54:756][  0]LogOcInput: OculusInput pre-init called
-[2019.01.25-15.36.54:836][  0]LogEngine: Initializing Engine...
-[2019.01.25-15.36.54:838][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.25-15.36.54:839][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.25-15.36.54:839][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.25-15.36.54:840][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.25-15.36.54:840][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.25-15.36.55:136][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.01.25-15.36.55:160][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.01.25-15.36.55:179][  0]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.01.25-15.36.55:216][  0]LogInit: FAudioDevice initialized.
-[2019.01.25-15.36.55:217][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.01.25-15.36.55:348][  0]LogDerivedDataCache: Saved boot cache 0.13s 87MB C:/Users/w017177h.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.01.25-15.36.55:400][  0]LogInit: Texture streaming: Enabled
-[2019.01.25-15.36.55:429][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.01.25-15.36.55:459][  0]LogInit: Transaction tracking system initialized
-[2019.01.25-15.36.55:518][  0]BlueprintLog: New page: Editor Load
-[2019.01.25-15.36.55:816][  0]LocalizationService: Localization service is disabled
-[2019.01.25-15.36.56:551][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/' took 0.04s
-[2019.01.25-15.36.56:551][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.01.25-15.36.56:551][  0]LogCook: Display: Mobile HDR setting 1
-[2019.01.25-15.36.56:551][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.01.25-15.36.56:551][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.25-15.36.56:551][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.25-15.36.56:552][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.25-15.36.56:552][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.25-15.36.56:873][  0]SourceControl: Source control is disabled
-[2019.01.25-15.36.56:911][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Epic/UE4/UE_4.20/FeaturePacks/StarterContent.upack)
-[2019.01.25-15.36.56:936][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2019.01.25-15.36.56:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2019.01.25-15.36.56:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2019.01.25-15.36.57:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2019.01.25-15.36.57:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2019.01.25-15.36.57:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2019.01.25-15.36.57:048][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2019.01.25-15.36.57:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2019.01.25-15.36.57:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2019.01.25-15.36.57:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2019.01.25-15.36.57:125][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2019.01.25-15.36.57:144][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2019.01.25-15.36.57:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Audio/Collapse01.uasset"
-[2019.01.25-15.36.57:182][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Audio/Collapse02.uasset"
-[2019.01.25-15.36.57:193][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2019.01.25-15.36.57:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Audio/Explosion01.uasset"
-[2019.01.25-15.36.57:238][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Audio/Explosion02.uasset"
-[2019.01.25-15.36.57:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2019.01.25-15.36.57:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Audio/Fire01.uasset"
-[2019.01.25-15.36.57:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2019.01.25-15.36.57:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2019.01.25-15.36.57:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2019.01.25-15.36.57:345][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Audio/Light01.uasset"
-[2019.01.25-15.36.57:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2019.01.25-15.36.57:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Audio/Light02.uasset"
-[2019.01.25-15.36.57:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2019.01.25-15.36.57:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Audio/Smoke01.uasset"
-[2019.01.25-15.36.57:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2019.01.25-15.36.57:522][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2019.01.25-15.36.57:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2019.01.25-15.36.57:596][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2019.01.25-15.36.57:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2019.01.25-15.36.57:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2019.01.25-15.36.57:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2019.01.25-15.36.57:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Audio/Steam01.uasset"
-[2019.01.25-15.36.57:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2019.01.25-15.36.57:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2019.01.25-15.36.57:719][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2019.01.25-15.36.57:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2019.01.25-15.36.57:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2019.01.25-15.36.57:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2019.01.25-15.36.57:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2019.01.25-15.36.57:807][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2019.01.25-15.36.57:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2019.01.25-15.36.57:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2019.01.25-15.36.57:847][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2019.01.25-15.36.57:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2019.01.25-15.36.57:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2019.01.25-15.36.57:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2019.01.25-15.36.57:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2019.01.25-15.36.57:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2019.01.25-15.36.57:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2019.01.25-15.36.58:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2019.01.25-15.36.58:523][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2019.01.25-15.36.58:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2019.01.25-15.36.58:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/Minimal_Default.umap"
-[2019.01.25-15.36.58:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2019.01.25-15.36.58:613][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/StarterMap.umap"
-[2019.01.25-15.36.58:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2019.01.25-15.36.58:838][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2019.01.25-15.36.58:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2019.01.25-15.36.58:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2019.01.25-15.36.58:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2019.01.25-15.36.58:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2019.01.25-15.36.58:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2019.01.25-15.36.58:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2019.01.25-15.36.58:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2019.01.25-15.36.59:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2019.01.25-15.36.59:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2019.01.25-15.36.59:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2019.01.25-15.36.59:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2019.01.25-15.36.59:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2019.01.25-15.36.59:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2019.01.25-15.36.59:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2019.01.25-15.36.59:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2019.01.25-15.36.59:161][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2019.01.25-15.36.59:182][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Glass.uasset"
-[2019.01.25-15.36.59:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2019.01.25-15.36.59:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2019.01.25-15.36.59:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2019.01.25-15.36.59:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2019.01.25-15.36.59:269][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2019.01.25-15.36.59:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2019.01.25-15.36.59:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2019.01.25-15.36.59:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2019.01.25-15.36.59:335][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2019.01.25-15.36.59:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2019.01.25-15.36.59:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2019.01.25-15.36.59:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2019.01.25-15.36.59:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2019.01.25-15.36.59:430][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2019.01.25-15.36.59:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2019.01.25-15.36.59:465][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2019.01.25-15.36.59:481][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2019.01.25-15.36.59:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2019.01.25-15.36.59:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2019.01.25-15.36.59:534][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2019.01.25-15.36.59:548][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2019.01.25-15.36.59:585][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2019.01.25-15.36.59:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2019.01.25-15.36.59:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2019.01.25-15.36.59:635][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2019.01.25-15.36.59:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2019.01.25-15.36.59:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Particles/P_Explosion.uasset"
-[2019.01.25-15.36.59:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Particles/P_Fire.uasset"
-[2019.01.25-15.36.59:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Particles/P_Smoke.uasset"
-[2019.01.25-15.36.59:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Particles/P_Sparks.uasset"
-[2019.01.25-15.36.59:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2019.01.25-15.36.59:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2019.01.25-15.36.59:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2019.01.25-15.36.59:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2019.01.25-15.36.59:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2019.01.25-15.36.59:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2019.01.25-15.36.59:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2019.01.25-15.36.59:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2019.01.25-15.36.59:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2019.01.25-15.36.59:928][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2019.01.25-15.36.59:942][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2019.01.25-15.36.59:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/MaterialSphere.uasset"
-[2019.01.25-15.36.59:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/SM_Bush.uasset"
-[2019.01.25-15.37.00:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/SM_Chair.uasset"
-[2019.01.25-15.37.00:022][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2019.01.25-15.37.00:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/SM_Couch.uasset"
-[2019.01.25-15.37.00:063][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/SM_Door.uasset"
-[2019.01.25-15.37.00:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2019.01.25-15.37.00:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2019.01.25-15.37.00:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2019.01.25-15.37.00:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2019.01.25-15.37.00:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2019.01.25-15.37.00:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2019.01.25-15.37.00:242][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2019.01.25-15.37.00:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/SM_Rock.uasset"
-[2019.01.25-15.37.00:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/SM_Shelf.uasset"
-[2019.01.25-15.37.00:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/SM_Stairs.uasset"
-[2019.01.25-15.37.00:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/SM_Statue.uasset"
-[2019.01.25-15.37.00:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/SM_TableRound.uasset"
-[2019.01.25-15.37.00:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2019.01.25-15.37.00:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2019.01.25-15.37.00:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2019.01.25-15.37.00:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2019.01.25-15.37.00:514][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2019.01.25-15.37.00:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2019.01.25-15.37.00:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2019.01.25-15.37.00:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2019.01.25-15.37.00:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2019.01.25-15.37.00:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2019.01.25-15.37.00:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2019.01.25-15.37.00:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2019.01.25-15.37.00:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2019.01.25-15.37.00:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2019.01.25-15.37.00:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2019.01.25-15.37.00:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2019.01.25-15.37.00:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2019.01.25-15.37.00:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2019.01.25-15.37.00:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2019.01.25-15.37.00:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2019.01.25-15.37.00:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2019.01.25-15.37.00:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2019.01.25-15.37.00:847][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2019.01.25-15.37.00:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2019.01.25-15.37.00:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2019.01.25-15.37.00:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2019.01.25-15.37.00:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2019.01.25-15.37.00:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2019.01.25-15.37.00:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2019.01.25-15.37.00:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2019.01.25-15.37.00:994][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2019.01.25-15.37.01:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2019.01.25-15.37.01:065][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2019.01.25-15.37.01:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2019.01.25-15.37.01:159][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2019.01.25-15.37.01:212][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2019.01.25-15.37.01:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2019.01.25-15.37.01:315][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2019.01.25-15.37.01:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2019.01.25-15.37.01:506][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2019.01.25-15.37.01:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2019.01.25-15.37.01:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2019.01.25-15.37.01:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2019.01.25-15.37.01:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2019.01.25-15.37.01:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2019.01.25-15.37.01:776][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2019.01.25-15.37.01:801][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2019.01.25-15.37.01:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2019.01.25-15.37.01:836][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2019.01.25-15.37.01:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2019.01.25-15.37.01:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2019.01.25-15.37.01:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2019.01.25-15.37.01:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2019.01.25-15.37.02:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2019.01.25-15.37.02:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2019.01.25-15.37.02:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2019.01.25-15.37.02:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2019.01.25-15.37.02:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2019.01.25-15.37.02:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2019.01.25-15.37.02:327][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2019.01.25-15.37.02:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2019.01.25-15.37.02:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2019.01.25-15.37.02:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2019.01.25-15.37.02:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2019.01.25-15.37.02:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2019.01.25-15.37.02:620][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2019.01.25-15.37.02:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2019.01.25-15.37.02:681][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2019.01.25-15.37.02:719][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2019.01.25-15.37.02:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2019.01.25-15.37.02:750][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2019.01.25-15.37.02:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Door_M.uasset"
-[2019.01.25-15.37.02:784][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Door_N.uasset"
-[2019.01.25-15.37.02:805][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2019.01.25-15.37.02:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2019.01.25-15.37.02:859][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2019.01.25-15.37.02:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2019.01.25-15.37.02:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2019.01.25-15.37.02:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2019.01.25-15.37.02:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2019.01.25-15.37.02:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2019.01.25-15.37.03:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2019.01.25-15.37.03:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2019.01.25-15.37.03:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2019.01.25-15.37.03:201][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2019.01.25-15.37.03:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2019.01.25-15.37.03:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2019.01.25-15.37.03:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2019.01.25-15.37.03:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2019.01.25-15.37.03:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2019.01.25-15.37.03:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2019.01.25-15.37.03:455][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2019.01.25-15.37.03:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2019.01.25-15.37.03:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2019.01.25-15.37.03:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2019.01.25-15.37.03:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2019.01.25-15.37.03:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2019.01.25-15.37.03:644][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2019.01.25-15.37.03:663][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2019.01.25-15.37.03:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2019.01.25-15.37.03:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2019.01.25-15.37.03:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2019.01.25-15.37.03:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2019.01.25-15.37.03:847][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2019.01.25-15.37.03:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2019.01.25-15.37.03:942][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2019.01.25-15.37.03:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2019.01.25-15.37.04:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2019.01.25-15.37.04:048][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2019.01.25-15.37.04:069][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2019.01.25-15.37.04:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2019.01.25-15.37.04:105][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2019.01.25-15.37.04:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2019.01.25-15.37.04:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2019.01.25-15.37.04:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2019.01.25-15.37.04:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2019.01.25-15.37.04:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2019.01.25-15.37.04:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2019.01.25-15.37.04:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2019.01.25-15.37.04:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2019.01.25-15.37.04:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2019.01.25-15.37.04:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2019.01.25-15.37.04:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2019.01.25-15.37.04:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2019.01.25-15.37.04:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Water_M.uasset"
-[2019.01.25-15.37.04:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Water_N.uasset"
-[2019.01.25-15.37.04:457][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2019.01.25-15.37.04:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2019.01.25-15.37.04:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2019.01.25-15.37.04:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2019.01.25-15.37.04:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2019.01.25-15.37.04:635][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2019.01.25-15.37.04:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2019.01.25-15.37.04:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2019.01.25-15.37.04:722][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2019.01.25-15.37.04:747][  0]LogStaticMesh: Building static mesh Floor_400x400...
-[2019.01.25-15.37.04:753][  0]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
-[2019.01.25-15.37.04:805][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
-[2019.01.25-15.37.04:937][  0]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Floor_400x4008378F3AB4A31D210928C4A8FEEA0FAA1.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2019.01.25-15.37.04:955][  0]LogFeaturePack: Warning: Inserted 1 feature packs
-[2019.01.25-15.37.04:963][  0]Cmd: MAP LOAD FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.25-15.37.04:964][  0]LightingResults: New page: Lighting Build
-[2019.01.25-15.37.04:968][  0]MapCheck: New page: Map Check
-[2019.01.25-15.37.04:968][  0]LightingResults: New page: Lighting Build
-[2019.01.25-15.37.05:557][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2019.01.25-15.37.05:584][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.25-15.37.05:626][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.25-15.37.05:863][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 236.435ms to complete.
-[2019.01.25-15.37.05:864][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.900
-[2019.01.25-15.37.06:091][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.25-15.37.06:104][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.25-15.37.06:117][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.25-15.37.06:125][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.25-15.37.06:151][  0]LogCollectionManager: Loaded 0 collections in 0.003440 seconds
-[2019.01.25-15.37.06:225][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Collections/' took 0.01s
-[2019.01.25-15.37.06:225][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Developers/w017177h/Collections/' took 0.01s
-[2019.01.25-15.37.06:225][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Collections/' took 0.01s
-[2019.01.25-15.37.06:225][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.01.25-15.37.06:247][  0]LogContentBrowser: Native class hierarchy populated in 0.0192 seconds. Added 2573 classes and 605 folders.
-[2019.01.25-15.37.06:266][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2019.01.25-15.37.07:087][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
-[2019.01.25-15.37.07:117][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2019.01.25-15.37.07:184][  0]LogSlate: Took 0.000458 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.01.25-15.37.07:191][  0]LogSlate: Took 0.000547 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.01.25-15.37.07:212][  0]LogSlate: Took 0.010114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.01.25-15.37.07:335][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2019.01.25-15.37.07:406][  0]LogSlate: Took 0.000397 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.01.25-15.37.07:473][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.25-15.37.07:493][  0]LogSlate: Window 'Tutorials' being destroyed
-[2019.01.25-15.37.07:543][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2019.01.25-15.37.07:543][  0]LogLoad: (Engine Initialization) Total time: 23.19 seconds
-[2019.01.25-15.37.07:543][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.01.25-15.37.07:554][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.01.25-15.37.07:612][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.01.25-15.37.08:095][  3]LogAssetRegistry: Asset discovery search completed in 17.3265 seconds
-[2019.01.25-15.37.08:098][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2019.01.25-15.37.08:098][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000095 seconds (updated 0 objects)
-[2019.01.25-15.37.58:057][609]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.25-15.38.00:688][828]LogSlate: Window 'Tutorials' being destroyed
-[2019.01.25-15.38.07:175][587]LogSlate: Window 'GGJ2019 - Unreal Editor' being destroyed
-[2019.01.25-15.38.07:176][587]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.01.25-15.38.07:374][588]Cmd: QUIT_EDITOR
-[2019.01.25-15.38.07:457][588]LogExit: Preparing to exit.
-[2019.01.25-15.38.08:358][588]LogExit: Editor shut down
-[2019.01.25-15.38.08:358][588]LogExit: Transaction tracking system shut down
-[2019.01.25-15.38.08:898][588]LogExit: Object subsystem successfully closed.
-[2019.01.25-15.38.08:924][588]LogShaderCompilers: Display: Shaders left to compile 0
-[2019.01.25-15.38.08:928][588]LogD3D11RHI: Shutdown
-[2019.01.25-15.38.08:928][588]LogD3D11RHI: CleanupD3DDevice
-[2019.01.25-15.38.08:930][588]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.01.25-15.38.08:972][588]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (614)
-[2019.01.25-15.38.08:972][588]LogModuleManager: Shutting down and abandoning module SceneOutliner (612)
-[2019.01.25-15.38.08:972][588]LogModuleManager: Shutting down and abandoning module AddContentDialog (610)
-[2019.01.25-15.38.08:975][588]LogModuleManager: Shutting down and abandoning module WidgetCarousel (609)
-[2019.01.25-15.38.08:975][588]LogModuleManager: Shutting down and abandoning module EditorWidgets (606)
-[2019.01.25-15.38.08:975][588]LogModuleManager: Shutting down and abandoning module CollectionManager (604)
-[2019.01.25-15.38.08:975][588]LogModuleManager: Shutting down and abandoning module StatsViewer (602)
-[2019.01.25-15.38.08:975][588]LogModuleManager: Shutting down and abandoning module MeshBuilder (600)
-[2019.01.25-15.38.08:975][588]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
-[2019.01.25-15.38.08:975][588]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
-[2019.01.25-15.38.08:975][588]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
-[2019.01.25-15.38.08:975][588]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
-[2019.01.25-15.38.08:975][588]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
-[2019.01.25-15.38.08:975][588]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
-[2019.01.25-15.38.08:975][588]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
-[2019.01.25-15.38.08:975][588]LogModuleManager: Shutting down and abandoning module BspMode (584)
-[2019.01.25-15.38.08:975][588]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
-[2019.01.25-15.38.08:975][588]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
-[2019.01.25-15.38.08:975][588]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
-[2019.01.25-15.38.08:975][588]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
-[2019.01.25-15.38.08:975][588]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
-[2019.01.25-15.38.08:975][588]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
-[2019.01.25-15.38.08:975][588]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module SessionServices (534)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
-[2019.01.25-15.38.08:976][588]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
-[2019.01.25-15.38.09:980][588]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
-[2019.01.25-15.38.09:980][588]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
-[2019.01.25-15.38.09:980][588]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
-[2019.01.25-15.38.09:980][588]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
-[2019.01.25-15.38.09:980][588]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
-[2019.01.25-15.38.09:980][588]LogModuleManager: Shutting down and abandoning module MergeActors (498)
-[2019.01.25-15.38.09:980][588]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
-[2019.01.25-15.38.09:980][588]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
-[2019.01.25-15.38.09:980][588]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
-[2019.01.25-15.38.09:980][588]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
-[2019.01.25-15.38.09:980][588]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
-[2019.01.25-15.38.09:981][588]LogModuleManager: Shutting down and abandoning module XmlParser (486)
-[2019.01.25-15.38.09:981][588]LogModuleManager: Shutting down and abandoning module Blutility (484)
-[2019.01.25-15.38.09:981][588]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
-[2019.01.25-15.38.09:981][588]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
-[2019.01.25-15.38.09:981][588]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
-[2019.01.25-15.38.09:981][588]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
-[2019.01.25-15.38.09:981][588]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
-[2019.01.25-15.38.09:981][588]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
-[2019.01.25-15.38.09:981][588]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
-[2019.01.25-15.38.09:981][588]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
-[2019.01.25-15.38.09:981][588]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
-[2019.01.25-15.38.10:048][588]LogModuleManager: Shutting down and abandoning module AutomationController (464)
-[2019.01.25-15.38.10:048][588]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
-[2019.01.25-15.38.10:048][588]LogModuleManager: Shutting down and abandoning module Layers (460)
-[2019.01.25-15.38.10:048][588]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
-[2019.01.25-15.38.10:048][588]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
-[2019.01.25-15.38.10:048][588]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
-[2019.01.25-15.38.10:048][588]LogModuleManager: Shutting down and abandoning module Persona (452)
-[2019.01.25-15.38.10:048][588]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
-[2019.01.25-15.38.10:048][588]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
-[2019.01.25-15.38.10:049][588]LogModuleManager: Shutting down and abandoning module Kismet (446)
-[2019.01.25-15.38.10:049][588]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
-[2019.01.25-15.38.10:049][588]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
-[2019.01.25-15.38.10:049][588]LogModuleManager: Shutting down and abandoning module Toolbox (440)
-[2019.01.25-15.38.10:049][588]LogModuleManager: Shutting down and abandoning module DesktopPlatform (439)
-[2019.01.25-15.38.10:050][588]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
-[2019.01.25-15.38.10:050][588]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
-[2019.01.25-15.38.10:050][588]LogModuleManager: Shutting down and abandoning module OutputLog (432)
-[2019.01.25-15.38.10:050][588]LogModuleManager: Shutting down and abandoning module GammaUI (430)
-[2019.01.25-15.38.10:050][588]LogModuleManager: Shutting down and abandoning module Documentation (428)
-[2019.01.25-15.38.10:050][588]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
-[2019.01.25-15.38.10:050][588]LogModuleManager: Shutting down and abandoning module MovieScene (424)
-[2019.01.25-15.38.10:050][588]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
-[2019.01.25-15.38.10:050][588]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
-[2019.01.25-15.38.10:050][588]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
-[2019.01.25-15.38.10:050][588]LogModuleManager: Shutting down and abandoning module PortalServices (416)
-[2019.01.25-15.38.10:050][588]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
-[2019.01.25-15.38.10:050][588]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
-[2019.01.25-15.38.10:051][588]LogModuleManager: Shutting down and abandoning module AIModule (410)
-[2019.01.25-15.38.10:051][588]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
-[2019.01.25-15.38.10:051][588]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
-[2019.01.25-15.38.10:051][588]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
-[2019.01.25-15.38.10:051][588]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
-[2019.01.25-15.38.10:249][588]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
-[2019.01.25-15.38.10:249][588]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
-[2019.01.25-15.38.10:249][588]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
-[2019.01.25-15.38.10:249][588]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
-[2019.01.25-15.38.10:249][588]LogModuleManager: Shutting down and abandoning module OculusInput (392)
-[2019.01.25-15.38.10:249][588]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
-[2019.01.25-15.38.10:249][588]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
-[2019.01.25-15.38.10:249][588]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
-[2019.01.25-15.38.10:249][588]LogModuleManager: Shutting down and abandoning module CableComponent (384)
-[2019.01.25-15.38.10:249][588]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
-[2019.01.25-15.38.10:249][588]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
-[2019.01.25-15.38.10:249][588]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
-[2019.01.25-15.38.10:249][588]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
-[2019.01.25-15.38.10:250][588]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
-[2019.01.25-15.38.10:250][588]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
-[2019.01.25-15.38.10:250][588]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
-[2019.01.25-15.38.10:250][588]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
-[2019.01.25-15.38.10:250][588]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
-[2019.01.25-15.38.10:257][588]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
-[2019.01.25-15.38.10:257][588]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
-[2019.01.25-15.38.10:257][588]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
-[2019.01.25-15.38.10:257][588]LogModuleManager: Shutting down and abandoning module BackChannel (358)
-[2019.01.25-15.38.10:257][588]LogModuleManager: Shutting down and abandoning module AppleVision (356)
-[2019.01.25-15.38.10:257][588]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
-[2019.01.25-15.38.10:257][588]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
-[2019.01.25-15.38.10:257][588]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
-[2019.01.25-15.38.10:257][588]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
-[2019.01.25-15.38.10:257][588]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
-[2019.01.25-15.38.10:257][588]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
-[2019.01.25-15.38.10:258][588]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
-[2019.01.25-15.38.10:262][588]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
-[2019.01.25-15.38.10:262][588]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
-[2019.01.25-15.38.10:262][588]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
-[2019.01.25-15.38.10:262][588]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
-[2019.01.25-15.38.10:262][588]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
-[2019.01.25-15.38.10:262][588]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
-[2019.01.25-15.38.10:262][588]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
-[2019.01.25-15.38.10:262][588]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
-[2019.01.25-15.38.10:263][588]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
-[2019.01.25-15.38.10:263][588]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
-[2019.01.25-15.38.10:263][588]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
-[2019.01.25-15.38.10:263][588]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
-[2019.01.25-15.38.10:263][588]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
-[2019.01.25-15.38.10:263][588]LogModuleManager: Shutting down and abandoning module SourceControl (315)
-[2019.01.25-15.38.10:263][588]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
-[2019.01.25-15.38.10:263][588]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
-[2019.01.25-15.38.10:263][588]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
-[2019.01.25-15.38.10:263][588]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
-[2019.01.25-15.38.10:263][588]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
-[2019.01.25-15.38.10:264][588]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
-[2019.01.25-15.38.10:264][588]LogModuleManager: Shutting down and abandoning module GGJ2019 (300)
-[2019.01.25-15.38.10:264][588]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
-[2019.01.25-15.38.10:264][588]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
-[2019.01.25-15.38.10:264][588]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
-[2019.01.25-15.38.10:264][588]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
-[2019.01.25-15.38.10:264][588]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
-[2019.01.25-15.38.10:264][588]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
-[2019.01.25-15.38.10:264][588]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
-[2019.01.25-15.38.10:264][588]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
-[2019.01.25-15.38.10:264][588]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
-[2019.01.25-15.38.10:365][588]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
-[2019.01.25-15.38.10:465][588]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
-[2019.01.25-15.38.10:465][588]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
-[2019.01.25-15.38.10:465][588]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
-[2019.01.25-15.38.10:465][588]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
-[2019.01.25-15.38.10:465][588]LogModuleManager: Shutting down and abandoning module DataValidation (270)
-[2019.01.25-15.38.10:465][588]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
-[2019.01.25-15.38.10:465][588]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
-[2019.01.25-15.38.10:467][588]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
-[2019.01.25-15.38.10:467][588]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
-[2019.01.25-15.38.10:467][588]LogModuleManager: Shutting down and abandoning module MainFrame (262)
-[2019.01.25-15.38.10:467][588]LogModuleManager: Shutting down and abandoning module HotReload (261)
-[2019.01.25-15.38.10:468][588]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
-[2019.01.25-15.38.10:470][588]LogModuleManager: Shutting down and abandoning module TreeMap (255)
-[2019.01.25-15.38.10:471][588]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2019.01.25-15.38.10:471][588]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
-[2019.01.25-15.38.10:471][588]LogModuleManager: Shutting down and abandoning module Paper2D (248)
-[2019.01.25-15.38.10:471][588]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
-[2019.01.25-15.38.10:471][588]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
-[2019.01.25-15.38.10:473][588]LogModuleManager: Shutting down and abandoning module Media (243)
-[2019.01.25-15.38.10:481][588]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
-[2019.01.25-15.38.10:481][588]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
-[2019.01.25-15.38.10:481][588]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
-[2019.01.25-15.38.10:481][588]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
-[2019.01.25-15.38.10:481][588]LogModuleManager: Shutting down and abandoning module Overlay (232)
-[2019.01.25-15.38.10:481][588]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
-[2019.01.25-15.38.10:481][588]LogModuleManager: Shutting down and abandoning module VREditor (228)
-[2019.01.25-15.38.10:481][588]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
-[2019.01.25-15.38.10:481][588]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
-[2019.01.25-15.38.10:481][588]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
-[2019.01.25-15.38.10:481][588]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
-[2019.01.25-15.38.10:481][588]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
-[2019.01.25-15.38.10:481][588]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
-[2019.01.25-15.38.10:482][588]LogModuleManager: Shutting down and abandoning module UMG (214)
-[2019.01.25-15.38.10:482][588]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
-[2019.01.25-15.38.10:482][588]LogModuleManager: Shutting down and abandoning module Sequencer (212)
-[2019.01.25-15.38.10:482][588]LogModuleManager: Shutting down and abandoning module MessageLog (209)
-[2019.01.25-15.38.10:482][588]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
-[2019.01.25-15.38.10:482][588]LogModuleManager: Shutting down and abandoning module Slate (202)
-[2019.01.25-15.38.10:482][588]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2019.01.25-15.38.10:486][588]LogModuleManager: Shutting down and abandoning module MRMesh (198)
-[2019.01.25-15.38.10:486][588]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
-[2019.01.25-15.38.10:486][588]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
-[2019.01.25-15.38.10:486][588]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
-[2019.01.25-15.38.10:486][588]LogModuleManager: Shutting down and abandoning module Networking (190)
-[2019.01.25-15.38.10:486][588]LogModuleManager: Shutting down and abandoning module Core (188)
-[2019.01.25-15.38.10:486][588]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
-[2019.01.25-15.38.10:486][588]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
-[2019.01.25-15.38.10:486][588]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
-[2019.01.25-15.38.10:487][588]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
-[2019.01.25-15.38.10:487][588]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
-[2019.01.25-15.38.10:487][588]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
-[2019.01.25-15.38.10:487][588]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
-[2019.01.25-15.38.10:487][588]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
-[2019.01.25-15.38.10:487][588]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
-[2019.01.25-15.38.10:487][588]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
-[2019.01.25-15.38.10:487][588]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
-[2019.01.25-15.38.10:487][588]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
-[2019.01.25-15.38.10:933][588]LogDerivedDataCache: Shutdown
-[2019.01.25-15.38.10:934][588]LogModuleManager: Shutting down and abandoning module XGEController (160)
-[2019.01.25-15.38.10:934][588]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
-[2019.01.25-15.38.10:934][588]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
-[2019.01.25-15.38.10:934][588]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
-[2019.01.25-15.38.10:934][588]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
-[2019.01.25-15.38.10:934][588]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
-[2019.01.25-15.38.10:934][588]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
-[2019.01.25-15.38.10:934][588]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
-[2019.01.25-15.38.10:934][588]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
-[2019.01.25-15.38.10:934][588]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
-[2019.01.25-15.38.10:934][588]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
-[2019.01.25-15.38.10:934][588]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
-[2019.01.25-15.38.10:934][588]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
-[2019.01.25-15.38.10:934][588]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
-[2019.01.25-15.38.10:934][588]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
-[2019.01.25-15.38.10:934][588]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
-[2019.01.25-15.38.10:934][588]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
-[2019.01.25-15.38.10:934][588]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
-[2019.01.25-15.38.10:934][588]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
-[2019.01.25-15.38.10:934][588]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
-[2019.01.25-15.38.10:934][588]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
-[2019.01.25-15.38.10:934][588]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
-[2019.01.25-15.38.10:934][588]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
-[2019.01.25-15.38.10:936][588]LogModuleManager: Shutting down and abandoning module Messaging (115)
-[2019.01.25-15.38.10:936][588]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
-[2019.01.25-15.38.10:937][588]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
-[2019.01.25-15.38.10:937][588]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
-[2019.01.25-15.38.10:945][588]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
-[2019.01.25-15.38.10:945][588]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
-[2019.01.25-15.38.10:945][588]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
-[2019.01.25-15.38.10:945][588]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
-[2019.01.25-15.38.10:945][588]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
-[2019.01.25-15.38.10:945][588]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
-[2019.01.25-15.38.10:945][588]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
-[2019.01.25-15.38.10:945][588]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
-[2019.01.25-15.38.10:945][588]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
-[2019.01.25-15.38.10:945][588]LogModuleManager: Shutting down and abandoning module InputCore (88)
-[2019.01.25-15.38.10:945][588]LogModuleManager: Shutting down and abandoning module Settings (86)
-[2019.01.25-15.38.10:945][588]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2019.01.25-15.38.10:945][588]LogModuleManager: Shutting down and abandoning module SteamVR (82)
-[2019.01.25-15.38.10:945][588]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
-[2019.01.25-15.38.10:945][588]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
-[2019.01.25-15.38.10:945][588]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
-[2019.01.25-15.38.10:945][588]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2019.01.25-15.38.10:945][588]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
-[2019.01.25-15.38.10:946][588]LogModuleManager: Shutting down and abandoning module XMPP (65)
-[2019.01.25-15.38.10:946][588]LogModuleManager: Shutting down and abandoning module WebSockets (64)
-[2019.01.25-15.38.10:962][588]LogModuleManager: Shutting down and abandoning module HTTP (61)
-[2019.01.25-15.38.10:962][588]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2019.01.25-15.38.10:962][588]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9D6B6F96-418F-EE96-BF6D-209DA2F9C95B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=f08c9ab445bf4bc4a496eab3e7c6ddff%7C%7C8cb28388-c132-4b3d-8024-3632d6120cea&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2019.01.25-15.38.10:969][588]LogModuleManager: Shutting down and abandoning module SSL (60)
-[2019.01.25-15.38.10:970][588]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
-[2019.01.25-15.38.10:970][588]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
-[2019.01.25-15.38.10:971][588]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
-[2019.01.25-15.38.10:971][588]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
-[2019.01.25-15.38.10:971][588]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
-[2019.01.25-15.38.10:971][588]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
-[2019.01.25-15.38.10:971][588]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
-[2019.01.25-15.38.10:971][588]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
-[2019.01.25-15.38.10:971][588]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
-[2019.01.25-15.38.10:971][588]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2019.01.25-15.38.10:971][588]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
-[2019.01.25-15.38.10:971][588]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2019.01.25-15.38.10:971][588]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2019.01.25-15.38.10:971][588]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2019.01.25-15.38.10:971][588]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2019.01.25-15.38.10:972][588]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2019.01.25-15.38.10:972][588]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2019.01.25-15.38.10:972][588]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2019.01.25-15.38.10:982][588]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2019.01.25-15.38.10:982][588]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2019.01.25-15.38.10:982][588]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2019.01.25-15.38.10:982][588]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2019.01.25-15.38.10:982][588]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2019.01.25-15.38.10:982][588]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2019.01.25-15.38.10:982][588]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2019.01.25-15.38.10:982][588]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2019.01.25-15.38.10:982][588]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2019.01.25-15.38.10:982][588]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2019.01.25-15.38.10:982][588]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2019.01.25-15.38.10:990][588]LogExit: Exiting.
-[2019.01.25-15.38.11:029][588]Log file closed, 01/25/19 15:38:11
+[2019.01.25-15.53.56:316][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.25-15.53.56:316][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.25-15.53.56:357][  0]LogHAL: Display: Platform has ~ 16 GB [17092038656 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.25-15.53.56:357][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.25-15.53.56:357][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.25-15.53.56:358][  0]LogInit: Computer: C115-11
+[2019.01.25-15.53.56:358][  0]LogInit: User: w017177h
+[2019.01.25-15.53.56:358][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.25-15.53.56:358][  0]LogInit: High frequency timer resolution =3.410072 MHz
+[2019.01.25-15.53.56:358][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.25-15.53.56:358][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.25-15.53.56:358][  0]LogMemory: Process Physical Memory: 99.22 MB used, 99.22 MB peak
+[2019.01.25-15.53.56:358][  0]LogMemory: Process Virtual Memory: 90.89 MB used, 90.89 MB peak
+[2019.01.25-15.53.56:358][  0]LogMemory: Physical Memory: 5276.25 MB used,  11023.99 MB free, 16300.24 MB total
+[2019.01.25-15.53.56:358][  0]LogMemory: Virtual Memory: 4640.35 MB used,  11023.99 MB free, 134217728.00 MB total
+[2019.01.25-15.53.56:395][  0]LogInit: Using OS detected language (en-US).
+[2019.01.25-15.53.56:395][  0]LogInit: Using OS detected locale (en-GB).
+[2019.01.25-15.53.56:398][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.25-15.53.56:821][  0]LogStreaming: Display: Took  0.425s to InitEngineTextLocalization.
+[2019.01.25-15.53.56:821][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.25-15.53.56:879][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.25-15.53.56:879][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.25-15.53.57:246][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.25-15.53.57:246][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.25-15.53.57:324][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.01.25-15.53.57:324][  0]LogD3D11RHI:       4043/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.01.25-15.53.57:327][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.25-15.53.57:327][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.25-15.53.57:327][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.25-15.53.57:334][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.25-15.53.57:334][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.25-15.53.57:334][  0]LogWindows: EnumDisplayDevices:
+[2019.01.25-15.53.57:334][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.01.25-15.53.57:334][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2019.01.25-15.53.57:334][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.25-15.53.57:335][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.25-15.53.57:335][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.25-15.53.57:335][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.01.25-15.53.57:335][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2019.01.25-15.53.57:335][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2019.01.25-15.53.57:335][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2019.01.25-15.53.57:380][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.25-15.53.57:399][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.25-15.53.57:448][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Intermediate/Shaders/WorkingDirectory/8560/).
+[2019.01.25-15.53.57:448][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/w017177h.STUDENT/AppData/Local/Temp/UnrealShaderWorkingDir/3DF69EF64D105B3DEE6BEDA65AF37AF5/'.
+[2019.01.25-15.53.57:952][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.25-15.53.57:968][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.25-15.53.57:984][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.25-15.53.58:001][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.25-15.53.58:017][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.25-15.53.58:034][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.25-15.53.58:049][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.25-15.53.58:066][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.25-15.53.58:074][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.25-15.53.58:159][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-15.53.58:159][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-15.53.58:159][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-15.53.58:159][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-15.53.58:159][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-15.53.58:159][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-15.53.58:159][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-15.53.58:159][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-15.53.58:159][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-15.53.58:159][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-15.53.58:159][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-15.53.58:159][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-15.53.58:159][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-15.53.58:159][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-15.53.58:159][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-15.53.58:159][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-15.53.58:159][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-15.53.58:159][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-15.53.58:162][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.25-15.53.58:226][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.25-15.53.58:226][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.25-15.53.58:274][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.25-15.53.58:274][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.25-15.53.58:290][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.25-15.53.58:304][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.25-15.53.58:320][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.25-15.53.58:335][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.25-15.53.58:346][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.25-15.53.58:346][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.25-15.53.58:482][  0]LogXGEController: Cleaning working directory: C:/Users/w017177h.STUDENT/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.25-15.53.58:482][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.25-15.53.58:483][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.25-15.53.58:483][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.25-15.53.59:616][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.25-15.53.59:730][  0]LogDerivedDataCache: Loaded boot cache 0.11s 87MB C:/Users/w017177h.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.25-15.53.59:731][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/w017177h.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.25-15.53.59:731][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.25-15.53.59:731][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.25-15.53.59:731][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.25-15.53.59:731][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.25-15.53.59:745][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.25-15.53.59:758][  0]LogDerivedDataCache: Using Local data cache path C:/Users/w017177h.STUDENT/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.25-15.53.59:758][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.25-15.53.59:758][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.25-15.53.59:798][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.25-15.53.59:800][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.25-15.53.59:802][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.25-15.53.59:901][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
+[2019.01.25-15.54.00:375][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.25-15.54.00:542][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.25-15.54.00:548][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.25-15.54.00:548][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.25-15.54.00:548][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.25-15.54.00:548][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.25-15.54.00:569][  0]LogNetVersion: GGJ2019 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 54619999)
+[2019.01.25-15.54.01:508][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.313196 seconds
+[2019.01.25-15.54.01:520][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.25-15.54.01:520][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.01.25-15.54.01:520][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.25-15.54.02:729][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.25-15.54.02:743][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.25-15.54.02:972][  0]SourceControl: Source control is disabled
+[2019.01.25-15.54.02:972][  0]SourceControl: Source control is disabled
+[2019.01.25-15.54.02:981][  0]SourceControl: Source control is disabled
+[2019.01.25-15.54.02:985][  0]SourceControl: Source control is disabled
+[2019.01.25-15.54.03:254][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.25-15.54.03:422][  0]LogOcInput: OculusInput pre-init called
+[2019.01.25-15.54.03:529][  0]LogEngine: Initializing Engine...
+[2019.01.25-15.54.03:531][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.25-15.54.03:532][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.25-15.54.03:532][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.25-15.54.03:532][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.25-15.54.03:532][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.25-15.54.03:868][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.25-15.54.03:907][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.25-15.54.03:931][  0]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-15.54.04:053][  0]LogInit: FAudioDevice initialized.
+[2019.01.25-15.54.04:053][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.25-15.54.04:205][  0]LogDerivedDataCache: Saved boot cache 0.15s 87MB C:/Users/w017177h.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.25-15.54.04:231][  0]LogInit: Texture streaming: Enabled
+[2019.01.25-15.54.04:264][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.25-15.54.04:289][  0]LogInit: Transaction tracking system initialized
+[2019.01.25-15.54.04:332][  0]BlueprintLog: New page: Editor Load
+[2019.01.25-15.54.04:486][  0]LocalizationService: Localization service is disabled
+[2019.01.25-15.54.04:854][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.25-15.54.04:854][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.25-15.54.04:854][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.25-15.54.04:854][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.25-15.54.04:854][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.25-15.54.04:854][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.25-15.54.04:854][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.25-15.54.04:897][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/' took 0.02s
+[2019.01.25-15.54.05:032][  0]SourceControl: Source control is disabled
+[2019.01.25-15.54.05:032][  0]Cmd: MAP LOAD FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.25-15.54.05:033][  0]LightingResults: New page: Lighting Build
+[2019.01.25-15.54.05:037][  0]MapCheck: New page: Map Check
+[2019.01.25-15.54.05:037][  0]LightingResults: New page: Lighting Build
+[2019.01.25-15.54.05:435][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.01.25-15.54.05:450][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.25-15.54.05:487][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.25-15.54.05:707][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 219.935ms to complete.
+[2019.01.25-15.54.05:707][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.675
+[2019.01.25-15.54.05:870][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-15.54.05:880][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-15.54.05:888][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-15.54.05:896][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-15.54.05:906][  0]LogCollectionManager: Loaded 0 collections in 0.003423 seconds
+[2019.01.25-15.54.05:972][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Collections/' took 0.01s
+[2019.01.25-15.54.05:972][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Developers/w017177h/Collections/' took 0.01s
+[2019.01.25-15.54.05:972][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Collections/' took 0.01s
+[2019.01.25-15.54.05:972][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.25-15.54.05:996][  0]LogContentBrowser: Native class hierarchy populated in 0.0230 seconds. Added 2573 classes and 605 folders.
+[2019.01.25-15.54.06:012][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.01.25-15.54.06:106][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.25-15.54.06:114][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.01.25-15.54.06:133][  0]LogSlate: Took 0.000638 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.25-15.54.06:141][  0]LogSlate: Took 0.000601 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.25-15.54.06:153][  0]LogSlate: Took 0.000379 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.25-15.54.06:252][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.01.25-15.54.06:409][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.25-15.54.06:409][  0]LogLoad: (Engine Initialization) Total time: 14.11 seconds
+[2019.01.25-15.54.06:410][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.25-15.54.06:419][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.25-15.54.06:444][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.25-15.54.06:455][  0]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.25-15.54.06:470][  1]LogAssetRegistry: Asset discovery search completed in 6.5914 seconds
+[2019.01.25-15.54.06:471][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.25-15.54.06:472][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000053 seconds (updated 0 objects)
+[2019.01.25-15.54.24:987][207]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-15.57.52:546][ 34]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.25-15.58.19:114][559]LogSlate: Window 'New Level' being destroyed
+[2019.01.25-15.59.02:191][671]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Minimal_DefaultC70F629B48D20D24A12B54AB8746A7B6.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.01.25-15.59.02:518][671]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Minimal_Default_BuiltDataBEE0087241610CC75FC2B8BC7E343003.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2019.01.25-15.59.04:155][837]LogSlate: Window 'GGJ2019 - Unreal Editor' being destroyed
+[2019.01.25-15.59.04:155][837]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.25-15.59.04:346][838]Cmd: QUIT_EDITOR
+[2019.01.25-15.59.04:415][838]LogExit: Preparing to exit.
+[2019.01.25-15.59.04:956][838]LogExit: Editor shut down
+[2019.01.25-15.59.04:956][838]LogExit: Transaction tracking system shut down
+[2019.01.25-15.59.05:157][838]LogExit: Object subsystem successfully closed.
+[2019.01.25-15.59.05:193][838]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.01.25-15.59.05:199][838]LogD3D11RHI: Shutdown
+[2019.01.25-15.59.05:199][838]LogD3D11RHI: CleanupD3DDevice
+[2019.01.25-15.59.05:202][838]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.01.25-15.59.05:305][838]LogModuleManager: Shutting down and abandoning module NewLevelDialog (614)
+[2019.01.25-15.59.05:305][838]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2019.01.25-15.59.05:305][838]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2019.01.25-15.59.05:305][838]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2019.01.25-15.59.05:306][838]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2019.01.25-15.59.05:306][838]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2019.01.25-15.59.05:306][838]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2019.01.25-15.59.05:307][838]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
+[2019.01.25-15.59.05:307][838]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
+[2019.01.25-15.59.05:307][838]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
+[2019.01.25-15.59.05:307][838]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
+[2019.01.25-15.59.05:307][838]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
+[2019.01.25-15.59.05:307][838]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
+[2019.01.25-15.59.05:307][838]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
+[2019.01.25-15.59.05:307][838]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
+[2019.01.25-15.59.05:307][838]LogModuleManager: Shutting down and abandoning module BspMode (584)
+[2019.01.25-15.59.05:307][838]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
+[2019.01.25-15.59.05:308][838]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
+[2019.01.25-15.59.05:308][838]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
+[2019.01.25-15.59.05:308][838]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
+[2019.01.25-15.59.05:308][838]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2019.01.25-15.59.05:308][838]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
+[2019.01.25-15.59.05:308][838]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
+[2019.01.25-15.59.05:308][838]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
+[2019.01.25-15.59.05:308][838]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
+[2019.01.25-15.59.05:308][838]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
+[2019.01.25-15.59.05:308][838]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
+[2019.01.25-15.59.05:309][838]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
+[2019.01.25-15.59.05:309][838]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
+[2019.01.25-15.59.05:309][838]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
+[2019.01.25-15.59.05:309][838]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
+[2019.01.25-15.59.05:309][838]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
+[2019.01.25-15.59.05:309][838]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
+[2019.01.25-15.59.05:309][838]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
+[2019.01.25-15.59.05:309][838]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
+[2019.01.25-15.59.05:309][838]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
+[2019.01.25-15.59.05:309][838]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
+[2019.01.25-15.59.05:309][838]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
+[2019.01.25-15.59.05:309][838]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
+[2019.01.25-15.59.05:309][838]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
+[2019.01.25-15.59.05:309][838]LogModuleManager: Shutting down and abandoning module SessionServices (534)
+[2019.01.25-15.59.05:309][838]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
+[2019.01.25-15.59.05:309][838]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
+[2019.01.25-15.59.05:309][838]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
+[2019.01.25-15.59.05:310][838]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
+[2019.01.25-15.59.05:310][838]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
+[2019.01.25-15.59.05:310][838]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
+[2019.01.25-15.59.05:310][838]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
+[2019.01.25-15.59.05:310][838]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
+[2019.01.25-15.59.05:310][838]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
+[2019.01.25-15.59.05:310][838]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
+[2019.01.25-15.59.05:310][838]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
+[2019.01.25-15.59.05:310][838]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
+[2019.01.25-15.59.05:669][838]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
+[2019.01.25-15.59.05:669][838]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
+[2019.01.25-15.59.05:669][838]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
+[2019.01.25-15.59.05:669][838]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
+[2019.01.25-15.59.05:669][838]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2019.01.25-15.59.05:669][838]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2019.01.25-15.59.05:669][838]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2019.01.25-15.59.05:669][838]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2019.01.25-15.59.05:669][838]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2019.01.25-15.59.05:669][838]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2019.01.25-15.59.05:669][838]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2019.01.25-15.59.05:669][838]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2019.01.25-15.59.05:669][838]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2019.01.25-15.59.05:670][838]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2019.01.25-15.59.05:670][838]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2019.01.25-15.59.05:670][838]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2019.01.25-15.59.05:670][838]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2019.01.25-15.59.05:670][838]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2019.01.25-15.59.05:670][838]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2019.01.25-15.59.05:670][838]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2019.01.25-15.59.05:670][838]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2019.01.25-15.59.05:670][838]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2019.01.25-15.59.05:736][838]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2019.01.25-15.59.05:736][838]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2019.01.25-15.59.05:736][838]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2019.01.25-15.59.05:736][838]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2019.01.25-15.59.05:736][838]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2019.01.25-15.59.05:736][838]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2019.01.25-15.59.05:736][838]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2019.01.25-15.59.05:736][838]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2019.01.25-15.59.05:736][838]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2019.01.25-15.59.05:736][838]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2019.01.25-15.59.05:737][838]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2019.01.25-15.59.05:737][838]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2019.01.25-15.59.05:737][838]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2019.01.25-15.59.05:737][838]LogModuleManager: Shutting down and abandoning module DesktopPlatform (439)
+[2019.01.25-15.59.05:737][838]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.01.25-15.59.05:737][838]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.01.25-15.59.05:737][838]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.01.25-15.59.05:737][838]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.01.25-15.59.05:737][838]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.01.25-15.59.05:737][838]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.01.25-15.59.05:737][838]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.01.25-15.59.05:737][838]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.01.25-15.59.05:737][838]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.01.25-15.59.05:737][838]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.01.25-15.59.05:737][838]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.01.25-15.59.05:737][838]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.01.25-15.59.05:737][838]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.01.25-15.59.05:737][838]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.01.25-15.59.05:737][838]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.01.25-15.59.05:738][838]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.01.25-15.59.05:738][838]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.01.25-15.59.05:738][838]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2019.01.25-15.59.05:978][838]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2019.01.25-15.59.05:978][838]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2019.01.25-15.59.05:978][838]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2019.01.25-15.59.05:978][838]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2019.01.25-15.59.05:978][838]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2019.01.25-15.59.05:978][838]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2019.01.25-15.59.05:978][838]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2019.01.25-15.59.05:978][838]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2019.01.25-15.59.05:978][838]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2019.01.25-15.59.05:978][838]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2019.01.25-15.59.05:978][838]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2019.01.25-15.59.05:978][838]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2019.01.25-15.59.05:978][838]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2019.01.25-15.59.05:978][838]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2019.01.25-15.59.05:978][838]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2019.01.25-15.59.05:978][838]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2019.01.25-15.59.05:978][838]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2019.01.25-15.59.05:978][838]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2019.01.25-15.59.05:985][838]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.01.25-15.59.05:985][838]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.01.25-15.59.05:985][838]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.01.25-15.59.05:986][838]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.01.25-15.59.05:986][838]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.01.25-15.59.05:986][838]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.01.25-15.59.05:986][838]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.01.25-15.59.05:986][838]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.01.25-15.59.05:986][838]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.01.25-15.59.05:986][838]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.01.25-15.59.05:986][838]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2019.01.25-15.59.05:986][838]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2019.01.25-15.59.05:996][838]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.01.25-15.59.05:996][838]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.01.25-15.59.05:996][838]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.01.25-15.59.05:996][838]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2019.01.25-15.59.05:997][838]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2019.01.25-15.59.05:997][838]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.01.25-15.59.05:997][838]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.01.25-15.59.05:997][838]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.01.25-15.59.05:997][838]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.01.25-15.59.05:997][838]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.01.25-15.59.05:997][838]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.01.25-15.59.05:997][838]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.01.25-15.59.05:997][838]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.01.25-15.59.05:997][838]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.01.25-15.59.05:997][838]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.01.25-15.59.05:997][838]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2019.01.25-15.59.05:998][838]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2019.01.25-15.59.05:998][838]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2019.01.25-15.59.05:998][838]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2019.01.25-15.59.05:998][838]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2019.01.25-15.59.05:998][838]LogModuleManager: Shutting down and abandoning module GGJ2019 (300)
+[2019.01.25-15.59.05:998][838]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.01.25-15.59.05:998][838]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.01.25-15.59.05:998][838]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.01.25-15.59.05:998][838]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.01.25-15.59.05:998][838]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.01.25-15.59.05:998][838]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.01.25-15.59.05:998][838]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.01.25-15.59.05:998][838]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.01.25-15.59.05:998][838]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.01.25-15.59.06:099][838]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.01.25-15.59.06:200][838]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.01.25-15.59.06:200][838]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.01.25-15.59.06:200][838]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.01.25-15.59.06:200][838]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.01.25-15.59.06:200][838]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.01.25-15.59.06:200][838]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.01.25-15.59.06:200][838]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.01.25-15.59.06:202][838]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.01.25-15.59.06:202][838]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.01.25-15.59.06:202][838]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.01.25-15.59.06:202][838]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.01.25-15.59.06:204][838]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.01.25-15.59.06:206][838]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.01.25-15.59.06:206][838]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.01.25-15.59.06:206][838]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.01.25-15.59.06:206][838]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.01.25-15.59.06:206][838]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.01.25-15.59.06:206][838]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.01.25-15.59.06:209][838]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.01.25-15.59.06:216][838]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.01.25-15.59.06:216][838]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.01.25-15.59.06:216][838]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.01.25-15.59.06:216][838]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.01.25-15.59.06:216][838]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.01.25-15.59.06:216][838]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.01.25-15.59.06:216][838]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.01.25-15.59.06:216][838]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.01.25-15.59.06:216][838]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.01.25-15.59.06:216][838]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.01.25-15.59.06:216][838]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.01.25-15.59.06:216][838]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.01.25-15.59.06:216][838]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.01.25-15.59.06:216][838]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.01.25-15.59.06:217][838]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.01.25-15.59.06:217][838]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.01.25-15.59.06:217][838]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.01.25-15.59.06:217][838]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.01.25-15.59.06:217][838]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.01.25-15.59.06:217][838]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.01.25-15.59.06:221][838]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.01.25-15.59.06:221][838]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.01.25-15.59.06:221][838]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.01.25-15.59.06:221][838]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.01.25-15.59.06:222][838]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.01.25-15.59.06:222][838]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.01.25-15.59.06:222][838]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.01.25-15.59.06:222][838]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.01.25-15.59.06:222][838]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.01.25-15.59.06:222][838]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.01.25-15.59.06:222][838]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.01.25-15.59.06:222][838]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.01.25-15.59.06:222][838]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.01.25-15.59.06:222][838]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.01.25-15.59.06:222][838]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.01.25-15.59.06:222][838]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.01.25-15.59.06:223][838]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.01.25-15.59.06:223][838]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.01.25-15.59.06:316][838]LogDerivedDataCache: Shutdown
+[2019.01.25-15.59.06:316][838]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.01.25-15.59.06:316][838]LogXGEController: Cleaning working directory: C:/Users/w017177h.STUDENT/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.25-15.59.06:317][838]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.01.25-15.59.06:317][838]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.01.25-15.59.06:317][838]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.01.25-15.59.06:317][838]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.01.25-15.59.06:317][838]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.01.25-15.59.06:317][838]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.01.25-15.59.06:317][838]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.01.25-15.59.06:317][838]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.01.25-15.59.06:317][838]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.01.25-15.59.06:317][838]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.01.25-15.59.06:317][838]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.01.25-15.59.06:317][838]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.01.25-15.59.06:317][838]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.01.25-15.59.06:317][838]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.01.25-15.59.06:317][838]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.01.25-15.59.06:317][838]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.01.25-15.59.06:317][838]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.01.25-15.59.06:317][838]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.01.25-15.59.06:317][838]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.01.25-15.59.06:317][838]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.01.25-15.59.06:318][838]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.01.25-15.59.06:318][838]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.01.25-15.59.06:318][838]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.01.25-15.59.06:318][838]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.01.25-15.59.06:319][838]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.01.25-15.59.06:319][838]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.01.25-15.59.06:328][838]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.01.25-15.59.06:328][838]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.01.25-15.59.06:328][838]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.01.25-15.59.06:328][838]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.01.25-15.59.06:328][838]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.01.25-15.59.06:328][838]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.01.25-15.59.06:328][838]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.01.25-15.59.06:328][838]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.01.25-15.59.06:328][838]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.01.25-15.59.06:328][838]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.01.25-15.59.06:328][838]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.01.25-15.59.06:328][838]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.01.25-15.59.06:328][838]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.01.25-15.59.06:328][838]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.01.25-15.59.06:328][838]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.01.25-15.59.06:328][838]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.01.25-15.59.06:328][838]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.01.25-15.59.06:328][838]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.01.25-15.59.06:329][838]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.01.25-15.59.06:329][838]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.01.25-15.59.06:352][838]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.01.25-15.59.06:352][838]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.01.25-15.59.06:352][838]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B87470C2D-48A9-5665-8F78-B9A7B4E0F148%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=f08c9ab445bf4bc4a496eab3e7c6ddff%7C%7C8cb28388-c132-4b3d-8024-3632d6120cea&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.01.25-15.59.06:359][838]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.01.25-15.59.06:360][838]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.01.25-15.59.06:361][838]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.01.25-15.59.06:361][838]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.01.25-15.59.06:361][838]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.01.25-15.59.06:361][838]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.01.25-15.59.06:361][838]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.01.25-15.59.06:361][838]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.01.25-15.59.06:361][838]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.01.25-15.59.06:361][838]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.01.25-15.59.06:361][838]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.01.25-15.59.06:361][838]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.01.25-15.59.06:361][838]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.01.25-15.59.06:361][838]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.01.25-15.59.06:361][838]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.01.25-15.59.06:361][838]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.01.25-15.59.06:361][838]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.01.25-15.59.06:361][838]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.01.25-15.59.06:361][838]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.01.25-15.59.06:362][838]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.01.25-15.59.06:362][838]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.01.25-15.59.06:362][838]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.01.25-15.59.06:362][838]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.01.25-15.59.06:362][838]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.01.25-15.59.06:362][838]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.01.25-15.59.06:362][838]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.01.25-15.59.06:362][838]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.01.25-15.59.06:362][838]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.01.25-15.59.06:362][838]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.01.25-15.59.06:362][838]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.01.25-15.59.06:374][838]LogExit: Exiting.
+[2019.01.25-15.59.06:413][838]Log file closed, 01/25/19 15:59:06
