@@ -32,15 +32,11 @@ public:
 	//Movement
 	virtual void MoveRight(float value);
 	virtual void MoveForward(float value);
+	virtual void Rotate(float value);
 
 	FVector movementVelocity;
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Stats")
 	float movementSpeed;
-
-	/*
-	//Damage
-	void TakeDamage();
-	*/
 
 	//Player
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)

@@ -32,11 +32,14 @@ void APlayer_Base::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	if (!movementVelocity.IsZero())
+	/*if (!movementVelocity.IsZero())
 	{
 		FVector NewLocation = GetActorLocation() + (movementVelocity * DeltaTime);
 		SetActorLocation(NewLocation);
-	}
+	}*/
+
+	AddMovementInput(GetActorForwardVector(), movementVelocity.X * DeltaTime);
+	AddMovementInput(GetActorRightVector(), movementVelocity.Y * DeltaTime);
 }
 
 // Called to bind functionality to input
@@ -45,18 +48,24 @@ void APlayer_Base::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	PlayerInputComponent->BindAxis("MoveForward", this, &APlayer_Base::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &APlayer_Base::MoveRight);
+	//PlayerInputComponent->BindAxis("Rotate", this, &APlayer_Base::Rotate);
 
-	PlayerInputComponent->BindAction("Attack", this, &APlayer_Base::AttackEnemy);
+	PlayerInputComponent->BindAction("Attack", IE_Pressed, this, &APlayer_Base::AttackEnemy);
 }
 
 void APlayer_Base::MoveForward(float value)
 {
-	movementVelocity.X = value * movementSpeed;
+	movementVelocity.X = value * 100;
 }
 
 void APlayer_Base::MoveRight(float value)
 {
-	movementVelocity.Y = value * movementSpeed;
+	movementVelocity.Y = value * 100;
+}
+
+void APlayer_Base::Rotate(float value)
+{
+	playerBaseComponent->AddWorldRotation(FQuat(FRotator(0.0f, value, 0.0f)));
 }
 
 void APlayer_Base::AttackEnemy()
