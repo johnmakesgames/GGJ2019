@@ -33,20 +33,25 @@ public:
 	//Movement
 	virtual void MoveRight(float value);
 	virtual void MoveForward(float value);
+	virtual void Rotate(float value);
 
 	FVector movementVelocity;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Stats")
 	float movementSpeed;
 
-	//Damage
-	void TakeDamage();
-
+	//Player
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	USkeletalMeshComponent* playerBaseComponent;
+	
+	void AttackEnemy();
+		
 	//Stats
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Stats")
 	int maxHealth;
-
 	int playerHealth;
+<<<<<<< HEAD
+=======
 
 	//Player
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
@@ -55,4 +60,5 @@ public:
 	// CAMERA //
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		UCameraComponent* playerCamera;
+>>>>>>> AngBranch
 };
