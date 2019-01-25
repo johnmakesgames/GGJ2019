@@ -1,0 +1,22 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Parsing headers for GGJ2019Editor
+    Running UnrealHeaderTool "C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\GGJ2019.uproject" "C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\GGJ2019Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for GGJ2019Editor in 11.2788157 seconds
+  Building 5 actions with 8 processes...
+    [1/5] GGJ2019.init.gen.cpp
+    [2/5] Player_Base.gen.cpp
+C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Source\GGJ2019/Player_Base.h(41): warning C4263: 'void APlayer_Base::TakeDamage(void)': member function does not override any base class virtual member function
+C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Source\GGJ2019/Player_Base.h(50): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    C:\Epic\UE4\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+    C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+    [3/5] Player_Base.cpp
+c:\users\p018236h.student\documents\gamejam\ggj2019\ggj2019\source\ggj2019\Player_Base.h(41): warning C4263: 'void APlayer_Base::TakeDamage(void)': member function does not override any base class virtual member function
+c:\users\p018236h.student\documents\gamejam\ggj2019\ggj2019\source\ggj2019\Player_Base.h(50): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    C:\Epic\UE4\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+    C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+    [4/5] UE4Editor-GGJ2019.lib
+       Creating library C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.lib and object C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.exp
+    [5/5] UE4Editor-GGJ2019.dll
+       Creating library C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.lib and object C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.exp
+  Deploying GGJ2019Editor Win64 Development...
+  Total build time: 26.95 seconds (Parallel executor: 12.85 seconds)
