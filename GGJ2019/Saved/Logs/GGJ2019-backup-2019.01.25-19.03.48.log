@@ -1,0 +1,419 @@
+﻿Log file open, 01/25/19 18:48:41
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: GGJ2019
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.441042
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.507s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) CPU E5-1620 v3 @ 3.50GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.004s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.25-18.48.41:889][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.25-18.48.41:890][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.25-18.48.41:922][  0]LogHAL: Display: Platform has ~ 16 GB [17092038656 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.25-18.48.41:922][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.25-18.48.41:922][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.25-18.48.41:923][  0]LogInit: Computer: C115-12
+[2019.01.25-18.48.41:923][  0]LogInit: User: h017026h
+[2019.01.25-18.48.41:923][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.25-18.48.41:923][  0]LogInit: High frequency timer resolution =3.410071 MHz
+[2019.01.25-18.48.41:923][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.25-18.48.41:923][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.25-18.48.41:923][  0]LogMemory: Process Physical Memory: 100.16 MB used, 100.16 MB peak
+[2019.01.25-18.48.41:923][  0]LogMemory: Process Virtual Memory: 90.89 MB used, 90.89 MB peak
+[2019.01.25-18.48.41:924][  0]LogMemory: Physical Memory: 7502.67 MB used,  8797.57 MB free, 16300.24 MB total
+[2019.01.25-18.48.41:924][  0]LogMemory: Virtual Memory: 4640.35 MB used,  8797.57 MB free, 134217728.00 MB total
+[2019.01.25-18.48.42:046][  0]LogInit: Using OS detected language (en-US).
+[2019.01.25-18.48.42:047][  0]LogInit: Using OS detected locale (en-GB).
+[2019.01.25-18.48.42:048][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.25-18.48.42:466][  0]LogStreaming: Display: Took  0.419s to InitEngineTextLocalization.
+[2019.01.25-18.48.42:466][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.25-18.48.42:558][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.25-18.48.42:558][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.25-18.48.42:919][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.25-18.48.42:919][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.25-18.48.43:013][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.01.25-18.48.43:013][  0]LogD3D11RHI:       4043/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.01.25-18.48.43:019][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.25-18.48.43:019][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.25-18.48.43:019][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.25-18.48.43:028][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.25-18.48.43:028][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.25-18.48.43:028][  0]LogWindows: EnumDisplayDevices:
+[2019.01.25-18.48.43:028][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2019.01.25-18.48.43:028][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.01.25-18.48.43:029][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.25-18.48.43:029][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.25-18.48.43:030][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.25-18.48.43:030][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.01.25-18.48.43:030][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2019.01.25-18.48.43:030][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2019.01.25-18.48.43:030][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2019.01.25-18.48.43:078][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.25-18.48.43:096][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.25-18.48.43:141][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Intermediate/Shaders/WorkingDirectory/16916/).
+[2019.01.25-18.48.43:142][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/h017026h/AppData/Local/Temp/UnrealShaderWorkingDir/2B9EE1A54C611DFF600DACA7EB8E0CB8/'.
+[2019.01.25-18.48.43:583][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.25-18.48.43:602][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.25-18.48.43:620][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.25-18.48.43:638][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.25-18.48.43:658][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.25-18.48.43:676][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.25-18.48.43:695][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.25-18.48.43:717][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.25-18.48.43:728][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.25-18.48.43:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.48.43:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.48.43:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.48.43:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.48.43:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.48.43:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.48.43:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.48.43:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.48.43:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.48.43:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.48.43:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.48.43:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.48.43:821][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.48.43:821][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.48.43:821][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.48.43:821][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.48.43:821][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.48.43:821][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.48.43:825][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.25-18.48.43:916][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.25-18.48.43:916][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.25-18.48.43:960][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.25-18.48.43:960][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.25-18.48.43:980][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.25-18.48.44:008][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.25-18.48.44:026][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.25-18.48.44:045][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.25-18.48.44:059][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.25-18.48.44:059][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.25-18.48.44:223][  0]LogXGEController: Cleaning working directory: C:/Users/h017026h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.25-18.48.44:223][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.25-18.48.44:223][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.25-18.48.44:223][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.25-18.48.45:381][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.25-18.48.45:498][  0]LogDerivedDataCache: Loaded boot cache 0.12s 71MB C:/Users/h017026h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.25-18.48.45:498][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/h017026h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.25-18.48.45:499][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.25-18.48.45:499][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.25-18.48.45:499][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.25-18.48.45:499][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.25-18.48.45:535][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.25-18.48.45:553][  0]LogDerivedDataCache: Using Local data cache path C:/Users/h017026h/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.25-18.48.45:553][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.25-18.48.45:554][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.25-18.48.45:582][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.25-18.48.45:584][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.25-18.48.45:586][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.25-18.48.45:726][  0]LogAssetRegistry: FAssetRegistry took 0.0297 seconds to start up
+[2019.01.25-18.48.46:169][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.25-18.48.46:321][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.25-18.48.46:336][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.25-18.48.46:336][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.25-18.48.46:336][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.25-18.48.46:336][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.25-18.48.46:455][  0]LogNetVersion: GGJ2019 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 54619999)
+[2019.01.25-18.48.47:527][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.507355 seconds
+[2019.01.25-18.48.47:535][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.25-18.48.47:535][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.01.25-18.48.47:535][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.25-18.48.48:862][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.25-18.48.48:881][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.25-18.48.49:114][  0]SourceControl: Source control is disabled
+[2019.01.25-18.48.49:115][  0]SourceControl: Source control is disabled
+[2019.01.25-18.48.49:119][  0]SourceControl: Source control is disabled
+[2019.01.25-18.48.49:123][  0]SourceControl: Source control is disabled
+[2019.01.25-18.48.49:470][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.25-18.48.49:623][  0]LogOcInput: OculusInput pre-init called
+[2019.01.25-18.48.49:701][  0]LogEngine: Initializing Engine...
+[2019.01.25-18.48.49:702][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.25-18.48.49:704][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.25-18.48.49:704][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.25-18.48.49:705][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2019.01.25-18.48.49:705][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.25-18.48.49:971][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.25-18.48.50:003][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.25-18.48.50:025][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-18.48.50:045][  0]LogInit: FAudioDevice initialized.
+[2019.01.25-18.48.50:046][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.25-18.48.50:216][  0]LogDerivedDataCache: Saved boot cache 0.17s 71MB C:/Users/h017026h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.25-18.48.50:245][  0]LogInit: Texture streaming: Enabled
+[2019.01.25-18.48.50:297][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.25-18.48.50:316][  0]LogInit: Transaction tracking system initialized
+[2019.01.25-18.48.50:388][  0]BlueprintLog: New page: Editor Load
+[2019.01.25-18.48.50:592][  0]LocalizationService: Localization service is disabled
+[2019.01.25-18.48.51:025][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.25-18.48.51:026][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.25-18.48.51:026][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.25-18.48.51:026][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.25-18.48.51:026][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.25-18.48.51:026][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.25-18.48.51:027][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.25-18.48.51:287][  0]LogFileCache: Scanning file cache for directory 'C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/' took 0.02s
+[2019.01.25-18.48.51:287][  0]SourceControl: Source control is disabled
+[2019.01.25-18.48.51:288][  0]Cmd: MAP LOAD FILE="../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.25-18.48.51:289][  0]LightingResults: New page: Lighting Build
+[2019.01.25-18.48.51:293][  0]MapCheck: New page: Map Check
+[2019.01.25-18.48.51:293][  0]LightingResults: New page: Lighting Build
+[2019.01.25-18.48.51:440][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2019.01.25-18.48.51:441][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading ../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/StarterContent/Maps/Minimal_Default.umap.
+[2019.01.25-18.48.51:441][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2019.01.25-18.48.51:479][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2019.01.25-18.48.51:480][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading ../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/StarterContent/Maps/Minimal_Default.umap.
+[2019.01.25-18.48.51:480][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2019.01.25-18.48.51:504][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2019.01.25-18.48.51:505][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2019.01.25-18.48.51:505][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2019.01.25-18.48.51:506][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2019.01.25-18.48.51:537][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2019.01.25-18.48.51:537][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2019.01.25-18.48.51:538][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2019.01.25-18.48.51:538][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2019.01.25-18.48.51:692][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.01.25-18.48.51:704][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.25-18.48.51:734][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.25-18.48.51:936][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 202.508ms to complete.
+[2019.01.25-18.48.51:937][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.649
+[2019.01.25-18.48.52:079][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-18.48.52:087][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-18.48.52:095][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-18.48.52:103][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-18.48.52:115][  0]LogCollectionManager: Loaded 0 collections in 0.003605 seconds
+[2019.01.25-18.48.52:169][  0]LogFileCache: Scanning file cache for directory 'C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Saved/Collections/' took 0.01s
+[2019.01.25-18.48.52:169][  0]LogFileCache: Scanning file cache for directory 'C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/Developers/h017026h/Collections/' took 0.01s
+[2019.01.25-18.48.52:169][  0]LogFileCache: Scanning file cache for directory 'C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/Collections/' took 0.01s
+[2019.01.25-18.48.52:169][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.25-18.48.52:187][  0]LogContentBrowser: Native class hierarchy populated in 0.0183 seconds. Added 2574 classes and 606 folders.
+[2019.01.25-18.48.52:198][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.25-18.48.52:297][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.25-18.48.52:309][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.01.25-18.48.52:328][  0]LogSlate: Took 0.000368 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.25-18.48.52:333][  0]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.25-18.48.52:341][  0]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.25-18.48.52:427][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.01.25-18.48.52:589][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-18.48.52:628][  0]LogSlate: Window 'Tutorials' being destroyed
+[2019.01.25-18.48.52:683][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.01.25-18.48.52:684][  0]LogLoad: (Engine Initialization) Total time: 14.75 seconds
+[2019.01.25-18.48.52:684][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.25-18.48.52:695][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.25-18.48.52:719][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.25-18.48.52:729][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-18.48.52:762][  0]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.25-18.48.52:790][  1]LogAssetRegistry: Asset discovery search completed in 7.0887 seconds
+[2019.01.25-18.48.52:792][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.01.25-18.48.52:793][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000146 seconds (updated 0 objects)
+[2019.01.25-18.48.56:364][410]LogSlate: Window 'Message Log' being destroyed
+[2019.01.25-18.48.56:367][410]LogSlate: Window 'Message Log' being destroyed
+[2019.01.25-18.48.57:865][589]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-18.49.03:471][254]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.25-18.49.03:494][254]LogAIModule: Creating AISystem for world AngTestMap
+[2019.01.25-18.49.03:498][254]LogAssetEditorManager: Opening Asset editor for World /Game/StarterContent/Maps/AngTestMap.AngTestMap
+[2019.01.25-18.49.03:520][254]Cmd: MAP LOAD FILE="../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/StarterContent/Maps/AngTestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.25-18.49.03:520][254]LightingResults: New page: Lighting Build
+[2019.01.25-18.49.03:521][254]LoadErrors: New page: Loading map: AngTestMap.umap
+[2019.01.25-18.49.03:522][254]MapCheck: New page: Map Check
+[2019.01.25-18.49.03:522][254]LightingResults: New page: Lighting Build
+[2019.01.25-18.49.03:545][254]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.25-18.49.03:601][254]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.25-18.49.03:820][254]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 219.058ms to complete.
+[2019.01.25-18.49.03:821][254]LogFileHelpers: Loading map 'AngTestMap' took 0.302
+[2019.01.25-18.49.07:342][659]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Pickup_BP_Base.Pickup_BP_Base
+[2019.01.25-18.49.07:838][659]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
+[2019.01.25-18.49.08:761][659]LogActor: Warning: Pickup_BP_Base_C /Engine/Transient.World_0:PersistentLevel.Pickup_BP_Base_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.25-18.49.08:778][659]LogSlate: Took 0.000306 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.25-18.49.10:626][839]LogSlate: Took 0.000369 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.25-18.49.10:790][858]LogSlate: Window 'Pickup_BP_Base' being destroyed
+[2019.01.25-18.49.35:425][647]BlueprintLog: New page: Compile Pickup_BP_Base
+[2019.01.25-18.49.35:434][647]LogActor: Warning: Pickup_BP_Base_C /Engine/Transient.World_0:PersistentLevel.Pickup_BP_Base_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.25-18.52.36:865][257]BlueprintLog: New page: Compile Pickup_BP_Base
+[2019.01.25-18.52.36:876][257]LogActor: Warning: Pickup_BP_Base_C /Engine/Transient.World_0:PersistentLevel.Pickup_BP_Base_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.25-18.52.37:412][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pickup_BP_Base" FILE="../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/Pickup_BP_Base.uasset" SILENT=true
+[2019.01.25-18.52.37:465][298]LogSavePackage: Moving '../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Saved/Pickup_BP_Base9CB2789B4BCEA99362007582049ADE92.tmp' to '../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/Pickup_BP_Base.uasset'
+[2019.01.25-18.52.45:598][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pickup_BP_Base" FILE="../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/Pickup_BP_Base.uasset" SILENT=true
+[2019.01.25-18.52.45:638][230]LogSavePackage: Moving '../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Saved/Pickup_BP_Base9D1611B44D4EBB49EB2555B5F0785EE5.tmp' to '../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/Pickup_BP_Base.uasset'
+[2019.01.25-18.55.48:014][638]Running C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/GGJ2019.uproject" -invalidatemakefilesonly
+[2019.01.25-18.55.49:331][638]Invalidating makefiles only in this run.
+[2019.01.25-18.55.49:456][638]Candidate modules for hot reload:
+[2019.01.25-18.55.49:457][638]  GGJ2019
+[2019.01.25-18.55.49:457][638]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GGJ2019,6852 Win64 Development -TargetType=Editor -Project="../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/GGJ2019.uproject" -canskiplink "C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/GGJ2019.uproject" ]
+[2019.01.25-18.56.15:033][638]CompilerResultsLog: New page: Compilation - 25 Jan 2019 18:56:15
+[2019.01.25-18.56.15:033][638]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.01.25-18.56.15:033][638]CompilerResultsLog: Creating makefile for hot reloading GGJ2019Editor (no existing makefile)
+[2019.01.25-18.56.15:034][638]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.25-18.56.15:034][638]CompilerResultsLog: Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.25-18.56.15:034][638]CompilerResultsLog: Parsing headers for GGJ2019Editor
+[2019.01.25-18.56.15:034][638]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\GGJ2019.uproject" "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\GGJ2019Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.01.25-18.56.15:034][638]CompilerResultsLog: Reflection code generated for GGJ2019Editor in 12.250434 seconds
+[2019.01.25-18.56.15:034][638]CompilerResultsLog: Building 6 actions with 8 processes...
+[2019.01.25-18.56.15:034][638]CompilerResultsLog:   [1/6] GGJ2019.init.gen.cpp
+[2019.01.25-18.56.15:034][638]CompilerResultsLog:   [2/6] Pickup_Base.cpp
+[2019.01.25-18.56.15:034][638]CompilerResultsLog:   [3/6] Pickup_Weapon.cpp
+[2019.01.25-18.56.15:034][638]CompilerResultsLog:   [4/6] Pickup_Weapon.gen.cpp
+[2019.01.25-18.56.15:034][638]CompilerResultsLog:   [5/6] UE4Editor-GGJ2019-6852.lib
+[2019.01.25-18.56.15:035][638]CompilerResultsLog:      Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-6852.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-6852.exp
+[2019.01.25-18.56.15:035][638]CompilerResultsLog:   [6/6] UE4Editor-GGJ2019-6852.dll
+[2019.01.25-18.56.15:035][638]CompilerResultsLog:      Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-6852.suppressed.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-6852.suppressed.exp
+[2019.01.25-18.56.15:035][638]CompilerResultsLog: Total build time: 25.26 seconds (Parallel executor: 4.11 seconds)
+[2019.01.25-18.56.15:035][638]LogMainFrame: MainFrame: Module compiling took 25.586 seconds
+[2019.01.25-18.56.15:098][638]LogClass: Could not find existing class Pickup_Weapon in package /Script/GGJ2019 for HotReload, assuming new class
+[2019.01.25-18.56.15:103][638]LogHotReload: Re-instancing Pickup_Base after hot-reload.
+[2019.01.25-18.56.15:124][638]LogActor: Warning: Pickup_BP_Base_C /Engine/Transient.World_0:PersistentLevel.Pickup_BP_Base_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.25-18.56.15:344][638]LogContentBrowser: Native class hierarchy updated for 'GGJ2019' in 0.0005 seconds. Added 3 classes and 3 folders.
+[2019.01.25-18.56.15:348][638]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.01.25-18.56.15:802][638]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2576 classes and 608 folders.
+[2019.01.25-18.56.15:803][638]Display: HotReload took 26.4s.
+[2019.01.25-18.56.15:804][638]Warning: HotReload operation took 26.4s.
+[2019.01.25-18.56.16:244][638]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.01.25-18.56.16:256][638]LogHotReload: New module detected: UE4Editor-GGJ2019-6852.dll
+[2019.01.25-18.56.16:310][639]LogHotReload: Starting Hot-Reload from IDE
+[2019.01.25-18.56.16:445][639]LogContentBrowser: Native class hierarchy updated for 'GGJ2019' in 0.0006 seconds. Added 3 classes and 3 folders.
+[2019.01.25-18.56.16:450][639]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.01.25-18.56.17:071][639]LogContentBrowser: Native class hierarchy populated in 0.0132 seconds. Added 2576 classes and 608 folders.
+[2019.01.25-18.56.17:079][639]Display: HotReload took  0.8s.

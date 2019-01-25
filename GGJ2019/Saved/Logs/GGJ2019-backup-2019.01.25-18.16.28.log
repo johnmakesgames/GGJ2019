@@ -1,0 +1,664 @@
+﻿Log file open, 01/25/19 17:49:00
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: GGJ2019
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.045924
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.504s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) CPU E5-1620 v3 @ 3.50GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.25-17.49.01:546][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.25-17.49.01:546][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.25-17.49.01:582][  0]LogHAL: Display: Platform has ~ 16 GB [17092038656 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.25-17.49.01:582][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.25-17.49.01:582][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.25-17.49.01:585][  0]LogInit: Computer: C115-12
+[2019.01.25-17.49.01:585][  0]LogInit: User: h017026h
+[2019.01.25-17.49.01:585][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.25-17.49.01:585][  0]LogInit: High frequency timer resolution =3.410071 MHz
+[2019.01.25-17.49.01:586][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.25-17.49.01:586][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.25-17.49.01:586][  0]LogMemory: Process Physical Memory: 99.99 MB used, 99.99 MB peak
+[2019.01.25-17.49.01:586][  0]LogMemory: Process Virtual Memory: 90.94 MB used, 90.94 MB peak
+[2019.01.25-17.49.01:586][  0]LogMemory: Physical Memory: 7674.82 MB used,  8625.42 MB free, 16300.24 MB total
+[2019.01.25-17.49.01:586][  0]LogMemory: Virtual Memory: 4640.35 MB used,  8625.42 MB free, 134217728.00 MB total
+[2019.01.25-17.49.02:119][  0]LogInit: Using OS detected language (en-US).
+[2019.01.25-17.49.02:119][  0]LogInit: Using OS detected locale (en-GB).
+[2019.01.25-17.49.02:122][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.25-17.49.02:635][  0]LogStreaming: Display: Took  0.516s to InitEngineTextLocalization.
+[2019.01.25-17.49.02:636][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.25-17.49.02:791][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.25-17.49.02:791][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.25-17.49.05:395][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.25-17.49.05:395][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.25-17.49.05:584][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.01.25-17.49.05:584][  0]LogD3D11RHI:       4043/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.01.25-17.49.05:592][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.25-17.49.05:592][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.25-17.49.05:592][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.25-17.49.05:602][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.25-17.49.05:602][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.25-17.49.05:602][  0]LogWindows: EnumDisplayDevices:
+[2019.01.25-17.49.05:603][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2019.01.25-17.49.05:603][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.01.25-17.49.05:604][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.25-17.49.05:604][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.25-17.49.05:604][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.25-17.49.05:604][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.01.25-17.49.05:605][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2019.01.25-17.49.05:605][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2019.01.25-17.49.05:605][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2019.01.25-17.49.05:661][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.25-17.49.05:691][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.25-17.49.05:739][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Intermediate/Shaders/WorkingDirectory/6272/).
+[2019.01.25-17.49.05:740][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/h017026h/AppData/Local/Temp/UnrealShaderWorkingDir/C1875AFD424C2D0D66A837BEAF5AFDC4/'.
+[2019.01.25-17.49.06:107][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.25-17.49.06:126][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.25-17.49.06:146][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.25-17.49.06:166][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.25-17.49.06:192][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.25-17.49.06:213][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.25-17.49.06:233][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.25-17.49.06:253][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.25-17.49.06:266][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.25-17.49.06:369][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-17.49.06:369][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-17.49.06:369][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-17.49.06:369][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-17.49.06:370][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-17.49.06:370][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-17.49.06:370][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-17.49.06:370][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-17.49.06:370][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-17.49.06:370][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-17.49.06:370][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-17.49.06:370][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-17.49.06:370][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-17.49.06:370][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-17.49.06:370][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-17.49.06:370][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-17.49.06:370][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-17.49.06:370][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-17.49.06:377][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.25-17.49.06:468][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.25-17.49.06:468][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.25-17.49.06:498][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.25-17.49.06:498][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.25-17.49.06:516][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.25-17.49.06:535][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.25-17.49.06:553][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.25-17.49.06:580][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.25-17.49.06:599][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.25-17.49.06:599][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.25-17.49.06:855][  0]LogXGEController: Cleaning working directory: C:/Users/h017026h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.25-17.49.06:856][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.25-17.49.06:856][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.25-17.49.06:856][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.25-17.49.09:232][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.25-17.49.09:232][  0]LogDerivedDataCache: Display: Starting with empty Boot cache
+[2019.01.25-17.49.09:233][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.25-17.49.09:233][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.25-17.49.09:233][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.25-17.49.09:233][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.25-17.49.09:256][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.25-17.49.09:270][  0]LogDerivedDataCache: Using Local data cache path C:/Users/h017026h/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.25-17.49.09:270][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.25-17.49.09:270][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.25-17.49.09:317][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.25-17.49.09:323][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.25-17.49.09:341][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.25-17.49.09:598][  0]LogAssetRegistry: FAssetRegistry took 0.0320 seconds to start up
+[2019.01.25-17.49.10:133][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.25-17.49.10:652][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.25-17.49.10:685][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.25-17.49.10:685][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.25-17.49.10:686][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.25-17.49.10:686][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.25-17.49.10:756][  0]LogNetVersion: GGJ2019 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 54619999)
+[2019.01.25-17.49.12:748][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.282109 seconds
+[2019.01.25-17.49.12:758][  0]LogUObjectArray: 38447 objects as part of root set at end of initial load.
+[2019.01.25-17.49.12:758][  0]LogUObjectAllocator: 6692624 out of 0 bytes used by permanent object pool.
+[2019.01.25-17.49.12:758][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.25-17.49.16:558][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.25-17.49.16:579][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.25-17.49.17:189][  0]SourceControl: Source control is disabled
+[2019.01.25-17.49.17:189][  0]SourceControl: Source control is disabled
+[2019.01.25-17.49.17:204][  0]SourceControl: Source control is disabled
+[2019.01.25-17.49.17:213][  0]SourceControl: Source control is disabled
+[2019.01.25-17.49.17:703][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.25-17.49.17:877][  0]LogOcInput: OculusInput pre-init called
+[2019.01.25-17.49.18:033][  0]LogEngine: Initializing Engine...
+[2019.01.25-17.49.18:036][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.25-17.49.18:039][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.001 s
+[2019.01.25-17.49.18:039][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.25-17.49.18:040][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2019.01.25-17.49.18:040][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.25-17.49.18:753][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.25-17.49.18:813][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.25-17.49.18:848][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-17.49.18:874][  0]LogInit: FAudioDevice initialized.
+[2019.01.25-17.49.18:874][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.25-17.49.18:969][  0]LogDerivedDataCache: Saved boot cache 0.09s 87MB C:/Users/h017026h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.25-17.49.18:989][  0]LogInit: Texture streaming: Enabled
+[2019.01.25-17.49.19:035][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.25-17.49.19:065][  0]LogInit: Transaction tracking system initialized
+[2019.01.25-17.49.19:163][  0]BlueprintLog: New page: Editor Load
+[2019.01.25-17.49.19:516][  0]LocalizationService: Localization service is disabled
+[2019.01.25-17.49.20:340][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.25-17.49.20:340][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.25-17.49.20:341][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.25-17.49.20:341][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.25-17.49.20:341][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.25-17.49.20:342][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.25-17.49.20:342][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.25-17.49.20:829][  0]LogFileCache: Scanning file cache for directory 'C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/' took 0.02s
+[2019.01.25-17.49.20:864][  0]SourceControl: Source control is disabled
+[2019.01.25-17.49.20:865][  0]Cmd: MAP LOAD FILE="../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.25-17.49.20:866][  0]LightingResults: New page: Lighting Build
+[2019.01.25-17.49.20:881][  0]MapCheck: New page: Map Check
+[2019.01.25-17.49.20:881][  0]LightingResults: New page: Lighting Build
+[2019.01.25-17.49.21:158][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2019.01.25-17.49.21:159][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading ../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/StarterContent/Maps/Minimal_Default.umap.
+[2019.01.25-17.49.21:159][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2019.01.25-17.49.21:199][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2019.01.25-17.49.21:199][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading ../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/StarterContent/Maps/Minimal_Default.umap.
+[2019.01.25-17.49.21:199][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2019.01.25-17.49.21:224][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2019.01.25-17.49.21:225][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2019.01.25-17.49.21:226][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2019.01.25-17.49.21:226][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2019.01.25-17.49.21:253][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2019.01.25-17.49.21:254][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2019.01.25-17.49.21:254][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2019.01.25-17.49.21:254][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2019.01.25-17.49.21:378][  0]LogStaticMesh: Building static mesh Floor_400x400...
+[2019.01.25-17.49.21:385][  0]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2019.01.25-17.49.21:590][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.01.25-17.49.21:626][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.25-17.49.21:666][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.25-17.49.21:875][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 209.123ms to complete.
+[2019.01.25-17.49.21:876][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.012
+[2019.01.25-17.49.22:068][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-17.49.22:077][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-17.49.22:085][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-17.49.22:094][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-17.49.22:124][  0]LogCollectionManager: Loaded 0 collections in 0.004138 seconds
+[2019.01.25-17.49.22:212][  0]LogFileCache: Scanning file cache for directory 'C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Saved/Collections/' took 0.01s
+[2019.01.25-17.49.22:212][  0]LogFileCache: Scanning file cache for directory 'C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/Developers/h017026h/Collections/' took 0.01s
+[2019.01.25-17.49.22:212][  0]LogFileCache: Scanning file cache for directory 'C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/Collections/' took 0.01s
+[2019.01.25-17.49.22:212][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.25-17.49.22:230][  0]LogContentBrowser: Native class hierarchy populated in 0.0154 seconds. Added 2573 classes and 605 folders.
+[2019.01.25-17.49.22:248][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.25-17.49.22:752][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.25-17.49.22:772][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.01.25-17.49.22:838][  0]LogSlate: Took 0.007717 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.25-17.49.22:846][  0]LogSlate: Took 0.005461 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.25-17.49.22:858][  0]LogSlate: Took 0.005242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.25-17.49.23:021][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.01.25-17.49.23:285][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-17.49.23:336][  0]LogSlate: Window 'Tutorials' being destroyed
+[2019.01.25-17.49.23:386][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.25-17.49.23:386][  0]LogLoad: (Engine Initialization) Total time: 26.73 seconds
+[2019.01.25-17.49.23:386][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.25-17.49.23:399][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.25-17.49.23:427][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.25-17.49.23:438][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-17.49.23:492][  0]LogSlate: Took 0.006247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.25-17.49.23:523][  1]LogAssetRegistry: Asset discovery search completed in 13.9494 seconds
+[2019.01.25-17.49.23:525][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.01.25-17.49.23:525][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000157 seconds (updated 0 objects)
+[2019.01.25-17.49.32:147][983]LogSlate: Window 'Message Log' being destroyed
+[2019.01.25-17.49.32:150][983]LogSlate: Window 'Message Log' being destroyed
+[2019.01.25-17.49.32:840][ 64]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-17.49.32:940][ 76]MapCheck: New page: Map Check
+[2019.01.25-17.49.32:970][ 76]Cmd: MAP REBUILD ALLVISIBLE
+[2019.01.25-17.49.32:971][ 76]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.01.25-17.49.33:149][ 76]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Brushed_Nickel, compiling. 
+[2019.01.25-17.49.33:167][ 76]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_TableRound, compiling. 
+[2019.01.25-17.49.33:175][ 76]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.25-17.49.33:175][ 76]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.25-17.49.33:175][ 76]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
+[2019.01.25-17.49.33:184][ 76]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Copper, compiling. 
+[2019.01.25-17.49.33:192][ 76]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_StatueGlass, compiling. 
+[2019.01.25-17.49.33:199][ 76]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Burnished_Steel, compiling. 
+[2019.01.25-17.49.33:206][ 76]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2019.01.25-17.49.35:142][ 76]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.01.25-17.49.35:143][ 76]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.01.25-17.49.35:143][ 76]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.01.25-17.49.35:143][ 76]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.25-17.49.35:143][ 76]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.25-17.49.35:143][ 76]TextureStreamingBuild: Display: Compiling optional shaders took 2.001 seconds.
+[2019.01.25-17.49.35:199][ 76]LogLevel: Display: Export Material TexCoord Scales took 0.056 seconds.
+[2019.01.25-17.49.35:214][ 76]TextureStreamingBuild: Display: Build Texture Streaming took 0.013 seconds.
+[2019.01.25-17.49.35:249][ 76]LightingResults: New page: Lighting Build - 25 Jan 2019 17:49:35
+[2019.01.25-17.49.35:382][ 76]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.01.25-17.49.35:564][ 76]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.01.25-17.49.35:593][ 76]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.01.25-17.49.36:127][ 76]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.01.25-17.49.36:127][ 76]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6272
+[2019.01.25-17.49.47:620][ 76]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.01.25-17.49.47:622][ 76]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.01.25-17.49.47:622][ 76]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.01.25-17.49.47:622][ 76]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.01.25-17.49.47:622][ 76]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.01.25-17.49.47:622][ 76]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.01.25-17.49.47:874][ 76]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.01.25-17.49.47:874][ 76]MapCheck: New page: Minimal_Default - 25 Jan 2019 17:49:47
+[2019.01.25-17.49.47:875][ 76]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2019.01.25-17.49.48:116][ 76]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 241.703ms to complete.
+[2019.01.25-17.49.48:143][ 76]LogEditorBuildUtils: Build time 0:15
+[2019.01.25-17.49.48:179][ 76]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Brushed_Nickel, compiling. 
+[2019.01.25-17.49.48:191][ 76]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.25-17.49.48:191][ 76]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Brushed_Nickel, compiling. 
+[2019.01.25-17.49.48:245][ 76]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.25-17.49.48:261][ 77]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_TableRound, compiling. 
+[2019.01.25-17.49.48:271][ 77]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.25-17.49.48:271][ 77]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_TableRound, compiling. 
+[2019.01.25-17.49.48:282][ 77]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.25-17.49.48:316][ 78]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
+[2019.01.25-17.49.48:326][ 78]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
+[2019.01.25-17.49.48:360][ 79]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Copper, compiling. 
+[2019.01.25-17.49.48:370][ 79]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Copper, compiling. 
+[2019.01.25-17.49.48:392][ 80]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_StatueGlass, compiling. 
+[2019.01.25-17.49.48:403][ 80]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_StatueGlass, compiling. 
+[2019.01.25-17.49.48:429][ 81]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Burnished_Steel, compiling. 
+[2019.01.25-17.49.48:440][ 81]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Burnished_Steel, compiling. 
+[2019.01.25-17.49.48:462][ 82]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2019.01.25-17.49.48:471][ 82]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2019.01.25-17.49.48:504][ 83]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2019.01.25-17.49.48:516][ 83]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2019.01.25-17.49.52:117][ 85]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.01.25-17.49.52:117][ 85]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.01.25-17.49.52:117][ 85]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.01.25-17.49.55:212][251]Job is a success!
+[2019.01.25-17.49.55:241][252]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.25-17.49.55:282][252]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.020s
+[2019.01.25-17.49.55:282][252]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.01.25-17.49.55:282][252]LogVolumetricLightmapImport:      BrickData 30x5x5 = 0.0Mb
+[2019.01.25-17.49.55:282][252]LogVolumetricLightmapImport:      Bricks at Level
+[2019.01.25-17.49.55:282][252]LogVolumetricLightmapImport:          0: 16.7% covering 100.0% of volume
+[2019.01.25-17.49.55:282][252]LogVolumetricLightmapImport:          1: 16.7% covering 1.6% of volume
+[2019.01.25-17.49.55:282][252]LogVolumetricLightmapImport:          2: 66.7% covering 0.1% of volume
+[2019.01.25-17.49.55:500][252]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
+[2019.01.25-17.49.55:500][252]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2019.01.25-17.49.55:500][252]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2019.01.25-17.49.55:500][252]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2019.01.25-17.49.55:500][252]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2019.01.25-17.49.55:500][252]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2019.01.25-17.49.55:501][252]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2019.01.25-17.49.55:541][252]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X128)
+[2019.01.25-17.49.55:582][252]Lightmass on C115-12: 1.98 sec total, 237 ms importing, 34 ms setup, 472 ms photons, 1.20 sec processing, 0 ms extra exporting [7/7 mappings]. Threads: 8.12 sec total, 2.67 sec processing.
+[2019.01.25-17.49.55:624][252]LogStaticLightingSystem: Illumination: 20.3 sec (170 ms encoding lightmaps, 66 ms encoding shadowmaps)
+[2019.01.25-17.49.55:624][252]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2019.01.25-17.49.55:624][252]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
+[2019.01.25-17.49.55:643][252]DumpUnbuiltLightIteractions
+[2019.01.25-17.49.55:643][252]Lights with unbuilt interactions: 0
+[2019.01.25-17.49.55:643][252]
+[2019.01.25-17.49.55:644][252]Primitives with unbuilt interactions: 0
+[2019.01.25-17.49.55:850][253]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.01.25-17.49.55:852][253]MapCheck: New page: Minimal_Default - 25 Jan 2019 17:49:55
+[2019.01.25-17.49.56:108][253]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 256.667ms to complete.
+[2019.01.25-17.49.58:068][482]LogSlate: Window 'Message Log' being destroyed
+[2019.01.25-17.49.58:072][482]LogSlate: Window 'Message Log' being destroyed
+[2019.01.25-17.49.59:159][609]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
+[2019.01.25-17.49.59:999][670]Cmd: DELETE
+[2019.01.25-17.49.59:999][670]Cmd: ACTOR DELETE
+[2019.01.25-17.50.00:018][670]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.25-17.50.00:049][670]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2019.01.25-17.50.00:583][733]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2019.01.25-17.50.00:931][764]Cmd: DELETE
+[2019.01.25-17.50.00:931][764]Cmd: ACTOR DELETE
+[2019.01.25-17.50.00:933][764]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.25-17.50.00:956][764]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2019.01.25-17.50.01:360][812]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2019.01.25-17.50.01:820][852]Cmd: DELETE
+[2019.01.25-17.50.01:821][852]Cmd: ACTOR DELETE
+[2019.01.25-17.50.01:823][852]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.25-17.50.01:849][852]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2019.01.25-17.50.02:365][913]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2019.01.25-17.50.02:682][943]Cmd: DELETE
+[2019.01.25-17.50.02:683][943]Cmd: ACTOR DELETE
+[2019.01.25-17.50.02:685][943]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.25-17.50.02:711][943]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2019.01.25-17.50.03:561][ 44]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2019.01.25-17.50.05:893][290]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.01.25-17.50.07:934][503]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.01.25-17.50.08:218][527]Cmd: DELETE
+[2019.01.25-17.50.08:218][527]Cmd: ACTOR DELETE
+[2019.01.25-17.50.08:221][527]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.25-17.50.08:246][527]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2019.01.25-17.50.08:710][582]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.01.25-17.50.10:712][803]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.01.25-17.50.11:500][889]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-17.50.15:519][345]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.01.25-17.55.20:970][191]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-17.55.43:707][826]LogAssetEditorManager: Opening Asset editor for World /Game/StarterContent/Maps/AngTestLevel.AngTestLevel
+[2019.01.25-17.55.45:254][826]LogSlate: Window 'Save Content' being destroyed
+[2019.01.25-17.55.45:263][826]Cmd: MAP LOAD FILE="../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/StarterContent/Maps/AngTestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.25-17.55.45:264][826]LightingResults: New page: Lighting Build
+[2019.01.25-17.55.45:266][826]LoadErrors: New page: Loading map: AngTestLevel.umap
+[2019.01.25-17.55.45:268][826]MapCheck: New page: Map Check
+[2019.01.25-17.55.45:269][826]LightingResults: New page: Lighting Build
+[2019.01.25-17.55.45:311][826]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.25-17.55.45:311][826]LogAIModule: Creating AISystem for world AngTestLevel
+[2019.01.25-17.55.45:373][826]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.25-17.55.45:617][826]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 243.561ms to complete.
+[2019.01.25-17.55.45:620][826]LogFileHelpers: Loading map 'AngTestLevel' took 0.362
+[2019.01.25-17.56.09:527][660]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-17.56.12:444][  4]LogActorFactory: Actor Factory created Plane
+[2019.01.25-17.56.14:201][209]LogActorFactory: Actor Factory created Plane
+[2019.01.25-17.56.22:329][166]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-17.56.41:755][476]LogEditorViewport: Clicking Background
+[2019.01.25-17.56.42:908][612]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-17.56.51:449][615]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.01.25-17.56.55:295][ 64]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-17.57.01:205][766]LogEditorViewport: Clicking Background
+[2019.01.25-17.57.02:657][939]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.01.25-17.57.08:437][619]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-17.57.08:995][685]LogEditorViewport: Clicking Background
+[2019.01.25-17.57.11:041][929]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2019.01.25-17.57.12:046][ 44]Cmd: DELETE
+[2019.01.25-17.57.12:047][ 44]Cmd: ACTOR DELETE
+[2019.01.25-17.57.12:048][ 44]LogEditorActor: Deleted Actor: SkyLight
+[2019.01.25-17.57.12:073][ 44]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2019.01.25-17.57.14:088][284]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.01.25-17.57.15:354][428]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-17.57.18:676][824]LogEditorViewport: Clicking Background
+[2019.01.25-17.57.22:165][239]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-17.57.22:656][298]MapCheck: New page: Map Check
+[2019.01.25-17.57.22:672][298]Cmd: MAP REBUILD ALLVISIBLE
+[2019.01.25-17.57.22:672][298]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.01.25-17.57.22:712][298]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2019.01.25-17.57.23:366][298]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.25-17.57.23:366][298]TextureStreamingBuild: Display: Compiling optional shaders took 0.658 seconds.
+[2019.01.25-17.57.23:367][298]LogLevel: Display: Export Material TexCoord Scales took 0.000 seconds.
+[2019.01.25-17.57.23:373][298]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2019.01.25-17.57.23:397][298]LightingResults: New page: Lighting Build - 25 Jan 2019 17:57:23
+[2019.01.25-17.57.23:418][298]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.01.25-17.57.23:421][298]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.01.25-17.57.23:421][298]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.01.25-17.57.23:422][298]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.01.25-17.57.23:422][298]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6272
+[2019.01.25-17.57.41:505][298]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.01.25-17.57.41:505][298]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.01.25-17.57.41:505][298]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.01.25-17.57.41:506][298]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.01.25-17.57.41:506][298]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.01.25-17.57.41:506][298]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.01.25-17.57.41:628][298]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.01.25-17.57.41:629][298]MapCheck: New page: AngTestLevel - 25 Jan 2019 17:57:41
+[2019.01.25-17.57.41:631][298]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2019.01.25-17.57.41:901][298]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 272.32ms to complete.
+[2019.01.25-17.57.41:928][298]LogEditorBuildUtils: Build time 0:19
+[2019.01.25-17.57.41:990][298]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2019.01.25-17.57.42:000][298]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.25-17.57.42:000][298]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2019.01.25-17.57.42:048][298]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.25-17.57.44:512][394]Job is a success!
+[2019.01.25-17.57.44:567][395]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.020s
+[2019.01.25-17.57.44:567][395]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.01.25-17.57.44:567][395]LogVolumetricLightmapImport:      BrickData 30x5x5 = 0.0Mb
+[2019.01.25-17.57.44:567][395]LogVolumetricLightmapImport:      Bricks at Level
+[2019.01.25-17.57.44:567][395]LogVolumetricLightmapImport:          0: 16.7% covering 100.0% of volume
+[2019.01.25-17.57.44:568][395]LogVolumetricLightmapImport:          1: 16.7% covering 1.6% of volume
+[2019.01.25-17.57.44:568][395]LogVolumetricLightmapImport:          2: 66.7% covering 0.1% of volume
+[2019.01.25-17.57.44:585][395]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2019.01.25-17.57.44:585][395]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2019.01.25-17.57.44:585][395]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 64X64)
+[2019.01.25-17.57.44:619][395]Lightmass on C115-12: 952 ms total, 147 ms importing, 27 ms setup, 393 ms photons, 338 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 2.20 sec total, 27 ms processing.
+[2019.01.25-17.57.44:624][395]LogStaticLightingSystem: Illumination: 21.2 sec (9 ms encoding lightmaps, 1 ms encoding shadowmaps)
+[2019.01.25-17.57.44:624][395]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2019.01.25-17.57.44:624][395]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2019.01.25-17.57.45:529][395]DumpUnbuiltLightIteractions
+[2019.01.25-17.57.45:530][395]Lights with unbuilt interactions: 0
+[2019.01.25-17.57.45:530][395]
+[2019.01.25-17.57.45:530][395]Primitives with unbuilt interactions: 0
+[2019.01.25-17.57.45:609][396]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.01.25-17.57.45:610][396]MapCheck: New page: AngTestLevel - 25 Jan 2019 17:57:45
+[2019.01.25-17.57.45:860][396]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 250.304ms to complete.
+[2019.01.25-17.58.03:869][537]LogSlate: Window 'Message Log' being destroyed
+[2019.01.25-17.58.03:872][537]LogSlate: Window 'Message Log' being destroyed
+[2019.01.25-17.58.05:854][772]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2019.01.25-17.58.09:371][182]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-17.58.11:960][488]LogEditorViewport: Clicking Background
+[2019.01.25-17.58.35:762][325]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-17.58.35:862][337]MapCheck: New page: Map Check
+[2019.01.25-17.58.35:879][337]Cmd: MAP REBUILD ALLVISIBLE
+[2019.01.25-17.58.35:879][337]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.01.25-17.58.35:917][337]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2019.01.25-17.58.36:559][337]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.25-17.58.36:559][337]TextureStreamingBuild: Display: Compiling optional shaders took 0.647 seconds.
+[2019.01.25-17.58.36:560][337]LogLevel: Display: Export Material TexCoord Scales took 0.000 seconds.
+[2019.01.25-17.58.36:565][337]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2019.01.25-17.58.36:586][337]LightingResults: New page: Lighting Build - 25 Jan 2019 17:58:36
+[2019.01.25-17.58.36:604][337]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.01.25-17.58.36:607][337]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.01.25-17.58.36:607][337]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.01.25-17.58.36:608][337]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.01.25-17.58.36:608][337]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6272
+[2019.01.25-17.58.54:664][337]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.01.25-17.58.54:665][337]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.01.25-17.58.54:665][337]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.01.25-17.58.54:665][337]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.01.25-17.58.54:666][337]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.01.25-17.58.54:666][337]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.01.25-17.58.54:775][337]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.01.25-17.58.54:775][337]MapCheck: New page: AngTestLevel - 25 Jan 2019 17:58:54
+[2019.01.25-17.58.54:777][337]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2019.01.25-17.58.55:048][337]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 272.491ms to complete.
+[2019.01.25-17.58.55:077][337]LogEditorBuildUtils: Build time 0:19
+[2019.01.25-17.58.56:668][419]Job is a success!
+[2019.01.25-17.58.56:718][420]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.011s
+[2019.01.25-17.58.56:718][420]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.01.25-17.58.56:718][420]LogVolumetricLightmapImport:      BrickData 30x5x5 = 0.0Mb
+[2019.01.25-17.58.56:718][420]LogVolumetricLightmapImport:      Bricks at Level
+[2019.01.25-17.58.56:719][420]LogVolumetricLightmapImport:          0: 16.7% covering 100.0% of volume
+[2019.01.25-17.58.56:719][420]LogVolumetricLightmapImport:          1: 16.7% covering 1.6% of volume
+[2019.01.25-17.58.56:719][420]LogVolumetricLightmapImport:          2: 66.7% covering 0.1% of volume
+[2019.01.25-17.58.56:740][420]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 128X128)
+[2019.01.25-17.58.56:740][420]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 128X128)
+[2019.01.25-17.58.56:740][420]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 64X64)
+[2019.01.25-17.58.56:771][420]Lightmass on C115-12: 922 ms total, 150 ms importing, 16 ms setup, 392 ms photons, 329 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 2.13 sec total, 28 ms processing.
+[2019.01.25-17.58.56:777][420]LogStaticLightingSystem: Illumination: 20.1 sec (12 ms encoding lightmaps, 2 ms encoding shadowmaps)
+[2019.01.25-17.58.56:777][420]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2019.01.25-17.58.56:777][420]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2019.01.25-17.58.57:675][420]DumpUnbuiltLightIteractions
+[2019.01.25-17.58.57:675][420]Lights with unbuilt interactions: 0
+[2019.01.25-17.58.57:676][420]
+[2019.01.25-17.58.57:676][420]Primitives with unbuilt interactions: 0
+[2019.01.25-17.58.57:733][421]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.01.25-17.58.57:733][421]MapCheck: New page: AngTestLevel - 25 Jan 2019 17:58:57
+[2019.01.25-17.58.58:008][421]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 274.249ms to complete.
+[2019.01.25-17.59.06:726][451]LogSlate: Window 'Message Log' being destroyed
+[2019.01.25-17.59.06:729][451]LogSlate: Window 'Message Log' being destroyed
+[2019.01.25-17.59.50:260][631]LogSlate: Took 0.012996 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.25-18.01.49:209][828]Running C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/GGJ2019.uproject" -invalidatemakefilesonly
+[2019.01.25-18.01.50:428][828]Invalidating makefiles only in this run.
+[2019.01.25-18.01.50:556][828]Candidate modules for hot reload:
+[2019.01.25-18.01.50:556][828]  GGJ2019
+[2019.01.25-18.01.50:556][828]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GGJ2019,661 Win64 Development -TargetType=Editor -Project="../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/GGJ2019.uproject" -canskiplink "C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/GGJ2019.uproject" ]
+[2019.01.25-18.02.18:626][828]CompilerResultsLog: New page: Compilation - 25 Jan 2019 18:02:18
+[2019.01.25-18.02.18:627][828]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
+[2019.01.25-18.02.18:627][828]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.01.25-18.02.18:627][828]CompilerResultsLog: Creating makefile for hot reloading GGJ2019Editor (no existing makefile)
+[2019.01.25-18.02.18:627][828]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.25-18.02.18:628][828]CompilerResultsLog: Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.25-18.02.18:628][828]CompilerResultsLog: Parsing headers for GGJ2019Editor
+[2019.01.25-18.02.18:628][828]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\GGJ2019.uproject" "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\GGJ2019Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.01.25-18.02.18:628][828]CompilerResultsLog: Reflection code generated for GGJ2019Editor in 15.6115887 seconds
+[2019.01.25-18.02.18:628][828]CompilerResultsLog: Building 8 actions with 8 processes...
+[2019.01.25-18.02.18:628][828]CompilerResultsLog:   [1/8] GGJ2019.cpp
+[2019.01.25-18.02.18:628][828]CompilerResultsLog:   [2/8] GGJ2019.init.gen.cpp
+[2019.01.25-18.02.18:628][828]CompilerResultsLog:   [3/8] Pickup_Base.cpp
+[2019.01.25-18.02.18:629][828]CompilerResultsLog:   [4/8] Pickup_Base.gen.cpp
+[2019.01.25-18.02.18:629][828]CompilerResultsLog:   [5/8] GGJ2019GameModeBase.cpp
+[2019.01.25-18.02.18:629][828]CompilerResultsLog:   [6/8] GGJ2019GameModeBase.gen.cpp
+[2019.01.25-18.02.18:629][828]CompilerResultsLog:   [7/8] UE4Editor-GGJ2019-661.lib
+[2019.01.25-18.02.18:629][828]CompilerResultsLog:      Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-661.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-661.exp
+[2019.01.25-18.02.18:629][828]CompilerResultsLog:   [8/8] UE4Editor-GGJ2019-661.dll
+[2019.01.25-18.02.18:629][828]CompilerResultsLog:      Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-661.suppressed.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-661.suppressed.exp
+[2019.01.25-18.02.18:629][828]CompilerResultsLog: Total build time: 27.74 seconds (Parallel executor: 2.29 seconds)
+[2019.01.25-18.02.18:630][828]LogMainFrame: MainFrame: Module compiling took 28.084 seconds
+[2019.01.25-18.02.18:687][828]LogClass: Could not find existing class Pickup_Base in package /Script/GGJ2019 for HotReload, assuming new class
+[2019.01.25-18.02.18:691][828]LogContentBrowser: Native class hierarchy updated for 'GGJ2019' in 0.0006 seconds. Added 2 classes and 3 folders.
+[2019.01.25-18.02.18:695][828]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.01.25-18.02.18:844][828]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2575 classes and 608 folders.
+[2019.01.25-18.02.18:848][828]Display: HotReload took 28.3s.
+[2019.01.25-18.02.18:850][828]Warning: HotReload operation took 28.3s.
+[2019.01.25-18.02.19:737][828]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.01.25-18.02.19:753][828]LogHotReload: New module detected: UE4Editor-GGJ2019-661.dll
+[2019.01.25-18.02.19:800][829]LogHotReload: Starting Hot-Reload from IDE
+[2019.01.25-18.02.19:861][829]LogContentBrowser: Native class hierarchy updated for 'GGJ2019' in 0.0006 seconds. Added 2 classes and 3 folders.
+[2019.01.25-18.02.19:865][829]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.01.25-18.02.19:904][829]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2575 classes and 608 folders.
+[2019.01.25-18.02.19:915][829]Display: HotReload took  0.1s.
+[2019.01.25-18.06.18:044][807]LogSavePackage: Moving '../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Saved/AngTestLevel_Auto17A0E89C645FBAF69B04659B9108E4D7D.tmp' to '../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Saved/Autosaves/Game/StarterContent/Maps/AngTestLevel_Auto1.umap'
+[2019.01.25-18.06.18:062][807]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/AngTestLevel' took 0.081
+[2019.01.25-18.06.18:062][807]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.081
+[2019.01.25-18.06.18:066][807]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Maps/AngTestLevel_BuiltData] ([1] browsable assets)...
+[2019.01.25-18.06.18:066][807]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Maps/AngTestLevel_BuiltData]
+[2019.01.25-18.06.18:084][807]LogSavePackage: Moving '../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Saved/AngTestLevel_BuiltData_Auto1DDC3EAD146DAAFE3155C38A43154BDF1.tmp' to '../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Saved/Autosaves/Game/StarterContent/Maps/AngTestLevel_BuiltData_Auto1.uasset'
+[2019.01.25-18.06.18:090][807]LogFileHelpers: Auto-saving content packages took 0.026
