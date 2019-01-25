@@ -8,6 +8,7 @@
 
 class UCharacterMovementComponent;
 class USkeletalMeshComponent;
+class UCameraComponent;
 
 UCLASS()
 class GGJ2019_API APlayer_Base : public ACharacter
@@ -35,6 +36,7 @@ public:
 	virtual void Rotate(float value);
 
 	FVector movementVelocity;
+
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Stats")
 	float movementSpeed;
 
@@ -48,4 +50,15 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Stats")
 	int maxHealth;
 	int playerHealth;
+<<<<<<< HEAD
+=======
+
+	//Player
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	USkeletalMeshComponent* playerBaseComponent;
+
+	// CAMERA //
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+		UCameraComponent* playerCamera;
+>>>>>>> AngBranch
 };

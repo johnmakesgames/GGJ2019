@@ -1,0 +1,1218 @@
+﻿Log file open, 01/25/19 22:27:00
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: GGJ2019
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.471155
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.324s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) CPU E5-1620 v3 @ 3.50GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.008s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.25-22.27.00:880][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.25-22.27.00:880][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.25-22.27.00:899][  0]LogHAL: Display: Platform has ~ 16 GB [17092038656 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.25-22.27.00:899][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.25-22.27.00:900][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.25-22.27.00:900][  0]LogInit: Computer: C115-12
+[2019.01.25-22.27.00:900][  0]LogInit: User: h017026h
+[2019.01.25-22.27.00:900][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.25-22.27.00:900][  0]LogInit: High frequency timer resolution =3.410071 MHz
+[2019.01.25-22.27.00:901][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.25-22.27.00:901][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.25-22.27.00:901][  0]LogMemory: Process Physical Memory: 101.00 MB used, 101.00 MB peak
+[2019.01.25-22.27.00:901][  0]LogMemory: Process Virtual Memory: 91.16 MB used, 91.16 MB peak
+[2019.01.25-22.27.00:901][  0]LogMemory: Physical Memory: 8208.71 MB used,  8091.53 MB free, 16300.24 MB total
+[2019.01.25-22.27.00:901][  0]LogMemory: Virtual Memory: 4640.35 MB used,  8091.53 MB free, 134217728.00 MB total
+[2019.01.25-22.27.01:035][  0]LogInit: Using OS detected language (en-US).
+[2019.01.25-22.27.01:035][  0]LogInit: Using OS detected locale (en-GB).
+[2019.01.25-22.27.01:038][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.25-22.27.01:452][  0]LogStreaming: Display: Took  0.416s to InitEngineTextLocalization.
+[2019.01.25-22.27.01:452][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.25-22.27.01:507][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.25-22.27.01:507][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.25-22.27.01:850][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.25-22.27.01:850][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.25-22.27.01:942][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.01.25-22.27.01:942][  0]LogD3D11RHI:       4043/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.01.25-22.27.01:949][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.25-22.27.01:949][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.25-22.27.01:949][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.25-22.27.01:958][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.25-22.27.01:958][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.25-22.27.01:958][  0]LogWindows: EnumDisplayDevices:
+[2019.01.25-22.27.01:958][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2019.01.25-22.27.01:959][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.01.25-22.27.01:959][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.25-22.27.01:960][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.25-22.27.01:960][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.25-22.27.01:960][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.01.25-22.27.01:960][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2019.01.25-22.27.01:960][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2019.01.25-22.27.01:961][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2019.01.25-22.27.02:013][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.25-22.27.02:031][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.25-22.27.02:076][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Intermediate/Shaders/WorkingDirectory/17788/).
+[2019.01.25-22.27.02:076][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/h017026h/AppData/Local/Temp/UnrealShaderWorkingDir/F8655B944780854B5045A8829B9F0ADE/'.
+[2019.01.25-22.27.02:436][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.25-22.27.02:456][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.25-22.27.02:476][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.25-22.27.02:496][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.25-22.27.02:516][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.25-22.27.02:542][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.25-22.27.02:560][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.25-22.27.02:579][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.25-22.27.02:590][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.25-22.27.02:703][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-22.27.02:703][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-22.27.02:703][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-22.27.02:703][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-22.27.02:704][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-22.27.02:704][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-22.27.02:704][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-22.27.02:704][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-22.27.02:704][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-22.27.02:704][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-22.27.02:704][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-22.27.02:704][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-22.27.02:704][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-22.27.02:704][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-22.27.02:704][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-22.27.02:704][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-22.27.02:704][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-22.27.02:704][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-22.27.02:709][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.25-22.27.02:800][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.25-22.27.02:800][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.25-22.27.02:829][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.25-22.27.02:829][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.25-22.27.02:846][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.25-22.27.02:864][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.25-22.27.02:880][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.25-22.27.02:898][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.25-22.27.02:911][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.25-22.27.02:912][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.25-22.27.03:093][  0]LogXGEController: Cleaning working directory: C:/Users/h017026h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.25-22.27.03:093][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.25-22.27.03:094][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.25-22.27.03:094][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.25-22.27.04:163][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.25-22.27.04:256][  0]LogDerivedDataCache: Loaded boot cache 0.09s 71MB C:/Users/h017026h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.25-22.27.04:257][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/h017026h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.25-22.27.04:257][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.25-22.27.04:257][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.25-22.27.04:257][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.25-22.27.04:257][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.25-22.27.04:270][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.25-22.27.04:283][  0]LogDerivedDataCache: Using Local data cache path C:/Users/h017026h/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.25-22.27.04:283][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.25-22.27.04:283][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.25-22.27.04:305][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.25-22.27.04:306][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.25-22.27.04:307][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.25-22.27.04:394][  0]LogAssetRegistry: FAssetRegistry took 0.0300 seconds to start up
+[2019.01.25-22.27.04:832][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.25-22.27.04:998][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.25-22.27.05:012][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.25-22.27.05:012][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.25-22.27.05:012][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.25-22.27.05:012][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.25-22.27.05:130][  0]LogNetVersion: GGJ2019 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 54619999)
+[2019.01.25-22.27.05:957][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.251869 seconds
+[2019.01.25-22.27.05:963][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.25-22.27.05:964][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.01.25-22.27.05:964][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.25-22.27.07:186][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.25-22.27.07:203][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.25-22.27.07:467][  0]SourceControl: Source control is disabled
+[2019.01.25-22.27.07:467][  0]SourceControl: Source control is disabled
+[2019.01.25-22.27.07:472][  0]SourceControl: Source control is disabled
+[2019.01.25-22.27.07:476][  0]SourceControl: Source control is disabled
+[2019.01.25-22.27.07:785][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.25-22.27.07:914][  0]LogOcInput: OculusInput pre-init called
+[2019.01.25-22.27.07:990][  0]LogEngine: Initializing Engine...
+[2019.01.25-22.27.07:994][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.25-22.27.07:996][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.25-22.27.07:996][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.25-22.27.07:996][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.25-22.27.07:997][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.25-22.27.08:252][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.25-22.27.08:279][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.25-22.27.08:306][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-22.27.08:327][  0]LogInit: FAudioDevice initialized.
+[2019.01.25-22.27.08:327][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.25-22.27.08:426][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/h017026h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.25-22.27.08:445][  0]LogInit: Texture streaming: Enabled
+[2019.01.25-22.27.08:487][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.25-22.27.08:488][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={7D67A2EF-4CFA-5429-4A30-8A9CADAD9DE3}
+[2019.01.25-22.27.08:508][  0]LogInit: Transaction tracking system initialized
+[2019.01.25-22.27.08:561][  0]BlueprintLog: New page: Editor Load
+[2019.01.25-22.27.08:739][  0]LocalizationService: Localization service is disabled
+[2019.01.25-22.27.09:115][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.25-22.27.09:115][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.25-22.27.09:116][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.25-22.27.09:116][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.25-22.27.09:116][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.25-22.27.09:116][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.25-22.27.09:116][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.25-22.27.09:347][  0]LogFileCache: Scanning file cache for directory 'C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/' took 0.02s
+[2019.01.25-22.27.09:347][  0]SourceControl: Source control is disabled
+[2019.01.25-22.27.09:347][  0]Cmd: MAP LOAD FILE="../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/GameLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.25-22.27.09:348][  0]LightingResults: New page: Lighting Build
+[2019.01.25-22.27.09:354][  0]MapCheck: New page: Map Check
+[2019.01.25-22.27.09:354][  0]LightingResults: New page: Lighting Build
+[2019.01.25-22.27.09:614][  0]LogAIModule: Creating AISystem for world GameLevel
+[2019.01.25-22.27.09:626][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.25-22.27.09:653][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.25-22.27.09:838][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 184.488ms to complete.
+[2019.01.25-22.27.09:838][  0]LogFileHelpers: Loading map 'GameLevel' took 0.490
+[2019.01.25-22.27.09:988][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.27.09:998][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.27.10:005][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.27.10:013][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.27.10:027][  0]LogCollectionManager: Loaded 0 collections in 0.003853 seconds
+[2019.01.25-22.27.10:082][  0]LogFileCache: Scanning file cache for directory 'C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Saved/Collections/' took 0.01s
+[2019.01.25-22.27.10:082][  0]LogFileCache: Scanning file cache for directory 'C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/Developers/h017026h/Collections/' took 0.01s
+[2019.01.25-22.27.10:082][  0]LogFileCache: Scanning file cache for directory 'C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/Collections/' took 0.01s
+[2019.01.25-22.27.10:082][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.25-22.27.10:093][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2579 classes and 606 folders.
+[2019.01.25-22.27.10:103][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.25-22.27.10:194][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.25-22.27.10:203][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.01.25-22.27.10:243][  0]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.25-22.27.10:247][  0]LogSlate: Took 0.000266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.25-22.27.10:254][  0]LogSlate: Took 0.000278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.25-22.27.10:344][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.01.25-22.27.10:404][  0]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.25-22.27.10:519][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-22.27.10:539][  0]LogSlate: Window 'Tutorials' being destroyed
+[2019.01.25-22.27.10:579][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.25-22.27.10:579][  0]LogLoad: (Engine Initialization) Total time: 13.16 seconds
+[2019.01.25-22.27.10:579][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.25-22.27.10:589][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.25-22.27.10:630][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.25-22.27.10:665][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/' took 0.06s
+[2019.01.25-22.27.10:679][  1]LogAssetRegistry: Asset discovery search completed in 6.3099 seconds
+[2019.01.25-22.27.10:681][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.25-22.27.10:681][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000156 seconds (updated 0 objects)
+[2019.01.25-22.27.29:353][202]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.27.36:628][ 52]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.25-22.27.36:634][ 52]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Player_BP_Base.Player_BP_Base
+[2019.01.25-22.27.37:268][ 52]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
+[2019.01.25-22.27.38:201][ 52]LogSlate: Took 0.005451 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.25-22.27.39:578][188]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
+[2019.01.25-22.27.40:299][267]LogSlate: Took 0.006447 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.25-22.28.00:330][611]LogEditorTransaction: Undo Remove Components
+[2019.01.25-22.28.19:281][382]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.28.30:203][625]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.29.01:991][425]BlueprintLog: New page: Compile Player_BP_Base
+[2019.01.25-22.29.04:153][651]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.29.04:184][651]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.29.04:198][651]PIE: New page: PIE session: GameLevel (25 Jan 2019 22:29:04)
+[2019.01.25-22.29.04:199][651]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GameLevel
+[2019.01.25-22.29.04:216][651]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017030s)
+[2019.01.25-22.29.04:217][651]LogAIModule: Creating AISystem for world GameLevel
+[2019.01.25-22.29.04:217][651]LogPlayLevel: PIE: World Init took: (0.000923s)
+[2019.01.25-22.29.04:217][651]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameLevel.GameLevel to /Game/UEDPIE_0_GameLevel.GameLevel (0.018374s)
+[2019.01.25-22.29.04:257][651]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-22.29.04:268][651]LogInit: FAudioDevice initialized.
+[2019.01.25-22.29.04:279][651]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.29.04:353][651]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.25-22.29.04:358][651]LogWorld: Bringing World /Game/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2019.01.25-22.29.04
+[2019.01.25-22.29.04:359][651]LogWorld: Bringing up level for play took: 0.003113
+[2019.01.25-22.29.04:385][651]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 10 classes and 0 folders.
+[2019.01.25-22.29.04:389][651]PIE: Play in editor start time for /Game/UEDPIE_0_GameLevel 0.634
+[2019.01.25-22.29.04:437][651]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2019.01.25-22.29.09:770][282]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.29.09:791][282]LogSlate: Window 'GGJ2019 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.25-22.29.09:828][282]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.29.09:885][283]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.01.25-22.29.16:839][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_BP_Base" FILE="../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/Player_BP_Base.uasset" SILENT=true
+[2019.01.25-22.29.16:895][100]LogSavePackage: Moving '../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Saved/Player_BP_BaseF613763C48025CF92497499E4252AB89.tmp' to '../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/Player_BP_Base.uasset'
+[2019.01.25-22.29.19:733][435]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.29.19:754][435]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.29.19:755][435]PIE: New page: PIE session: GameLevel (25 Jan 2019 22:29:19)
+[2019.01.25-22.29.19:755][435]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GameLevel
+[2019.01.25-22.29.19:773][435]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017840s)
+[2019.01.25-22.29.19:773][435]LogAIModule: Creating AISystem for world GameLevel
+[2019.01.25-22.29.19:774][435]LogPlayLevel: PIE: World Init took: (0.000903s)
+[2019.01.25-22.29.19:774][435]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameLevel.GameLevel to /Game/UEDPIE_0_GameLevel.GameLevel (0.019188s)
+[2019.01.25-22.29.19:816][435]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-22.29.19:827][435]LogInit: FAudioDevice initialized.
+[2019.01.25-22.29.19:837][435]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.29.19:880][435]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.25-22.29.19:882][435]LogWorld: Bringing World /Game/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2019.01.25-22.29.19
+[2019.01.25-22.29.19:883][435]LogWorld: Bringing up level for play took: 0.001971
+[2019.01.25-22.29.19:899][435]PIE: Play in editor start time for /Game/UEDPIE_0_GameLevel 0.145
+[2019.01.25-22.29.22:465][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.29.22:486][735]LogSlate: Window 'GGJ2019 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.25-22.29.22:521][735]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.29.22:570][736]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.01.25-22.30.49:550][968]BlueprintLog: New page: Compile Player_BP_Base
+[2019.01.25-22.30.50:285][ 34]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.30.50:308][ 34]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.30.50:308][ 34]PIE: New page: PIE session: GameLevel (25 Jan 2019 22:30:50)
+[2019.01.25-22.30.50:308][ 34]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GameLevel
+[2019.01.25-22.30.50:329][ 34]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020798s)
+[2019.01.25-22.30.50:330][ 34]LogAIModule: Creating AISystem for world GameLevel
+[2019.01.25-22.30.50:331][ 34]LogPlayLevel: PIE: World Init took: (0.000980s)
+[2019.01.25-22.30.50:331][ 34]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameLevel.GameLevel to /Game/UEDPIE_0_GameLevel.GameLevel (0.022269s)
+[2019.01.25-22.30.50:369][ 34]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-22.30.50:380][ 34]LogInit: FAudioDevice initialized.
+[2019.01.25-22.30.50:390][ 34]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.30.50:434][ 34]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.25-22.30.50:436][ 34]LogWorld: Bringing World /Game/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2019.01.25-22.30.50
+[2019.01.25-22.30.50:436][ 34]LogWorld: Bringing up level for play took: 0.001811
+[2019.01.25-22.30.50:453][ 34]PIE: Play in editor start time for /Game/UEDPIE_0_GameLevel 0.698
+[2019.01.25-22.30.53:443][383]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.30.53:464][383]LogSlate: Window 'GGJ2019 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.25-22.30.53:499][383]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.30.53:553][384]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.01.25-22.31.01:427][323]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.31.01:448][323]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.31.01:449][323]PIE: New page: PIE session: GameLevel (25 Jan 2019 22:31:01)
+[2019.01.25-22.31.01:449][323]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GameLevel
+[2019.01.25-22.31.01:465][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015951s)
+[2019.01.25-22.31.01:466][323]LogAIModule: Creating AISystem for world GameLevel
+[2019.01.25-22.31.01:466][323]LogPlayLevel: PIE: World Init took: (0.000811s)
+[2019.01.25-22.31.01:466][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameLevel.GameLevel to /Game/UEDPIE_0_GameLevel.GameLevel (0.017090s)
+[2019.01.25-22.31.01:504][323]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-22.31.01:516][323]LogInit: FAudioDevice initialized.
+[2019.01.25-22.31.01:526][323]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.31.01:572][323]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.25-22.31.01:575][323]LogWorld: Bringing World /Game/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2019.01.25-22.31.01
+[2019.01.25-22.31.01:576][323]LogWorld: Bringing up level for play took: 0.002427
+[2019.01.25-22.31.01:592][323]PIE: Play in editor start time for /Game/UEDPIE_0_GameLevel -0.163
+[2019.01.25-22.31.03:567][553]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.31.03:587][553]LogSlate: Window 'GGJ2019 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.25-22.31.03:627][553]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.31.03:678][554]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.01.25-22.31.34:205][124]BlueprintLog: New page: Compile Player_BP_Base
+[2019.01.25-22.31.35:227][226]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.31.35:250][226]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.31.35:250][226]PIE: New page: PIE session: GameLevel (25 Jan 2019 22:31:35)
+[2019.01.25-22.31.35:250][226]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GameLevel
+[2019.01.25-22.31.35:267][226]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016978s)
+[2019.01.25-22.31.35:268][226]LogAIModule: Creating AISystem for world GameLevel
+[2019.01.25-22.31.35:268][226]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2019.01.25-22.31.35:268][226]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameLevel.GameLevel to /Game/UEDPIE_0_GameLevel.GameLevel (0.018076s)
+[2019.01.25-22.31.35:308][226]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-22.31.35:318][226]LogInit: FAudioDevice initialized.
+[2019.01.25-22.31.35:328][226]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.31.35:373][226]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.25-22.31.35:375][226]LogWorld: Bringing World /Game/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2019.01.25-22.31.35
+[2019.01.25-22.31.35:375][226]LogWorld: Bringing up level for play took: 0.001816
+[2019.01.25-22.31.35:391][226]PIE: Play in editor start time for /Game/UEDPIE_0_GameLevel -0.364
+[2019.01.25-22.31.38:280][565]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.31.38:300][565]LogSlate: Window 'GGJ2019 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.25-22.31.38:336][565]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.31.38:387][566]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.01.25-22.31.44:299][271]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.31.44:326][271]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.31.44:326][271]PIE: New page: PIE session: GameLevel (25 Jan 2019 22:31:44)
+[2019.01.25-22.31.44:326][271]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GameLevel
+[2019.01.25-22.31.44:346][271]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020364s)
+[2019.01.25-22.31.44:347][271]LogAIModule: Creating AISystem for world GameLevel
+[2019.01.25-22.31.44:348][271]LogPlayLevel: PIE: World Init took: (0.001152s)
+[2019.01.25-22.31.44:348][271]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameLevel.GameLevel to /Game/UEDPIE_0_GameLevel.GameLevel (0.022024s)
+[2019.01.25-22.31.44:392][271]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-22.31.44:404][271]LogInit: FAudioDevice initialized.
+[2019.01.25-22.31.44:415][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.31.44:459][271]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.25-22.31.44:462][271]LogWorld: Bringing World /Game/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2019.01.25-22.31.44
+[2019.01.25-22.31.44:462][271]LogWorld: Bringing up level for play took: 0.002209
+[2019.01.25-22.31.44:479][271]PIE: Play in editor start time for /Game/UEDPIE_0_GameLevel 0.724
+[2019.01.25-22.31.49:112][816]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.31.49:133][816]LogSlate: Window 'GGJ2019 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.25-22.31.49:170][816]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.31.49:225][817]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.01.25-22.31.52:095][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_BP_Base" FILE="../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/Player_BP_Base.uasset" SILENT=true
+[2019.01.25-22.31.52:149][155]LogSavePackage: Moving '../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Saved/Player_BP_Base999CEB6E4AADC68639BA249E0FF193F9.tmp' to '../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/Player_BP_Base.uasset'
+[2019.01.25-22.32.34:210][144]LogAIModule: Creating AISystem for world AngTest
+[2019.01.25-22.32.35:696][311]LogAssetEditorManager: Opening Asset editor for World /Game/AngTest.AngTest
+[2019.01.25-22.32.37:486][311]LogSlate: Window 'Save Content' being destroyed
+[2019.01.25-22.32.37:492][311]Cmd: MAP LOAD FILE="../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/AngTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.25-22.32.37:494][311]LightingResults: New page: Lighting Build
+[2019.01.25-22.32.37:496][311]LoadErrors: New page: Loading map: AngTest.umap
+[2019.01.25-22.32.37:498][311]MapCheck: New page: Map Check
+[2019.01.25-22.32.37:498][311]LightingResults: New page: Lighting Build
+[2019.01.25-22.32.37:563][311]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.25-22.32.37:637][311]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.25-22.32.37:877][311]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 239.567ms to complete.
+[2019.01.25-22.32.37:881][311]LogFileHelpers: Loading map 'AngTest' took 0.390
+[2019.01.25-22.32.39:762][525]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.32.39:783][525]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.32.39:784][525]PIE: New page: PIE session: AngTest (25 Jan 2019 22:32:39)
+[2019.01.25-22.32.39:784][525]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AngTest
+[2019.01.25-22.32.39:800][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016088s)
+[2019.01.25-22.32.39:801][525]LogAIModule: Creating AISystem for world AngTest
+[2019.01.25-22.32.39:801][525]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2019.01.25-22.32.39:801][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AngTest.AngTest to /Game/UEDPIE_0_AngTest.AngTest (0.017292s)
+[2019.01.25-22.32.39:836][525]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-22.32.39:847][525]LogInit: FAudioDevice initialized.
+[2019.01.25-22.32.39:883][525]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.25-22.32.39:885][525]LogWorld: Bringing World /Game/UEDPIE_0_AngTest.AngTest up for play (max tick rate 0) at 2019.01.25-22.32.39
+[2019.01.25-22.32.39:886][525]LogWorld: Bringing up level for play took: 0.001666
+[2019.01.25-22.32.39:900][525]PIE: Play in editor start time for /Game/UEDPIE_0_AngTest 0.145
+[2019.01.25-22.32.49:894][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.32.49:936][718]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.32.49:965][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.32.49:995][720]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.01.25-22.32.59:116][811]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.32.59:185][819]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.32.59:209][819]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.32.59:210][819]PIE: New page: PIE session: AngTest (25 Jan 2019 22:32:59)
+[2019.01.25-22.32.59:210][819]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AngTest
+[2019.01.25-22.32.59:228][819]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018023s)
+[2019.01.25-22.32.59:229][819]LogAIModule: Creating AISystem for world AngTest
+[2019.01.25-22.32.59:229][819]LogPlayLevel: PIE: World Init took: (0.000833s)
+[2019.01.25-22.32.59:229][819]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AngTest.AngTest to /Game/UEDPIE_0_AngTest.AngTest (0.019190s)
+[2019.01.25-22.32.59:264][819]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-22.32.59:275][819]LogInit: FAudioDevice initialized.
+[2019.01.25-22.32.59:311][819]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.25-22.32.59:313][819]LogWorld: Bringing World /Game/UEDPIE_0_AngTest.AngTest up for play (max tick rate 0) at 2019.01.25-22.32.59
+[2019.01.25-22.32.59:313][819]LogWorld: Bringing up level for play took: 0.001530
+[2019.01.25-22.32.59:329][819]PIE: Play in editor start time for /Game/UEDPIE_0_AngTest -0.426
+[2019.01.25-22.33.01:511][ 76]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.33.01:548][ 76]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.33.01:578][ 76]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.33.01:613][ 78]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.01.25-22.33.04:544][428]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.33.04:630][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AngTest" FILE="../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/AngTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.25-22.33.04:954][436]LogSavePackage: Moving '../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Saved/AngTest341915E74961E8D03215C4B2583E9CB0.tmp' to '../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/AngTest.umap'
+[2019.01.25-22.43.37:070][565]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.43.37:095][565]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.43.37:095][565]PIE: New page: PIE session: AngTest (25 Jan 2019 22:43:37)
+[2019.01.25-22.43.37:095][565]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AngTest
+[2019.01.25-22.43.37:113][565]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017852s)
+[2019.01.25-22.43.37:114][565]LogAIModule: Creating AISystem for world AngTest
+[2019.01.25-22.43.37:114][565]LogPlayLevel: PIE: World Init took: (0.000908s)
+[2019.01.25-22.43.37:114][565]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AngTest.AngTest to /Game/UEDPIE_0_AngTest.AngTest (0.019150s)
+[2019.01.25-22.43.37:145][565]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-22.43.37:156][565]LogInit: FAudioDevice initialized.
+[2019.01.25-22.43.37:191][565]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.25-22.43.37:193][565]LogWorld: Bringing World /Game/UEDPIE_0_AngTest.AngTest up for play (max tick rate 0) at 2019.01.25-22.43.37
+[2019.01.25-22.43.37:194][565]LogWorld: Bringing up level for play took: 0.001671
+[2019.01.25-22.43.37:211][565]PIE: Play in editor start time for /Game/UEDPIE_0_AngTest -0.544
+[2019.01.25-22.43.39:258][806]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.43.39:297][806]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.43.39:337][806]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.43.39:361][807]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.01.25-22.43.40:317][921]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.44.37:313][675]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/AngTest' took 0.031
+[2019.01.25-22.44.37:316][675]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player_BP_Base] ([1] browsable assets)...
+[2019.01.25-22.44.37:316][675]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player_BP_Base]
+[2019.01.25-22.44.37:368][675]LogSavePackage: Moving '../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Saved/Player_BP_Base_Auto1FD6697A649F5D705B596268198ECA3AC.tmp' to '../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Saved/Autosaves/Game/Player_BP_Base_Auto1.uasset'
+[2019.01.25-22.44.37:375][675]LogFileHelpers: Auto-saving content packages took 0.060
+[2019.01.25-22.44.39:445][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_BP_Base" FILE="../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/Player_BP_Base.uasset" SILENT=true
+[2019.01.25-22.44.39:485][918]LogSavePackage: Moving '../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Saved/Player_BP_Base6E4F2D8A4B65158BEEC1CEBB2DA547A8.tmp' to '../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/Player_BP_Base.uasset'
+[2019.01.25-22.46.01:174][529]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.46.01:197][529]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.46.01:197][529]PIE: New page: PIE session: AngTest (25 Jan 2019 22:46:01)
+[2019.01.25-22.46.01:197][529]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AngTest
+[2019.01.25-22.46.01:213][529]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016140s)
+[2019.01.25-22.46.01:214][529]LogAIModule: Creating AISystem for world AngTest
+[2019.01.25-22.46.01:215][529]LogPlayLevel: PIE: World Init took: (0.000929s)
+[2019.01.25-22.46.01:215][529]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AngTest.AngTest to /Game/UEDPIE_0_AngTest.AngTest (0.017447s)
+[2019.01.25-22.46.01:258][529]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-22.46.01:270][529]LogInit: FAudioDevice initialized.
+[2019.01.25-22.46.01:307][529]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.25-22.46.01:309][529]LogWorld: Bringing World /Game/UEDPIE_0_AngTest.AngTest up for play (max tick rate 0) at 2019.01.25-22.46.01
+[2019.01.25-22.46.01:310][529]LogWorld: Bringing up level for play took: 0.001629
+[2019.01.25-22.46.01:324][529]PIE: Play in editor start time for /Game/UEDPIE_0_AngTest -0.432
+[2019.01.25-22.46.10:764][657]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.46.10:801][657]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.46.10:832][657]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.46.10:866][660]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.01.25-22.46.11:449][730]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.47.03:153][719]BlueprintLog: New page: Compile Player_BP_Base
+[2019.01.25-22.47.03:916][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_BP_Base" FILE="../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/Player_BP_Base.uasset" SILENT=true
+[2019.01.25-22.47.03:969][779]LogSavePackage: Moving '../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Saved/Player_BP_BaseA41A0B7F44C28A2A9BCD62AFD98D1868.tmp' to '../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/Player_BP_Base.uasset'
+[2019.01.25-22.47.04:507][839]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.47.04:530][839]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.47.04:530][839]PIE: New page: PIE session: AngTest (25 Jan 2019 22:47:04)
+[2019.01.25-22.47.04:530][839]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AngTest
+[2019.01.25-22.47.04:547][839]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016948s)
+[2019.01.25-22.47.04:548][839]LogAIModule: Creating AISystem for world AngTest
+[2019.01.25-22.47.04:548][839]LogPlayLevel: PIE: World Init took: (0.000748s)
+[2019.01.25-22.47.04:548][839]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AngTest.AngTest to /Game/UEDPIE_0_AngTest.AngTest (0.018048s)
+[2019.01.25-22.47.04:584][839]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-22.47.04:595][839]LogInit: FAudioDevice initialized.
+[2019.01.25-22.47.04:605][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.47.04:650][839]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.25-22.47.04:652][839]LogWorld: Bringing World /Game/UEDPIE_0_AngTest.AngTest up for play (max tick rate 0) at 2019.01.25-22.47.04
+[2019.01.25-22.47.04:652][839]LogWorld: Bringing up level for play took: 0.001741
+[2019.01.25-22.47.04:668][839]PIE: Play in editor start time for /Game/UEDPIE_0_AngTest 0.913
+[2019.01.25-22.47.59:768][424]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.47.59:790][424]LogSlate: Window 'GGJ2019 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.25-22.47.59:829][424]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.47.59:868][425]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.01.25-22.48.18:249][563]BlueprintLog: New page: Compile Player_BP_Base
+[2019.01.25-22.48.19:104][641]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.48.19:126][641]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.48.19:127][641]PIE: New page: PIE session: AngTest (25 Jan 2019 22:48:19)
+[2019.01.25-22.48.19:127][641]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AngTest
+[2019.01.25-22.48.19:144][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016874s)
+[2019.01.25-22.48.19:144][641]LogAIModule: Creating AISystem for world AngTest
+[2019.01.25-22.48.19:145][641]LogPlayLevel: PIE: World Init took: (0.000796s)
+[2019.01.25-22.48.19:145][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AngTest.AngTest to /Game/UEDPIE_0_AngTest.AngTest (0.018019s)
+[2019.01.25-22.48.19:187][641]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-22.48.19:198][641]LogInit: FAudioDevice initialized.
+[2019.01.25-22.48.19:208][641]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.48.19:253][641]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.25-22.48.19:255][641]LogWorld: Bringing World /Game/UEDPIE_0_AngTest.AngTest up for play (max tick rate 0) at 2019.01.25-22.48.19
+[2019.01.25-22.48.19:256][641]LogWorld: Bringing up level for play took: 0.001938
+[2019.01.25-22.48.19:272][641]PIE: Play in editor start time for /Game/UEDPIE_0_AngTest -0.485
+[2019.01.25-22.48.21:252][870]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.48.21:273][870]LogSlate: Window 'GGJ2019 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.25-22.48.21:315][870]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.48.21:362][871]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.01.25-22.48.30:003][874]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.48.30:029][874]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.01.25-22.48.30:034][874]LogPlayLevel: [PlayLevel] Compiling Player_BP_Base before play...
+[2019.01.25-22.48.30:194][874]LogPlayLevel: PlayLevel: Blueprint regeneration took 165 ms (1 blueprints)
+[2019.01.25-22.48.30:195][874]PIE: New page: PIE session: AngTest (25 Jan 2019 22:48:30)
+[2019.01.25-22.48.30:195][874]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AngTest
+[2019.01.25-22.48.30:216][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020617s)
+[2019.01.25-22.48.30:216][874]LogAIModule: Creating AISystem for world AngTest
+[2019.01.25-22.48.30:217][874]LogPlayLevel: PIE: World Init took: (0.001132s)
+[2019.01.25-22.48.30:217][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AngTest.AngTest to /Game/UEDPIE_0_AngTest.AngTest (0.022133s)
+[2019.01.25-22.48.30:268][874]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-22.48.30:280][874]LogInit: FAudioDevice initialized.
+[2019.01.25-22.48.30:291][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.48.30:339][874]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.25-22.48.30:341][874]LogWorld: Bringing World /Game/UEDPIE_0_AngTest.AngTest up for play (max tick rate 0) at 2019.01.25-22.48.30
+[2019.01.25-22.48.30:342][874]LogWorld: Bringing up level for play took: 0.001925
+[2019.01.25-22.48.30:358][874]PIE: Play in editor start time for /Game/UEDPIE_0_AngTest 0.602
+[2019.01.25-22.48.32:788][150]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.48.32:808][150]LogSlate: Window 'GGJ2019 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.25-22.48.32:848][150]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.48.32:892][151]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.01.25-22.48.41:745][181]BlueprintLog: New page: Compile Player_BP_Base
+[2019.01.25-22.48.42:762][278]BlueprintLog: New page: Compile Player_BP_Base
+[2019.01.25-22.48.43:616][357]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.48.43:638][357]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.48.43:638][357]PIE: New page: PIE session: AngTest (25 Jan 2019 22:48:43)
+[2019.01.25-22.48.43:638][357]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AngTest
+[2019.01.25-22.48.43:655][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016246s)
+[2019.01.25-22.48.43:655][357]LogAIModule: Creating AISystem for world AngTest
+[2019.01.25-22.48.43:656][357]LogPlayLevel: PIE: World Init took: (0.001000s)
+[2019.01.25-22.48.43:656][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AngTest.AngTest to /Game/UEDPIE_0_AngTest.AngTest (0.017588s)
+[2019.01.25-22.48.43:695][357]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-22.48.43:710][357]LogInit: FAudioDevice initialized.
+[2019.01.25-22.48.43:720][357]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.48.43:768][357]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.25-22.48.43:770][357]LogWorld: Bringing World /Game/UEDPIE_0_AngTest.AngTest up for play (max tick rate 0) at 2019.01.25-22.48.43
+[2019.01.25-22.48.43:771][357]LogWorld: Bringing up level for play took: 0.001711
+[2019.01.25-22.48.43:788][357]PIE: Play in editor start time for /Game/UEDPIE_0_AngTest 0.032
+[2019.01.25-22.48.52:366][377]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.48.52:387][377]LogSlate: Window 'GGJ2019 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.25-22.48.52:423][377]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.48.52:469][378]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.01.25-22.48.59:367][180]BlueprintLog: New page: Compile Player_BP_Base
+[2019.01.25-22.49.00:173][252]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.49.00:195][252]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.49.00:195][252]PIE: New page: PIE session: AngTest (25 Jan 2019 22:49:00)
+[2019.01.25-22.49.00:195][252]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AngTest
+[2019.01.25-22.49.00:212][252]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017081s)
+[2019.01.25-22.49.00:213][252]LogAIModule: Creating AISystem for world AngTest
+[2019.01.25-22.49.00:214][252]LogPlayLevel: PIE: World Init took: (0.001163s)
+[2019.01.25-22.49.00:214][252]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AngTest.AngTest to /Game/UEDPIE_0_AngTest.AngTest (0.018725s)
+[2019.01.25-22.49.00:258][252]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-22.49.00:270][252]LogInit: FAudioDevice initialized.
+[2019.01.25-22.49.00:280][252]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.49.00:325][252]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.25-22.49.00:328][252]LogWorld: Bringing World /Game/UEDPIE_0_AngTest.AngTest up for play (max tick rate 0) at 2019.01.25-22.49.00
+[2019.01.25-22.49.00:329][252]LogWorld: Bringing up level for play took: 0.003021
+[2019.01.25-22.49.00:346][252]PIE: Play in editor start time for /Game/UEDPIE_0_AngTest 0.589
+[2019.01.25-22.49.22:137][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.49.22:159][852]LogSlate: Window 'GGJ2019 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.25-22.49.22:192][852]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.49.22:248][853]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.01.25-22.49.49:301][ 38]BlueprintLog: New page: Compile Player_BP_Base
+[2019.01.25-22.49.50:157][ 91]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.49.50:182][ 91]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.49.50:182][ 91]PIE: New page: PIE session: AngTest (25 Jan 2019 22:49:50)
+[2019.01.25-22.49.50:182][ 91]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AngTest
+[2019.01.25-22.49.50:208][ 91]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025548s)
+[2019.01.25-22.49.50:208][ 91]LogAIModule: Creating AISystem for world AngTest
+[2019.01.25-22.49.50:209][ 91]LogPlayLevel: PIE: World Init took: (0.000750s)
+[2019.01.25-22.49.50:209][ 91]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AngTest.AngTest to /Game/UEDPIE_0_AngTest.AngTest (0.026736s)
+[2019.01.25-22.49.50:247][ 91]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-22.49.50:260][ 91]LogInit: FAudioDevice initialized.
+[2019.01.25-22.49.50:269][ 91]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.49.50:314][ 91]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.25-22.49.50:316][ 91]LogWorld: Bringing World /Game/UEDPIE_0_AngTest.AngTest up for play (max tick rate 0) at 2019.01.25-22.49.50
+[2019.01.25-22.49.50:317][ 91]LogWorld: Bringing up level for play took: 0.002056
+[2019.01.25-22.49.50:333][ 91]PIE: Play in editor start time for /Game/UEDPIE_0_AngTest 0.576
+[2019.01.25-22.49.54:297][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.49.54:320][557]LogSlate: Window 'GGJ2019 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.25-22.49.54:359][557]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.49.54:403][558]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.01.25-22.50.00:849][310]BlueprintLog: New page: Compile Player_BP_Base
+[2019.01.25-22.50.01:600][377]BlueprintLog: New page: Compile Player_BP_Base
+[2019.01.25-22.50.02:373][447]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.50.02:397][447]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.50.02:398][447]PIE: New page: PIE session: AngTest (25 Jan 2019 22:50:02)
+[2019.01.25-22.50.02:398][447]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AngTest
+[2019.01.25-22.50.02:418][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020506s)
+[2019.01.25-22.50.02:419][447]LogAIModule: Creating AISystem for world AngTest
+[2019.01.25-22.50.02:419][447]LogPlayLevel: PIE: World Init took: (0.000752s)
+[2019.01.25-22.50.02:419][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AngTest.AngTest to /Game/UEDPIE_0_AngTest.AngTest (0.021594s)
+[2019.01.25-22.50.02:461][447]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-22.50.02:473][447]LogInit: FAudioDevice initialized.
+[2019.01.25-22.50.02:483][447]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.50.02:529][447]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.25-22.50.02:531][447]LogWorld: Bringing World /Game/UEDPIE_0_AngTest.AngTest up for play (max tick rate 0) at 2019.01.25-22.50.02
+[2019.01.25-22.50.02:532][447]LogWorld: Bringing up level for play took: 0.001687
+[2019.01.25-22.50.02:547][447]PIE: Play in editor start time for /Game/UEDPIE_0_AngTest 0.791
+[2019.01.25-22.50.05:717][817]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.50.05:740][817]LogSlate: Window 'GGJ2019 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.25-22.50.05:779][817]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.50.05:824][818]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.01.25-22.50.11:238][442]BlueprintLog: New page: Compile Player_BP_Base
+[2019.01.25-22.50.12:160][523]BlueprintLog: New page: Compile Player_BP_Base
+[2019.01.25-22.50.12:789][575]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.50.12:814][575]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.50.12:815][575]PIE: New page: PIE session: AngTest (25 Jan 2019 22:50:12)
+[2019.01.25-22.50.12:815][575]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AngTest
+[2019.01.25-22.50.12:832][575]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017226s)
+[2019.01.25-22.50.12:833][575]LogAIModule: Creating AISystem for world AngTest
+[2019.01.25-22.50.12:833][575]LogPlayLevel: PIE: World Init took: (0.000920s)
+[2019.01.25-22.50.12:833][575]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AngTest.AngTest to /Game/UEDPIE_0_AngTest.AngTest (0.018515s)
+[2019.01.25-22.50.12:891][575]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-22.50.12:905][575]LogInit: FAudioDevice initialized.
+[2019.01.25-22.50.12:916][575]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.50.12:963][575]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.25-22.50.12:966][575]LogWorld: Bringing World /Game/UEDPIE_0_AngTest.AngTest up for play (max tick rate 0) at 2019.01.25-22.50.12
+[2019.01.25-22.50.12:966][575]LogWorld: Bringing up level for play took: 0.001799
+[2019.01.25-22.50.12:983][575]PIE: Play in editor start time for /Game/UEDPIE_0_AngTest -0.774
+[2019.01.25-22.51.07:952][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.51.07:976][143]LogSlate: Window 'GGJ2019 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.25-22.51.08:015][143]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.51.08:061][144]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.01.25-22.51.17:975][301]BlueprintLog: New page: Compile Player_BP_Base
+[2019.01.25-22.51.18:954][386]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.51.18:979][386]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.51.18:979][386]PIE: New page: PIE session: AngTest (25 Jan 2019 22:51:18)
+[2019.01.25-22.51.18:979][386]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AngTest
+[2019.01.25-22.51.18:998][386]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018822s)
+[2019.01.25-22.51.18:999][386]LogAIModule: Creating AISystem for world AngTest
+[2019.01.25-22.51.18:999][386]LogPlayLevel: PIE: World Init took: (0.000870s)
+[2019.01.25-22.51.18:999][386]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AngTest.AngTest to /Game/UEDPIE_0_AngTest.AngTest (0.020070s)
+[2019.01.25-22.51.19:042][386]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-22.51.19:054][386]LogInit: FAudioDevice initialized.
+[2019.01.25-22.51.19:065][386]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.51.19:113][386]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.25-22.51.19:116][386]LogWorld: Bringing World /Game/UEDPIE_0_AngTest.AngTest up for play (max tick rate 0) at 2019.01.25-22.51.19
+[2019.01.25-22.51.19:116][386]LogWorld: Bringing up level for play took: 0.001902
+[2019.01.25-22.51.19:133][386]PIE: Play in editor start time for /Game/UEDPIE_0_AngTest -0.624
+[2019.01.25-22.51.36:317][433]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.51.36:340][433]LogSlate: Window 'GGJ2019 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.25-22.51.36:377][433]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.51.36:422][434]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.01.25-22.51.42:183][105]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.51.43:287][236]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.51.43:312][236]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.51.43:312][236]PIE: New page: PIE session: AngTest (25 Jan 2019 22:51:43)
+[2019.01.25-22.51.43:312][236]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AngTest
+[2019.01.25-22.51.43:344][236]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032372s)
+[2019.01.25-22.51.43:345][236]LogAIModule: Creating AISystem for world AngTest
+[2019.01.25-22.51.43:346][236]LogPlayLevel: PIE: World Init took: (0.000940s)
+[2019.01.25-22.51.43:346][236]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AngTest.AngTest to /Game/UEDPIE_0_AngTest.AngTest (0.033696s)
+[2019.01.25-22.51.43:386][236]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-22.51.43:396][236]LogInit: FAudioDevice initialized.
+[2019.01.25-22.51.43:429][236]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.25-22.51.43:431][236]LogWorld: Bringing World /Game/UEDPIE_0_AngTest.AngTest up for play (max tick rate 0) at 2019.01.25-22.51.43
+[2019.01.25-22.51.43:432][236]LogWorld: Bringing up level for play took: 0.001765
+[2019.01.25-22.51.43:446][236]PIE: Play in editor start time for /Game/UEDPIE_0_AngTest -0.311
+[2019.01.25-22.51.47:786][752]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.51.47:824][752]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.51.47:859][752]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.51.47:897][754]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.01.25-22.51.49:382][932]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.52.11:522][426]BlueprintLog: New page: Compile Player_BP_Base
+[2019.01.25-22.52.12:152][464]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.52.12:181][464]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.52.12:181][464]PIE: New page: PIE session: AngTest (25 Jan 2019 22:52:12)
+[2019.01.25-22.52.12:181][464]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AngTest
+[2019.01.25-22.52.12:212][464]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029808s)
+[2019.01.25-22.52.12:212][464]LogAIModule: Creating AISystem for world AngTest
+[2019.01.25-22.52.12:213][464]LogPlayLevel: PIE: World Init took: (0.000820s)
+[2019.01.25-22.52.12:213][464]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AngTest.AngTest to /Game/UEDPIE_0_AngTest.AngTest (0.031091s)
+[2019.01.25-22.52.12:254][464]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-22.52.12:266][464]LogInit: FAudioDevice initialized.
+[2019.01.25-22.52.12:278][464]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.52.12:327][464]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.25-22.52.12:329][464]LogWorld: Bringing World /Game/UEDPIE_0_AngTest.AngTest up for play (max tick rate 0) at 2019.01.25-22.52.12
+[2019.01.25-22.52.12:330][464]LogWorld: Bringing up level for play took: 0.001865
+[2019.01.25-22.52.12:346][464]PIE: Play in editor start time for /Game/UEDPIE_0_AngTest 0.589
+[2019.01.25-22.52.16:009][894]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.52.16:031][894]LogSlate: Window 'GGJ2019 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.25-22.52.16:071][894]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.52.16:113][895]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.01.25-22.52.21:588][538]BlueprintLog: New page: Compile Player_BP_Base
+[2019.01.25-22.52.22:377][610]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.52.22:402][610]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.52.22:402][610]PIE: New page: PIE session: AngTest (25 Jan 2019 22:52:22)
+[2019.01.25-22.52.22:402][610]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AngTest
+[2019.01.25-22.52.22:418][610]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016435s)
+[2019.01.25-22.52.22:419][610]LogAIModule: Creating AISystem for world AngTest
+[2019.01.25-22.52.22:420][610]LogPlayLevel: PIE: World Init took: (0.000891s)
+[2019.01.25-22.52.22:420][610]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AngTest.AngTest to /Game/UEDPIE_0_AngTest.AngTest (0.017713s)
+[2019.01.25-22.52.22:461][610]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-22.52.22:471][610]LogInit: FAudioDevice initialized.
+[2019.01.25-22.52.22:483][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.52.22:530][610]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.25-22.52.22:534][610]LogWorld: Bringing World /Game/UEDPIE_0_AngTest.AngTest up for play (max tick rate 0) at 2019.01.25-22.52.22
+[2019.01.25-22.52.22:535][610]LogWorld: Bringing up level for play took: 0.003166
+[2019.01.25-22.52.22:552][610]PIE: Play in editor start time for /Game/UEDPIE_0_AngTest 0.795
+[2019.01.25-22.53.11:856][499]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.53.11:882][499]LogSlate: Window 'GGJ2019 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.25-22.53.11:920][499]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.53.11:969][500]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.01.25-22.53.38:072][539]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.53.38:098][539]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.53.38:098][539]PIE: New page: PIE session: AngTest (25 Jan 2019 22:53:38)
+[2019.01.25-22.53.38:098][539]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AngTest
+[2019.01.25-22.53.38:116][539]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018011s)
+[2019.01.25-22.53.38:117][539]LogAIModule: Creating AISystem for world AngTest
+[2019.01.25-22.53.38:117][539]LogPlayLevel: PIE: World Init took: (0.000857s)
+[2019.01.25-22.53.38:117][539]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AngTest.AngTest to /Game/UEDPIE_0_AngTest.AngTest (0.019238s)
+[2019.01.25-22.53.38:160][539]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-22.53.38:172][539]LogInit: FAudioDevice initialized.
+[2019.01.25-22.53.38:184][539]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.53.38:229][539]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.25-22.53.38:232][539]LogWorld: Bringing World /Game/UEDPIE_0_AngTest.AngTest up for play (max tick rate 0) at 2019.01.25-22.53.38
+[2019.01.25-22.53.38:232][539]LogWorld: Bringing up level for play took: 0.001776
+[2019.01.25-22.53.38:249][539]PIE: Play in editor start time for /Game/UEDPIE_0_AngTest 0.492
+[2019.01.25-22.53.41:423][908]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.53.41:447][908]LogSlate: Window 'GGJ2019 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.25-22.53.41:489][908]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.53.41:534][909]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.01.25-22.53.46:778][518]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.53.50:730][991]BlueprintLog: New page: Compile Player_BP_Base
+[2019.01.25-22.53.51:751][ 83]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.53.51:780][ 83]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.53.51:781][ 83]PIE: New page: PIE session: AngTest (25 Jan 2019 22:53:51)
+[2019.01.25-22.53.51:781][ 83]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AngTest
+[2019.01.25-22.53.51:798][ 83]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016621s)
+[2019.01.25-22.53.51:798][ 83]LogAIModule: Creating AISystem for world AngTest
+[2019.01.25-22.53.51:799][ 83]LogPlayLevel: PIE: World Init took: (0.000785s)
+[2019.01.25-22.53.51:799][ 83]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AngTest.AngTest to /Game/UEDPIE_0_AngTest.AngTest (0.017762s)
+[2019.01.25-22.53.51:837][ 83]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-22.53.51:849][ 83]LogInit: FAudioDevice initialized.
+[2019.01.25-22.53.51:860][ 83]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.53.51:908][ 83]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.25-22.53.51:912][ 83]LogWorld: Bringing World /Game/UEDPIE_0_AngTest.AngTest up for play (max tick rate 0) at 2019.01.25-22.53.51
+[2019.01.25-22.53.51:912][ 83]LogWorld: Bringing up level for play took: 0.002817
+[2019.01.25-22.53.51:928][ 83]PIE: Play in editor start time for /Game/UEDPIE_0_AngTest 0.172
+[2019.01.25-22.54.27:338][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.54.27:365][320]LogSlate: Window 'GGJ2019 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.25-22.54.27:404][320]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.54.27:446][321]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.01.25-22.54.29:059][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_BP_Base" FILE="../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/Player_BP_Base.uasset" SILENT=true
+[2019.01.25-22.54.29:147][511]LogSavePackage: Moving '../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Saved/Player_BP_BaseB7580E5E453E047BF97324A4D7FA3787.tmp' to '../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/Player_BP_Base.uasset'
+[2019.01.25-22.54.42:724][ 81]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.54.42:749][ 81]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.54.42:749][ 81]PIE: New page: PIE session: AngTest (25 Jan 2019 22:54:42)
+[2019.01.25-22.54.42:749][ 81]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AngTest
+[2019.01.25-22.54.42:768][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018509s)
+[2019.01.25-22.54.42:769][ 81]LogAIModule: Creating AISystem for world AngTest
+[2019.01.25-22.54.42:769][ 81]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2019.01.25-22.54.42:769][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AngTest.AngTest to /Game/UEDPIE_0_AngTest.AngTest (0.019863s)
+[2019.01.25-22.54.42:808][ 81]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-22.54.42:821][ 81]LogInit: FAudioDevice initialized.
+[2019.01.25-22.54.42:860][ 81]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.25-22.54.42:862][ 81]LogWorld: Bringing World /Game/UEDPIE_0_AngTest.AngTest up for play (max tick rate 0) at 2019.01.25-22.54.42
+[2019.01.25-22.54.42:863][ 81]LogWorld: Bringing up level for play took: 0.001611
+[2019.01.25-22.54.42:877][ 81]PIE: Play in editor start time for /Game/UEDPIE_0_AngTest 1.121
+[2019.01.25-22.55.50:711][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.55.50:747][211]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.55.50:781][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.55.50:813][213]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.01.25-22.56.11:917][741]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-22.56.46:172][842]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.56.46:255][852]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.56.46:280][852]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.56.46:280][852]PIE: New page: PIE session: AngTest (25 Jan 2019 22:56:46)
+[2019.01.25-22.56.46:280][852]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AngTest
+[2019.01.25-22.56.46:312][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031703s)
+[2019.01.25-22.56.46:313][852]LogAIModule: Creating AISystem for world AngTest
+[2019.01.25-22.56.46:314][852]LogPlayLevel: PIE: World Init took: (0.001260s)
+[2019.01.25-22.56.46:314][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AngTest.AngTest to /Game/UEDPIE_0_AngTest.AngTest (0.033334s)
+[2019.01.25-22.56.46:356][852]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-22.56.46:367][852]LogInit: FAudioDevice initialized.
+[2019.01.25-22.56.46:407][852]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.25-22.56.46:410][852]LogWorld: Bringing World /Game/UEDPIE_0_AngTest.AngTest up for play (max tick rate 0) at 2019.01.25-22.56.46
+[2019.01.25-22.56.46:410][852]LogWorld: Bringing up level for play took: 0.001666
+[2019.01.25-22.56.46:425][852]PIE: Play in editor start time for /Game/UEDPIE_0_AngTest 0.669
+[2019.01.25-22.56.49:350][199]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.56.49:389][199]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.56.49:427][199]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.56.49:452][200]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2019.01.25-22.57.28:773][612]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-22.57.32:412][ 19]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.57.32:684][ 29]LogSlate: Window 'GGJ2019 - Unreal Editor' being destroyed
+[2019.01.25-22.57.32:912][ 30]Cmd: QUIT_EDITOR
+[2019.01.25-22.57.33:790][ 30]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.25-22.57.33:816][ 30]LogExit: Preparing to exit.
+[2019.01.25-22.57.35:002][ 30]LogExit: Editor shut down
+[2019.01.25-22.57.35:002][ 30]LogExit: Transaction tracking system shut down
+[2019.01.25-22.57.35:732][ 30]LogExit: Object subsystem successfully closed.
+[2019.01.25-22.57.35:784][ 30]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.01.25-22.57.35:788][ 30]LogD3D11RHI: Shutdown
+[2019.01.25-22.57.35:789][ 30]LogD3D11RHI: CleanupD3DDevice
+[2019.01.25-22.57.35:791][ 30]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.01.25-22.57.35:833][ 30]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (618)
+[2019.01.25-22.57.35:833][ 30]LogModuleManager: Shutting down and abandoning module Voice (616)
+[2019.01.25-22.57.35:833][ 30]LogModuleManager: Shutting down and abandoning module BlueprintGraph (614)
+[2019.01.25-22.57.35:834][ 30]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2019.01.25-22.57.35:834][ 30]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2019.01.25-22.57.35:834][ 30]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2019.01.25-22.57.35:834][ 30]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2019.01.25-22.57.35:834][ 30]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2019.01.25-22.57.35:834][ 30]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2019.01.25-22.57.35:835][ 30]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
+[2019.01.25-22.57.35:835][ 30]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
+[2019.01.25-22.57.35:835][ 30]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
+[2019.01.25-22.57.35:835][ 30]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
+[2019.01.25-22.57.35:835][ 30]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
+[2019.01.25-22.57.35:835][ 30]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
+[2019.01.25-22.57.35:835][ 30]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
+[2019.01.25-22.57.35:835][ 30]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
+[2019.01.25-22.57.35:835][ 30]LogModuleManager: Shutting down and abandoning module BspMode (584)
+[2019.01.25-22.57.35:835][ 30]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
+[2019.01.25-22.57.35:836][ 30]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
+[2019.01.25-22.57.35:836][ 30]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
+[2019.01.25-22.57.35:836][ 30]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
+[2019.01.25-22.57.35:836][ 30]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2019.01.25-22.57.35:836][ 30]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
+[2019.01.25-22.57.35:836][ 30]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
+[2019.01.25-22.57.35:836][ 30]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
+[2019.01.25-22.57.35:836][ 30]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
+[2019.01.25-22.57.35:836][ 30]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
+[2019.01.25-22.57.35:836][ 30]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
+[2019.01.25-22.57.35:836][ 30]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
+[2019.01.25-22.57.35:837][ 30]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
+[2019.01.25-22.57.35:837][ 30]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
+[2019.01.25-22.57.35:837][ 30]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
+[2019.01.25-22.57.35:837][ 30]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
+[2019.01.25-22.57.35:837][ 30]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
+[2019.01.25-22.57.35:837][ 30]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
+[2019.01.25-22.57.35:837][ 30]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
+[2019.01.25-22.57.35:837][ 30]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
+[2019.01.25-22.57.35:837][ 30]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
+[2019.01.25-22.57.35:837][ 30]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
+[2019.01.25-22.57.35:837][ 30]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
+[2019.01.25-22.57.35:838][ 30]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
+[2019.01.25-22.57.35:838][ 30]LogModuleManager: Shutting down and abandoning module SessionServices (534)
+[2019.01.25-22.57.35:838][ 30]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
+[2019.01.25-22.57.35:838][ 30]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
+[2019.01.25-22.57.35:838][ 30]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
+[2019.01.25-22.57.35:838][ 30]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
+[2019.01.25-22.57.35:838][ 30]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
+[2019.01.25-22.57.35:838][ 30]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
+[2019.01.25-22.57.35:839][ 30]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
+[2019.01.25-22.57.35:839][ 30]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
+[2019.01.25-22.57.35:839][ 30]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
+[2019.01.25-22.57.35:839][ 30]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
+[2019.01.25-22.57.35:839][ 30]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
+[2019.01.25-22.57.35:839][ 30]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
+[2019.01.25-22.57.36:342][ 30]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
+[2019.01.25-22.57.36:342][ 30]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
+[2019.01.25-22.57.36:342][ 30]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
+[2019.01.25-22.57.36:342][ 30]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
+[2019.01.25-22.57.36:342][ 30]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2019.01.25-22.57.36:343][ 30]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2019.01.25-22.57.36:343][ 30]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2019.01.25-22.57.36:343][ 30]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2019.01.25-22.57.36:343][ 30]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2019.01.25-22.57.36:343][ 30]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2019.01.25-22.57.36:344][ 30]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2019.01.25-22.57.36:344][ 30]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2019.01.25-22.57.36:344][ 30]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2019.01.25-22.57.36:344][ 30]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2019.01.25-22.57.36:345][ 30]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2019.01.25-22.57.36:345][ 30]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2019.01.25-22.57.36:345][ 30]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2019.01.25-22.57.36:345][ 30]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2019.01.25-22.57.36:346][ 30]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2019.01.25-22.57.36:346][ 30]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2019.01.25-22.57.36:346][ 30]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2019.01.25-22.57.36:346][ 30]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2019.01.25-22.57.36:413][ 30]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2019.01.25-22.57.36:413][ 30]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2019.01.25-22.57.36:413][ 30]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2019.01.25-22.57.36:413][ 30]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2019.01.25-22.57.36:414][ 30]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2019.01.25-22.57.36:414][ 30]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2019.01.25-22.57.36:414][ 30]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2019.01.25-22.57.36:415][ 30]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2019.01.25-22.57.36:415][ 30]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2019.01.25-22.57.36:415][ 30]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2019.01.25-22.57.36:425][ 30]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2019.01.25-22.57.36:425][ 30]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2019.01.25-22.57.36:425][ 30]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2019.01.25-22.57.36:425][ 30]LogModuleManager: Shutting down and abandoning module DesktopPlatform (439)
+[2019.01.25-22.57.36:425][ 30]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.01.25-22.57.36:425][ 30]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.01.25-22.57.36:426][ 30]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.01.25-22.57.36:426][ 30]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.01.25-22.57.36:426][ 30]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.01.25-22.57.36:426][ 30]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.01.25-22.57.36:426][ 30]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.01.25-22.57.36:426][ 30]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.01.25-22.57.36:427][ 30]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.01.25-22.57.36:427][ 30]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.01.25-22.57.36:427][ 30]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.01.25-22.57.36:427][ 30]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.01.25-22.57.36:427][ 30]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.01.25-22.57.36:427][ 30]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.01.25-22.57.36:428][ 30]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.01.25-22.57.36:428][ 30]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.01.25-22.57.36:428][ 30]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.01.25-22.57.36:428][ 30]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2019.01.25-22.57.36:520][ 30]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2019.01.25-22.57.36:520][ 30]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2019.01.25-22.57.36:520][ 30]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2019.01.25-22.57.36:520][ 30]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2019.01.25-22.57.36:521][ 30]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2019.01.25-22.57.36:521][ 30]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2019.01.25-22.57.36:521][ 30]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2019.01.25-22.57.36:521][ 30]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2019.01.25-22.57.36:521][ 30]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2019.01.25-22.57.36:521][ 30]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2019.01.25-22.57.36:521][ 30]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2019.01.25-22.57.36:521][ 30]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2019.01.25-22.57.36:522][ 30]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2019.01.25-22.57.36:522][ 30]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2019.01.25-22.57.36:522][ 30]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2019.01.25-22.57.36:522][ 30]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2019.01.25-22.57.36:522][ 30]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2019.01.25-22.57.36:522][ 30]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2019.01.25-22.57.36:535][ 30]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.01.25-22.57.36:535][ 30]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.01.25-22.57.36:535][ 30]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.01.25-22.57.36:535][ 30]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.01.25-22.57.36:535][ 30]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.01.25-22.57.36:535][ 30]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.01.25-22.57.36:535][ 30]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.01.25-22.57.36:536][ 30]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.01.25-22.57.36:536][ 30]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.01.25-22.57.36:536][ 30]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.01.25-22.57.36:536][ 30]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2019.01.25-22.57.36:536][ 30]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2019.01.25-22.57.36:541][ 30]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.01.25-22.57.36:541][ 30]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.01.25-22.57.36:541][ 30]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.01.25-22.57.36:541][ 30]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2019.01.25-22.57.36:541][ 30]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2019.01.25-22.57.36:542][ 30]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.01.25-22.57.36:542][ 30]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.01.25-22.57.36:542][ 30]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.01.25-22.57.36:542][ 30]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.01.25-22.57.36:542][ 30]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.01.25-22.57.36:542][ 30]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.01.25-22.57.36:542][ 30]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.01.25-22.57.36:543][ 30]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.01.25-22.57.36:543][ 30]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.01.25-22.57.36:543][ 30]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.01.25-22.57.36:543][ 30]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2019.01.25-22.57.36:543][ 30]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2019.01.25-22.57.36:543][ 30]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2019.01.25-22.57.36:543][ 30]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2019.01.25-22.57.36:544][ 30]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2019.01.25-22.57.36:544][ 30]LogModuleManager: Shutting down and abandoning module GGJ2019 (300)
+[2019.01.25-22.57.36:544][ 30]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.01.25-22.57.36:544][ 30]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.01.25-22.57.36:544][ 30]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.01.25-22.57.36:544][ 30]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.01.25-22.57.36:544][ 30]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.01.25-22.57.36:544][ 30]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.01.25-22.57.36:544][ 30]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.01.25-22.57.36:544][ 30]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.01.25-22.57.36:544][ 30]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.01.25-22.57.36:646][ 30]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.01.25-22.57.36:747][ 30]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.01.25-22.57.36:747][ 30]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.01.25-22.57.36:747][ 30]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.01.25-22.57.36:747][ 30]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.01.25-22.57.36:747][ 30]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.01.25-22.57.36:747][ 30]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.01.25-22.57.36:748][ 30]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.01.25-22.57.36:751][ 30]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.01.25-22.57.36:751][ 30]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.01.25-22.57.36:751][ 30]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.01.25-22.57.36:752][ 30]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.01.25-22.57.36:754][ 30]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.01.25-22.57.36:757][ 30]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.01.25-22.57.36:758][ 30]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.01.25-22.57.36:758][ 30]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.01.25-22.57.36:758][ 30]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.01.25-22.57.36:759][ 30]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.01.25-22.57.36:759][ 30]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.01.25-22.57.36:763][ 30]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.01.25-22.57.36:770][ 30]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.01.25-22.57.36:770][ 30]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.01.25-22.57.36:770][ 30]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.01.25-22.57.36:770][ 30]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.01.25-22.57.36:771][ 30]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.01.25-22.57.36:771][ 30]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.01.25-22.57.36:771][ 30]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.01.25-22.57.36:771][ 30]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.01.25-22.57.36:771][ 30]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.01.25-22.57.36:771][ 30]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.01.25-22.57.36:771][ 30]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.01.25-22.57.36:771][ 30]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.01.25-22.57.36:772][ 30]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.01.25-22.57.36:772][ 30]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.01.25-22.57.36:772][ 30]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.01.25-22.57.36:772][ 30]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.01.25-22.57.36:772][ 30]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.01.25-22.57.36:772][ 30]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.01.25-22.57.36:773][ 30]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.01.25-22.57.36:773][ 30]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.01.25-22.57.36:775][ 30]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.01.25-22.57.36:775][ 30]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.01.25-22.57.36:775][ 30]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.01.25-22.57.36:775][ 30]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.01.25-22.57.36:775][ 30]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.01.25-22.57.36:775][ 30]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.01.25-22.57.36:775][ 30]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.01.25-22.57.36:775][ 30]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.01.25-22.57.36:775][ 30]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.01.25-22.57.36:776][ 30]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.01.25-22.57.36:776][ 30]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.01.25-22.57.36:776][ 30]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.01.25-22.57.36:776][ 30]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.01.25-22.57.36:776][ 30]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.01.25-22.57.36:776][ 30]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.01.25-22.57.36:776][ 30]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.01.25-22.57.36:776][ 30]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.01.25-22.57.36:776][ 30]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.01.25-22.57.36:811][ 30]LogDerivedDataCache: Shutdown
+[2019.01.25-22.57.36:811][ 30]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.01.25-22.57.36:812][ 30]LogXGEController: Cleaning working directory: C:/Users/h017026h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.25-22.57.36:812][ 30]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.01.25-22.57.36:812][ 30]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.01.25-22.57.36:813][ 30]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.01.25-22.57.36:813][ 30]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.01.25-22.57.36:813][ 30]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.01.25-22.57.36:813][ 30]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.01.25-22.57.36:813][ 30]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.01.25-22.57.36:813][ 30]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.01.25-22.57.36:813][ 30]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.01.25-22.57.36:813][ 30]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.01.25-22.57.36:815][ 30]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.01.25-22.57.36:815][ 30]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.01.25-22.57.36:815][ 30]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.01.25-22.57.36:815][ 30]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.01.25-22.57.36:815][ 30]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.01.25-22.57.36:815][ 30]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.01.25-22.57.36:815][ 30]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.01.25-22.57.36:816][ 30]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.01.25-22.57.36:816][ 30]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.01.25-22.57.36:816][ 30]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.01.25-22.57.36:816][ 30]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.01.25-22.57.36:816][ 30]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.01.25-22.57.36:817][ 30]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.01.25-22.57.36:817][ 30]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.01.25-22.57.36:822][ 30]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.01.25-22.57.36:822][ 30]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.01.25-22.57.36:829][ 30]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.01.25-22.57.36:829][ 30]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.01.25-22.57.36:829][ 30]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.01.25-22.57.36:829][ 30]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.01.25-22.57.36:829][ 30]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.01.25-22.57.36:830][ 30]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.01.25-22.57.36:830][ 30]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.01.25-22.57.36:830][ 30]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.01.25-22.57.36:830][ 30]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.01.25-22.57.36:830][ 30]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.01.25-22.57.36:830][ 30]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.01.25-22.57.36:830][ 30]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.01.25-22.57.36:830][ 30]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.01.25-22.57.36:830][ 30]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.01.25-22.57.36:830][ 30]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.01.25-22.57.36:830][ 30]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.01.25-22.57.36:831][ 30]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.01.25-22.57.36:831][ 30]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.01.25-22.57.36:833][ 30]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.01.25-22.57.36:833][ 30]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.01.25-22.57.36:864][ 30]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.01.25-22.57.36:864][ 30]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.01.25-22.57.36:865][ 30]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB60FB2C5-47B7-4802-8E23-8AA6DE82255E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=474d903443ae8b63be4705ae78a3445b%7C%7Ce8798e7c-7c79-4e5f-9bf9-3ee525b6f63c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.01.25-22.57.36:880][ 30]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.01.25-22.57.36:884][ 30]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.01.25-22.57.36:884][ 30]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.01.25-22.57.36:884][ 30]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.01.25-22.57.36:885][ 30]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.01.25-22.57.36:885][ 30]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.01.25-22.57.36:885][ 30]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.01.25-22.57.36:885][ 30]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.01.25-22.57.36:885][ 30]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.01.25-22.57.36:885][ 30]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.01.25-22.57.36:885][ 30]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.01.25-22.57.36:886][ 30]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.01.25-22.57.36:886][ 30]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.01.25-22.57.36:886][ 30]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.01.25-22.57.36:886][ 30]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.01.25-22.57.36:886][ 30]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.01.25-22.57.36:890][ 30]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.01.25-22.57.36:890][ 30]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.01.25-22.57.36:890][ 30]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.01.25-22.57.36:890][ 30]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.01.25-22.57.36:891][ 30]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.01.25-22.57.36:891][ 30]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.01.25-22.57.36:891][ 30]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.01.25-22.57.36:891][ 30]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.01.25-22.57.36:891][ 30]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.01.25-22.57.36:891][ 30]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.01.25-22.57.36:891][ 30]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.01.25-22.57.36:892][ 30]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.01.25-22.57.36:892][ 30]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.01.25-22.57.36:892][ 30]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.01.25-22.57.36:910][ 30]LogExit: Exiting.
+[2019.01.25-22.57.36:941][ 30]Log file closed, 01/25/19 22:57:36

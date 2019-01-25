@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 	GGJ2019_API UClass* Z_Construct_UClass_APlayer_Base();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_GGJ2019();
+	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 // End Cross Module References
 	void APlayer_Base::StaticRegisterNativesAPlayer_Base()
@@ -33,6 +34,17 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+<<<<<<< HEAD
+=======
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_playerCamera_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_playerCamera;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_playerBaseComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_playerBaseComponent;
+#if WITH_METADATA
+>>>>>>> AngBranch
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_maxHealth_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_maxHealth;
@@ -60,6 +72,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 	};
 #endif
 #if WITH_METADATA
+<<<<<<< HEAD
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayer_Base_Statics::NewProp_maxHealth_MetaData[] = {
 		{ "Category", "Stats" },
 		{ "ModuleRelativePath", "Player_Base.h" },
@@ -67,6 +80,16 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 	};
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_APlayer_Base_Statics::NewProp_maxHealth = { UE4CodeGen_Private::EPropertyClass::Int, "maxHealth", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(APlayer_Base, maxHealth), METADATA_PARAMS(Z_Construct_UClass_APlayer_Base_Statics::NewProp_maxHealth_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayer_Base_Statics::NewProp_maxHealth_MetaData)) };
+=======
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayer_Base_Statics::NewProp_playerCamera_MetaData[] = {
+		{ "Category", "Player_Base" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Player_Base.h" },
+		{ "ToolTip", "CAMERA" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayer_Base_Statics::NewProp_playerCamera = { UE4CodeGen_Private::EPropertyClass::Object, "playerCamera", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x001000000008000d, 1, nullptr, STRUCT_OFFSET(APlayer_Base, playerCamera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APlayer_Base_Statics::NewProp_playerCamera_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayer_Base_Statics::NewProp_playerCamera_MetaData)) };
+>>>>>>> AngBranch
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayer_Base_Statics::NewProp_playerBaseComponent_MetaData[] = {
 		{ "Category", "Player_Base" },
@@ -84,6 +107,11 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayer_Base_Statics::NewProp_movementSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "movementSpeed", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(APlayer_Base, movementSpeed), METADATA_PARAMS(Z_Construct_UClass_APlayer_Base_Statics::NewProp_movementSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayer_Base_Statics::NewProp_movementSpeed_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayer_Base_Statics::PropPointers[] = {
+<<<<<<< HEAD
+=======
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_playerCamera,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_playerBaseComponent,
+>>>>>>> AngBranch
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_maxHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_playerBaseComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_movementSpeed,
@@ -111,7 +139,11 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 		}
 		return OuterClass;
 	}
+<<<<<<< HEAD
 	IMPLEMENT_CLASS(APlayer_Base, 1245657097);
+=======
+	IMPLEMENT_CLASS(APlayer_Base, 3902406256);
+>>>>>>> AngBranch
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayer_Base(Z_Construct_UClass_APlayer_Base, &APlayer_Base::StaticClass, TEXT("/Script/GGJ2019"), TEXT("APlayer_Base"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayer_Base);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
