@@ -35,11 +35,14 @@ void APlayer_Base::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	if (!movementVelocity.IsZero())
+	/*if (!movementVelocity.IsZero())
 	{
 		FVector NewLocation = GetActorLocation() + (movementVelocity * DeltaTime);
 		SetActorLocation(NewLocation);
-	}
+	}*/
+
+	AddMovementInput(GetActorForwardVector(), movementVelocity.X * DeltaTime);
+	AddMovementInput(GetActorRightVector(), movementVelocity.Y * DeltaTime);
 }
 
 // Called to bind functionality to input
@@ -52,7 +55,7 @@ void APlayer_Base::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 void APlayer_Base::MoveForward(float value)
 {
-	movementVelocity.X = value * movementSpeed;
+	movementVelocity.X = value * 100;
 }
 
 void APlayer_Base::TakeDamage()
@@ -62,5 +65,5 @@ void APlayer_Base::TakeDamage()
 
 void APlayer_Base::MoveRight(float value)
 {
-	movementVelocity.Y = value * movementSpeed;
+	movementVelocity.Y = value * 100;
 }
