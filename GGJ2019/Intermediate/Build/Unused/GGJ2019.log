@@ -1,26 +1,5 @@
-<<<<<<< HEAD
-﻿  Performing full C++ include scan (building a new target)
-  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for GGJ2019Editor (no existing makefile)
-  Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Parsing headers for GGJ2019Editor
-    Running UnrealHeaderTool "C:\Users\w018030h.STUDENT\Documents\GGJ2019\GGJ2019\GGJ2019.uproject" "C:\Users\w018030h.STUDENT\Documents\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\GGJ2019Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for GGJ2019Editor in 12.7390131 seconds
-  Building 8 actions with 8 processes...
-    [1/8] PCLaunch.rc
-    [2/8] SharedPCH.Engine.cpp
-    [3/8] GGJ2019.cpp
-    [4/8] GGJ2019.init.gen.cpp
-    [5/8] GGJ2019GameModeBase.cpp
-    [6/8] GGJ2019GameModeBase.gen.cpp
-    [7/8] UE4Editor-GGJ2019.lib
-       Creating library C:\Users\w018030h.STUDENT\Documents\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.lib and object C:\Users\w018030h.STUDENT\Documents\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.exp
-    [8/8] UE4Editor-GGJ2019.dll
-       Creating library C:\Users\w018030h.STUDENT\Documents\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.lib and object C:\Users\w018030h.STUDENT\Documents\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.exp
-  Deploying GGJ2019Editor Win64 Development...
-  Total build time: 90.72 seconds (Parallel executor: 34.47 seconds)
-=======
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
+<<<<<<< HEAD
   Creating makefile for GGJ2019Editor (game project files are newer)
   Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for GGJ2019Editor
@@ -53,3 +32,10 @@ c:\users\p018236h.student\documents\gamejam\ggj2019\ggj2019\source\ggj2019\Playe
 =======
   Total build time: 63.33 seconds (Parallel executor: 43.24 seconds)
 >>>>>>> RhiannonBranch
+=======
+  Creating makefile for GGJ2019Editor (ini files are newer than UBTMakefile)
+  Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Target is up to date
+  Deploying GGJ2019Editor Win64 Development...
+  Total build time: 9.07 seconds (NoActionsToExecute executor: 0.00 seconds)
+>>>>>>> master
