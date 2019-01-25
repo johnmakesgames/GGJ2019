@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\GGJ2019.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{3F3430B3-44A3-490C-85AC-650FC97EFF8D}</UniqueIdentifier>
+			<UniqueIdentifier>{879ABC75-4C65-409C-8646-DB87B43AD160}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\GGJ2019.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{8585C069-92B8-48A5-88CB-C29B9C467D8A}</UniqueIdentifier>
+			<UniqueIdentifier>{23C47B7C-C296-4FE7-9B2D-ACA59BF9BEBB}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -25,7 +25,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\GGJ2019">
-			<UniqueIdentifier>{678F1C73-BCB9-4876-A598-98E420BD987E}</UniqueIdentifier>
+			<UniqueIdentifier>{CFA55C77-2CAE-4CAE-AE1D-2BD0F3FE43B2}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\GGJ2019\GGJ2019.Build.cs">
 			<Filter>Source\GGJ2019</Filter>
@@ -40,6 +40,12 @@
 			<Filter>Source\GGJ2019</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\GGJ2019\GGJ2019GameModeBase.h">
+			<Filter>Source\GGJ2019</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\GGJ2019\Player_Base.cpp">
+			<Filter>Source\GGJ2019</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\GGJ2019\Player_Base.h">
 			<Filter>Source\GGJ2019</Filter>
 		</ClInclude >
 	</ItemGroup>
