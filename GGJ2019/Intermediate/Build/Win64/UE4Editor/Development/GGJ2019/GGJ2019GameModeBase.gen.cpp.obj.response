@@ -23,9 +23,9 @@
 /wd4838
 /we4668
 /I .
-/I C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Inc\GGJ2019
-/I C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Source
-/I C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Source\GGJ2019
+/I C:\Users\w018030h.STUDENT\Documents\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Inc\GGJ2019
+/I C:\Users\w018030h.STUDENT\Documents\GGJ2019\GGJ2019\Source
+/I C:\Users\w018030h.STUDENT\Documents\GGJ2019\GGJ2019\Source\GGJ2019
 /I Runtime
 /I Runtime\Core\Public
 /I Runtime\Core
@@ -409,12 +409,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"
-/FI"C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Inc\GGJ2019\GGJ2019GameModeBase.gen.cpp"
-/FI"C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\Definitions.GGJ2019.h"
-/Fo"C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\GGJ2019GameModeBase.gen.cpp.obj"
+/FI"C:\Users\w018030h.STUDENT\Documents\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\w018030h.STUDENT\Documents\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\w018030h.STUDENT\Documents\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\w018030h.STUDENT\Documents\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Inc\GGJ2019\GGJ2019GameModeBase.gen.cpp"
+/FI"C:\Users\w018030h.STUDENT\Documents\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\Definitions.GGJ2019.h"
+/Fo"C:\Users\w018030h.STUDENT\Documents\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\GGJ2019GameModeBase.gen.cpp.obj"
 /TP
 /GR-
 /W4

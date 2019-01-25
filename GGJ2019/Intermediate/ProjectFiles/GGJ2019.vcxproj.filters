@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\GGJ2019.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{3F3430B3-44A3-490C-85AC-650FC97EFF8D}</UniqueIdentifier>
+			<UniqueIdentifier>{82C5E2B3-6EA2-4167-A74A-50DD5E973CDA}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\GGJ2019.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{8585C069-92B8-48A5-88CB-C29B9C467D8A}</UniqueIdentifier>
+			<UniqueIdentifier>{7246B5EE-C7A0-44F0-A27D-3B89C6CF7BA0}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -25,7 +25,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\GGJ2019">
-			<UniqueIdentifier>{678F1C73-BCB9-4876-A598-98E420BD987E}</UniqueIdentifier>
+			<UniqueIdentifier>{89AB0AE9-06D8-4C98-A7E1-AB3F4000D6E5}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\GGJ2019\GGJ2019.Build.cs">
 			<Filter>Source\GGJ2019</Filter>
