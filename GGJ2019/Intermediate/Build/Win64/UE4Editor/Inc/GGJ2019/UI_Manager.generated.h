@@ -199,7 +199,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AUI_Manager); \
 
 #define GGJ2019_Source_GGJ2019_Public_UI_Manager_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__player() { return STRUCT_OFFSET(AUI_Manager, player); } \
-	FORCEINLINE static uint32 __PPO__fridge() { return STRUCT_OFFSET(AUI_Manager, fridge); }
+	FORCEINLINE static uint32 __PPO__fridge() { return STRUCT_OFFSET(AUI_Manager, fridge); } \
+	FORCEINLINE static uint32 __PPO__foodRemaining() { return STRUCT_OFFSET(AUI_Manager, foodRemaining); }
 
 
 #define GGJ2019_Source_GGJ2019_Public_UI_Manager_h_13_PROLOG

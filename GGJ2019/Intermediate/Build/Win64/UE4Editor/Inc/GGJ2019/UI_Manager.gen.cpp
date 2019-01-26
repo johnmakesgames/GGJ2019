@@ -299,6 +299,10 @@ void EmptyLinkFunctionForGeneratedCodeUI_Manager() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_foodRemaining_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_foodRemaining;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_fridge_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_fridge;
@@ -331,6 +335,13 @@ void EmptyLinkFunctionForGeneratedCodeUI_Manager() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AUI_Manager_Statics::NewProp_foodRemaining_MetaData[] = {
+		{ "Category", "UI" },
+		{ "ModuleRelativePath", "Public/UI_Manager.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AUI_Manager_Statics::NewProp_foodRemaining = { UE4CodeGen_Private::EPropertyClass::Int, "foodRemaining", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000020005, 1, nullptr, STRUCT_OFFSET(AUI_Manager, foodRemaining), METADATA_PARAMS(Z_Construct_UClass_AUI_Manager_Statics::NewProp_foodRemaining_MetaData, ARRAY_COUNT(Z_Construct_UClass_AUI_Manager_Statics::NewProp_foodRemaining_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AUI_Manager_Statics::NewProp_fridge_MetaData[] = {
 		{ "Category", "UI" },
 		{ "ModuleRelativePath", "Public/UI_Manager.h" },
@@ -345,6 +356,7 @@ void EmptyLinkFunctionForGeneratedCodeUI_Manager() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AUI_Manager_Statics::NewProp_player = { UE4CodeGen_Private::EPropertyClass::Object, "player", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000020005, 1, nullptr, STRUCT_OFFSET(AUI_Manager, player), Z_Construct_UClass_APlayer_Base_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AUI_Manager_Statics::NewProp_player_MetaData, ARRAY_COUNT(Z_Construct_UClass_AUI_Manager_Statics::NewProp_player_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AUI_Manager_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUI_Manager_Statics::NewProp_foodRemaining,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUI_Manager_Statics::NewProp_fridge,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUI_Manager_Statics::NewProp_player,
 	};
@@ -371,7 +383,7 @@ void EmptyLinkFunctionForGeneratedCodeUI_Manager() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AUI_Manager, 3162982026);
+	IMPLEMENT_CLASS(AUI_Manager, 2770274517);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AUI_Manager(Z_Construct_UClass_AUI_Manager, &AUI_Manager::StaticClass, TEXT("/Script/GGJ2019"), TEXT("AUI_Manager"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AUI_Manager);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

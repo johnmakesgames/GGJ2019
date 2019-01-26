@@ -30,6 +30,8 @@ protected:
 
 	WeaponType currentWeapon;
 	int enemyKilled;
+
+	UPROPERTY(BlueprintReadWrite, VisibleAnywhere, Category = "UI")
 	int foodRemaining;
 
 public:	
