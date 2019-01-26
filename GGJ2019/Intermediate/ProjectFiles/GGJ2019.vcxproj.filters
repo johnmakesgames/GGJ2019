@@ -1,14 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-<<<<<<< HEAD
 	<ItemGroup>
 		<None Include="..\..\GGJ2019.uproject" />
 		<Filter Include="Source">
-<<<<<<< HEAD
-			<UniqueIdentifier>{402DC60D-B73C-404E-88AC-1DC1BFD5734A}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{0F511BB6-2EF7-4403-A6AD-EC06ABEBBCC8}</UniqueIdentifier>
->>>>>>> AngBranch
+			<UniqueIdentifier>{33A54A24-6058-4BEF-B181-7B95C16DDCDC}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\GGJ2019.Target.cs">
 			<Filter>Source</Filter>
@@ -17,11 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-<<<<<<< HEAD
-			<UniqueIdentifier>{65A020F9-56A2-41A4-862E-2DCB522B493B}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{E330A04B-2CA8-43B0-9B47-3839CF37D1D1}</UniqueIdentifier>
->>>>>>> AngBranch
+			<UniqueIdentifier>{1C737B63-C69F-499C-9716-2ABD0C44603A}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -36,12 +28,14 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\GGJ2019">
-<<<<<<< HEAD
-			<UniqueIdentifier>{8CE10741-49F2-4948-8C50-8EC940F8FEE2}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{6DE4456B-B992-4934-8F86-F556F02F4CFD}</UniqueIdentifier>
->>>>>>> AngBranch
+			<UniqueIdentifier>{2F6B01E4-12BD-44CD-83E8-305669AB7808}</UniqueIdentifier>
 		</Filter>
+		<ClCompile Include="..\..\Source\GGJ2019\EnemySpawner_Base.cpp">
+			<Filter>Source\GGJ2019</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\GGJ2019\EnemySpawner_Base.h">
+			<Filter>Source\GGJ2019</Filter>
+		</ClInclude >
 		<ClCompile Include="..\..\Source\GGJ2019\Enemy_Base.cpp">
 			<Filter>Source\GGJ2019</Filter>
 		</ClCompile >
@@ -63,6 +57,12 @@
 		<ClInclude Include="..\..\Source\GGJ2019\GGJ2019GameModeBase.h">
 			<Filter>Source\GGJ2019</Filter>
 		</ClInclude >
+		<ClCompile Include="..\..\Source\GGJ2019\MyNavigationNode_Exit.cpp">
+			<Filter>Source\GGJ2019</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\GGJ2019\MyNavigationNode_Exit.h">
+			<Filter>Source\GGJ2019</Filter>
+		</ClInclude >
 		<ClCompile Include="..\..\Source\GGJ2019\NavigationNode_Base.cpp">
 			<Filter>Source\GGJ2019</Filter>
 		</ClCompile >
@@ -76,11 +76,7 @@
 			<Filter>Source\GGJ2019</Filter>
 		</ClInclude >
 		<Filter Include="Source\GGJ2019\Private">
-<<<<<<< HEAD
-			<UniqueIdentifier>{4843F877-51DB-4970-AC02-B7F82B73FE05}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{D4186D45-70D1-40E6-A4B8-715ED84C4753}</UniqueIdentifier>
->>>>>>> AngBranch
+			<UniqueIdentifier>{483A7242-95B9-44F2-86AC-4AC0742B0A70}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\GGJ2019\Private\Fridge_Base.cpp">
 			<Filter>Source\GGJ2019\Private</Filter>
@@ -95,11 +91,7 @@
 			<Filter>Source\GGJ2019\Private</Filter>
 		</ClCompile >
 		<Filter Include="Source\GGJ2019\Public">
-<<<<<<< HEAD
-			<UniqueIdentifier>{7DEDD7F8-A0CF-4ED0-B4D0-54DDE7116BCD}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{ABBCD3BF-142E-4787-A6BF-1264BDE417E4}</UniqueIdentifier>
->>>>>>> AngBranch
+			<UniqueIdentifier>{E0E8D36A-CFAB-46AF-B6AC-0CD3B29B4424}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Source\GGJ2019\Public\Fridge_Base.h">
 			<Filter>Source\GGJ2019\Public</Filter>
@@ -115,85 +107,3 @@
 		</ClInclude >
 	</ItemGroup>
 </Project>
-=======
-  <ItemGroup>
-    <None Include="..\..\GGJ2019.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{414937A7-95B6-460E-AF0A-705190D3099E}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\GGJ2019.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\GGJ2019Editor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Config">
-      <UniqueIdentifier>{8C1D506D-1FEF-4704-9FF7-14F65E1278A0}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultInput.ini">
-      <Filter>Config</Filter>
-    </None>
-    <Filter Include="Source\GGJ2019">
-      <UniqueIdentifier>{382D6A20-D46D-49AC-A300-2C3369FA5119}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Source\GGJ2019\Enemy_Base.cpp">
-      <Filter>Source\GGJ2019</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\GGJ2019\Enemy_Base.h">
-      <Filter>Source\GGJ2019</Filter>
-    </ClInclude>
-    <None Include="..\..\Source\GGJ2019\GGJ2019.Build.cs">
-      <Filter>Source\GGJ2019</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\GGJ2019\GGJ2019.cpp">
-      <Filter>Source\GGJ2019</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\GGJ2019\GGJ2019.h">
-      <Filter>Source\GGJ2019</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\GGJ2019\GGJ2019GameModeBase.cpp">
-      <Filter>Source\GGJ2019</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\GGJ2019\GGJ2019GameModeBase.h">
-      <Filter>Source\GGJ2019</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\GGJ2019\NavigationNode_Base.cpp">
-      <Filter>Source\GGJ2019</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\GGJ2019\NavigationNode_Base.h">
-      <Filter>Source\GGJ2019</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\GGJ2019\Player_Base.cpp">
-      <Filter>Source\GGJ2019</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\GGJ2019\Player_Base.h">
-      <Filter>Source\GGJ2019</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\GGJ2019\MyNavigationNode_Exit.h">
-      <Filter>Source\GGJ2019</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\GGJ2019\EnemySpawner_Base.h">
-      <Filter>Source\GGJ2019</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\GGJ2019\MyNavigationNode_Exit.cpp">
-      <Filter>Source\GGJ2019</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\GGJ2019\EnemySpawner_Base.cpp">
-      <Filter>Source\GGJ2019</Filter>
-    </ClCompile>
-  </ItemGroup>
-</Project>
->>>>>>> JohnBranch
