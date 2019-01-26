@@ -35,12 +35,6 @@ void APlayer_Base::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	/*if (!movementVelocity.IsZero())
-	{
-		FVector NewLocation = GetActorLocation() + (movementVelocity * DeltaTime);
-		SetActorLocation(NewLocation);
-	}*/
-
 	AddMovementInput(GetActorForwardVector(), movementVelocity.X * DeltaTime);
 	AddMovementInput(GetActorRightVector(), movementVelocity.Y * DeltaTime);
 }
@@ -73,9 +67,6 @@ void APlayer_Base::Rotate(float value)
 
 void APlayer_Base::AttackEnemy()
 {
-<<<<<<< HEAD
 
-=======
-	movementVelocity.Y = value * 100;
->>>>>>> AngBranch
+
 }

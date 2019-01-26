@@ -84,11 +84,7 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-<<<<<<< HEAD
-		<ProjectGuid>{EA2E61C8-D6BB-4BD3-A28C-3A170D43F3FD}</ProjectGuid>
-=======
-		<ProjectGuid>{12F8B467-E9C5-466C-9582-E7FC5BBA747B}</ProjectGuid>
->>>>>>> AngBranch
+		<ProjectGuid>{B8B6F62C-7096-4EE4-9685-0F4AE8881514}</ProjectGuid>
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>GGJ2019</RootNamespace>
 		<PlatformToolset>v141</PlatformToolset>
