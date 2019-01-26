@@ -8,6 +8,7 @@
 
 class UCharacterMovementComponent;
 class USkeletalMeshComponent;
+class UCameraComponent;
 
 UCLASS()
 class GGJ2019_API APlayer_Base : public ACharacter
@@ -32,21 +33,25 @@ public:
 	//Movement
 	virtual void MoveRight(float value);
 	virtual void MoveForward(float value);
+	virtual void Rotate(float value);
 
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	FVector movementVelocity;
+
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Stats")
 	float movementSpeed;
-
-	//Damage
-	void TakeDamage();
-
-	//Stats
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Stats")
-	int maxHealth;
-
-	int playerHealth;
 
 	//Player
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	USkeletalMeshComponent* playerBaseComponent;
+		
+	//Stats
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Stats")
+	int maxHealth;
+	int playerHealth;
+
+	// CAMERA //
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	UCameraComponent* playerCamera;
+
 };

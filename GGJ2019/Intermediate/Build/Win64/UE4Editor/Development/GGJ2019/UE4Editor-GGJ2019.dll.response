@@ -30,6 +30,27 @@
 /NODEFAULTLIB:"LIBCP"
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
+<<<<<<< HEAD
+"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\Enemy_Base.cpp.obj"
+"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\GGJ2019.cpp.obj"
+"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\GGJ2019GameModeBase.cpp.obj"
+"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\NavigationNode_Base.cpp.obj"
+"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\Player_Base.cpp.obj"
+"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\Fridge_Base.cpp.obj"
+"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\Global_Variables.cpp.obj"
+"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\Pickup_Base.cpp.obj"
+"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\Pickup_Weapon.cpp.obj"
+"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\Enemy_Base.gen.cpp.obj"
+"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\Fridge_Base.gen.cpp.obj"
+"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\GGJ2019.init.gen.cpp.obj"
+"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\GGJ2019GameModeBase.gen.cpp.obj"
+"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\NavigationNode_Base.gen.cpp.obj"
+"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\Pickup_Base.gen.cpp.obj"
+"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\Pickup_Weapon.gen.cpp.obj"
+"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\Player_Base.gen.cpp.obj"
+"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\PCLaunch.rc.res"
+=======
 "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h.obj"
 "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\EnemySpawner_Base.cpp.obj"
 "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\Enemy_Base.cpp.obj"
@@ -46,6 +67,7 @@
 "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\NavigationNode_Base.gen.cpp.obj"
 "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\Player_Base.gen.cpp.obj"
 "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\PCLaunch.rc.res"
+>>>>>>> JohnBranch
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
@@ -74,7 +96,13 @@
 "C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
 "C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
 "C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
+<<<<<<< HEAD
+/OUT:"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019.dll"
+/IMPLIB:"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.lib"
+/PDB:"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019.pdb"
+=======
 /OUT:"C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019.dll"
 /IMPLIB:"C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.lib"
 /PDB:"C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019.pdb"
+>>>>>>> JohnBranch
 /ignore:4078
