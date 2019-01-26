@@ -19,13 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeGGJ2019_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/GGJ2019",
 				PKG_CompiledIn | 0x00000000,
-<<<<<<< HEAD
-				0xC2E6B377,
-				0x3F073FD3,
-=======
-				0x2E83C9F7,
-				0xF6B4AFE4,
->>>>>>> master
+				0xA462C08C,
+				0xF4C022BD,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

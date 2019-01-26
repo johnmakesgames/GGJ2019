@@ -28,4 +28,5 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	float GetDistanceToFridge() { return distanceToFridge; };
+	float GetDistanceToPoint(FVector point);
 };

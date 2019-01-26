@@ -1,0 +1,1153 @@
+﻿Log file open, 01/26/19 00:23:12
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: GGJ2019
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.413901
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.341s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) CPU E5-1620 v3 @ 3.50GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.006s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.26-00.23.13:291][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.26-00.23.13:291][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.26-00.23.13:309][  0]LogHAL: Display: Platform has ~ 16 GB [17092038656 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.26-00.23.13:310][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.26-00.23.13:310][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.26-00.23.13:310][  0]LogInit: Computer: C115-11
+[2019.01.26-00.23.13:310][  0]LogInit: User: w017177h
+[2019.01.26-00.23.13:311][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.26-00.23.13:311][  0]LogInit: High frequency timer resolution =3.410072 MHz
+[2019.01.26-00.23.13:311][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.26-00.23.13:311][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.26-00.23.13:311][  0]LogMemory: Process Physical Memory: 100.95 MB used, 100.95 MB peak
+[2019.01.26-00.23.13:311][  0]LogMemory: Process Virtual Memory: 91.13 MB used, 91.13 MB peak
+[2019.01.26-00.23.13:311][  0]LogMemory: Physical Memory: 6575.65 MB used,  9724.59 MB free, 16300.24 MB total
+[2019.01.26-00.23.13:311][  0]LogMemory: Virtual Memory: 4640.35 MB used,  9724.59 MB free, 134217728.00 MB total
+[2019.01.26-00.23.13:444][  0]LogInit: Using OS detected language (en-US).
+[2019.01.26-00.23.13:444][  0]LogInit: Using OS detected locale (en-GB).
+[2019.01.26-00.23.13:446][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.26-00.23.13:874][  0]LogStreaming: Display: Took  0.430s to InitEngineTextLocalization.
+[2019.01.26-00.23.13:874][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.26-00.23.13:926][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.26-00.23.13:926][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.26-00.23.14:264][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.26-00.23.14:264][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.26-00.23.14:389][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.01.26-00.23.14:389][  0]LogD3D11RHI:       4043/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.01.26-00.23.14:395][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.26-00.23.14:395][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.26-00.23.14:395][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.26-00.23.14:405][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.26-00.23.14:405][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.26-00.23.14:405][  0]LogWindows: EnumDisplayDevices:
+[2019.01.26-00.23.14:406][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.01.26-00.23.14:406][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2019.01.26-00.23.14:407][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.26-00.23.14:407][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.26-00.23.14:408][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.26-00.23.14:408][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.01.26-00.23.14:408][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2019.01.26-00.23.14:408][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2019.01.26-00.23.14:408][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2019.01.26-00.23.14:467][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.26-00.23.14:488][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.26-00.23.14:537][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Intermediate/Shaders/WorkingDirectory/13164/).
+[2019.01.26-00.23.14:537][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/w017177h.STUDENT/AppData/Local/Temp/UnrealShaderWorkingDir/0CFF6F914D26638AA47B00AC1121762D/'.
+[2019.01.26-00.23.14:982][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.26-00.23.15:002][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.26-00.23.15:022][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.26-00.23.15:044][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.26-00.23.15:065][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.26-00.23.15:084][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.26-00.23.15:108][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.26-00.23.15:128][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.26-00.23.15:139][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.26-00.23.15:233][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-00.23.15:233][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-00.23.15:233][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-00.23.15:233][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-00.23.15:233][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-00.23.15:234][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-00.23.15:234][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-00.23.15:234][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-00.23.15:234][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-00.23.15:234][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-00.23.15:235][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-00.23.15:235][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-00.23.15:235][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-00.23.15:235][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-00.23.15:235][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-00.23.15:235][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-00.23.15:235][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-00.23.15:235][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-00.23.15:244][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.26-00.23.15:326][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.26-00.23.15:326][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.26-00.23.15:356][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.26-00.23.15:356][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.26-00.23.15:374][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.26-00.23.15:391][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.26-00.23.15:409][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.26-00.23.15:432][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.26-00.23.15:448][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.26-00.23.15:448][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.26-00.23.15:630][  0]LogXGEController: Cleaning working directory: C:/Users/w017177h.STUDENT/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.26-00.23.15:630][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.26-00.23.15:631][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.26-00.23.15:631][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.26-00.23.16:707][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.26-00.23.16:825][  0]LogDerivedDataCache: Loaded boot cache 0.12s 71MB C:/Users/w017177h.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.26-00.23.16:826][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/w017177h.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.26-00.23.16:826][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.26-00.23.16:826][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.26-00.23.16:827][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.26-00.23.16:827][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.26-00.23.16:855][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.26-00.23.16:870][  0]LogDerivedDataCache: Using Local data cache path C:/Users/w017177h.STUDENT/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.26-00.23.16:870][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.26-00.23.16:870][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.26-00.23.16:900][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.26-00.23.16:917][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.26-00.23.16:918][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.26-00.23.17:015][  0]LogAssetRegistry: FAssetRegistry took 0.0305 seconds to start up
+[2019.01.26-00.23.17:455][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.26-00.23.17:571][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.26-00.23.17:583][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.26-00.23.17:584][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.26-00.23.17:584][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.26-00.23.17:584][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.26-00.23.17:712][  0]LogNetVersion: GGJ2019 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 54619999)
+[2019.01.26-00.23.18:542][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.165336 seconds
+[2019.01.26-00.23.18:548][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.26-00.23.18:548][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.01.26-00.23.18:548][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.26-00.23.19:857][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.26-00.23.19:878][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.26-00.23.20:103][  0]SourceControl: Source control is disabled
+[2019.01.26-00.23.20:104][  0]SourceControl: Source control is disabled
+[2019.01.26-00.23.20:108][  0]SourceControl: Source control is disabled
+[2019.01.26-00.23.20:112][  0]SourceControl: Source control is disabled
+[2019.01.26-00.23.20:494][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.26-00.23.20:640][  0]LogOcInput: OculusInput pre-init called
+[2019.01.26-00.23.20:718][  0]LogEngine: Initializing Engine...
+[2019.01.26-00.23.20:719][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.26-00.23.20:721][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.26-00.23.20:721][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.26-00.23.20:721][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.26-00.23.20:721][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.26-00.23.20:987][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.26-00.23.21:021][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.26-00.23.21:041][  0]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-00.23.21:061][  0]LogInit: FAudioDevice initialized.
+[2019.01.26-00.23.21:061][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.26-00.23.21:163][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/w017177h.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.26-00.23.21:193][  0]LogInit: Texture streaming: Enabled
+[2019.01.26-00.23.21:234][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.26-00.23.21:234][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={81CF34FC-4225-A45D-7C95-6996A36D41E1}
+[2019.01.26-00.23.21:259][  0]LogInit: Transaction tracking system initialized
+[2019.01.26-00.23.21:322][  0]BlueprintLog: New page: Editor Load
+[2019.01.26-00.23.21:503][  0]LocalizationService: Localization service is disabled
+[2019.01.26-00.23.21:892][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.26-00.23.21:892][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.26-00.23.21:892][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.26-00.23.21:893][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.26-00.23.21:893][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.26-00.23.21:893][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.26-00.23.21:893][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.26-00.23.22:130][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/' took 0.02s
+[2019.01.26-00.23.22:130][  0]SourceControl: Source control is disabled
+[2019.01.26-00.23.22:130][  0]Cmd: MAP LOAD FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/GameLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.26-00.23.22:131][  0]LightingResults: New page: Lighting Build
+[2019.01.26-00.23.22:136][  0]MapCheck: New page: Map Check
+[2019.01.26-00.23.22:136][  0]LightingResults: New page: Lighting Build
+[2019.01.26-00.23.22:428][  0]LogAIModule: Creating AISystem for world GameLevel
+[2019.01.26-00.23.22:442][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.26-00.23.22:470][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.26-00.23.22:662][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 190.739ms to complete.
+[2019.01.26-00.23.22:662][  0]LogFileHelpers: Loading map 'GameLevel' took 0.531
+[2019.01.26-00.23.22:843][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.23.22:852][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.23.22:860][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.23.22:868][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.23.22:880][  0]LogCollectionManager: Loaded 0 collections in 0.003598 seconds
+[2019.01.26-00.23.22:935][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Collections/' took 0.01s
+[2019.01.26-00.23.22:935][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Developers/w017177h/Collections/' took 0.01s
+[2019.01.26-00.23.22:936][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Collections/' took 0.01s
+[2019.01.26-00.23.22:936][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.26-00.23.22:946][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2577 classes and 605 folders.
+[2019.01.26-00.23.22:957][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.26-00.23.23:044][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.01.26-00.23.23:055][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.01.26-00.23.23:094][  0]LogSlate: Took 0.000455 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.26-00.23.23:097][  0]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.26-00.23.23:103][  0]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.26-00.23.23:187][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.01.26-00.23.23:251][  0]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.26-00.23.23:366][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.26-00.23.23:366][  0]LogLoad: (Engine Initialization) Total time: 13.78 seconds
+[2019.01.26-00.23.23:366][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.26-00.23.23:376][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.26-00.23.23:415][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.26-00.23.23:456][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/' took 0.07s
+[2019.01.26-00.23.23:473][  1]LogAssetRegistry: Asset discovery search completed in 6.4836 seconds
+[2019.01.26-00.23.23:474][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.01.26-00.23.23:475][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000155 seconds (updated 0 objects)
+[2019.01.26-00.23.26:253][316]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-00.23.26:319][324]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-00.23.26:338][324]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-00.23.26:351][324]PIE: New page: PIE session: GameLevel (26 Jan 2019 00:23:26)
+[2019.01.26-00.23.26:352][324]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GameLevel
+[2019.01.26-00.23.26:368][324]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016572s)
+[2019.01.26-00.23.26:369][324]LogAIModule: Creating AISystem for world GameLevel
+[2019.01.26-00.23.26:369][324]LogPlayLevel: PIE: World Init took: (0.000833s)
+[2019.01.26-00.23.26:369][324]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameLevel.GameLevel to /Game/UEDPIE_0_GameLevel.GameLevel (0.017788s)
+[2019.01.26-00.23.26:405][324]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-00.23.26:421][324]LogInit: FAudioDevice initialized.
+[2019.01.26-00.23.26:484][324]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-00.23.26:491][324]LogWorld: Bringing World /Game/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2019.01.26-00.23.26
+[2019.01.26-00.23.26:492][324]LogWorld: Bringing up level for play took: 0.003748
+[2019.01.26-00.23.26:537][324]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 10 classes and 0 folders.
+[2019.01.26-00.23.26:540][324]PIE: Play in editor start time for /Game/UEDPIE_0_GameLevel 0.059
+[2019.01.26-00.23.27:700][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.23.27:739][449]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-00.23.27:765][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.23.27:803][452]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.01.26-00.23.28:847][572]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-00.23.31:708][898]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.26-00.23.31:835][898]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-00.23.31:889][898]LogAssetEditorManager: Opening Asset editor for World /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel
+[2019.01.26-00.23.31:921][898]Cmd: MAP LOAD FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.26-00.23.31:921][898]LightingResults: New page: Lighting Build
+[2019.01.26-00.23.31:922][898]LoadErrors: New page: Loading map: NewJohnLevel.umap
+[2019.01.26-00.23.31:924][898]MapCheck: New page: Map Check
+[2019.01.26-00.23.31:924][898]LightingResults: New page: Lighting Build
+[2019.01.26-00.23.32:020][898]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.26-00.23.32:071][898]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.26-00.23.32:270][898]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 199.284ms to complete.
+[2019.01.26-00.23.32:272][898]LogFileHelpers: Loading map 'NewJohnLevel' took 0.352
+[2019.01.26-00.23.32:926][952]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-00.23.32:944][952]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-00.23.32:944][952]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 00:23:32)
+[2019.01.26-00.23.32:944][952]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-00.23.32:970][952]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026326s)
+[2019.01.26-00.23.32:971][952]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-00.23.32:971][952]LogPlayLevel: PIE: World Init took: (0.000956s)
+[2019.01.26-00.23.32:972][952]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.027793s)
+[2019.01.26-00.23.33:012][952]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-00.23.33:026][952]LogInit: FAudioDevice initialized.
+[2019.01.26-00.23.33:062][952]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-00.23.33:069][952]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-00.23.33
+[2019.01.26-00.23.33:070][952]LogWorld: Bringing up level for play took: 0.007047
+[2019.01.26-00.23.33:086][952]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 0.607
+[2019.01.26-00.23.49:618][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.23.49:660][888]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-00.23.49:692][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.23.49:722][890]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.01.26-00.24.07:581][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-00.24.09:030][168]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-00.24.09:077][168]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-00.24.09:077][168]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 00:24:09)
+[2019.01.26-00.24.09:077][168]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-00.24.09:132][168]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054866s)
+[2019.01.26-00.24.09:134][168]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-00.24.09:134][168]LogPlayLevel: PIE: World Init took: (0.002013s)
+[2019.01.26-00.24.09:134][168]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.057503s)
+[2019.01.26-00.24.09:182][168]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-00.24.09:193][168]LogInit: FAudioDevice initialized.
+[2019.01.26-00.24.09:229][168]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-00.24.09:236][168]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-00.24.09
+[2019.01.26-00.24.09:238][168]LogWorld: Bringing up level for play took: 0.007530
+[2019.01.26-00.24.09:252][168]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 0.772
+[2019.01.26-00.24.24:438][944]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.24.24:487][944]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-00.24.24:555][944]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.24.24:594][945]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.01.26-00.24.27:497][252]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.01.26-00.24.27:690][265]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.24.28:100][265]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel688ADFFD4CA8189501C4D68977F00866.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.24.38:007][417]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.24.38:462][417]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel905FE85948EAEAB9D0C149AAD5ABB91A.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.24.45:413][178]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base132)
+[2019.01.26-00.24.46:587][294]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base133)
+[2019.01.26-00.24.47:285][370]LogEditorViewport: Clicking on Actor (CTRL LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base134)
+[2019.01.26-00.24.47:885][438]LogEditorViewport: Clicking on Actor (CTRL LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base135)
+[2019.01.26-00.24.49:238][591]LogEditorViewport: Clicking on Actor (CTRL LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base136)
+[2019.01.26-00.24.49:660][638]LogEditorViewport: Clicking on Actor (CTRL LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base137)
+[2019.01.26-00.24.55:707][258]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base137)
+[2019.01.26-00.24.58:376][553]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.24.58:902][553]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel1CB0F78E43A9C84750288D99D09FBFBD.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.25.00:403][684]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-00.25.00:478][693]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-00.25.00:498][693]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-00.25.00:499][693]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 00:25:00)
+[2019.01.26-00.25.00:499][693]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-00.25.00:527][693]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028065s)
+[2019.01.26-00.25.00:528][693]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-00.25.00:528][693]LogPlayLevel: PIE: World Init took: (0.000821s)
+[2019.01.26-00.25.00:528][693]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.029299s)
+[2019.01.26-00.25.00:558][693]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-00.25.00:576][693]LogInit: FAudioDevice initialized.
+[2019.01.26-00.25.00:614][693]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-00.25.00:621][693]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-00.25.00
+[2019.01.26-00.25.00:622][693]LogWorld: Bringing up level for play took: 0.007194
+[2019.01.26-00.25.00:638][693]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 0.158
+[2019.01.26-00.25.50:963][534]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.25.51:001][534]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-00.25.51:034][534]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.25.51:070][536]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.01.26-00.25.54:505][923]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base20)
+[2019.01.26-00.25.57:904][260]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.25.58:334][260]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel9BF3418642BCB538D4407EA39263B6F7.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.26.00:054][402]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base21)
+[2019.01.26-00.26.02:103][617]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base139)
+[2019.01.26-00.26.04:413][873]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.26.04:988][873]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel85118FFA4C186B0FF7A672A7A8BA6239.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.26.08:797][213]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.01.26-00.26.09:769][314]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-00.26.09:852][324]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-00.26.09:872][324]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-00.26.09:872][324]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 00:26:09)
+[2019.01.26-00.26.09:872][324]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-00.26.09:899][324]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027019s)
+[2019.01.26-00.26.09:900][324]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-00.26.09:900][324]LogPlayLevel: PIE: World Init took: (0.000892s)
+[2019.01.26-00.26.09:901][324]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.028452s)
+[2019.01.26-00.26.09:931][324]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-00.26.09:943][324]LogInit: FAudioDevice initialized.
+[2019.01.26-00.26.09:975][324]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-00.26.09:982][324]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-00.26.09
+[2019.01.26-00.26.09:983][324]LogWorld: Bringing up level for play took: 0.007147
+[2019.01.26-00.26.10:001][324]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel -0.479
+[2019.01.26-00.26.24:037][966]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.26.24:097][966]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-00.26.24:121][966]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.26.24:142][967]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.01.26-00.26.29:151][533]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base75)
+[2019.01.26-00.26.30:557][660]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base96)
+[2019.01.26-00.26.31:297][741]Cmd: DELETE
+[2019.01.26-00.26.31:297][741]Cmd: ACTOR DELETE
+[2019.01.26-00.26.31:313][741]LogEditorActor: Deleted Actor: NavigationNode_BP_Base_C
+[2019.01.26-00.26.31:342][741]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2019.01.26-00.26.31:757][790]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base97)
+[2019.01.26-00.26.33:068][937]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base75)
+[2019.01.26-00.26.34:346][ 72]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base75)
+[2019.01.26-00.26.36:753][336]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.26.37:251][336]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevelB76E17684928FCD97AE7AEAE3EFF5D25.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.26.37:540][359]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-00.26.37:598][366]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-00.26.37:617][366]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-00.26.37:617][366]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 00:26:37)
+[2019.01.26-00.26.37:617][366]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-00.26.37:643][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026110s)
+[2019.01.26-00.26.37:644][366]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-00.26.37:645][366]LogPlayLevel: PIE: World Init took: (0.001271s)
+[2019.01.26-00.26.37:645][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.027929s)
+[2019.01.26-00.26.37:682][366]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-00.26.37:693][366]LogInit: FAudioDevice initialized.
+[2019.01.26-00.26.37:732][366]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-00.26.37:750][366]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-00.26.37
+[2019.01.26-00.26.37:753][366]LogWorld: Bringing up level for play took: 0.019971
+[2019.01.26-00.26.37:773][366]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel -0.707
+[2019.01.26-00.26.49:889][758]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.26.49:930][758]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-00.26.49:964][758]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.26.50:001][760]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.01.26-00.26.51:895][966]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base4)
+[2019.01.26-00.26.55:726][369]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base6)
+[2019.01.26-00.26.56:573][461]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.26.57:062][461]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevelDF093D4F4D45D7A92AA1AD97E0A21DF6.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.26.58:153][561]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base)
+[2019.01.26-00.26.59:609][711]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.27.00:129][711]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel3D2C999045875DC14B684D93C834C43C.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.27.00:502][748]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-00.27.00:552][754]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-00.27.00:571][754]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-00.27.00:571][754]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 00:27:00)
+[2019.01.26-00.27.00:571][754]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-00.27.00:601][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029461s)
+[2019.01.26-00.27.00:602][754]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-00.27.00:602][754]LogPlayLevel: PIE: World Init took: (0.000829s)
+[2019.01.26-00.27.00:602][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.030704s)
+[2019.01.26-00.27.00:636][754]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-00.27.00:646][754]LogInit: FAudioDevice initialized.
+[2019.01.26-00.27.00:680][754]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-00.27.00:687][754]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-00.27.00
+[2019.01.26-00.27.00:688][754]LogWorld: Bringing up level for play took: 0.007138
+[2019.01.26-00.27.00:703][754]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 0.223
+[2019.01.26-00.27.14:195][331]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.27.14:232][331]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-00.27.14:255][331]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.27.14:295][334]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.01.26-00.27.15:997][522]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base20)
+[2019.01.26-00.27.18:642][797]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.27.19:060][797]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel3934B3DC4C2748494C328F8A32C3D718.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.27.21:584][ 22]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Exit_C (NavigationNode_BP_Exit)
+[2019.01.26-00.27.22:761][138]Cmd: DELETE
+[2019.01.26-00.27.22:762][138]Cmd: ACTOR DELETE
+[2019.01.26-00.27.22:782][138]LogEditorActor: Deleted Actor: NavigationNode_BP_Exit_C
+[2019.01.26-00.27.22:820][138]LogEditorActor: Deleted 1 Actors (0.058 secs)
+[2019.01.26-00.27.25:624][455]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Exit_C (NavigationNode_BP_Exit4)
+[2019.01.26-00.27.26:423][540]Cmd: DELETE
+[2019.01.26-00.27.26:423][540]Cmd: ACTOR DELETE
+[2019.01.26-00.27.26:431][540]LogEditorActor: Deleted Actor: NavigationNode_BP_Exit_C
+[2019.01.26-00.27.26:453][540]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2019.01.26-00.27.29:274][867]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.27.29:715][867]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevelC606F03A4212702A466B029085A8D526.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.27.30:192][902]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-00.27.30:275][912]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-00.27.30:294][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-00.27.30:294][912]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 00:27:30)
+[2019.01.26-00.27.30:294][912]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-00.27.30:321][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026448s)
+[2019.01.26-00.27.30:321][912]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-00.27.30:322][912]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2019.01.26-00.27.30:322][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.027649s)
+[2019.01.26-00.27.30:352][912]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-00.27.30:362][912]LogInit: FAudioDevice initialized.
+[2019.01.26-00.27.30:397][912]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-00.27.30:403][912]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-00.27.30
+[2019.01.26-00.27.30:404][912]LogWorld: Bringing up level for play took: 0.006985
+[2019.01.26-00.27.30:419][912]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel -0.061
+[2019.01.26-00.27.46:882][829]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.27.46:919][829]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-00.27.46:944][829]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.27.46:982][832]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.01.26-00.27.52:602][454]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Exit_C (NavigationNode_BP_Exit3)
+[2019.01.26-00.28.02:916][606]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.28.03:446][606]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevelBE05455242BCAECE264B0E92C27DFA61.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.28.04:190][671]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-00.28.05:228][786]LogActor: Warning: Enemy_BP_Base_C /Engine/Transient.World_2:PersistentLevel.Enemy_BP_Base_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-00.28.06:072][877]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/NavigationNode_BP_Exit.NavigationNode_BP_Exit
+[2019.01.26-00.28.06:543][877]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2019.01.26-00.28.07:615][877]LogSlate: Took 0.000410 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.26-00.28.08:456][938]LogSlate: Took 0.000284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.26-00.28.13:007][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NavigationNode_BP_Exit" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/NavigationNode_BP_Exit.uasset" SILENT=true
+[2019.01.26-00.28.13:046][339]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NavigationNode_BP_Exit9E8A914C4C8FC783F86AABBC594D4F67.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/NavigationNode_BP_Exit.uasset'
+[2019.01.26-00.28.13:603][382]BlueprintLog: New page: Compile NavigationNode_BP_Exit
+[2019.01.26-00.28.14:525][444]LogSlate: Window 'NavigationNode_BP_Exit' being destroyed
+[2019.01.26-00.28.15:360][525]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.01.26-00.28.15:530][539]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.28.15:998][539]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel0CF7513048CE2095B7906D9EB372B0C3.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.28.17:161][665]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-00.28.17:236][674]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-00.28.17:259][674]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-00.28.17:260][674]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 00:28:17)
+[2019.01.26-00.28.17:260][674]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-00.28.17:293][674]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033279s)
+[2019.01.26-00.28.17:294][674]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-00.28.17:294][674]LogPlayLevel: PIE: World Init took: (0.000764s)
+[2019.01.26-00.28.17:294][674]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.034418s)
+[2019.01.26-00.28.17:331][674]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-00.28.17:342][674]LogInit: FAudioDevice initialized.
+[2019.01.26-00.28.17:373][674]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-00.28.17:380][674]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-00.28.17
+[2019.01.26-00.28.17:381][674]LogWorld: Bringing up level for play took: 0.006787
+[2019.01.26-00.28.17:397][674]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 0.918
+[2019.01.26-00.28.37:746][ 53]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.28.37:789][ 53]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-00.28.37:839][ 53]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.28.37:871][ 54]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.01.26-00.28.38:922][178]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-00.28.38:984][183]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-00.28.39:003][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-00.28.39:003][183]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 00:28:39)
+[2019.01.26-00.28.39:003][183]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-00.28.39:029][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025851s)
+[2019.01.26-00.28.39:030][183]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-00.28.39:030][183]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2019.01.26-00.28.39:030][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.026972s)
+[2019.01.26-00.28.39:068][183]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-00.28.39:080][183]LogInit: FAudioDevice initialized.
+[2019.01.26-00.28.39:117][183]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-00.28.39:123][183]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-00.28.39
+[2019.01.26-00.28.39:125][183]LogWorld: Bringing up level for play took: 0.007205
+[2019.01.26-00.28.39:139][183]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 0.659
+[2019.01.26-00.28.55:996][152]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.28.56:035][152]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-00.28.56:076][152]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.28.56:101][153]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.01.26-00.29.02:840][935]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.29.03:288][935]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel23DBD4C646A92DC7823402ACAC21BE01.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.29.13:415][ 81]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base50)
+[2019.01.26-00.29.17:212][414]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.29.17:675][414]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel079FA7A54B9769DA049688AB1B82714F.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.29.19:731][616]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.01.26-00.29.22:817][923]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base84)
+[2019.01.26-00.29.28:036][487]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base87)
+[2019.01.26-00.29.30:278][719]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.29.30:719][719]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel05E7DAEC441965DE5F86EF8C6D84CEEF.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.29.32:714][912]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base94)
+[2019.01.26-00.29.34:938][133]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.29.35:365][133]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel1BE642E640A1FED29CD22887DB79E514.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.29.38:336][432]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base2)
+[2019.01.26-00.29.42:191][848]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base)
+[2019.01.26-00.29.44:698][131]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base4)
+[2019.01.26-00.29.46:438][329]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base4)
+[2019.01.26-00.29.53:692][102]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.29.54:197][102]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel5F6B22994D3B5510530838B8E728BE7B.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.29.57:414][369]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-00.29.57:489][378]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-00.29.57:507][378]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-00.29.57:507][378]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 00:29:57)
+[2019.01.26-00.29.57:507][378]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-00.29.57:536][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028648s)
+[2019.01.26-00.29.57:537][378]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-00.29.57:538][378]LogPlayLevel: PIE: World Init took: (0.001339s)
+[2019.01.26-00.29.57:538][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.030511s)
+[2019.01.26-00.29.57:580][378]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-00.29.57:592][378]LogInit: FAudioDevice initialized.
+[2019.01.26-00.29.57:632][378]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-00.29.57:638][378]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-00.29.57
+[2019.01.26-00.29.57:640][378]LogWorld: Bringing up level for play took: 0.007393
+[2019.01.26-00.29.57:655][378]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel -0.824
+[2019.01.26-00.30.09:444][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.30.09:483][740]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-00.30.09:516][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.30.09:547][742]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.01.26-00.30.10:228][820]Cmd: TRANSACTION UNDO
+[2019.01.26-00.30.10:228][820]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.26-00.30.11:898][998]Cmd: TRANSACTION UNDO
+[2019.01.26-00.30.11:899][998]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.26-00.30.15:346][357]Cmd: DELETE
+[2019.01.26-00.30.15:346][357]Cmd: ACTOR DELETE
+[2019.01.26-00.30.15:355][357]LogEditorActor: Deleted Actor: NavigationNode_BP_Base_C
+[2019.01.26-00.30.15:385][357]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2019.01.26-00.30.15:863][403]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base4)
+[2019.01.26-00.30.17:574][596]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base)
+[2019.01.26-00.30.18:898][747]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base6)
+[2019.01.26-00.30.19:571][814]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.30.20:015][814]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevelF804F6A843A7DF093972E78BC9E824B7.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.30.20:416][838]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-00.30.20:484][846]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-00.30.20:503][846]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-00.30.20:504][846]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 00:30:20)
+[2019.01.26-00.30.20:504][846]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-00.30.20:532][846]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028223s)
+[2019.01.26-00.30.20:533][846]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-00.30.20:533][846]LogPlayLevel: PIE: World Init took: (0.001034s)
+[2019.01.26-00.30.20:533][846]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.029682s)
+[2019.01.26-00.30.20:570][846]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-00.30.20:583][846]LogInit: FAudioDevice initialized.
+[2019.01.26-00.30.20:620][846]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-00.30.20:627][846]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-00.30.20
+[2019.01.26-00.30.20:628][846]LogWorld: Bringing up level for play took: 0.006959
+[2019.01.26-00.30.20:643][846]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 0.163
+[2019.01.26-00.30.31:839][151]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.30.31:876][151]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-00.30.31:921][151]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.30.31:946][152]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.01.26-00.30.33:426][299]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base6)
+[2019.01.26-00.30.51:053][201]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.30.51:510][201]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel81FA7CFE4CD7796230F8A195B72D0330.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.30.52:465][288]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-00.30.52:548][298]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-00.30.52:567][298]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-00.30.52:567][298]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 00:30:52)
+[2019.01.26-00.30.52:567][298]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-00.30.52:610][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042540s)
+[2019.01.26-00.30.52:611][298]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-00.30.52:612][298]LogPlayLevel: PIE: World Init took: (0.001328s)
+[2019.01.26-00.30.52:612][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.044497s)
+[2019.01.26-00.30.52:654][298]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-00.30.52:668][298]LogInit: FAudioDevice initialized.
+[2019.01.26-00.30.52:706][298]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-00.30.52:713][298]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-00.30.52
+[2019.01.26-00.30.52:717][298]LogWorld: Bringing up level for play took: 0.010492
+[2019.01.26-00.30.52:732][298]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 0.252
+[2019.01.26-00.31.04:718][706]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.31.04:757][706]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-00.31.04:796][706]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.31.04:820][707]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.01.26-00.31.06:075][842]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base143)
+[2019.01.26-00.31.06:814][904]Cmd: DELETE
+[2019.01.26-00.31.06:814][904]Cmd: ACTOR DELETE
+[2019.01.26-00.31.06:823][904]LogEditorActor: Deleted Actor: NavigationNode_BP_Base_C
+[2019.01.26-00.31.06:853][904]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2019.01.26-00.31.07:373][966]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base144)
+[2019.01.26-00.31.07:506][970]Cmd: DELETE
+[2019.01.26-00.31.07:507][970]Cmd: ACTOR DELETE
+[2019.01.26-00.31.07:526][970]LogEditorActor: Deleted Actor: NavigationNode_BP_Base_C
+[2019.01.26-00.31.07:557][970]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2019.01.26-00.31.08:199][ 46]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base145)
+[2019.01.26-00.31.08:273][ 51]Cmd: DELETE
+[2019.01.26-00.31.08:273][ 51]Cmd: ACTOR DELETE
+[2019.01.26-00.31.08:282][ 51]LogEditorActor: Deleted Actor: NavigationNode_BP_Base_C
+[2019.01.26-00.31.08:307][ 51]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2019.01.26-00.31.09:241][161]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base142)
+[2019.01.26-00.31.12:300][459]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base146)
+[2019.01.26-00.31.13:035][532]Cmd: DELETE
+[2019.01.26-00.31.13:036][532]Cmd: ACTOR DELETE
+[2019.01.26-00.31.13:047][532]LogEditorActor: Deleted Actor: NavigationNode_BP_Base_C
+[2019.01.26-00.31.13:079][532]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2019.01.26-00.31.13:800][616]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base147)
+[2019.01.26-00.31.14:298][671]Cmd: DELETE
+[2019.01.26-00.31.14:298][671]Cmd: ACTOR DELETE
+[2019.01.26-00.31.14:307][671]LogEditorActor: Deleted Actor: NavigationNode_BP_Base_C
+[2019.01.26-00.31.14:336][671]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2019.01.26-00.31.15:554][809]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base140)
+[2019.01.26-00.31.16:944][966]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-00.31.16:986][971]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-00.31.17:004][971]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-00.31.17:004][971]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 00:31:17)
+[2019.01.26-00.31.17:004][971]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-00.31.17:031][971]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026781s)
+[2019.01.26-00.31.17:033][971]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-00.31.17:033][971]LogPlayLevel: PIE: World Init took: (0.001499s)
+[2019.01.26-00.31.17:033][971]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.028938s)
+[2019.01.26-00.31.17:075][971]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-00.31.17:086][971]LogInit: FAudioDevice initialized.
+[2019.01.26-00.31.17:118][971]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-00.31.17:125][971]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-00.31.17
+[2019.01.26-00.31.17:127][971]LogWorld: Bringing up level for play took: 0.007468
+[2019.01.26-00.31.17:141][971]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 0.661
+[2019.01.26-00.31.37:843][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.31.37:879][387]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-00.31.37:919][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.31.37:944][388]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.01.26-00.31.42:167][860]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base69)
+[2019.01.26-00.31.46:885][378]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base143)
+[2019.01.26-00.31.48:788][574]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base144)
+[2019.01.26-00.32.11:478][990]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.32.13:015][133]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base157)
+[2019.01.26-00.32.18:910][741]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.32.19:423][741]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel3C4CE8B04410991EC3DBEB97BD1483A1.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.32.20:968][867]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-00.32.21:030][874]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-00.32.21:048][874]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-00.32.21:048][874]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 00:32:21)
+[2019.01.26-00.32.21:049][874]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-00.32.21:077][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028316s)
+[2019.01.26-00.32.21:078][874]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-00.32.21:078][874]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2019.01.26-00.32.21:078][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.029516s)
+[2019.01.26-00.32.21:114][874]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-00.32.21:124][874]LogInit: FAudioDevice initialized.
+[2019.01.26-00.32.21:161][874]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-00.32.21:170][874]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-00.32.21
+[2019.01.26-00.32.21:171][874]LogWorld: Bringing up level for play took: 0.008393
+[2019.01.26-00.32.21:187][874]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 0.707
+[2019.01.26-00.32.39:277][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.32.39:328][972]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-00.32.39:360][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.32.39:385][973]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.01.26-00.32.42:789][353]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Exit_C (NavigationNode_BP_Exit5)
+[2019.01.26-00.32.43:481][427]Cmd: DELETE
+[2019.01.26-00.32.43:481][427]Cmd: ACTOR DELETE
+[2019.01.26-00.32.43:490][427]LogEditorActor: Deleted Actor: NavigationNode_BP_Exit_C
+[2019.01.26-00.32.43:516][427]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2019.01.26-00.32.45:442][625]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base126)
+[2019.01.26-00.32.46:972][795]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-00.32.47:022][801]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-00.32.47:042][801]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-00.32.47:042][801]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 00:32:47)
+[2019.01.26-00.32.47:042][801]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-00.32.47:072][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029461s)
+[2019.01.26-00.32.47:072][801]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-00.32.47:073][801]LogPlayLevel: PIE: World Init took: (0.000875s)
+[2019.01.26-00.32.47:073][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.030850s)
+[2019.01.26-00.32.47:110][801]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-00.32.47:122][801]LogInit: FAudioDevice initialized.
+[2019.01.26-00.32.47:159][801]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-00.32.47:167][801]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-00.32.47
+[2019.01.26-00.32.47:168][801]LogWorld: Bringing up level for play took: 0.008231
+[2019.01.26-00.32.47:183][801]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 0.703
+[2019.01.26-00.33.04:451][818]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.33.04:491][818]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-00.33.04:550][818]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.33.04:578][819]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.01.26-00.33.16:509][205]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base158)
+[2019.01.26-00.33.17:167][274]Cmd: DELETE
+[2019.01.26-00.33.17:167][274]Cmd: ACTOR DELETE
+[2019.01.26-00.33.17:177][274]LogEditorActor: Deleted Actor: NavigationNode_BP_Base_C
+[2019.01.26-00.33.17:209][274]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2019.01.26-00.33.17:718][326]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base159)
+[2019.01.26-00.33.17:846][334]Cmd: DELETE
+[2019.01.26-00.33.17:846][334]Cmd: ACTOR DELETE
+[2019.01.26-00.33.17:858][334]LogEditorActor: Deleted Actor: NavigationNode_BP_Base_C
+[2019.01.26-00.33.17:885][334]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2019.01.26-00.33.18:506][406]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base157)
+[2019.01.26-00.33.18:629][417]Cmd: DELETE
+[2019.01.26-00.33.18:629][417]Cmd: ACTOR DELETE
+[2019.01.26-00.33.18:641][417]LogEditorActor: Deleted Actor: NavigationNode_BP_Base_C
+[2019.01.26-00.33.18:667][417]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2019.01.26-00.33.18:966][452]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base156)
+[2019.01.26-00.33.19:057][459]Cmd: DELETE
+[2019.01.26-00.33.19:057][459]Cmd: ACTOR DELETE
+[2019.01.26-00.33.19:067][459]LogEditorActor: Deleted Actor: NavigationNode_BP_Base_C
+[2019.01.26-00.33.19:091][459]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2019.01.26-00.33.19:515][506]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base155)
+[2019.01.26-00.33.22:472][838]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base160)
+[2019.01.26-00.33.22:870][882]Cmd: DELETE
+[2019.01.26-00.33.22:870][882]Cmd: ACTOR DELETE
+[2019.01.26-00.33.22:879][882]LogEditorActor: Deleted Actor: NavigationNode_BP_Base_C
+[2019.01.26-00.33.22:910][882]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2019.01.26-00.33.23:610][960]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-00.33.23:651][965]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-00.33.23:670][965]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-00.33.23:671][965]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 00:33:23)
+[2019.01.26-00.33.23:671][965]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-00.33.23:699][965]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027915s)
+[2019.01.26-00.33.23:699][965]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-00.33.23:700][965]LogPlayLevel: PIE: World Init took: (0.000800s)
+[2019.01.26-00.33.23:700][965]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.029087s)
+[2019.01.26-00.33.23:739][965]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-00.33.23:750][965]LogInit: FAudioDevice initialized.
+[2019.01.26-00.33.23:788][965]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-00.33.23:806][965]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-00.33.23
+[2019.01.26-00.33.23:810][965]LogWorld: Bringing up level for play took: 0.020020
+[2019.01.26-00.33.23:828][965]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel -0.652
+[2019.01.26-00.33.40:914][964]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.33.40:967][964]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-00.33.41:009][964]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.33.41:035][965]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.01.26-00.33.42:355][118]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.33.42:813][118]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevelD9CC1A114F67CAD2C9CD13A2B64D14A6.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.33.47:428][631]LogEditorViewport: Clicking on Actor (context menu): Enemy_BP_Base_C (Enemy_BP_Base2)
+[2019.01.26-00.33.47:478][631]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.33.48:426][730]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/NavigationNode_BP_Exit.NavigationNode_BP_Exit
+[2019.01.26-00.33.54:679][280]BlueprintLog: New page: Compile NavigationNode_BP_Exit
+[2019.01.26-00.33.55:766][364]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NavigationNode_BP_Exit" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/NavigationNode_BP_Exit.uasset" SILENT=true
+[2019.01.26-00.33.55:809][364]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NavigationNode_BP_ExitFE466CC04447AF8044B0A0BED4BFA520.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/NavigationNode_BP_Exit.uasset'
+[2019.01.26-00.33.56:115][390]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-00.33.56:204][398]LogSlate: Window 'NavigationNode_BP_Exit' being destroyed
+[2019.01.26-00.33.56:790][458]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-00.33.57:601][553]LogEditorViewport: Clicking on Actor (LMB): Enemy_BP_Base_C (Enemy_BP_Base)
+[2019.01.26-00.33.58:089][607]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Exit_C (NavigationNode_BP_Exit2)
+[2019.01.26-00.33.58:746][676]Cmd: DELETE
+[2019.01.26-00.33.58:746][676]Cmd: ACTOR DELETE
+[2019.01.26-00.33.58:755][676]LogEditorActor: Deleted Actor: NavigationNode_BP_Exit_C
+[2019.01.26-00.33.58:783][676]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2019.01.26-00.33.59:259][732]LogEditorViewport: Clicking on Actor (LMB): Enemy_BP_Base_C (Enemy_BP_Base2)
+[2019.01.26-00.33.59:330][735]Cmd: DELETE
+[2019.01.26-00.33.59:330][735]Cmd: ACTOR DELETE
+[2019.01.26-00.33.59:339][735]LogEditorActor: Deleted Actor: Enemy_BP_Base_C
+[2019.01.26-00.33.59:362][735]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2019.01.26-00.34.00:324][847]Cmd: TRANSACTION UNDO
+[2019.01.26-00.34.00:324][847]LogEditorTransaction: Undo Delete Actors
+[2019.01.26-00.34.00:802][884]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Exit_C (NavigationNode_BP_Exit3)
+[2019.01.26-00.34.01:133][918]Cmd: DELETE
+[2019.01.26-00.34.01:133][918]Cmd: ACTOR DELETE
+[2019.01.26-00.34.01:144][918]LogEditorActor: Deleted Actor: NavigationNode_BP_Exit_C
+[2019.01.26-00.34.01:173][918]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2019.01.26-00.34.01:688][978]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.01.26-00.34.01:930][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.34.02:499][  0]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel9A4878B84FA59D7F3CD913BF35837306.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.34.06:327][359]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Exit_C (NavigationNode_BP_Exit4)
+[2019.01.26-00.34.09:527][716]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.34.10:086][716]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel54DD7DC14D51EEDFB7F841A16725858F.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.34.10:411][730]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-00.34.10:474][737]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-00.34.10:494][737]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-00.34.10:494][737]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 00:34:10)
+[2019.01.26-00.34.10:494][737]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-00.34.10:523][737]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029103s)
+[2019.01.26-00.34.10:524][737]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-00.34.10:524][737]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2019.01.26-00.34.10:524][737]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.030354s)
+[2019.01.26-00.34.10:565][737]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-00.34.10:576][737]LogInit: FAudioDevice initialized.
+[2019.01.26-00.34.10:611][737]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-00.34.10:627][737]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-00.34.10
+[2019.01.26-00.34.10:631][737]LogWorld: Bringing up level for play took: 0.018015
+[2019.01.26-00.34.10:649][737]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 0.17
+[2019.01.26-00.34.30:235][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.34.30:276][ 22]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-00.34.30:329][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.34.30:356][ 23]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.01.26-00.34.33:452][361]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base137)
+[2019.01.26-00.34.36:373][691]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base17)
+[2019.01.26-00.35.04:416][701]Cmd: TRANSACTION UNDO
+[2019.01.26-00.35.04:416][701]LogEditorTransaction: Undo Move Actors
+[2019.01.26-00.35.25:732][957]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.35.26:237][957]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel2DCB00D4433E774FE8CB308DD06101F2.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.35.28:448][181]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-00.35.28:506][188]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-00.35.28:524][188]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-00.35.28:524][188]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 00:35:28)
+[2019.01.26-00.35.28:524][188]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-00.35.28:552][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027753s)
+[2019.01.26-00.35.28:553][188]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-00.35.28:553][188]LogPlayLevel: PIE: World Init took: (0.000941s)
+[2019.01.26-00.35.28:554][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.029269s)
+[2019.01.26-00.35.28:598][188]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-00.35.28:610][188]LogInit: FAudioDevice initialized.
+[2019.01.26-00.35.28:644][188]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-00.35.28:652][188]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-00.35.28
+[2019.01.26-00.35.28:654][188]LogWorld: Bringing up level for play took: 0.008934
+[2019.01.26-00.35.28:669][188]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 0.189
+[2019.01.26-00.35.47:511][390]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.35.47:551][390]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-00.35.47:578][390]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.35.47:632][391]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.01.26-00.35.50:770][738]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Exit_C (NavigationNode_BP_Exit4)
+[2019.01.26-00.35.54:198][ 81]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base143)
+[2019.01.26-00.35.55:060][177]Cmd: DELETE
+[2019.01.26-00.35.55:060][177]Cmd: ACTOR DELETE
+[2019.01.26-00.35.55:072][177]LogEditorActor: Deleted Actor: NavigationNode_BP_Base_C
+[2019.01.26-00.35.55:101][177]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2019.01.26-00.35.55:784][258]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base144)
+[2019.01.26-00.35.55:911][263]Cmd: DELETE
+[2019.01.26-00.35.55:911][263]Cmd: ACTOR DELETE
+[2019.01.26-00.35.55:940][263]LogEditorActor: Deleted Actor: NavigationNode_BP_Base_C
+[2019.01.26-00.35.55:975][263]LogEditorActor: Deleted 1 Actors (0.064 secs)
+[2019.01.26-00.35.57:318][420]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base145)
+[2019.01.26-00.35.57:393][425]Cmd: DELETE
+[2019.01.26-00.35.57:393][425]Cmd: ACTOR DELETE
+[2019.01.26-00.35.57:403][425]LogEditorActor: Deleted Actor: NavigationNode_BP_Base_C
+[2019.01.26-00.35.57:430][425]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2019.01.26-00.35.58:306][528]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base146)
+[2019.01.26-00.35.58:363][531]Cmd: DELETE
+[2019.01.26-00.35.58:364][531]Cmd: ACTOR DELETE
+[2019.01.26-00.35.58:374][531]LogEditorActor: Deleted Actor: NavigationNode_BP_Base_C
+[2019.01.26-00.35.58:403][531]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2019.01.26-00.35.58:871][586]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base147)
+[2019.01.26-00.35.58:962][592]Cmd: DELETE
+[2019.01.26-00.35.58:962][592]Cmd: ACTOR DELETE
+[2019.01.26-00.35.58:977][592]LogEditorActor: Deleted Actor: NavigationNode_BP_Base_C
+[2019.01.26-00.35.59:004][592]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2019.01.26-00.35.59:346][632]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base148)
+[2019.01.26-00.35.59:429][638]Cmd: DELETE
+[2019.01.26-00.35.59:429][638]Cmd: ACTOR DELETE
+[2019.01.26-00.35.59:441][638]LogEditorActor: Deleted Actor: NavigationNode_BP_Base_C
+[2019.01.26-00.35.59:468][638]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2019.01.26-00.35.59:777][674]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base149)
+[2019.01.26-00.35.59:871][681]Cmd: DELETE
+[2019.01.26-00.35.59:872][681]Cmd: ACTOR DELETE
+[2019.01.26-00.35.59:881][681]LogEditorActor: Deleted Actor: NavigationNode_BP_Base_C
+[2019.01.26-00.35.59:914][681]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2019.01.26-00.36.00:439][740]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base150)
+[2019.01.26-00.36.00:857][786]Cmd: DELETE
+[2019.01.26-00.36.00:857][786]Cmd: ACTOR DELETE
+[2019.01.26-00.36.00:867][786]LogEditorActor: Deleted Actor: NavigationNode_BP_Base_C
+[2019.01.26-00.36.00:891][786]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2019.01.26-00.36.01:666][875]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base151)
+[2019.01.26-00.36.01:760][882]Cmd: DELETE
+[2019.01.26-00.36.01:760][882]Cmd: ACTOR DELETE
+[2019.01.26-00.36.01:769][882]LogEditorActor: Deleted Actor: NavigationNode_BP_Base_C
+[2019.01.26-00.36.01:794][882]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2019.01.26-00.36.02:323][940]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base152)
+[2019.01.26-00.36.02:382][943]Cmd: DELETE
+[2019.01.26-00.36.02:382][943]Cmd: ACTOR DELETE
+[2019.01.26-00.36.02:392][943]LogEditorActor: Deleted Actor: NavigationNode_BP_Base_C
+[2019.01.26-00.36.02:421][943]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2019.01.26-00.36.02:712][977]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base153)
+[2019.01.26-00.36.02:799][983]Cmd: DELETE
+[2019.01.26-00.36.02:799][983]Cmd: ACTOR DELETE
+[2019.01.26-00.36.02:809][983]LogEditorActor: Deleted Actor: NavigationNode_BP_Base_C
+[2019.01.26-00.36.02:837][983]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2019.01.26-00.36.03:172][ 21]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base154)
+[2019.01.26-00.36.03:263][ 28]Cmd: DELETE
+[2019.01.26-00.36.03:263][ 28]Cmd: ACTOR DELETE
+[2019.01.26-00.36.03:273][ 28]LogEditorActor: Deleted Actor: NavigationNode_BP_Base_C
+[2019.01.26-00.36.03:302][ 28]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2019.01.26-00.36.03:761][ 82]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base155)
+[2019.01.26-00.36.03:801][ 83]Cmd: DELETE
+[2019.01.26-00.36.03:801][ 83]Cmd: ACTOR DELETE
+[2019.01.26-00.36.03:822][ 83]LogEditorActor: Deleted Actor: NavigationNode_BP_Base_C
+[2019.01.26-00.36.03:854][ 83]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2019.01.26-00.36.04:268][129]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base156)
+[2019.01.26-00.36.04:309][130]Cmd: DELETE
+[2019.01.26-00.36.04:309][130]Cmd: ACTOR DELETE
+[2019.01.26-00.36.04:319][130]LogEditorActor: Deleted Actor: NavigationNode_BP_Base_C
+[2019.01.26-00.36.04:353][130]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2019.01.26-00.36.06:265][331]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base64)
+[2019.01.26-00.36.10:079][720]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base63)
+[2019.01.26-00.36.13:455][ 83]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base99)
+[2019.01.26-00.36.14:916][247]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base63)
+[2019.01.26-00.36.17:276][509]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.36.17:777][509]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevelA66065F34E3C4A5D0D74F5BF474C4913.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.36.20:011][714]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Exit_C (NavigationNode_BP_Exit4)
+[2019.01.26-00.36.28:483][592]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Exit_C (NavigationNode_BP_Exit4)
+[2019.01.26-00.36.30:803][840]Cmd: DELETE
+[2019.01.26-00.36.30:803][840]Cmd: ACTOR DELETE
+[2019.01.26-00.36.30:813][840]LogEditorActor: Deleted Actor: NavigationNode_BP_Exit_C
+[2019.01.26-00.36.30:840][840]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2019.01.26-00.36.32:461][ 26]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.36.32:913][ 26]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel9708F4E5436EE671FDF6F480496E57DD.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.36.34:204][146]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Exit_C (NavigationNode_BP_Exit4)
+[2019.01.26-00.36.39:111][700]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.36.39:601][700]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevelEBE5F8EC4CDE204E61FBD5BBDDD47EF7.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.36.42:488][ 21]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-00.36.42:604][ 35]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-00.36.42:624][ 35]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-00.36.42:624][ 35]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 00:36:42)
+[2019.01.26-00.36.42:624][ 35]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-00.36.42:651][ 35]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027037s)
+[2019.01.26-00.36.42:652][ 35]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-00.36.42:653][ 35]LogPlayLevel: PIE: World Init took: (0.000992s)
+[2019.01.26-00.36.42:653][ 35]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.028439s)
+[2019.01.26-00.36.42:689][ 35]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-00.36.42:699][ 35]LogInit: FAudioDevice initialized.
+[2019.01.26-00.36.42:734][ 35]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-00.36.42:741][ 35]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-00.36.42
+[2019.01.26-00.36.42:745][ 35]LogWorld: Bringing up level for play took: 0.010116
+[2019.01.26-00.36.42:760][ 35]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 0.28
+[2019.01.26-00.36.46:390][456]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.36.46:429][456]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-00.36.46:489][456]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.36.46:523][457]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.01.26-00.36.51:029][978]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-00.36.51:112][988]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-00.36.51:131][988]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-00.36.51:131][988]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 00:36:51)
+[2019.01.26-00.36.51:131][988]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-00.36.51:158][988]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027270s)
+[2019.01.26-00.36.51:159][988]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-00.36.51:159][988]LogPlayLevel: PIE: World Init took: (0.000823s)
+[2019.01.26-00.36.51:159][988]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.028553s)
+[2019.01.26-00.36.51:195][988]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-00.36.51:206][988]LogInit: FAudioDevice initialized.
+[2019.01.26-00.36.51:243][988]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-00.36.51:256][988]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-00.36.51
+[2019.01.26-00.36.51:257][988]LogWorld: Bringing up level for play took: 0.013634
+[2019.01.26-00.36.51:275][988]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 0.796
+[2019.01.26-00.37.29:936][507]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.37.29:975][507]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-00.37.30:005][507]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.37.30:041][510]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.01.26-00.37.31:117][638]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-00.37.31:136][638]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-00.37.31:136][638]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 00:37:31)
+[2019.01.26-00.37.31:136][638]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-00.37.31:163][638]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026647s)
+[2019.01.26-00.37.31:164][638]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-00.37.31:164][638]LogPlayLevel: PIE: World Init took: (0.001000s)
+[2019.01.26-00.37.31:165][638]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.028363s)
+[2019.01.26-00.37.31:209][638]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-00.37.31:222][638]LogInit: FAudioDevice initialized.
+[2019.01.26-00.37.31:254][638]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-00.37.31:261][638]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-00.37.31
+[2019.01.26-00.37.31:263][638]LogWorld: Bringing up level for play took: 0.008122
+[2019.01.26-00.37.31:277][638]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 0.798
+[2019.01.26-00.37.53:629][254]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.37.53:668][254]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-00.37.53:697][254]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.37.53:734][256]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.01.26-00.37.54:954][395]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.37.55:437][395]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel392073E34B0CC838695C59B53FD098BC.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.37.58:187][689]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.37.58:722][689]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevelA39594894C76F59EE3AA7993C9D90223.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.38.00:165][852]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-00.38.11:566][164]Running C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/GGJ2019.uproject" -invalidatemakefilesonly
+[2019.01.26-00.38.12:887][164]Invalidating makefiles only in this run.
+[2019.01.26-00.38.13:013][164]Candidate modules for hot reload:
+[2019.01.26-00.38.13:013][164]  GGJ2019
+[2019.01.26-00.38.13:013][164]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GGJ2019,9181 Win64 Development -TargetType=Editor -Project="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/GGJ2019.uproject" -canskiplink "C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/GGJ2019.uproject" ]
+[2019.01.26-00.38.37:486][164]CompilerResultsLog: New page: Compilation - 26 Jan 2019 00:38:37
+[2019.01.26-00.38.37:486][164]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.01.26-00.38.37:486][164]CompilerResultsLog: Creating makefile for hot reloading GGJ2019Editor (no existing makefile)
+[2019.01.26-00.38.37:487][164]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.26-00.38.37:487][164]CompilerResultsLog: Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.26-00.38.37:487][164]CompilerResultsLog: Parsing headers for GGJ2019Editor
+[2019.01.26-00.38.37:487][164]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\GGJ2019.uproject" "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\GGJ2019Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.01.26-00.38.37:487][164]CompilerResultsLog: Reflection code generated for GGJ2019Editor in 12.752155 seconds
+[2019.01.26-00.38.37:487][164]CompilerResultsLog: Building 7 actions with 8 processes...
+[2019.01.26-00.38.37:487][164]CompilerResultsLog:   [1/7] GGJ2019.init.gen.cpp
+[2019.01.26-00.38.37:487][164]CompilerResultsLog:   [2/7] EnemySpawner_Base.cpp
+[2019.01.26-00.38.37:487][164]CompilerResultsLog:   [3/7] EnemySpawner_Base.gen.cpp
+[2019.01.26-00.38.37:487][164]CompilerResultsLog:   [4/7] Enemy_Base.gen.cpp
+[2019.01.26-00.38.37:488][164]CompilerResultsLog:   [5/7] Enemy_Base.cpp
+[2019.01.26-00.38.37:488][164]CompilerResultsLog:   [6/7] UE4Editor-GGJ2019-9181.lib
+[2019.01.26-00.38.37:488][164]CompilerResultsLog:      Creating library C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-9181.lib and object C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-9181.exp
+[2019.01.26-00.38.37:488][164]CompilerResultsLog:   [7/7] UE4Editor-GGJ2019-9181.dll
+[2019.01.26-00.38.37:488][164]CompilerResultsLog:      Creating library C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-9181.suppressed.lib and object C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-9181.suppressed.exp
+[2019.01.26-00.38.37:488][164]CompilerResultsLog: Total build time: 24.00 seconds (Parallel executor: 2.61 seconds)
+[2019.01.26-00.38.37:488][164]LogMainFrame: MainFrame: Module compiling took 24.484 seconds
+[2019.01.26-00.38.37:553][164]LogClass: Could not find existing class EnemySpawner_Base in package /Script/GGJ2019 for HotReload, assuming new class
+[2019.01.26-00.38.37:573][164]LogContentBrowser: Native class hierarchy updated for 'GGJ2019' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2019.01.26-00.38.37:578][164]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.01.26-00.38.38:038][164]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2579 classes and 607 folders.
+[2019.01.26-00.38.38:040][164]Display: HotReload took 25.0s.
+[2019.01.26-00.38.38:041][164]Warning: HotReload operation took 25.0s.
+[2019.01.26-00.38.38:615][164]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.01.26-00.38.38:627][164]LogHotReload: New module detected: UE4Editor-GGJ2019-9181.dll
+[2019.01.26-00.38.38:693][165]LogHotReload: Starting Hot-Reload from IDE
+[2019.01.26-00.38.38:809][165]LogContentBrowser: Native class hierarchy updated for 'GGJ2019' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2019.01.26-00.38.38:816][165]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.01.26-00.38.39:309][165]LogContentBrowser: Native class hierarchy populated in 0.0149 seconds. Added 2579 classes and 607 folders.
+[2019.01.26-00.38.39:316][165]Display: HotReload took  0.6s.
+[2019.01.26-00.40.17:606][598]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.40.18:093][598]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel898F2D264EF2D78EAF34A4ACD2125DC4.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.43.34:485][629]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-00.43.34:504][629]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-00.43.34:505][629]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 00:43:34)
+[2019.01.26-00.43.34:505][629]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-00.43.34:533][629]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027987s)
+[2019.01.26-00.43.34:534][629]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-00.43.34:534][629]LogPlayLevel: PIE: World Init took: (0.000932s)
+[2019.01.26-00.43.34:534][629]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.029342s)
+[2019.01.26-00.43.34:573][629]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-00.43.34:585][629]LogInit: FAudioDevice initialized.
+[2019.01.26-00.43.34:634][629]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-00.43.34:643][629]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-00.43.34
+[2019.01.26-00.43.34:646][629]LogWorld: Bringing up level for play took: 0.011379
+[2019.01.26-00.43.34:663][629]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 0.183
+[2019.01.26-00.44.06:492][367]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.44.06:574][367]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-00.44.06:618][367]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-00.44.06:640][368]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2019.01.26-00.44.14:344][272]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.44.14:794][272]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel03C420B9468113F6A65DEFB71B863069.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.44.16:326][413]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.44.16:806][413]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevelB184DA5F4836B589C98EDBA440A5B8D9.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.44.27:077][543]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevelA1B39D494E9140E88A054988BB26531A.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.44.51:576][404]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.01.26-00.44.51:682][410]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.44.52:210][410]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel355A8D2B45978AA8F44D5799ABDBC4D9.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.44.53:744][563]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.44.54:274][563]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevelCF6EDE2C4596FD4113C94B85D9188423.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.45.36:605][488]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.45.37:060][488]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevelDB8EE24248147696F16DE28BCA7039F8.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.45.41:366][965]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.45.41:873][965]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel8E64EC0B4B94A4028EB1EB9A0E71EA51.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.45.44:405][230]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-00.45.44:866][230]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel01C0102C4A55F9A589170F85CA524FCC.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.52.14:060][928]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevelF04696C34BCCA204DE23018B4A291015.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-00.52.14:746][979]LogSlate: Window 'GGJ2019 - Unreal Editor' being destroyed
+[2019.01.26-00.52.14:942][980]Cmd: QUIT_EDITOR
+[2019.01.26-00.52.14:995][980]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.26-00.52.15:009][980]LogExit: Preparing to exit.
+[2019.01.26-00.52.15:674][980]LogExit: Editor shut down
+[2019.01.26-00.52.15:675][980]LogExit: Transaction tracking system shut down
