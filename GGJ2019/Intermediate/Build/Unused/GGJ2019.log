@@ -1,6 +1,12 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  Creating makefile for GGJ2019Editor (game project files are newer)
+  Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+>>>>>>> Mattbranch
   Parsing headers for GGJ2019Editor
 <<<<<<< HEAD
     Running UnrealHeaderTool "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\GGJ2019.uproject" "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\GGJ2019Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
@@ -26,11 +32,21 @@
        Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.exp
   Deploying GGJ2019Editor Win64 Development...
 <<<<<<< HEAD
+<<<<<<< HEAD
   Total build time: 27.93 seconds (Parallel executor: 14.21 seconds)
 =======
 =======
   Creating makefile for GGJ2019Editor (no existing makefile)
   Performing full C++ include scan (no include cache file)
+=======
+  Total build time: 26.95 seconds (Parallel executor: 12.85 seconds)
+>>>>>>> master
+=======
+  Total build time: 63.33 seconds (Parallel executor: 43.24 seconds)
+>>>>>>> RhiannonBranch
+=======
+  Creating makefile for GGJ2019Editor (ini files are newer than UBTMakefile)
+>>>>>>> Mattbranch
   Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for GGJ2019Editor
 >>>>>>> JohnBranch
@@ -68,6 +84,7 @@
        Creating library C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.lib and object C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.exp
   Deploying GGJ2019Editor Win64 Development...
 <<<<<<< HEAD
+<<<<<<< HEAD
   Total build time: 22.40 seconds (Parallel executor: 4.76 seconds)
 >>>>>>> JohnBranch
 =======
@@ -76,3 +93,7 @@
 =======
   Total build time: 77.85 seconds (Parallel executor: 53.01 seconds)
 >>>>>>> JohnBranch
+=======
+  Total build time: 9.07 seconds (NoActionsToExecute executor: 0.00 seconds)
+>>>>>>> master
+>>>>>>> Mattbranch
