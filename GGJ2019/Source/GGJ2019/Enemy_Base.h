@@ -4,8 +4,11 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Enemy_Base.generated.h"
+
 class USkeletalMeshComponent;
-class ANavigationNode_Base;
+class AMyNavigationNode_Base;
+class AMyNavigationNode_Exit;
+
 
 UCLASS()
 class GGJ2019_API AEnemy_Base : public AActor
@@ -19,6 +22,8 @@ private:
 	float _movementSpeed;
 	AActor* _carriedObject;
 	ANavigationNode_Base* targetNode;
+	FVector fridgePos;
+	FVector _exitPos;
 
 protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Model") 
@@ -38,8 +43,12 @@ protected:
 	virtual void BeginPlay() override;
 	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "Navigation")
 		void FindNodes();
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "Navigation")
+		void FindExitNodes();
 	UFUNCTION(BlueprintCallable, Category = "Navigation")
 		void PathUsingNodes(TArray<ANavigationNode_Base*> nodes);
+	UFUNCTION(BlueprintCallable, Category = "Navigation")
+		void SetExitPositions(TArray<AMyNavigationNode_Exit*> nodes);
 
 public:	
 	// Sets default values for this actor's properties
