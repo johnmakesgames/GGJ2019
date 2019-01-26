@@ -28,10 +28,9 @@ public:
 		bool pickupActive;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		AActor* pickedUpBy;
-
-	UFUNCTION(BlueprintCallable) 
-		void setActive(bool active) { pickupActive = active; }
+		AActor* pickedUpBy; 
+		
+	void setActive(bool active) { pickupActive = active; }
 
 protected:
 	// Called when the game starts or when spawned

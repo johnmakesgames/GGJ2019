@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodePickup_Weapon() {}
 	GGJ2019_API UClass* Z_Construct_UClass_APickup_Weapon();
 	GGJ2019_API UClass* Z_Construct_UClass_APickup_Base();
 	UPackage* Z_Construct_UPackage__Script_GGJ2019();
+	GGJ2019_API UFunction* Z_Construct_UFunction_APickup_Weapon_getWeaponType();
+	GGJ2019_API UEnum* Z_Construct_UEnum_GGJ2019_WeaponType();
 	GGJ2019_API UFunction* Z_Construct_UFunction_APickup_Weapon_OnWeaponBeginOverlap();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
@@ -25,9 +27,42 @@ void EmptyLinkFunctionForGeneratedCodePickup_Weapon() {}
 	{
 		UClass* Class = APickup_Weapon::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "getWeaponType", &APickup_Weapon::execgetWeaponType },
 			{ "OnWeaponBeginOverlap", &APickup_Weapon::execOnWeaponBeginOverlap },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_APickup_Weapon_getWeaponType_Statics
+	{
+		struct Pickup_Weapon_eventgetWeaponType_Parms
+		{
+			TEnumAsByte<WeaponType> ReturnValue;
+		};
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_APickup_Weapon_getWeaponType_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Byte, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(Pickup_Weapon_eventgetWeaponType_Parms, ReturnValue), Z_Construct_UEnum_GGJ2019_WeaponType, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APickup_Weapon_getWeaponType_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APickup_Weapon_getWeaponType_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APickup_Weapon_getWeaponType_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Pickup_Weapon.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APickup_Weapon_getWeaponType_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APickup_Weapon, "getWeaponType", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(Pickup_Weapon_eventgetWeaponType_Parms), Z_Construct_UFunction_APickup_Weapon_getWeaponType_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_APickup_Weapon_getWeaponType_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APickup_Weapon_getWeaponType_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_APickup_Weapon_getWeaponType_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APickup_Weapon_getWeaponType()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APickup_Weapon_getWeaponType_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_APickup_Weapon_OnWeaponBeginOverlap_Statics
 	{
@@ -97,6 +132,7 @@ void EmptyLinkFunctionForGeneratedCodePickup_Weapon() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_GGJ2019,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_APickup_Weapon_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_APickup_Weapon_getWeaponType, "getWeaponType" }, // 1335278084
 		{ &Z_Construct_UFunction_APickup_Weapon_OnWeaponBeginOverlap, "OnWeaponBeginOverlap" }, // 1861550002
 	};
 #if WITH_METADATA
@@ -159,7 +195,7 @@ void EmptyLinkFunctionForGeneratedCodePickup_Weapon() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APickup_Weapon, 1971248384);
+	IMPLEMENT_CLASS(APickup_Weapon, 1177339645);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APickup_Weapon(Z_Construct_UClass_APickup_Weapon, &APickup_Weapon::StaticClass, TEXT("/Script/GGJ2019"), TEXT("APickup_Weapon"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APickup_Weapon);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
