@@ -20,6 +20,8 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 	GGJ2019_API UFunction* Z_Construct_UFunction_APlayer_Base_dropCurrentItem();
 	GGJ2019_API UFunction* Z_Construct_UFunction_APlayer_Base_getFoodType();
 	GGJ2019_API UEnum* Z_Construct_UEnum_GGJ2019_FoodTypes();
+	GGJ2019_API UFunction* Z_Construct_UFunction_APlayer_Base_getWeaponType();
+	GGJ2019_API UEnum* Z_Construct_UEnum_GGJ2019_WeaponType();
 	GGJ2019_API UFunction* Z_Construct_UFunction_APlayer_Base_pickUpFood();
 	GGJ2019_API UClass* Z_Construct_UClass_APickup_Food_NoRegister();
 	GGJ2019_API UFunction* Z_Construct_UFunction_APlayer_Base_pickUpWeapon();
@@ -37,6 +39,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "dropCurrentItem", &APlayer_Base::execdropCurrentItem },
 			{ "getFoodType", &APlayer_Base::execgetFoodType },
+			{ "getWeaponType", &APlayer_Base::execgetWeaponType },
 			{ "pickUpFood", &APlayer_Base::execpickUpFood },
 			{ "pickUpWeapon", &APlayer_Base::execpickUpWeapon },
 			{ "putFoodInFridge", &APlayer_Base::execputFoodInFridge },
@@ -94,6 +97,38 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayer_Base_getFoodType_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_APlayer_Base_getWeaponType_Statics
+	{
+		struct Player_Base_eventgetWeaponType_Parms
+		{
+			TEnumAsByte<WeaponType> ReturnValue;
+		};
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_APlayer_Base_getWeaponType_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Byte, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(Player_Base_eventgetWeaponType_Parms, ReturnValue), Z_Construct_UEnum_GGJ2019_WeaponType, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APlayer_Base_getWeaponType_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayer_Base_getWeaponType_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlayer_Base_getWeaponType_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Player_Base.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayer_Base_getWeaponType_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayer_Base, "getWeaponType", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(Player_Base_eventgetWeaponType_Parms), Z_Construct_UFunction_APlayer_Base_getWeaponType_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_APlayer_Base_getWeaponType_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APlayer_Base_getWeaponType_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_APlayer_Base_getWeaponType_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APlayer_Base_getWeaponType()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayer_Base_getWeaponType_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -252,6 +287,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_APlayer_Base_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_APlayer_Base_dropCurrentItem, "dropCurrentItem" }, // 4160507656
 		{ &Z_Construct_UFunction_APlayer_Base_getFoodType, "getFoodType" }, // 2171921492
+		{ &Z_Construct_UFunction_APlayer_Base_getWeaponType, "getWeaponType" }, // 3270426747
 		{ &Z_Construct_UFunction_APlayer_Base_pickUpFood, "pickUpFood" }, // 4116875563
 		{ &Z_Construct_UFunction_APlayer_Base_pickUpWeapon, "pickUpWeapon" }, // 437977323
 		{ &Z_Construct_UFunction_APlayer_Base_putFoodInFridge, "putFoodInFridge" }, // 1102333734
@@ -353,7 +389,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayer_Base, 560601461);
+	IMPLEMENT_CLASS(APlayer_Base, 2775023318);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayer_Base(Z_Construct_UClass_APlayer_Base, &APlayer_Base::StaticClass, TEXT("/Script/GGJ2019"), TEXT("APlayer_Base"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayer_Base);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
