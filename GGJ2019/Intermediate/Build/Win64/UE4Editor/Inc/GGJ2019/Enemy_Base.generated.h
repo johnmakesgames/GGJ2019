@@ -28,6 +28,14 @@ class ANavigationNode_Base;
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execGetDeathFrame) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetDeathFrame(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execGetAliveStatus) \
 	{ \
 		P_FINISH; \
@@ -80,6 +88,14 @@ class ANavigationNode_Base;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->GiveUI(Z_Param_UI); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetDeathFrame) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetDeathFrame(); \
 		P_NATIVE_END; \
 	} \
  \

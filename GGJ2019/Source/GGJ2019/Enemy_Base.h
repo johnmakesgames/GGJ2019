@@ -29,6 +29,7 @@ private:
 	FVector _exitPos;
 	FoodTypes _carriedFood;
 	AUI_Manager* UI;
+	float _deathCurrentFrame;
 
 protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Model")
@@ -74,6 +75,8 @@ protected:
 		bool GetHasFood() { return _hasFood; };
 	UFUNCTION(BlueprintCallable, Category = "Animations")
 		bool GetAliveStatus() { return _alive; };
+	UFUNCTION(BlueprintCallable, Category = "Animations")
+		float GetDeathFrame() { return _deathCurrentFrame; };
 	UFUNCTION(BlueprintCallable, Category = "UI")
 		void GiveUI(AUI_Manager* UI);
 
