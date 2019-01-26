@@ -2,8 +2,16 @@
   Building 3 actions with 8 processes...
     [1/3] Player_Base.cpp
     [2/3] UE4Editor-GGJ2019.lib
+<<<<<<< HEAD
+       Creating library C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.lib and object C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.exp
+    [3/3] UE4Editor-GGJ2019.dll
+       Creating library C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.lib and object C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.exp
+  Deploying GGJ2019Editor Win64 Development...
+  Total build time: 14.61 seconds (Parallel executor: 12.06 seconds)
+=======
        Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.exp
     [3/3] UE4Editor-GGJ2019.dll
        Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.exp
   Deploying GGJ2019Editor Win64 Development...
   Total build time: 12.95 seconds (Parallel executor: 10.67 seconds)
+>>>>>>> AngBranch

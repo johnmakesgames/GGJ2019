@@ -44,8 +44,6 @@ public:
 	//Player
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	USkeletalMeshComponent* playerBaseComponent;
-	
-	void AttackEnemy();
 		
 	//Stats
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Stats")
@@ -54,6 +52,6 @@ public:
 
 	// CAMERA //
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-		UCameraComponent* playerCamera;
+	UCameraComponent* playerCamera;
 
 };

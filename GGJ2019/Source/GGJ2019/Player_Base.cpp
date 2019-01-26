@@ -3,7 +3,7 @@
 #include "Player_Base.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Components/SkeletalMeshComponent.h"
-#include  "Camera/CameraComponent.h"
+#include "Camera/CameraComponent.h"
 #include "Engine.h"
 
 // Sets default values
@@ -47,7 +47,7 @@ void APlayer_Base::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAxis("MoveRight", this, &APlayer_Base::MoveRight);
 	//PlayerInputComponent->BindAxis("Rotate", this, &APlayer_Base::Rotate);
 
-	PlayerInputComponent->BindAction("Attack", IE_Pressed, this, &APlayer_Base::AttackEnemy);
+	//PlayerInputComponent->BindAction("Attack", IE_Pressed, this, &APlayer_Base::AttackEnemy);
 }
 
 void APlayer_Base::MoveForward(float value)
@@ -63,10 +63,4 @@ void APlayer_Base::MoveRight(float value)
 void APlayer_Base::Rotate(float value)
 {
 	playerBaseComponent->AddWorldRotation(FQuat(FRotator(0.0f, value, 0.0f)));
-}
-
-void APlayer_Base::AttackEnemy()
-{
-
-
 }
