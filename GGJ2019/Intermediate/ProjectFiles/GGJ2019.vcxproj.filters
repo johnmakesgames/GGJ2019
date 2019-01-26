@@ -4,11 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\GGJ2019.uproject" />
 		<Filter Include="Source">
-<<<<<<< HEAD
-			<UniqueIdentifier>{617A06AD-4D9A-43BE-BA11-284336DC2A89}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{0251C9C5-B76F-4C7E-9C85-674FFC0F1F3C}</UniqueIdentifier>
->>>>>>> JohnBranch
+			<UniqueIdentifier>{9A5B9BBB-6A62-42BE-8CAA-51BC700B2ADF}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\GGJ2019.Target.cs">
 			<Filter>Source</Filter>
@@ -17,11 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-<<<<<<< HEAD
-			<UniqueIdentifier>{6F588F69-0456-4AC5-B56A-35C1941303B9}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{6D6F4FD3-23A9-4625-8CFB-BA59281505E7}</UniqueIdentifier>
->>>>>>> JohnBranch
+			<UniqueIdentifier>{701E7822-13C9-4961-8280-C8EDD4946561}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -36,11 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\GGJ2019">
-<<<<<<< HEAD
-			<UniqueIdentifier>{5B05BCAC-C51C-47C2-AA46-66CC2B70C832}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{C733775F-1305-42B1-96B0-9BF041B9B2CA}</UniqueIdentifier>
->>>>>>> JohnBranch
+			<UniqueIdentifier>{E6A6CA04-6E78-416F-8893-11C2584C359D}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\GGJ2019\EnemySpawner_Base.cpp">
 			<Filter>Source\GGJ2019</Filter>
@@ -88,11 +76,7 @@
 			<Filter>Source\GGJ2019</Filter>
 		</ClInclude >
 		<Filter Include="Source\GGJ2019\Private">
-<<<<<<< HEAD
-			<UniqueIdentifier>{8410F59B-DF24-4F59-90F6-0CBF0339EA7F}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{FB0E85C4-0B53-4782-9E45-84C3EB43FEBB}</UniqueIdentifier>
->>>>>>> JohnBranch
+			<UniqueIdentifier>{04FE7449-0825-46F2-9E52-5064A75F0CAB}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\GGJ2019\Private\Fridge_Base.cpp">
 			<Filter>Source\GGJ2019\Private</Filter>
@@ -110,11 +94,7 @@
 			<Filter>Source\GGJ2019\Private</Filter>
 		</ClCompile >
 		<Filter Include="Source\GGJ2019\Public">
-<<<<<<< HEAD
-			<UniqueIdentifier>{381E361F-3910-403A-85B8-C358ECF0BB82}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{082B2AFE-59B0-4BE8-BAFA-72AB11926C33}</UniqueIdentifier>
->>>>>>> JohnBranch
+			<UniqueIdentifier>{EE3CE1E9-882A-4530-B033-EECF5CC38369}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Source\GGJ2019\Public\Fridge_Base.h">
 			<Filter>Source\GGJ2019\Public</Filter>

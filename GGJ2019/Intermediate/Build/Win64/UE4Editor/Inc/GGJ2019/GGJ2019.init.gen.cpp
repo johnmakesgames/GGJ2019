@@ -21,6 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeGGJ2019_init() {}
 				PKG_CompiledIn | 0x00000000,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				0x1DF19B0E,
 				0xE9B31C31,
 =======
@@ -31,6 +32,10 @@ void EmptyLinkFunctionForGeneratedCodeGGJ2019_init() {}
 				0xF4E20387,
 				0x7C3C677A,
 >>>>>>> AngBranch
+=======
+				0x3A79C64E,
+				0x885AE64B,
+>>>>>>> JohnBranch
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};
