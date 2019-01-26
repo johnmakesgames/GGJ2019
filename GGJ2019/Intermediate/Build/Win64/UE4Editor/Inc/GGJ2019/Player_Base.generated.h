@@ -55,6 +55,14 @@ class APickup_Food;
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execgetWeaponType) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(TEnumAsByte<WeaponType>*)Z_Param__Result=P_THIS->getWeaponType(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execgetFoodType) \
 	{ \
 		P_FINISH; \
@@ -100,6 +108,14 @@ class APickup_Food;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->pickUpFood(FoodTypes(Z_Param_food),Z_Param_foodRef); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execgetWeaponType) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(TEnumAsByte<WeaponType>*)Z_Param__Result=P_THIS->getWeaponType(); \
 		P_NATIVE_END; \
 	} \
  \
