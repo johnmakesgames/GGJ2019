@@ -12,16 +12,15 @@ class GGJ2019_API Global_Variables
 public:
 	Global_Variables();
 	~Global_Variables();
-
-	
-
 };
 
 enum FoodTypes
 {
-	ChickenLeg,
+	None,
+	Chicken,
 	Pizza,
 	Cheese,
-	Cucumber,
+	Ham,
 	Tomatos,
+	Sandwich,
 };
