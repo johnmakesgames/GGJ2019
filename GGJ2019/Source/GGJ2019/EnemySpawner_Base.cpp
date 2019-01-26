@@ -56,7 +56,7 @@ void AEnemySpawner_Base::Tick(float DeltaTime)
 		_maxCooldown -= _totalSpawnedEnemies / FMath::FRandRange(800, 7000);
 	}
 	FString TheFloatStr = FString::SanitizeFloat(_maxCooldown);
-	GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, *TheFloatStr);
+	//GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, *TheFloatStr);
 
 	if (FMath::FRandRange(0, 1000) < 1)
 	{

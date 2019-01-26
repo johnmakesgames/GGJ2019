@@ -60,6 +60,8 @@ protected:
 		void SetExitPositions(TArray<AMyNavigationNode_Exit*> nodes);
 	UFUNCTION(BlueprintCallable, Category = "Food Theft")
 		void TakeFood(AFridge_Base* fridge);
+	UFUNCTION(BlueprintCallable, Category = "Food Theft")
+		bool GetHasFood() { return _hasFood; };
 
 public:	
 	// Sets default values for this actor's properties

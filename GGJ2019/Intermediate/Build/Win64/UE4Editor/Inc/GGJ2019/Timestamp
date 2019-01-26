@@ -1,18 +1,7 @@
-<<<<<<< HEAD
-C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Source\GGJ2019\Public\Fridge_Base.h
-C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Source\GGJ2019\Public\Global_Variables.h
-C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Source\GGJ2019\Public\Pickup_Base.h
-C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Source\GGJ2019\Public\Pickup_Food.h
-C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Source\GGJ2019\Public\Pickup_Weapon.h
-C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Source\GGJ2019\EnemySpawner_Base.h
-C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Source\GGJ2019\Enemy_Base.h
-C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Source\GGJ2019\GGJ2019GameModeBase.h
-C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Source\GGJ2019\MyNavigationNode_Exit.h
-C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Source\GGJ2019\NavigationNode_Base.h
-C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Source\GGJ2019\Player_Base.h
-=======
 C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Source\GGJ2019\Public\Fridge_Base.h
+C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Source\GGJ2019\Public\Global_Variables.h
 C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Source\GGJ2019\Public\Pickup_Base.h
+C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Source\GGJ2019\Public\Pickup_Food.h
 C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Source\GGJ2019\Public\Pickup_Weapon.h
 C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Source\GGJ2019\EnemySpawner_Base.h
 C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Source\GGJ2019\Enemy_Base.h
@@ -20,4 +9,3 @@ C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Source\GGJ2019\GGJ201
 C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Source\GGJ2019\MyNavigationNode_Exit.h
 C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Source\GGJ2019\NavigationNode_Base.h
 C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Source\GGJ2019\Player_Base.h
->>>>>>> JohnBranch
