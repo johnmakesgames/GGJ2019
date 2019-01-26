@@ -177,12 +177,14 @@ void AEnemy_Base::UpdateRotation()
 	float theta = FMath::Acos(dot / (forwardMag * directionMag));
 	//theta *= (180 / 3.14);
 	//float thetaDeg = theta * (180 / 3.14);
-	if (theta > 0.6f)
+	theta = FMath::RadiansToDegrees(theta);
+
+	if (theta > 25.0f)
 	{
 		/*if (movementDirection.Y < forward.Y)
 			theta = -theta;*/
 		theta /= 100;
-		RotateFromTheta(theta);
+		RotateFromTheta(5);
 	}
 	
 }
