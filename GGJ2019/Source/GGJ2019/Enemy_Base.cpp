@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 #include "Enemy_Base.h"
 #include "Components/SkeletalMeshComponent.h"
+#include "Components/CapsuleComponent.h"
 #include "NavigationNode_Base.h"
 #include "MyNavigationNode_Exit.h"
 #include "Fridge_Base.h"
@@ -15,10 +16,10 @@ AEnemy_Base::AEnemy_Base()
 	_hasFood = false;
 	_movementSpeed = 3;
 	_carriedObject = nullptr;
-	fridgePos = FVector(-237.0, 156.0, 104.0);
-	_body = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Body"));
+	fridgePos = FVector(-237.0, 156.0, 18.0);
 	_exitPos = FVector(9999, 9999, 9999);
 	_carriedFood = FoodTypes::None;
+	_rotationAmountZ = 0;
 }
 
 // Called when the game starts or when spawned
@@ -36,6 +37,7 @@ void AEnemy_Base::Tick(float DeltaTime)
 		GoToFridge();
 		TryToTakeFood();
 		Escape();
+		UpdateRotation();
 	}
 }
 
@@ -158,6 +160,19 @@ void AEnemy_Base::TakeFood(AFridge_Base* fridge)
 	_carriedFood = fridge->RemoveFood();
 }
 
+void AEnemy_Base::UpdateRotation()
+{
+	FVector forward = this->GetActorForwardVector();
+	FVector movementDirection = targetNode->GetActorLocation() - this->GetActorLocation();
+	float forwardMag = FMath::Sqrt(FMath::Pow(forward.X,2) + FMath::Pow(forward.Y, 2) + FMath::Pow(forward.Z, 2));
+	float directionMag = FMath::Sqrt(FMath::Pow(movementDirection.X, 2) + FMath::Pow(movementDirection.Y, 2) + FMath::Pow(movementDirection.Z, 2));
+	float dot = ((forward.X * movementDirection.X) + (forward.Y * movementDirection.Y) + (forward.Z * movementDirection.Z));
+	float theta = (dot / (forwardMag * directionMag));
+	//theta *= (180 / 3.14);
+	if (movementDirection.Y < forward.Y)
+		theta = -theta;
+	RotateFromTheta(theta);
+}
 
 float AEnemy_Base::DistanceToMe(AActor* actor)
 {

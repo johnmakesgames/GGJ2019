@@ -8,7 +8,7 @@ AEnemySpawner_Base::AEnemySpawner_Base()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	_maxCooldown = 15;
+	_maxCooldown = 30;
 	_minCooldown = 2;
 	_cooldown = 0;
 	_active = true;
