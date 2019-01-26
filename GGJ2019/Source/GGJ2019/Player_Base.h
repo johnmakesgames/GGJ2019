@@ -50,15 +50,9 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Stats")
 	int maxHealth;
 	int playerHealth;
-<<<<<<< HEAD
-=======
-
-	//Player
-	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-	USkeletalMeshComponent* playerBaseComponent;
 
 	// CAMERA //
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		UCameraComponent* playerCamera;
->>>>>>> AngBranch
+
 };
