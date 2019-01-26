@@ -39,6 +39,7 @@ void AEnemy_Base::Tick(float DeltaTime)
 		GoToFridge();
 		TryToTakeFood();
 		Escape();
+		CheckFoodStatus();
 		UpdateRotation();
 	}
 }
@@ -80,9 +81,13 @@ void AEnemy_Base::TryToTakeFood()
 	if (distance < 50)
 	{
 		GetFridge();
-		_hasFood = true;
-		_movementSpeed = 1.5f;
+		CheckFoodStatus();
 		FindExitNodes();
+		if (_hasFood)
+		{
+			StartHoldingFood(_carriedFood);
+		}
+		_checkedFridge = true;
 	}
 }
 
@@ -90,6 +95,7 @@ void AEnemy_Base::Escape()
 {
 	if (_hasFood)
 	{
+		_movementSpeed = 1.5f;
 		FVector distanceFromExit;
 		distanceFromExit.X = FMath::Abs(_exitPos.X - this->GetActorLocation().X);
 		distanceFromExit.Y = FMath::Abs(_exitPos.Y - this->GetActorLocation().Y);
@@ -122,7 +128,7 @@ void AEnemy_Base::PathUsingNodes(TArray<ANavigationNode_Base*> nodes)
 
 		if (nodesWithinDistance.Num() > 0)
 		{
-			if (!_hasFood)
+			if (!_checkedFridge)
 			{
 				ANavigationNode_Base* currentBest;
 				currentBest = nodesWithinDistance[0];
@@ -175,12 +181,14 @@ void AEnemy_Base::UpdateRotation()
 	float theta = FMath::Acos(dot / (forwardMag * directionMag));
 	//theta *= (180 / 3.14);
 	//float thetaDeg = theta * (180 / 3.14);
-	if (theta > 0.6f)
+	theta = FMath::RadiansToDegrees(theta);
+
+	if (theta > 25.0f)
 	{
 		/*if (movementDirection.Y < forward.Y)
 			theta = -theta;*/
 		theta /= 100;
-		RotateFromTheta(theta);
+		RotateFromTheta(5);
 	}
 	
 }
@@ -197,4 +205,16 @@ float AEnemy_Base::DistanceToMe(AActor* actor)
 void AEnemy_Base::GiveUI(AUI_Manager* UI)
 {
 	this->UI = UI;
+}
+
+void AEnemy_Base::CheckFoodStatus()
+{
+	if (_carriedFood != FoodTypes::None)
+	{
+		_hasFood = true;
+	}
+	else
+	{
+		_hasFood = false;
+	}
 }

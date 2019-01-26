@@ -28,6 +28,14 @@ class ANavigationNode_Base;
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execGetAliveStatus) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetAliveStatus(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execGetHasFood) \
 	{ \
 		P_FINISH; \
@@ -75,6 +83,14 @@ class ANavigationNode_Base;
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execGetAliveStatus) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetAliveStatus(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execGetHasFood) \
 	{ \
 		P_FINISH; \
@@ -112,9 +128,17 @@ class ANavigationNode_Base;
 
 
 #define GGJ2019_Source_GGJ2019_Enemy_Base_h_19_EVENT_PARMS \
+	struct Enemy_Base_eventDropFoodFood_Parms \
+	{ \
+		TEnumAsByte<FoodTypes> food; \
+	}; \
 	struct Enemy_Base_eventRotateFromTheta_Parms \
 	{ \
 		float theta; \
+	}; \
+	struct Enemy_Base_eventStartHoldingFood_Parms \
+	{ \
+		TEnumAsByte<FoodTypes> food; \
 	};
 
 
