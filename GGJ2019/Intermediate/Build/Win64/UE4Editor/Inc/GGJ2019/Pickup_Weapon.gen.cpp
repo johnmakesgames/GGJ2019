@@ -76,6 +76,10 @@ void EmptyLinkFunctionForGeneratedCodePickup_Weapon() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_damage_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_damage;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_damageActive_MetaData[];
 #endif
 		static void NewProp_damageActive_SetBit(void* Obj);
@@ -102,6 +106,13 @@ void EmptyLinkFunctionForGeneratedCodePickup_Weapon() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickup_Weapon_Statics::NewProp_damage_MetaData[] = {
+		{ "Category", "Pickup_Weapon" },
+		{ "ModuleRelativePath", "Public/Pickup_Weapon.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APickup_Weapon_Statics::NewProp_damage = { UE4CodeGen_Private::EPropertyClass::Float, "damage", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(APickup_Weapon, damage), METADATA_PARAMS(Z_Construct_UClass_APickup_Weapon_Statics::NewProp_damage_MetaData, ARRAY_COUNT(Z_Construct_UClass_APickup_Weapon_Statics::NewProp_damage_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickup_Weapon_Statics::NewProp_damageActive_MetaData[] = {
 		{ "Category", "Pickup_Weapon" },
 		{ "ModuleRelativePath", "Public/Pickup_Weapon.h" },
@@ -121,6 +132,7 @@ void EmptyLinkFunctionForGeneratedCodePickup_Weapon() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APickup_Weapon_Statics::NewProp_damageCollider = { UE4CodeGen_Private::EPropertyClass::Object, "damageCollider", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x001000000008000d, 1, nullptr, STRUCT_OFFSET(APickup_Weapon, damageCollider), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APickup_Weapon_Statics::NewProp_damageCollider_MetaData, ARRAY_COUNT(Z_Construct_UClass_APickup_Weapon_Statics::NewProp_damageCollider_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APickup_Weapon_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickup_Weapon_Statics::NewProp_damage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickup_Weapon_Statics::NewProp_damageActive,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickup_Weapon_Statics::NewProp_damageCollider,
 	};
@@ -147,7 +159,7 @@ void EmptyLinkFunctionForGeneratedCodePickup_Weapon() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APickup_Weapon, 4135923232);
+	IMPLEMENT_CLASS(APickup_Weapon, 986729978);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APickup_Weapon(Z_Construct_UClass_APickup_Weapon, &APickup_Weapon::StaticClass, TEXT("/Script/GGJ2019"), TEXT("APickup_Weapon"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APickup_Weapon);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

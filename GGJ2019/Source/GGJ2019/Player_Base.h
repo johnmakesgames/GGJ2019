@@ -43,22 +43,14 @@ public:
 	//Player
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	USkeletalMeshComponent* playerBaseComponent;
-	
-	void AttackEnemy();
 		
 	//Stats
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Stats")
 	int maxHealth;
 	int playerHealth;
-<<<<<<< HEAD
-=======
-
-	//Player
-	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-	USkeletalMeshComponent* playerBaseComponent;
 
 	// CAMERA //
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-		UCameraComponent* playerCamera;
->>>>>>> AngBranch
+	UCameraComponent* playerCamera;
+
 };

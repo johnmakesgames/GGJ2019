@@ -4,12 +4,12 @@
 
 #include "CoreMinimal.h"
 #include "Pickup_Base.h"
+#include "Enemy_Base.h"
 #include "Pickup_Weapon.generated.h"
 
 /**
  * 
  */
-
 class UBoxComponent;
 
 UCLASS()
@@ -26,7 +26,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool damageActive;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float damage;
+
 	UFUNCTION(BlueprintCallable)
 		void OnWeaponBeginOverlap(TArray<AActor*> actor);
-	
 };
