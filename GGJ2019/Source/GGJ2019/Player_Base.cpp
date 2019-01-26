@@ -13,7 +13,7 @@ APlayer_Base::APlayer_Base()
 	PrimaryActorTick.bCanEverTick = true;
 
 	playerBaseComponent = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Player Base"));
-	RootComponent = playerBaseComponent;
+	//RootComponent = playerBaseComponent;
 
 	playerCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("Player Camera"));
 
@@ -65,10 +65,23 @@ void APlayer_Base::putFoodInFridge(AFridge_Base* fridge, FoodTypes food)
 	holdingFood = false;
 }
 
-void APlayer_Base::pickUpFood(FoodTypes food) // APickup_Food* food
+void APlayer_Base::pickUpFood(FoodTypes food, APickup_Food* foodRef) 
 {
 	holdingFood = true;
 	currentFood = food;
 
-	//food->
+	dropCurrentItem();
+	currentItemHeld = foodRef;
+}
+
+void APlayer_Base::pickUpWeapon(APickup_Weapon* weaponRef)
+{
+	dropCurrentItem();
+	currentWeapon = weaponRef->getWeaponType();
+	currentItemHeld = weaponRef;
+}
+
+void APlayer_Base::dropCurrentItem()
+{
+	currentItemHeld = nullptr;
 }

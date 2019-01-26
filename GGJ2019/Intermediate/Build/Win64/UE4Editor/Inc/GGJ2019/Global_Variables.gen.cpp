@@ -13,9 +13,57 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeGlobal_Variables() {}
 // Cross Module References
-	GGJ2019_API UEnum* Z_Construct_UEnum_GGJ2019_FoodTypes();
+	GGJ2019_API UEnum* Z_Construct_UEnum_GGJ2019_WeaponType();
 	UPackage* Z_Construct_UPackage__Script_GGJ2019();
+	GGJ2019_API UEnum* Z_Construct_UEnum_GGJ2019_FoodTypes();
 // End Cross Module References
+	static UEnum* WeaponType_StaticEnum()
+	{
+		static UEnum* Singleton = nullptr;
+		if (!Singleton)
+		{
+			Singleton = GetStaticEnum(Z_Construct_UEnum_GGJ2019_WeaponType, Z_Construct_UPackage__Script_GGJ2019(), TEXT("WeaponType"));
+		}
+		return Singleton;
+	}
+	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_WeaponType(WeaponType_StaticEnum, TEXT("/Script/GGJ2019"), TEXT("WeaponType"), false, nullptr, nullptr);
+	uint32 Get_Z_Construct_UEnum_GGJ2019_WeaponType_CRC() { return 1454916132U; }
+	UEnum* Z_Construct_UEnum_GGJ2019_WeaponType()
+	{
+#if WITH_HOT_RELOAD
+		UPackage* Outer = Z_Construct_UPackage__Script_GGJ2019();
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("WeaponType"), 0, Get_Z_Construct_UEnum_GGJ2019_WeaponType_CRC(), false);
+#else
+		static UEnum* ReturnEnum = nullptr;
+#endif // WITH_HOT_RELOAD
+		if (!ReturnEnum)
+		{
+			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
+				{ "NoneW", (int64)NoneW },
+				{ "Spoon", (int64)Spoon },
+				{ "Spatula", (int64)Spatula },
+			};
+#if WITH_METADATA
+			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "ModuleRelativePath", "Public/Global_Variables.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FEnumParams EnumParams = {
+				(UObject*(*)())Z_Construct_UPackage__Script_GGJ2019,
+				UE4CodeGen_Private::EDynamicType::NotDynamic,
+				"WeaponType",
+				RF_Public|RF_Transient|RF_MarkAsNative,
+				nullptr,
+				(uint8)UEnum::ECppForm::Regular,
+				"WeaponType",
+				Enumerators,
+				ARRAY_COUNT(Enumerators),
+				METADATA_PARAMS(Enum_MetaDataParams, ARRAY_COUNT(Enum_MetaDataParams))
+			};
+			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
+		}
+		return ReturnEnum;
+	}
 	static UEnum* FoodTypes_StaticEnum()
 	{
 		static UEnum* Singleton = nullptr;

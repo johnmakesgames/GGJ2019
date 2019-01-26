@@ -7,6 +7,7 @@
 #include "Fridge_Base.h"
 #include "Global_Variables.h"
 #include "Pickup_Food.h"
+#include "Pickup_Weapon.h"
 #include "Player_Base.generated.h"
 
 class UCharacterMovementComponent;
@@ -59,7 +60,11 @@ public:
 
 	// PICK UP STUFF //
 
-	FoodTypes currentFood;
+	FoodTypes currentFood = None;
+	WeaponType currentWeapon = NoneW;
+
+	UPROPERTY(BlueprintReadWrite)
+		APickup_Base* currentItemHeld;
 
 	UFUNCTION(BlueprintCallable)
 		FoodTypes getFoodType() { return currentFood; }
@@ -68,7 +73,13 @@ public:
 		bool holdingFood;
 
 	UFUNCTION(BlueprintCallable)
-		void pickUpFood(FoodTypes food); //, APickup_Food* food
+		void pickUpFood(FoodTypes food, APickup_Food* foodRef); 
+
+	UFUNCTION(BlueprintCallable)
+		void pickUpWeapon(APickup_Weapon* weaponRef);
+
+	UFUNCTION(BlueprintCallable)
+		void dropCurrentItem();
 
 	UFUNCTION(BlueprintCallable)
 		void putFoodInFridge(AFridge_Base* fridge, FoodTypes food);

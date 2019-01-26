@@ -25,3 +25,11 @@ enum FoodTypes
 	Tomatos,
 	Sandwich,
 };
+
+UENUM()
+enum WeaponType
+{
+	NoneW,
+	Spoon,
+	Spatula,
+};

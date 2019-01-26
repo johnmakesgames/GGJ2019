@@ -17,6 +17,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define CURRENT_FILE_ID GGJ2019_Source_GGJ2019_Public_Global_Variables_h
 
 
+#define FOREACH_ENUM_WEAPONTYPE(op) \
+	op(NoneW) \
+	op(Spoon) \
+	op(Spatula) 
 #define FOREACH_ENUM_FOODTYPES(op) \
 	op(None) \
 	op(Chicken) \
