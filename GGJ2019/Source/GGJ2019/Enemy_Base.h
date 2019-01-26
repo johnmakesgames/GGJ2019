@@ -11,6 +11,7 @@ class UCapsuleComponent;
 class AMyNavigationNode_Base;
 class AMyNavigationNode_Exit;
 class AFridge_Base;
+class AUI_Manager;
 
 UCLASS()
 class GGJ2019_API AEnemy_Base : public AActor
@@ -26,6 +27,7 @@ private:
 	FVector fridgePos;
 	FVector _exitPos;
 	FoodTypes _carriedFood;
+	AUI_Manager* UI;
 
 protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Model")
@@ -54,6 +56,8 @@ protected:
 		void GetFridge();
 	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "Rotation")
 		void RotateFromTheta(float theta);
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "UI")
+		void GetUIManager();
 	UFUNCTION(BlueprintCallable, Category = "Navigation")
 		void PathUsingNodes(TArray<ANavigationNode_Base*> nodes);
 	UFUNCTION(BlueprintCallable, Category = "Navigation")
@@ -62,6 +66,9 @@ protected:
 		void TakeFood(AFridge_Base* fridge);
 	UFUNCTION(BlueprintCallable, Category = "Food Theft")
 		bool GetHasFood() { return _hasFood; };
+	UFUNCTION(BlueprintCallable, Category = "UI")
+		void GiveUI(AUI_Manager* UI);
+
 
 public:	
 	// Sets default values for this actor's properties

@@ -1,115 +1,124 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\GGJ2019.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{9A5B9BBB-6A62-42BE-8CAA-51BC700B2ADF}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\GGJ2019.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\GGJ2019Editor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{701E7822-13C9-4961-8280-C8EDD4946561}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultInput.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\GGJ2019">
-			<UniqueIdentifier>{E6A6CA04-6E78-416F-8893-11C2584C359D}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\GGJ2019\EnemySpawner_Base.cpp">
-			<Filter>Source\GGJ2019</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\GGJ2019\EnemySpawner_Base.h">
-			<Filter>Source\GGJ2019</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\GGJ2019\Enemy_Base.cpp">
-			<Filter>Source\GGJ2019</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\GGJ2019\Enemy_Base.h">
-			<Filter>Source\GGJ2019</Filter>
-		</ClInclude >
-		<None Include="..\..\Source\GGJ2019\GGJ2019.Build.cs">
-			<Filter>Source\GGJ2019</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\GGJ2019\GGJ2019.cpp">
-			<Filter>Source\GGJ2019</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\GGJ2019\GGJ2019.h">
-			<Filter>Source\GGJ2019</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\GGJ2019\GGJ2019GameModeBase.cpp">
-			<Filter>Source\GGJ2019</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\GGJ2019\GGJ2019GameModeBase.h">
-			<Filter>Source\GGJ2019</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\GGJ2019\MyNavigationNode_Exit.cpp">
-			<Filter>Source\GGJ2019</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\GGJ2019\MyNavigationNode_Exit.h">
-			<Filter>Source\GGJ2019</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\GGJ2019\NavigationNode_Base.cpp">
-			<Filter>Source\GGJ2019</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\GGJ2019\NavigationNode_Base.h">
-			<Filter>Source\GGJ2019</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\GGJ2019\Player_Base.cpp">
-			<Filter>Source\GGJ2019</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\GGJ2019\Player_Base.h">
-			<Filter>Source\GGJ2019</Filter>
-		</ClInclude >
-		<Filter Include="Source\GGJ2019\Private">
-			<UniqueIdentifier>{04FE7449-0825-46F2-9E52-5064A75F0CAB}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\GGJ2019\Private\Fridge_Base.cpp">
-			<Filter>Source\GGJ2019\Private</Filter>
-		</ClCompile >
-		<ClCompile Include="..\..\Source\GGJ2019\Private\Global_Variables.cpp">
-			<Filter>Source\GGJ2019\Private</Filter>
-		</ClCompile >
-		<ClCompile Include="..\..\Source\GGJ2019\Private\Pickup_Base.cpp">
-			<Filter>Source\GGJ2019\Private</Filter>
-		</ClCompile >
-		<ClCompile Include="..\..\Source\GGJ2019\Private\Pickup_Food.cpp">
-			<Filter>Source\GGJ2019\Private</Filter>
-		</ClCompile >
-		<ClCompile Include="..\..\Source\GGJ2019\Private\Pickup_Weapon.cpp">
-			<Filter>Source\GGJ2019\Private</Filter>
-		</ClCompile >
-		<Filter Include="Source\GGJ2019\Public">
-			<UniqueIdentifier>{EE3CE1E9-882A-4530-B033-EECF5CC38369}</UniqueIdentifier>
-		</Filter>
-		<ClInclude Include="..\..\Source\GGJ2019\Public\Fridge_Base.h">
-			<Filter>Source\GGJ2019\Public</Filter>
-		</ClInclude >
-		<ClInclude Include="..\..\Source\GGJ2019\Public\Global_Variables.h">
-			<Filter>Source\GGJ2019\Public</Filter>
-		</ClInclude >
-		<ClInclude Include="..\..\Source\GGJ2019\Public\Pickup_Base.h">
-			<Filter>Source\GGJ2019\Public</Filter>
-		</ClInclude >
-		<ClInclude Include="..\..\Source\GGJ2019\Public\Pickup_Food.h">
-			<Filter>Source\GGJ2019\Public</Filter>
-		</ClInclude >
-		<ClInclude Include="..\..\Source\GGJ2019\Public\Pickup_Weapon.h">
-			<Filter>Source\GGJ2019\Public</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\GGJ2019.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{649BDA0C-BBC1-4B1B-8974-C602CCBBD799}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GGJ2019.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\GGJ2019Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{139D1C31-38DC-4142-B096-E3D818A7A2F3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\GGJ2019">
+      <UniqueIdentifier>{9ECB0906-0838-43F6-9650-756CF2946DF4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GGJ2019\EnemySpawner_Base.cpp">
+      <Filter>Source\GGJ2019</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GGJ2019\EnemySpawner_Base.h">
+      <Filter>Source\GGJ2019</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GGJ2019\Enemy_Base.cpp">
+      <Filter>Source\GGJ2019</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GGJ2019\Enemy_Base.h">
+      <Filter>Source\GGJ2019</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\GGJ2019\GGJ2019.Build.cs">
+      <Filter>Source\GGJ2019</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\GGJ2019\GGJ2019.cpp">
+      <Filter>Source\GGJ2019</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GGJ2019\GGJ2019.h">
+      <Filter>Source\GGJ2019</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GGJ2019\GGJ2019GameModeBase.cpp">
+      <Filter>Source\GGJ2019</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GGJ2019\GGJ2019GameModeBase.h">
+      <Filter>Source\GGJ2019</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GGJ2019\MyNavigationNode_Exit.cpp">
+      <Filter>Source\GGJ2019</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GGJ2019\MyNavigationNode_Exit.h">
+      <Filter>Source\GGJ2019</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GGJ2019\NavigationNode_Base.cpp">
+      <Filter>Source\GGJ2019</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GGJ2019\NavigationNode_Base.h">
+      <Filter>Source\GGJ2019</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GGJ2019\Player_Base.cpp">
+      <Filter>Source\GGJ2019</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GGJ2019\Player_Base.h">
+      <Filter>Source\GGJ2019</Filter>
+    </ClInclude>
+    <Filter Include="Source\GGJ2019\Private">
+      <UniqueIdentifier>{CC7AB6EE-AD3C-4553-905F-FE9B3AD5C1C4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GGJ2019\Private\Fridge_Base.cpp">
+      <Filter>Source\GGJ2019\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GGJ2019\Private\Global_Variables.cpp">
+      <Filter>Source\GGJ2019\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GGJ2019\Private\Pickup_Base.cpp">
+      <Filter>Source\GGJ2019\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GGJ2019\Private\Pickup_Food.cpp">
+      <Filter>Source\GGJ2019\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GGJ2019\Private\Pickup_Weapon.cpp">
+      <Filter>Source\GGJ2019\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\GGJ2019\Public">
+      <UniqueIdentifier>{76F11E92-1621-477C-AAF0-D91960C6C9D3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\GGJ2019\Public\Fridge_Base.h">
+      <Filter>Source\GGJ2019\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GGJ2019\Public\Global_Variables.h">
+      <Filter>Source\GGJ2019\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GGJ2019\Public\Pickup_Base.h">
+      <Filter>Source\GGJ2019\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GGJ2019\Public\Pickup_Food.h">
+      <Filter>Source\GGJ2019\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GGJ2019\Public\Pickup_Weapon.h">
+      <Filter>Source\GGJ2019\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\GGJ2019\Public\UI_Manager.h">
+      <Filter>Source\GGJ2019\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\GGJ2019\Private\UI_Manager.cpp">
+      <Filter>Source\GGJ2019\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
