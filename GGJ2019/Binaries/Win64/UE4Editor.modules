@@ -3,9 +3,13 @@
 	"Modules": 
 	{
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"GGJ2019": "UE4Editor-GGJ2019-5127.dll"
 =======
 		"GGJ2019": "UE4Editor-GGJ2019-4077.dll"
 >>>>>>> NewRhiannonBranch
+=======
+		"GGJ2019": "UE4Editor-GGJ2019.dll"
+>>>>>>> JohnBranch
 	}
 }

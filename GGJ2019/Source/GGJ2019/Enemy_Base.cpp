@@ -21,6 +21,7 @@ AEnemy_Base::AEnemy_Base()
 	_exitPos = FVector(9999, 9999, 9999);
 	_carriedFood = FoodTypes::None;
 	_rotationAmountZ = 0;
+	_deathCurrentFrame = 0.0f;
 }
 
 // Called when the game starts or when spawned
@@ -41,6 +42,10 @@ void AEnemy_Base::Tick(float DeltaTime)
 		Escape();
 		CheckFoodStatus();
 		UpdateRotation();
+	}
+	else
+	{
+		_deathCurrentFrame++;
 	}
 }
 

@@ -1,0 +1,1205 @@
+﻿Log file open, 01/26/19 22:51:49
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: GGJ2019
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.481011
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.485s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) CPU E5-1620 v3 @ 3.50GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.018s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.26-22.51.50:201][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.26-22.51.50:201][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.26-22.51.50:226][  0]LogHAL: Display: Platform has ~ 16 GB [17092038656 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.26-22.51.50:226][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.26-22.51.50:226][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.26-22.51.50:226][  0]LogInit: Computer: C115-11
+[2019.01.26-22.51.50:226][  0]LogInit: User: w017177h
+[2019.01.26-22.51.50:226][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.26-22.51.50:226][  0]LogInit: High frequency timer resolution =3.410072 MHz
+[2019.01.26-22.51.50:227][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.26-22.51.50:227][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.26-22.51.50:227][  0]LogMemory: Process Physical Memory: 102.30 MB used, 102.30 MB peak
+[2019.01.26-22.51.50:227][  0]LogMemory: Process Virtual Memory: 96.50 MB used, 96.50 MB peak
+[2019.01.26-22.51.50:227][  0]LogMemory: Physical Memory: 7178.20 MB used,  9122.04 MB free, 16300.24 MB total
+[2019.01.26-22.51.50:228][  0]LogMemory: Virtual Memory: 4645.85 MB used,  9122.04 MB free, 134217728.00 MB total
+[2019.01.26-22.51.50:376][  0]LogInit: Using OS detected language (en-US).
+[2019.01.26-22.51.50:376][  0]LogInit: Using OS detected locale (en-GB).
+[2019.01.26-22.51.50:378][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.26-22.51.50:824][  0]LogStreaming: Display: Took  0.447s to InitEngineTextLocalization.
+[2019.01.26-22.51.50:824][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.26-22.51.50:909][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.26-22.51.50:910][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.26-22.51.51:258][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.26-22.51.51:258][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.26-22.51.51:357][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.01.26-22.51.51:357][  0]LogD3D11RHI:       4043/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.01.26-22.51.51:363][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.26-22.51.51:363][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.26-22.51.51:363][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.26-22.51.51:373][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.26-22.51.51:373][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.26-22.51.51:373][  0]LogWindows: EnumDisplayDevices:
+[2019.01.26-22.51.51:373][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.01.26-22.51.51:374][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2019.01.26-22.51.51:374][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.26-22.51.51:375][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.26-22.51.51:375][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.26-22.51.51:375][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.01.26-22.51.51:375][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2019.01.26-22.51.51:375][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2019.01.26-22.51.51:375][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2019.01.26-22.51.51:423][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.26-22.51.51:441][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.26-22.51.51:487][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Intermediate/Shaders/WorkingDirectory/3056/).
+[2019.01.26-22.51.51:487][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/w017177h.STUDENT/AppData/Local/Temp/UnrealShaderWorkingDir/E6088795476D7C24D157709E8C584B90/'.
+[2019.01.26-22.51.51:879][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.26-22.51.51:900][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.26-22.51.51:922][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.26-22.51.51:944][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.26-22.51.51:965][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.26-22.51.51:983][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.26-22.51.52:003][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.26-22.51.52:028][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.26-22.51.52:042][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.26-22.51.52:155][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-22.51.52:155][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-22.51.52:156][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-22.51.52:156][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-22.51.52:156][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-22.51.52:156][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-22.51.52:156][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-22.51.52:156][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-22.51.52:156][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-22.51.52:156][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-22.51.52:156][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-22.51.52:156][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-22.51.52:156][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-22.51.52:156][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-22.51.52:156][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-22.51.52:156][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-22.51.52:156][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-22.51.52:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-22.51.52:161][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.26-22.51.52:236][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.26-22.51.52:236][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.26-22.51.52:276][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.26-22.51.52:276][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.26-22.51.52:293][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.26-22.51.52:312][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.26-22.51.52:338][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.26-22.51.52:366][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.26-22.51.52:385][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.26-22.51.52:385][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.26-22.51.52:592][  0]LogXGEController: Cleaning working directory: C:/Users/w017177h.STUDENT/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.26-22.51.52:592][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.26-22.51.52:593][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.26-22.51.52:593][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.26-22.51.53:663][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.26-22.51.53:756][  0]LogDerivedDataCache: Loaded boot cache 0.09s 71MB C:/Users/w017177h.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.26-22.51.53:757][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/w017177h.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.26-22.51.53:757][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.26-22.51.53:757][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.26-22.51.53:757][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.26-22.51.53:757][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.26-22.51.53:772][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.26-22.51.53:785][  0]LogDerivedDataCache: Using Local data cache path C:/Users/w017177h.STUDENT/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.26-22.51.53:785][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.26-22.51.53:785][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.26-22.51.53:805][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.26-22.51.53:807][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.26-22.51.53:808][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.26-22.51.53:897][  0]LogAssetRegistry: FAssetRegistry took 0.0293 seconds to start up
+[2019.01.26-22.51.54:390][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.26-22.51.54:599][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.26-22.51.54:610][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.26-22.51.54:610][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.26-22.51.54:610][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.26-22.51.54:610][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.26-22.51.54:630][  0]LogNetVersion: GGJ2019 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 54619999)
+[2019.01.26-22.51.55:640][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.505684 seconds
+[2019.01.26-22.51.55:648][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.26-22.51.55:649][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.01.26-22.51.55:649][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.26-22.51.56:988][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.26-22.51.57:006][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.26-22.51.57:254][  0]SourceControl: Source control is disabled
+[2019.01.26-22.51.57:254][  0]SourceControl: Source control is disabled
+[2019.01.26-22.51.57:259][  0]SourceControl: Source control is disabled
+[2019.01.26-22.51.57:264][  0]SourceControl: Source control is disabled
+[2019.01.26-22.51.57:615][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.26-22.51.57:781][  0]LogOcInput: OculusInput pre-init called
+[2019.01.26-22.51.57:888][  0]LogEngine: Initializing Engine...
+[2019.01.26-22.51.57:889][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.26-22.51.57:890][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.26-22.51.57:891][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.26-22.51.57:891][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.26-22.51.57:891][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.26-22.51.58:138][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.26-22.51.58:172][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.26-22.51.58:195][  0]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-22.51.58:266][  0]LogInit: FAudioDevice initialized.
+[2019.01.26-22.51.58:267][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.26-22.51.58:364][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/w017177h.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.26-22.51.58:375][  0]LogInit: Texture streaming: Enabled
+[2019.01.26-22.51.58:418][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.26-22.51.58:418][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={98C188FA-44C6-2852-1F0A-F49D0A8BCBBE}
+[2019.01.26-22.51.58:438][  0]LogInit: Transaction tracking system initialized
+[2019.01.26-22.51.58:499][  0]BlueprintLog: New page: Editor Load
+[2019.01.26-22.51.58:703][  0]LocalizationService: Localization service is disabled
+[2019.01.26-22.51.59:168][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.26-22.51.59:168][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.26-22.51.59:168][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.26-22.51.59:168][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.26-22.51.59:168][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.26-22.51.59:169][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.26-22.51.59:169][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.26-22.51.59:473][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/' took 0.02s
+[2019.01.26-22.51.59:473][  0]SourceControl: Source control is disabled
+[2019.01.26-22.51.59:473][  0]Cmd: MAP LOAD FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/GameLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.26-22.51.59:475][  0]LightingResults: New page: Lighting Build
+[2019.01.26-22.51.59:481][  0]MapCheck: New page: Map Check
+[2019.01.26-22.51.59:481][  0]LightingResults: New page: Lighting Build
+[2019.01.26-22.51.59:805][  0]LogAIModule: Creating AISystem for world GameLevel
+[2019.01.26-22.51.59:821][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.26-22.51.59:848][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.26-22.52.00:042][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 193.686ms to complete.
+[2019.01.26-22.52.00:043][  0]LogFileHelpers: Loading map 'GameLevel' took 0.569
+[2019.01.26-22.52.00:183][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-22.52.00:196][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-22.52.00:206][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-22.52.00:216][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-22.52.00:233][  0]LogCollectionManager: Loaded 0 collections in 0.004936 seconds
+[2019.01.26-22.52.00:290][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Collections/' took 0.01s
+[2019.01.26-22.52.00:290][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Developers/w017177h/Collections/' took 0.01s
+[2019.01.26-22.52.00:290][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Collections/' took 0.01s
+[2019.01.26-22.52.00:290][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.26-22.52.00:304][  0]LogContentBrowser: Native class hierarchy populated in 0.0134 seconds. Added 2583 classes and 606 folders.
+[2019.01.26-22.52.00:315][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.26-22.52.00:399][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.26-22.52.00:410][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.01.26-22.52.00:441][  0]LogSlate: Took 0.000299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.26-22.52.00:444][  0]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.26-22.52.00:453][  0]LogSlate: Took 0.000349 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.26-22.52.00:558][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.01.26-22.52.00:628][  0]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.26-22.52.00:747][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.01.26-22.52.00:747][  0]LogLoad: (Engine Initialization) Total time: 14.48 seconds
+[2019.01.26-22.52.00:747][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.26-22.52.00:758][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.26-22.52.00:809][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.26-22.52.00:843][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/' took 0.07s
+[2019.01.26-22.52.00:862][  1]LogAssetRegistry: Asset discovery search completed in 6.9898 seconds
+[2019.01.26-22.52.00:864][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.01.26-22.52.00:864][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000142 seconds (updated 0 objects)
+[2019.01.26-22.53.06:104][662]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-22.53.10:691][178]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.26-22.53.11:301][178]LogAIModule: Creating AISystem for world NewJohnNewLevel
+[2019.01.26-22.53.11:373][178]LogAssetEditorManager: Opening Asset editor for World /Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel
+[2019.01.26-22.53.11:400][178]Cmd: MAP LOAD FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnNewLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.26-22.53.11:400][178]LightingResults: New page: Lighting Build
+[2019.01.26-22.53.11:401][178]LoadErrors: New page: Loading map: NewJohnNewLevel.umap
+[2019.01.26-22.53.11:402][178]MapCheck: New page: Map Check
+[2019.01.26-22.53.11:403][178]LightingResults: New page: Lighting Build
+[2019.01.26-22.53.11:494][178]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.26-22.53.11:563][178]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.26-22.53.11:794][178]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 231.517ms to complete.
+[2019.01.26-22.53.11:796][178]LogFileHelpers: Loading map 'NewJohnNewLevel' took 0.397
+[2019.01.26-22.53.19:945][916]LogActor: Warning: Pickup_BP_Weapon_C /Engine/Transient.World_2:PersistentLevel.Pickup_BP_Weapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-22.53.19:951][916]LogActor: Warning: Pickup_BP_Food_C /Engine/Transient.World_3:PersistentLevel.Pickup_BP_Food_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-22.53.20:018][920]LogActor: Warning: Fridge_BP_Base_C /Engine/Transient.World_5:PersistentLevel.Fridge_BP_Base_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-22.54.44:158][803]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-22.54.44:768][803]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnNewLevel06F630564BB9193F1B4786BF69EECACE.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnNewLevel.umap'
+[2019.01.26-22.54.51:597][584]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.01.26-22.54.51:916][615]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-22.54.52:480][615]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnNewLevel7EE604374BA5A8FA63DC85860A4853FF.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnNewLevel.umap'
+[2019.01.26-22.55.57:696][916]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Animation/Anims/anim_death.anim_death
+[2019.01.26-22.55.57:711][916]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.01.26-22.55.57:969][916]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.26-22.55.57:978][916]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2019.01.26-22.55.58:014][916]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.01.26-22.55.58:497][916]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2019.01.26-22.55.58:504][916]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.01.26-22.58.34:731][ 39]LogSlate: Window 'anim_death' being destroyed
+[2019.01.26-23.00.16:560][542]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnNewLevel7EC072764B453D5BFF86D1A9192166E8.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnNewLevel.umap'
+[2019.01.26-23.00.20:474][907]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Animation/AnimationControllers/Dimples/DimplesAnimationController.DimplesAnimationController
+[2019.01.26-23.00.20:492][907]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.26-23.00.20:956][907]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2019.01.26-23.00.21:771][907]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.01.26-23.00.22:135][907]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.26-23.00.22:247][907]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.01.26-23.00.24:825][195]LogSlate: Took 0.000327 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.26-23.00.34:240][273]LogSlate: Took 0.005185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.01.26-23.00.37:253][589]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/DimplesAnimationController2673CB5D437C6E004F7B1DA9F40F82B1.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Dimples/DimplesAnimationController.uasset'
+[2019.01.26-23.00.38:479][726]BlueprintLog: New page: Compile DimplesAnimationController
+[2019.01.26-23.00.40:018][868]Candidate modules for hot reload:
+[2019.01.26-23.00.40:018][868]  GGJ2019
+[2019.01.26-23.00.40:018][868]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GGJ2019,1472 Win64 Development -TargetType=Editor -Project="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/GGJ2019.uproject" -canskiplink "C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/GGJ2019.uproject" ]
+[2019.01.26-23.00.40:022][868]Warning: Starting HotReload took  0.0s.
+[2019.01.26-23.00.45:330][362]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnNewLevel38E9E1694F30848C63A2F18B72432809.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnNewLevel.umap'
+[2019.01.26-23.01.20:365][137]CompilerResultsLog: New page: Compilation - 26 Jan 2019 23:01:20
+[2019.01.26-23.01.20:365][137]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.01.26-23.01.20:365][137]CompilerResultsLog: Creating makefile for hot reloading GGJ2019Editor (game project files are newer)
+[2019.01.26-23.01.20:365][137]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.26-23.01.20:366][137]CompilerResultsLog: Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.26-23.01.20:366][137]CompilerResultsLog: Parsing headers for GGJ2019Editor
+[2019.01.26-23.01.20:366][137]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\GGJ2019.uproject" "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\GGJ2019Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.01.26-23.01.20:366][137]CompilerResultsLog: Reflection code generated for GGJ2019Editor in 12.8785978 seconds
+[2019.01.26-23.01.20:366][137]CompilerResultsLog: Building 10 actions with 8 processes...
+[2019.01.26-23.01.20:366][137]CompilerResultsLog:   [1/10] GGJ2019.init.gen.cpp
+[2019.01.26-23.01.20:366][137]CompilerResultsLog:   [2/10] Pickup_Weapon.cpp
+[2019.01.26-23.01.20:366][137]CompilerResultsLog:   [3/10] Enemy_Base.cpp
+[2019.01.26-23.01.20:366][137]CompilerResultsLog:   [4/10] EnemySpawner_Base.cpp
+[2019.01.26-23.01.20:366][137]CompilerResultsLog:   [5/10] Pickup_Weapon.gen.cpp
+[2019.01.26-23.01.20:366][137]CompilerResultsLog:   [6/10] Enemy_Base.gen.cpp
+[2019.01.26-23.01.20:366][137]CompilerResultsLog:   [7/10] Player_Base.gen.cpp
+[2019.01.26-23.01.20:367][137]CompilerResultsLog:   [8/10] Player_Base.cpp
+[2019.01.26-23.01.20:367][137]CompilerResultsLog:   [9/10] UE4Editor-GGJ2019-1472.lib
+[2019.01.26-23.01.20:367][137]CompilerResultsLog:      Creating library C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-1472.lib and object C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-1472.exp
+[2019.01.26-23.01.20:367][137]CompilerResultsLog:   [10/10] UE4Editor-GGJ2019-1472.dll
+[2019.01.26-23.01.20:367][137]CompilerResultsLog:      Creating library C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-1472.suppressed.lib and object C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-1472.suppressed.exp
+[2019.01.26-23.01.20:367][137]CompilerResultsLog: Total build time: 39.98 seconds (Parallel executor: 17.25 seconds)
+[2019.01.26-23.01.20:367][137]LogMainFrame: MainFrame: Module compiling took 40.357 seconds
+[2019.01.26-23.01.20:438][137]LogClass: Could not find existing class Enemy_Base in package /Script/GGJ2019 for HotReload, assuming new class
+[2019.01.26-23.01.20:438][137]LogClass: Function GetAliveStatus is new.
+[2019.01.26-23.01.20:438][137]LogClass: Function GetDeathFrame is new.
+[2019.01.26-23.01.20:438][137]LogClass: Function GetHasFood is new.
+[2019.01.26-23.01.20:438][137]LogClass: Function GiveUI is new.
+[2019.01.26-23.01.20:438][137]LogClass: Function PathUsingNodes is new.
+[2019.01.26-23.01.20:438][137]LogClass: Function SetExitPositions is new.
+[2019.01.26-23.01.20:438][137]LogClass: Function TakeFood is new.
+[2019.01.26-23.01.20:456][137]LogClass: WeaponType HotReload.
+[2019.01.26-23.01.20:456][137]LogClass: FoodTypes HotReload.
+[2019.01.26-23.01.20:466][137]LogHotReload: Re-instancing Enemy_Base after hot-reload.
+[2019.01.26-23.01.20:744][137]LogContentBrowser: Native class hierarchy updated for 'GGJ2019' in 0.0007 seconds. Added 11 classes and 3 folders.
+[2019.01.26-23.01.20:750][137]Display: HotReload successful (11 functions remapped  0 scriptstructs remapped)
+[2019.01.26-23.01.21:312][137]LogContentBrowser: Native class hierarchy populated in 0.0144 seconds. Added 2585 classes and 610 folders.
+[2019.01.26-23.01.21:313][137]Display: HotReload took 41.3s.
+[2019.01.26-23.03.03:486][585]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/DimplesAnimationController06F8E14B43E2503E0D3A9688D4049193.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Dimples/DimplesAnimationController.uasset'
+[2019.01.26-23.03.05:050][762]BlueprintLog: New page: Compile DimplesAnimationController
+[2019.01.26-23.03.05:856][808]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/DimplesAnimationController9BABC95743F2EB3317C981A711920DF4.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Dimples/DimplesAnimationController.uasset'
+[2019.01.26-23.03.17:244][ 66]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/DimplesAnimationControllerA3C911934ADD9527E7D8729DEBFC38B2.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Dimples/DimplesAnimationController.uasset'
+[2019.01.26-23.03.17:677][115]BlueprintLog: New page: Compile DimplesAnimationController
+[2019.01.26-23.03.18:414][153]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/DimplesAnimationController6D0BB7244BB2ABE2A9CCC89AB9575D7E.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Dimples/DimplesAnimationController.uasset'
+[2019.01.26-23.03.25:145][564]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/DimplesAnimationController50153318405E9C4AD82B2CBAA8AC1847.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Dimples/DimplesAnimationController.uasset'
+[2019.01.26-23.03.44:835][586]BlueprintLog: New page: Compile DimplesAnimationController
+[2019.01.26-23.03.47:447][845]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/DimplesAnimationControllerBC9B1E87463962664D7C6BA8554DB02F.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Dimples/DimplesAnimationController.uasset'
+[2019.01.26-23.03.53:591][409]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnNewLevel0DCCE1AC45FFCA034474AEBEBB047CE8.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnNewLevel.umap'
+[2019.01.26-23.03.54:908][469]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnNewLevelA007963B482A0838FE67228622B61283.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnNewLevel.umap'
+[2019.01.26-23.04.22:831][674]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-23.04.22:897][682]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-23.04.22:925][682]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.NewJohnNewLevel' with GeneratedClass '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel_C' with ClassGeneratedBy '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.NewJohnNewLevel'
+[2019.01.26-23.04.22:925][682]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-23.04.22:939][682]PIE: New page: PIE session: NewJohnNewLevel (26 Jan 2019 23:04:22)
+[2019.01.26-23.04.22:939][682]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel
+[2019.01.26-23.04.22:969][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029488s)
+[2019.01.26-23.04.22:970][682]LogAIModule: Creating AISystem for world NewJohnNewLevel
+[2019.01.26-23.04.22:970][682]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2019.01.26-23.04.22:970][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel (0.030859s)
+[2019.01.26-23.04.23:010][682]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-23.04.23:022][682]LogInit: FAudioDevice initialized.
+[2019.01.26-23.04.23:098][682]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-23.04.23:104][682]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel up for play (max tick rate 0) at 2019.01.26-23.04.23
+[2019.01.26-23.04.23:107][682]LogWorld: Bringing up level for play took: 0.008470
+[2019.01.26-23.04.23:212][682]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2019.01.26-23.04.23:213][682]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel -0.611
+[2019.01.26-23.04.23:213][682]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.NewJohnNewLevel' with GeneratedClass '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel_C' with ClassGeneratedBy '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.NewJohnNewLevel'
+[2019.01.26-23.04.32:458][754]LogCharacterMovement: Player_BP_Base_5 is stuck and failed to move! Velocity: X=-14.22 Y=0.00 Z=0.00 Location: X=-98.71 Y=167.50 Z=109.15 Normal: X=-0.18 Y=-0.98 Z=0.00 PenetrationDepth:6.969 Actor:Enemy_BP_Base_C_0 Component:Capsule BoneName:None (0 other events since notify)
+[2019.01.26-23.04.32:910][808]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Pickup_BP_Food_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-23.04.32:910][808]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_3
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:02B8
+[2019.01.26-23.04.32:910][808]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.04.32:910][808]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_3
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:02ED
+[2019.01.26-23.04.32:911][808]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.04.32:911][808]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue3
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_3
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:0322
+[2019.01.26-23.04.32:911][808]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue3". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.04.32:911][808]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue2
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_3
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:0357
+[2019.01.26-23.04.32:911][808]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue2". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.04.32:911][808]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_3
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:03C1
+[2019.01.26-23.04.32:911][808]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.04.33:251][849]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Pickup_BP_Food_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-23.04.33:252][849]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_0
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:02B8
+[2019.01.26-23.04.33:252][849]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.04.33:252][849]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_0
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:02ED
+[2019.01.26-23.04.33:252][849]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.04.33:252][849]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue3
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_0
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:0322
+[2019.01.26-23.04.33:252][849]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue3". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.04.33:252][849]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue2
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_0
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:0357
+[2019.01.26-23.04.33:253][849]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue2". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.04.33:253][849]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_0
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:03C1
+[2019.01.26-23.04.33:253][849]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.04.33:823][916]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Pickup_BP_Food_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-23.04.33:824][916]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_6
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:02B8
+[2019.01.26-23.04.33:824][916]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.04.33:824][916]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_6
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:02ED
+[2019.01.26-23.04.33:824][916]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.04.33:825][916]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue3
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_6
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:0322
+[2019.01.26-23.04.33:825][916]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue3". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.04.33:825][916]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue2
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_6
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:0357
+[2019.01.26-23.04.33:825][916]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue2". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.04.33:825][916]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_6
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:03C1
+[2019.01.26-23.04.33:825][916]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.04.39:485][580]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Pickup_BP_Food_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-23.04.39:486][580]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_12
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:02B8
+[2019.01.26-23.04.39:486][580]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.04.39:486][580]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_12
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:02ED
+[2019.01.26-23.04.39:486][580]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.04.39:486][580]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue3
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_12
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:0322
+[2019.01.26-23.04.39:486][580]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue3". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.04.39:486][580]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue2
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_12
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:0357
+[2019.01.26-23.04.39:487][580]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue2". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.04.39:487][580]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_12
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:03C1
+[2019.01.26-23.04.39:487][580]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.04.39:621][596]LogCharacterMovement: Player_BP_Base_5 is stuck and failed to move! Velocity: X=0.00 Y=-14.22 Z=0.00 Location: X=90.99 Y=285.06 Z=109.15 Normal: X=0.24 Y=-0.97 Z=-0.00 PenetrationDepth:8.559 Actor:Enemy_BP_Base_C_4 Component:Capsule BoneName:None (11 other events since notify)
+[2019.01.26-23.04.40:385][687]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Pickup_BP_Food_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-23.04.40:385][687]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_2
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:02B8
+[2019.01.26-23.04.40:385][687]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.04.40:385][687]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_2
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:02ED
+[2019.01.26-23.04.40:385][687]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.04.40:386][687]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue3
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_2
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:0322
+[2019.01.26-23.04.40:386][687]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue3". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.04.40:386][687]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue2
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_2
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:0357
+[2019.01.26-23.04.40:386][687]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue2". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.04.40:386][687]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_2
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:03C1
+[2019.01.26-23.04.40:386][687]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.04.40:624][713]LogCharacterMovement: Player_BP_Base_5 is stuck and failed to move! Velocity: X=0.00 Y=-157.79 Z=0.00 Location: X=90.99 Y=285.06 Z=109.15 Normal: X=0.68 Y=-0.73 Z=-0.00 PenetrationDepth:19.717 Actor:Enemy_BP_Base_C_7 Component:Capsule BoneName:None (71 other events since notify)
+[2019.01.26-23.04.41:813][853]LogCharacterMovement: Player_BP_Base_5 is stuck and failed to move! Velocity: X=-143.75 Y=-17.06 Z=0.00 Location: X=90.90 Y=-11.22 Z=109.15 Normal: X=0.97 Y=0.24 Z=-0.00 PenetrationDepth:0.319 Actor:Enemy_BP_Base_C_2 Component:Capsule BoneName:None (40 other events since notify)
+[2019.01.26-23.04.43:124][  8]LogCharacterMovement: Player_BP_Base_5 is stuck and failed to move! Velocity: X=0.00 Y=-142.24 Z=0.00 Location: X=90.92 Y=-16.33 Z=109.15 Normal: X=0.98 Y=0.20 Z=-0.00 PenetrationDepth:0.873 Actor:Enemy_BP_Base_C_1 Component:Capsule BoneName:None (13 other events since notify)
+[2019.01.26-23.04.43:755][ 82]LogBlueprintUserMessages: [Player_BP_Base_5] picked up
+[2019.01.26-23.04.43:755][ 82]LogBlueprintUserMessages: [Player_BP_Base_5] picked up
+[2019.01.26-23.04.45:048][232]LogCharacterMovement: Player_BP_Base_5 is stuck and failed to move! Velocity: X=-168.71 Y=139.44 Z=0.00 Location: X=90.91 Y=334.65 Z=109.15 Normal: X=0.99 Y=-0.12 Z=-0.00 PenetrationDepth:0.192 Actor:Enemy_BP_Base_C_9 Component:Capsule BoneName:None (69 other events since notify)
+[2019.01.26-23.04.46:048][350]LogCharacterMovement: Player_BP_Base_5 is stuck and failed to move! Velocity: X=-500.01 Y=-5.89 Z=0.00 Location: X=91.00 Y=335.02 Z=109.15 Normal: X=0.83 Y=-0.56 Z=-0.00 PenetrationDepth:25.784 Actor:Enemy_BP_Base_C_5 Component:Capsule BoneName:None (98 other events since notify)
+[2019.01.26-23.05.12:662][997]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.NewJohnNewLevel' with GeneratedClass '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel_C' with ClassGeneratedBy '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.NewJohnNewLevel'
+[2019.01.26-23.05.12:662][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-23.05.12:708][997]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-23.05.12:709][997]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.NewJohnNewLevel' with GeneratedClass '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel_C' with ClassGeneratedBy '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.NewJohnNewLevel'
+[2019.01.26-23.05.12:750][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-23.05.12:793][998]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.01.26-23.05.13:358][ 60]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-23.05.19:017][686]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Animation/Skeleton+Meshes/SKM_clay_Anim.SKM_clay_Anim
+[2019.01.26-23.05.19:022][686]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.26-23.05.19:046][686]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.01.26-23.05.19:508][686]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.01.26-23.05.23:070][990]LogSlate: Window 'SKM_clay_Anim' being destroyed
+[2019.01.26-23.05.30:974][773]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Animation/Skeleton+Meshes/SKM_clay_Anim.SKM_clay_Anim
+[2019.01.26-23.05.30:985][773]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.26-23.05.31:032][773]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.01.26-23.05.31:514][773]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.01.26-23.05.36:487][203]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-23.05.36:581][212]LogSlate: Window 'SKM_clay_Anim' being destroyed
+[2019.01.26-23.06.00:198][374]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\w017177h.STUDENT\Downloads\SKM_splat.FBX)
+[2019.01.26-23.06.00:215][374]LogFbx: Loading FBX Scene from C:\Users\w017177h.STUDENT\Downloads\SKM_splat.FBX
+[2019.01.26-23.06.00:240][374]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.26-23.06.05:148][374]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.01.26-23.06.05:203][374]LogFbx: =================================================
+[2019.01.26-23.06.05:203][374]LogFbx: Dumping Node START [Mesh_splat] 
+[2019.01.26-23.06.05:203][374]LogFbx: 	Total Deformer Count 1156988352.
+[2019.01.26-23.06.05:203][374]LogFbx: 		[Node 1]  (Type Skin).
+[2019.01.26-23.06.05:203][374]LogFbx: =================================================
+[2019.01.26-23.06.05:203][374]LogFbx: 	Attribute () Type (4).
+[2019.01.26-23.06.05:203][374]LogFbx: 		[Node Attribute Child 1] Mesh_splat (Type Mesh).
+[2019.01.26-23.06.05:203][374]LogFbx: Dumping Node END [Mesh_splat]
+[2019.01.26-23.06.05:204][374]LogFbx: =================================================
+[2019.01.26-23.06.05:204][374]LogFbx: Dumping Node START [Mesh_splat] 
+[2019.01.26-23.06.05:204][374]LogFbx: 	Total Deformer Count 1156988352.
+[2019.01.26-23.06.05:204][374]LogFbx: 		[Node 1]  (Type Skin).
+[2019.01.26-23.06.05:204][374]LogFbx: =================================================
+[2019.01.26-23.06.05:204][374]LogFbx: 	Attribute () Type (4).
+[2019.01.26-23.06.05:204][374]LogFbx: 		[Node Attribute Child 1] Mesh_splat (Type Mesh).
+[2019.01.26-23.06.05:204][374]LogFbx: Dumping Node END [Mesh_splat]
+[2019.01.26-23.06.05:205][374]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Mesh_splat : Not all the deformers are stored in this BindPose
+[2019.01.26-23.06.05:205][374]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2019.01.26-23.06.05:205][374]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Mesh_splat
+[2019.01.26-23.06.05:205][374]LogFbx: Warning: Recreating bind pose succeeded.
+[2019.01.26-23.06.05:208][374]LogFbx: Triangulating skeletal mesh Mesh_splat
+[2019.01.26-23.06.05:691][374]LogFbx: Warning: Bones digested - 24  Depth of hierarchy - 9
+[2019.01.26-23.06.05:901][374]LogSkeletalMesh: Section 0: 9312 vertices, 4 active bones
+[2019.01.26-23.06.05:903][374]LogSkeletalMesh: Section 0: Material=0, 5835 triangles
+[2019.01.26-23.06.05:904][374]LogSkeletalMesh: Building Skeletal Mesh SKM_splat...
+[2019.01.26-23.06.05:912][374]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Animation/Skeleton+Meshes/SKM_splat.SKM_splat
+[2019.01.26-23.06.05:918][374]LogLinker: Can't find file '/Game/Animation/Skeleton+Meshes/SKM_splat_PhysicsAsset'
+[2019.01.26-23.06.05:919][374]LogLinker: Can't find file '/Game/Animation/Skeleton+Meshes/SKM_splat_PhysicsAsset'
+[2019.01.26-23.06.05:934][374]LogFbx: =================================================
+[2019.01.26-23.06.05:934][374]LogFbx: Dumping Node START [Mesh_splat] 
+[2019.01.26-23.06.05:935][374]LogFbx: 	Total Deformer Count 1156977344.
+[2019.01.26-23.06.05:935][374]LogFbx: 		[Node 1]  (Type Skin).
+[2019.01.26-23.06.05:935][374]LogFbx: =================================================
+[2019.01.26-23.06.05:935][374]LogFbx: 	Attribute () Type (4).
+[2019.01.26-23.06.05:935][374]LogFbx: 		[Node Attribute Child 1] Mesh_splat (Type Mesh).
+[2019.01.26-23.06.05:935][374]LogFbx: Dumping Node END [Mesh_splat]
+[2019.01.26-23.06.05:935][374]LogFbx: =================================================
+[2019.01.26-23.06.05:935][374]LogFbx: Dumping Node START [Mesh_splat] 
+[2019.01.26-23.06.05:936][374]LogFbx: 	Total Deformer Count 1156977344.
+[2019.01.26-23.06.05:936][374]LogFbx: 		[Node 1]  (Type Skin).
+[2019.01.26-23.06.05:936][374]LogFbx: =================================================
+[2019.01.26-23.06.05:936][374]LogFbx: 	Attribute () Type (4).
+[2019.01.26-23.06.05:936][374]LogFbx: 		[Node Attribute Child 1] Mesh_splat (Type Mesh).
+[2019.01.26-23.06.05:936][374]LogFbx: Dumping Node END [Mesh_splat]
+[2019.01.26-23.06.05:936][374]LogFbx: SortedLinks :(0) Dimples_pelvis
+[2019.01.26-23.06.05:936][374]LogFbx: SortedLinks :(1) Dimples_l_leg_upper
+[2019.01.26-23.06.05:936][374]LogFbx: SortedLinks :(2) Dimples_l_leg_lower
+[2019.01.26-23.06.05:936][374]LogFbx: SortedLinks :(3) Dimples_l_leg_ankle
+[2019.01.26-23.06.05:937][374]LogFbx: SortedLinks :(4) Dimples_spine_lower
+[2019.01.26-23.06.05:937][374]LogFbx: SortedLinks :(5) Dimples_spine_upper
+[2019.01.26-23.06.05:937][374]LogFbx: SortedLinks :(6) Dimples_chest
+[2019.01.26-23.06.05:937][374]LogFbx: SortedLinks :(7) Dimples_l_arm_clavicle
+[2019.01.26-23.06.05:937][374]LogFbx: SortedLinks :(8) Dimples_l_arm_upper
+[2019.01.26-23.06.05:937][374]LogFbx: SortedLinks :(9) Dimples_l_arm_lower
+[2019.01.26-23.06.05:937][374]LogFbx: SortedLinks :(10) Dimples_l_arm_hand
+[2019.01.26-23.06.05:937][374]LogFbx: SortedLinks :(11) Dimples_l_arm_thumb
+[2019.01.26-23.06.05:937][374]LogFbx: SortedLinks :(12) Dimples_l_arm_finger
+[2019.01.26-23.06.05:937][374]LogFbx: SortedLinks :(13) Dimples_neck
+[2019.01.26-23.06.05:937][374]LogFbx: SortedLinks :(14) Dimples_head
+[2019.01.26-23.06.05:937][374]LogFbx: SortedLinks :(15) Dimples_r_arm_clavicle
+[2019.01.26-23.06.05:938][374]LogFbx: SortedLinks :(16) Dimples_r_arm_upper
+[2019.01.26-23.06.05:938][374]LogFbx: SortedLinks :(17) Dimples_r_arm_lower
+[2019.01.26-23.06.05:938][374]LogFbx: SortedLinks :(18) Dimples_r_arm_hand
+[2019.01.26-23.06.05:938][374]LogFbx: SortedLinks :(19) Dimples_r_arm_thumb
+[2019.01.26-23.06.05:938][374]LogFbx: SortedLinks :(20) Dimples_r_arm_finger
+[2019.01.26-23.06.05:938][374]LogFbx: SortedLinks :(21) Dimples_r_leg_upper
+[2019.01.26-23.06.05:938][374]LogFbx: SortedLinks :(22) Dimples_r_leg_lower
+[2019.01.26-23.06.05:938][374]LogFbx: SortedLinks :(23) Dimples_r_leg_ankle
+[2019.01.26-23.06.05:939][374]LogFbx: Parsing AnimStack Take 001
+[2019.01.26-23.06.05:942][374]LogLinker: Can't find file '/Game/Animation/Skeleton+Meshes/SKM_splat_Anim'
+[2019.01.26-23.06.05:942][374]LogLinker: Can't find file '/Game/Animation/Skeleton+Meshes/SKM_splat_Anim'
+[2019.01.26-23.06.06:023][374]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animation/Skeleton+Meshes/SKM_splat_Anim.SKM_splat_Anim
+[2019.01.26-23.06.06:023][374]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.SKM_splat_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.01.26-23.06.06:031][374]LogSkeletalMesh: Building Skeletal Mesh SKM_splat...
+[2019.01.26-23.06.06:040][374]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Animation/Skeleton+Meshes/SKM_splat.SKM_splat
+[2019.01.26-23.06.06:052][374]FBXImport: Warning: The following bones are missing from the bind pose:
+Dimples_spine_lower  
+Dimples_spine_upper  
+Dimples_chest  
+Dimples_l_arm_clavicle  
+Dimples_l_arm_upper  
+Dimples_l_arm_lower  
+Dimples_l_arm_hand  
+Dimples_l_arm_thumb  
+Dimples_l_arm_finger  
+Dimples_neck  
+Dimples_head  
+Dimples_r_arm_clavicle  
+Dimples_r_arm_upper  
+Dimples_r_arm_lower  
+Dimples_r_arm_hand  
+Dimples_r_arm_thumb  
+Dimples_r_arm_finger  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2019.01.26-23.06.06:063][374]LogSkeletalMesh: Building Skeletal Mesh SKM_splat...
+[2019.01.26-23.06.06:073][374]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Animation/Skeleton+Meshes/SKM_splat.SKM_splat
+[2019.01.26-23.06.07:822][531]LogSlate: Window 'Message Log' being destroyed
+[2019.01.26-23.06.37:055][616]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-23.06.37:758][616]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnNewLevel8540790A4E2AD77266A0AD8E5974753A.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnNewLevel.umap'
+[2019.01.26-23.07.15:657][ 67]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-23.07.16:371][ 67]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnNewLevelCFE0EFE747983E6B6028C98531D7E124.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnNewLevel.umap'
+[2019.01.26-23.07.20:190][497]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-23.07.21:782][674]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-23.07.22:481][674]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnNewLevel332C1E7A46FF831B7E4B0ABC95783DAF.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnNewLevel.umap'
+[2019.01.26-23.08.14:563][766]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-23.08.15:202][766]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnNewLevel8D4CD879458795EAC6F36DB32DD941BC.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnNewLevel.umap'
+[2019.01.26-23.08.16:821][915]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-23.09.33:537][111]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/DimplesAnimationController32BC7A5C4A43A8F0EDB749A908514022.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Dimples/DimplesAnimationController.uasset'
+[2019.01.26-23.09.46:681][292]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/DimplesAnimationControllerAF577528466A5E89E59D9C982A3ED3F2.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Dimples/DimplesAnimationController.uasset'
+[2019.01.26-23.10.03:192][802]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/DimplesAnimationController951077D24ADE96B2E9B428A19498EF15.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Dimples/DimplesAnimationController.uasset'
+[2019.01.26-23.10.04:432][910]BlueprintLog: New page: Compile DimplesAnimationController
+[2019.01.26-23.10.04:456][910]LogBlueprint: Warning: [Compiler DimplesAnimationController] DeathBlend to SKM_splat_Anim_1  will never be taken, please connect something to  Can Enter Transition
+[2019.01.26-23.10.04:661][910]LogBlueprint: Warning: [Compiler DimplesAnimationController] [1098.39] Compile of DimplesAnimationController successful, but with 1 Warning(s) [in 229 ms] (/Game/Animation/AnimationControllers/Dimples/DimplesAnimationController.DimplesAnimationController)
+[2019.01.26-23.10.32:188][488]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/DimplesAnimationController18CC2F564477ED72F1EA95A67032CE84.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Dimples/DimplesAnimationController.uasset'
+[2019.01.26-23.10.32:725][526]BlueprintLog: New page: Compile DimplesAnimationController
+[2019.01.26-23.10.43:524][530]BlueprintLog: New page: Compile DimplesAnimationController
+[2019.01.26-23.10.48:271][955]BlueprintLog: New page: Compile DimplesAnimationController
+[2019.01.26-23.10.50:916][188]BlueprintLog: New page: Compile DimplesAnimationController
+[2019.01.26-23.10.58:595][900]BlueprintLog: New page: Compile DimplesAnimationController
+[2019.01.26-23.11.00:634][ 81]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-23.11.00:659][ 81]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.NewJohnNewLevel' with GeneratedClass '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel_C' with ClassGeneratedBy '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.NewJohnNewLevel'
+[2019.01.26-23.11.00:659][ 81]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-23.11.00:660][ 81]PIE: New page: PIE session: NewJohnNewLevel (26 Jan 2019 23:11:00)
+[2019.01.26-23.11.00:660][ 81]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel
+[2019.01.26-23.11.00:688][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028014s)
+[2019.01.26-23.11.00:689][ 81]LogAIModule: Creating AISystem for world NewJohnNewLevel
+[2019.01.26-23.11.00:689][ 81]LogPlayLevel: PIE: World Init took: (0.000821s)
+[2019.01.26-23.11.00:689][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel (0.029270s)
+[2019.01.26-23.11.00:731][ 81]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-23.11.00:742][ 81]LogInit: FAudioDevice initialized.
+[2019.01.26-23.11.00:783][ 81]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-23.11.00:796][ 81]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel up for play (max tick rate 0) at 2019.01.26-23.11.00
+[2019.01.26-23.11.00:800][ 81]LogWorld: Bringing up level for play took: 0.015619
+[2019.01.26-23.11.00:814][ 81]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel 0.991
+[2019.01.26-23.11.00:815][ 81]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.NewJohnNewLevel' with GeneratedClass '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel_C' with ClassGeneratedBy '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.NewJohnNewLevel'
+[2019.01.26-23.11.02:080][175]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.NewJohnNewLevel' with GeneratedClass '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel_C' with ClassGeneratedBy '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.NewJohnNewLevel'
+[2019.01.26-23.11.02:080][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-23.11.02:123][175]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-23.11.02:123][175]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.NewJohnNewLevel' with GeneratedClass '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel_C' with ClassGeneratedBy '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.NewJohnNewLevel'
+[2019.01.26-23.11.02:159][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-23.11.02:183][176]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.01.26-23.11.13:343][232]BlueprintLog: New page: Compile DimplesAnimationController
+[2019.01.26-23.11.16:154][472]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/DimplesAnimationControllerE06C57CF4FAA4656F7254181267043C9.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Dimples/DimplesAnimationController.uasset'
+[2019.01.26-23.13.07:550][561]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/DimplesAnimationController241418604B918717AE6C3F8EF527D331.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Dimples/DimplesAnimationController.uasset'
+[2019.01.26-23.13.12:030][954]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/DimplesAnimationController9FFC94E84D5231D7393FD08810A6F22E.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Dimples/DimplesAnimationController.uasset'
+[2019.01.26-23.13.27:122][339]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnNewLevel62F5D4FD4FC8CC3D9F1C859B70A2CD41.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnNewLevel.umap'
+[2019.01.26-23.13.29:362][491]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/Animation/Skeleton+Meshes/SKM_splat.SKM_splat
+[2019.01.26-23.13.29:369][491]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.26-23.13.29:399][491]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.01.26-23.13.37:778][ 33]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-23.13.37:878][ 41]LogSlate: Window 'SKM_splat*' being destroyed
+[2019.01.26-23.13.39:260][ 76]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnNewLevel187309BE4B7736260C090E87C65E19D7.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnNewLevel.umap'
+[2019.01.26-23.13.45:281][484]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnNewLevel9022D694474A24EDD4666DAF6FB61736.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnNewLevel.umap'
+[2019.01.26-23.13.48:313][722]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/DimplesAnimationController51AAB58C4C9EE323DF3D5396ADB1825F.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Dimples/DimplesAnimationController.uasset'
+[2019.01.26-23.14.34:161][106]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/DimplesAnimationControllerAAD7B26C4F956E699DA0A4ABB3DF80AA.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Dimples/DimplesAnimationController.uasset'
+[2019.01.26-23.14.35:633][219]BlueprintLog: New page: Compile DimplesAnimationController
+[2019.01.26-23.14.38:143][439]LogSlate: Window 'DimplesAnimationController' being destroyed
+[2019.01.26-23.14.46:159][180]BlueprintLog: New page: Compile DimplesAnimationController
+[2019.01.26-23.14.47:185][211]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/DimplesAnimationController3D883E4743FDBF367B92CEA168C337E8.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Dimples/DimplesAnimationController.uasset'
+[2019.01.26-23.15.11:328][487]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/DimplesAnimationController42780A234304A4EB98C84584905B3D32.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Dimples/DimplesAnimationController.uasset'
+[2019.01.26-23.15.12:569][601]BlueprintLog: New page: Compile DimplesAnimationController
+[2019.01.26-23.15.17:512][ 17]BlueprintLog: New page: Compile DimplesAnimationController
+[2019.01.26-23.15.22:768][448]BlueprintLog: New page: Compile DimplesAnimationController
+[2019.01.26-23.15.47:183][381]BlueprintLog: New page: Compile DimplesAnimationController
+[2019.01.26-23.15.58:658][245]BlueprintLog: New page: Compile DimplesAnimationController
+[2019.01.26-23.16.00:584][385]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/DimplesAnimationController0C8A09F341AA191E4DE834B3BE805B19.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Dimples/DimplesAnimationController.uasset'
+[2019.01.26-23.16.02:330][523]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/DimplesAnimationController6A6C3DFF4030DE0C91193D836F06C90B.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Dimples/DimplesAnimationController.uasset'
+[2019.01.26-23.16.05:070][758]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/DimplesAnimationController7464A95E4E6BC8A5404992BC58DD9104.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Dimples/DimplesAnimationController.uasset'
+[2019.01.26-23.16.10:555][155]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnNewLevelE77DF41749C1B71EA28197A811A68BE0.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnNewLevel.umap'
+[2019.01.26-23.16.30:471][960]LogSlate: Window 'DimplesAnimationController' being destroyed
+[2019.01.26-23.16.44:428][547]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.01.26-23.16.48:579][547]LogSlate: Window 'Create Animation Blueprint' being destroyed
+[2019.01.26-23.16.55:602][356]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Animation/AnimationControllers/Clay/ClayAnimationController.ClayAnimationController
+[2019.01.26-23.16.55:613][356]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.26-23.16.55:950][356]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.01.26-23.16.56:357][356]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.01.26-23.16.59:789][649]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-23.17.00:016][665]LogSlate: Window 'ClayAnimationController*' being destroyed
+[2019.01.26-23.17.02:796][979]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/ClayAnimationController9FCDF15E4A039537A85655AA7AAF34EA.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Clay/ClayAnimationController.uasset'
+[2019.01.26-23.17.05:335][269]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Animation/Skeleton+Meshes/SKM_clay_Anim.SKM_clay_Anim
+[2019.01.26-23.17.05:346][269]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_31:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.26-23.17.05:377][269]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_31:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.01.26-23.17.05:833][269]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.01.26-23.17.07:435][439]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/Animation/Skeleton+Meshes/SKM_clay.SKM_clay
+[2019.01.26-23.17.07:443][439]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.26-23.17.07:461][439]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.01.26-23.17.07:847][440]LogRenderer: Reallocating scene render targets to support 1208x888 Format 10 NumSamples 1 (Frame:1).
+[2019.01.26-23.17.10:366][725]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-23.17.10:485][725]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/SKM_clayFFF5C26B4852EEC6D943A889B940CD77.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/Skeleton+Meshes/SKM_clay.uasset'
+[2019.01.26-23.17.11:150][799]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-23.17.16:519][375]LogEditorViewport: Clicking on Actor (LMB): Player_BP_Base_C (Player_BP_Base)
+[2019.01.26-23.17.19:836][659]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-23.17.23:598][ 20]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Player_BP_Base.Player_BP_Base
+[2019.01.26-23.17.35:677][301]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-23.17.41:166][917]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
+[2019.01.26-23.17.41:166][917]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
+[2019.01.26-23.17.41:166][917]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
+[2019.01.26-23.17.44:489][291]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.01.26-23.17.50:312][926]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-23.17.50:379][934]BlueprintLog: New page: Compile Player_BP_Base
+[2019.01.26-23.17.51:758][ 15]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-23.17.51:777][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Player_BP_Base.uasset" SILENT=true
+[2019.01.26-23.17.51:930][ 15]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Player_BP_Base03B3667E42988DEE3753509672A5037E.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Player_BP_Base.uasset'
+[2019.01.26-23.17.57:304][646]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-23.17.57:308][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Player_BP_Base.uasset" SILENT=true
+[2019.01.26-23.17.57:451][646]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Player_BP_BaseA909B78542FE8E44D7C26EA3DC831C5C.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Player_BP_Base.uasset'
+[2019.01.26-23.18.03:948][194]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/DimplesAnimationControllerDDBD51504B32C517EA0964A1A0718659.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Dimples/DimplesAnimationController.uasset'
+[2019.01.26-23.21.28:590][146]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\w017177h.STUDENT\Downloads\anim_idle.FBX)
+[2019.01.26-23.21.28:602][146]LogFbx: Loading FBX Scene from C:\Users\w017177h.STUDENT\Downloads\anim_idle.FBX
+[2019.01.26-23.21.28:621][146]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.26-23.21.32:753][146]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.01.26-23.21.32:816][146]LogFbx: SortedLinks :(0) Dimples_pelvis
+[2019.01.26-23.21.32:817][146]LogFbx: SortedLinks :(1) Dimples_l_leg_upper
+[2019.01.26-23.21.32:817][146]LogFbx: SortedLinks :(2) Dimples_l_leg_lower
+[2019.01.26-23.21.32:817][146]LogFbx: SortedLinks :(3) Dimples_l_leg_ankle
+[2019.01.26-23.21.32:817][146]LogFbx: SortedLinks :(4) Dimples_spine_lower
+[2019.01.26-23.21.32:817][146]LogFbx: SortedLinks :(5) Dimples_spine_upper
+[2019.01.26-23.21.32:817][146]LogFbx: SortedLinks :(6) Dimples_chest
+[2019.01.26-23.21.32:817][146]LogFbx: SortedLinks :(7) Dimples_l_arm_clavicle
+[2019.01.26-23.21.32:817][146]LogFbx: SortedLinks :(8) Dimples_l_arm_upper
+[2019.01.26-23.21.32:818][146]LogFbx: SortedLinks :(9) Dimples_l_arm_lower
+[2019.01.26-23.21.32:818][146]LogFbx: SortedLinks :(10) Dimples_l_arm_hand
+[2019.01.26-23.21.32:818][146]LogFbx: SortedLinks :(11) Dimples_l_arm_thumb
+[2019.01.26-23.21.32:820][146]LogFbx: SortedLinks :(12) Dimples_l_arm_finger
+[2019.01.26-23.21.32:820][146]LogFbx: SortedLinks :(13) Dimples_neck
+[2019.01.26-23.21.32:820][146]LogFbx: SortedLinks :(14) Dimples_head
+[2019.01.26-23.21.32:820][146]LogFbx: SortedLinks :(15) Dimples_l_arm_UpVectorNode
+[2019.01.26-23.21.32:820][146]LogFbx: SortedLinks :(16) Dimples_r_arm_clavicle
+[2019.01.26-23.21.32:820][146]LogFbx: SortedLinks :(17) Dimples_r_arm_upper
+[2019.01.26-23.21.32:821][146]LogFbx: SortedLinks :(18) Dimples_r_arm_lower
+[2019.01.26-23.21.32:821][146]LogFbx: SortedLinks :(19) Dimples_r_arm_hand
+[2019.01.26-23.21.32:821][146]LogFbx: SortedLinks :(20) Dimples_r_arm_thumb
+[2019.01.26-23.21.32:821][146]LogFbx: SortedLinks :(21) Dimples_r_arm_finger
+[2019.01.26-23.21.32:822][146]LogFbx: SortedLinks :(22) Dimples_r_arm_UpVectorNode
+[2019.01.26-23.21.32:822][146]LogFbx: SortedLinks :(23) Dimples_l_leg_UpVectorNode
+[2019.01.26-23.21.32:822][146]LogFbx: SortedLinks :(24) Dimples_r_leg_upper
+[2019.01.26-23.21.32:822][146]LogFbx: SortedLinks :(25) Dimples_r_leg_lower
+[2019.01.26-23.21.32:822][146]LogFbx: SortedLinks :(26) Dimples_r_leg_ankle
+[2019.01.26-23.21.32:822][146]LogFbx: SortedLinks :(27) Dimples_r_legUpVectorNode
+[2019.01.26-23.21.32:824][146]LogFbx: Parsing AnimStack Take 001
+[2019.01.26-23.21.32:829][146]LogLinker: Can't find file '/Game/Animation/Anims/anim_idle'
+[2019.01.26-23.21.32:830][146]LogLinker: Can't find file '/Game/Animation/Anims/anim_idle'
+[2019.01.26-23.21.32:956][146]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animation/Anims/anim_idle.anim_idle
+[2019.01.26-23.21.32:957][146]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.anim_idle) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.01.26-23.21.32:986][146]FBXImport: Warning: The following bones exist in the imported animation, but not in the Skeleton asset Skel_dimples.  Any animation on these bones will not be imported: 
+
+ Dimples_l_arm_UpVectorNode  
+Dimples_r_arm_UpVectorNode  
+Dimples_l_leg_UpVectorNode  
+Dimples_r_legUpVectorNode  
+ 
+[2019.01.26-23.21.34:832][256]LogSlate: Window 'Message Log' being destroyed
+[2019.01.26-23.22.14:658][533]BlueprintLog: New page: Compile ClayAnimationController
+[2019.01.26-23.22.14:664][533]LogBlueprint: Warning: [Compiler ClayAnimationController] anim_idle to anim_run  will never be taken, please connect something to  Can Enter Transition
+[2019.01.26-23.22.14:992][533]LogBlueprint: Warning: [Compiler ClayAnimationController] [1828.72] Compile of ClayAnimationController successful, but with 1 Warning(s) [in 333 ms] (/Game/Animation/AnimationControllers/Clay/ClayAnimationController.ClayAnimationController)
+[2019.01.26-23.23.43:676][726]BlueprintLog: New page: Compile ClayAnimationController
+[2019.01.26-23.23.52:909][726]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Animation/Skeleton+Meshes/SKM_clay_Anim.SKM_clay_Anim
+[2019.01.26-23.23.52:916][726]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.26-23.23.52:949][726]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.01.26-23.23.53:397][726]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.01.26-23.24.00:257][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/Anims/anim_run" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/Anims/anim_run.uasset" SILENT=true
+[2019.01.26-23.24.00:344][362]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/anim_run72A2CE7E439CB219C5A4D68C58394B5A.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/Anims/anim_run.uasset'
+[2019.01.26-23.24.02:473][506]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/ClayAnimationControllerFBB3A95F4EEBC4A2EAFD5B8D9080AA68.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Clay/ClayAnimationController.uasset'
+[2019.01.26-23.24.03:483][612]BlueprintLog: New page: Compile ClayAnimationController
+[2019.01.26-23.24.18:396][800]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-23.24.18:402][800]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Player_BP_Base.uasset" SILENT=true
+[2019.01.26-23.24.18:547][800]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Player_BP_Base4B17F6384CBE0C871284C8AC08E77AFC.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Player_BP_Base.uasset'
+[2019.01.26-23.24.20:334][909]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-23.24.22:370][ 62]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/DimplesAnimationController8AF42B894BE1B677F0036893DA8E485C.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Dimples/DimplesAnimationController.uasset'
+[2019.01.26-23.24.43:678][362]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/DimplesAnimationController053FA5FB4D2DA4C720A10A992FE14C9C.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Dimples/DimplesAnimationController.uasset'
+[2019.01.26-23.24.45:844][553]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/DimplesAnimationController4100C7B045A45558D6CAD19A958EFDE3.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Dimples/DimplesAnimationController.uasset'
+[2019.01.26-23.24.50:963][ 82]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/ClayAnimationController5C84845743B71EC0F6ED559524A28D5B.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Clay/ClayAnimationController.uasset'
+[2019.01.26-23.25.08:648][833]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\w017177h.STUDENT\Downloads\anim_attack.FBX)
+[2019.01.26-23.25.08:660][833]LogFbx: Loading FBX Scene from C:\Users\w017177h.STUDENT\Downloads\anim_attack.FBX
+[2019.01.26-23.25.08:679][833]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.26-23.25.11:664][833]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.01.26-23.25.11:725][833]LogFbx: SortedLinks :(0) Dimples_pelvis
+[2019.01.26-23.25.11:725][833]LogFbx: SortedLinks :(1) Dimples_l_leg_upper
+[2019.01.26-23.25.11:725][833]LogFbx: SortedLinks :(2) Dimples_l_leg_lower
+[2019.01.26-23.25.11:726][833]LogFbx: SortedLinks :(3) Dimples_l_leg_ankle
+[2019.01.26-23.25.11:726][833]LogFbx: SortedLinks :(4) Dimples_spine_lower
+[2019.01.26-23.25.11:726][833]LogFbx: SortedLinks :(5) Dimples_spine_upper
+[2019.01.26-23.25.11:726][833]LogFbx: SortedLinks :(6) Dimples_chest
+[2019.01.26-23.25.11:726][833]LogFbx: SortedLinks :(7) Dimples_l_arm_clavicle
+[2019.01.26-23.25.11:726][833]LogFbx: SortedLinks :(8) Dimples_l_arm_upper
+[2019.01.26-23.25.11:726][833]LogFbx: SortedLinks :(9) Dimples_l_arm_lower
+[2019.01.26-23.25.11:726][833]LogFbx: SortedLinks :(10) Dimples_l_arm_hand
+[2019.01.26-23.25.11:726][833]LogFbx: SortedLinks :(11) Dimples_l_arm_thumb
+[2019.01.26-23.25.11:726][833]LogFbx: SortedLinks :(12) Dimples_l_arm_finger
+[2019.01.26-23.25.11:726][833]LogFbx: SortedLinks :(13) Dimples_neck
+[2019.01.26-23.25.11:727][833]LogFbx: SortedLinks :(14) Dimples_head
+[2019.01.26-23.25.11:727][833]LogFbx: SortedLinks :(15) Dimples_l_arm_UpVectorNode
+[2019.01.26-23.25.11:727][833]LogFbx: SortedLinks :(16) Dimples_r_arm_clavicle
+[2019.01.26-23.25.11:727][833]LogFbx: SortedLinks :(17) Dimples_r_arm_upper
+[2019.01.26-23.25.11:727][833]LogFbx: SortedLinks :(18) Dimples_r_arm_lower
+[2019.01.26-23.25.11:727][833]LogFbx: SortedLinks :(19) Dimples_r_arm_hand
+[2019.01.26-23.25.11:727][833]LogFbx: SortedLinks :(20) Dimples_r_arm_thumb
+[2019.01.26-23.25.11:727][833]LogFbx: SortedLinks :(21) Dimples_r_arm_finger
+[2019.01.26-23.25.11:727][833]LogFbx: SortedLinks :(22) Dimples_r_arm_UpVectorNode
+[2019.01.26-23.25.11:727][833]LogFbx: SortedLinks :(23) Dimples_l_leg_UpVectorNode
+[2019.01.26-23.25.11:728][833]LogFbx: SortedLinks :(24) Dimples_r_leg_upper
+[2019.01.26-23.25.11:728][833]LogFbx: SortedLinks :(25) Dimples_r_leg_lower
+[2019.01.26-23.25.11:728][833]LogFbx: SortedLinks :(26) Dimples_r_leg_ankle
+[2019.01.26-23.25.11:728][833]LogFbx: SortedLinks :(27) Dimples_r_legUpVectorNode
+[2019.01.26-23.25.11:729][833]LogFbx: Parsing AnimStack Take 001
+[2019.01.26-23.25.11:733][833]LogLinker: Can't find file '/Game/Animation/Anims/anim_attack'
+[2019.01.26-23.25.11:733][833]LogLinker: Can't find file '/Game/Animation/Anims/anim_attack'
+[2019.01.26-23.25.11:838][833]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animation/Anims/anim_attack.anim_attack
+[2019.01.26-23.25.11:838][833]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.anim_attack) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.01.26-23.25.11:859][833]FBXImport: Warning: The following bones exist in the imported animation, but not in the Skeleton asset Skel_dimples.  Any animation on these bones will not be imported: 
+
+ Dimples_l_arm_UpVectorNode  
+Dimples_r_arm_UpVectorNode  
+Dimples_l_leg_UpVectorNode  
+Dimples_r_legUpVectorNode  
+ 
+[2019.01.26-23.25.13:324][918]LogSlate: Window 'Message Log' being destroyed
+[2019.01.26-23.25.16:110][101]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Animation/Anims/anim_attack.anim_attack
+[2019.01.26-23.25.16:116][101]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_40:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.26-23.25.16:126][101]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_40:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.01.26-23.25.16:705][101]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.01.26-23.25.23:755][756]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/Anims/anim_attack" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/Anims/anim_attack.uasset" SILENT=true
+[2019.01.26-23.25.23:786][756]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/anim_attack734939914DE80EEFDBB71B80D87B4B45.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/Anims/anim_attack.uasset'
+[2019.01.26-23.25.25:351][875]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-23.25.46:755][174]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/ClayAnimationControllerAD53697B4AAA7CEBAB54698D405A0635.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Clay/ClayAnimationController.uasset'
+[2019.01.26-23.25.53:366][850]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/ClayAnimationController810F51E141463BBEC3C61B8199006A67.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Clay/ClayAnimationController.uasset'
+[2019.01.26-23.25.54:283][939]BlueprintLog: New page: Compile ClayAnimationController
+[2019.01.26-23.26.24:228][219]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/ClayAnimationController5A687A7741D378EE63F703B63130511E.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Clay/ClayAnimationController.uasset'
+[2019.01.26-23.26.46:670][634]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/ClayAnimationControllerACA79CE946F41DD315F93C9E4B0918D0.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Clay/ClayAnimationController.uasset'
+[2019.01.26-23.26.59:027][985]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/ClayAnimationController3D1D9CD144DCDCB8FAAE27A2226E2137.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Clay/ClayAnimationController.uasset'
+[2019.01.26-23.27.09:476][102]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/ClayAnimationControllerCFFA6C4743D76B1CF74E1CB35BF4A8AB.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Clay/ClayAnimationController.uasset'
+[2019.01.26-23.27.37:342][548]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/ClayAnimationController03CCC5BA425C65E304DD7199E5F156A8.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Clay/ClayAnimationController.uasset'
+[2019.01.26-23.27.38:000][605]BlueprintLog: New page: Compile ClayAnimationController
+[2019.01.26-23.27.39:956][732]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/ClayAnimationController5A54D1C94E8F5FB51525AE9F5F4EF85E.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Clay/ClayAnimationController.uasset'
+[2019.01.26-23.27.56:882][578]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/ClayAnimationController2269D4EA4885BB50A4B129BEBAFDB3DC.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Animation/AnimationControllers/Clay/ClayAnimationController.uasset'
+[2019.01.26-23.27.57:678][653]BlueprintLog: New page: Compile ClayAnimationController
+[2019.01.26-23.28.01:514][ 38]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-23.28.01:520][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Player_BP_Base.uasset" SILENT=true
+[2019.01.26-23.28.01:673][ 38]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Player_BP_BaseC23B5F6249E1BA710C0A3BB8603B92C7.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Player_BP_Base.uasset'
+[2019.01.26-23.28.35:749][815]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnNewLevel_Auto18B660F1D4C814ECF02A34C8A2462F4CE.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Autosaves/Game/StarterContent/Maps/NewJohnNewLevel_Auto1.umap'
+[2019.01.26-23.28.35:766][815]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/NewJohnNewLevel' took 0.728
+[2019.01.26-23.28.35:766][815]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.728
+[2019.01.26-23.28.35:769][815]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animation/Skeleton+Meshes/SKM_splat] ([1] browsable assets)...
+[2019.01.26-23.28.35:796][815]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Animation/Skeleton+Meshes/SKM_splat.SKM_splat]
+[2019.01.26-23.28.35:796][815]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/Skeleton+Meshes/SKM_splat]
+[2019.01.26-23.28.35:847][815]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/SKM_splat_Auto1D87860774C67415599ED07982B1FBDF7.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Autosaves/Game/Animation/Skeleton+Meshes/SKM_splat_Auto1.uasset'
+[2019.01.26-23.28.35:861][815]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animation/Skeleton+Meshes/SKM_splat_PhysicsAsset] ([1] browsable assets)...
+[2019.01.26-23.28.35:887][815]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Animation/Skeleton+Meshes/SKM_splat_PhysicsAsset.SKM_splat_PhysicsAsset]
+[2019.01.26-23.28.35:888][815]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/Skeleton+Meshes/SKM_splat_PhysicsAsset]
+[2019.01.26-23.28.35:919][815]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/SKM_splat_PhysicsAsset_Auto1DE8D393F4947989FAC868FA10DA0E312.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Autosaves/Game/Animation/Skeleton+Meshes/SKM_splat_PhysicsAsset_Auto1.uasset'
+[2019.01.26-23.28.35:936][815]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animation/Skeleton+Meshes/SKM_splat_Anim] ([1] browsable assets)...
+[2019.01.26-23.28.35:964][815]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Animation/Skeleton+Meshes/SKM_splat_Anim.SKM_splat_Anim]
+[2019.01.26-23.28.35:964][815]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/Skeleton+Meshes/SKM_splat_Anim]
+[2019.01.26-23.28.35:998][815]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/SKM_splat_Anim_Auto11BE88B3A45A958AD987E7C8D1AE7A899.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Autosaves/Game/Animation/Skeleton+Meshes/SKM_splat_Anim_Auto1.uasset'
+[2019.01.26-23.28.36:019][815]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animation/AnimationControllers/Clay/ClayAnimationController] ([1] browsable assets)...
+[2019.01.26-23.28.36:047][815]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Animation/AnimationControllers/Clay/ClayAnimationController.ClayAnimationController]
+[2019.01.26-23.28.36:047][815]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/AnimationControllers/Clay/ClayAnimationController]
+[2019.01.26-23.28.36:194][815]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/ClayAnimationController_Auto1B3C13F4A424AF2A6EDF9A6B9EED2C1F8.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Autosaves/Game/Animation/AnimationControllers/Clay/ClayAnimationController_Auto1.uasset'
+[2019.01.26-23.28.36:209][815]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animation/Anims/anim_idle] ([1] browsable assets)...
+[2019.01.26-23.28.36:236][815]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Animation/Anims/anim_idle.anim_idle]
+[2019.01.26-23.28.36:236][815]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/Anims/anim_idle]
+[2019.01.26-23.28.36:267][815]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/anim_idle_Auto1F7B002A1400A5B5C23A43B94F386CE84.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Autosaves/Game/Animation/Anims/anim_idle_Auto1.uasset'
+[2019.01.26-23.28.36:279][815]LogFileHelpers: Auto-saving content packages took 0.513
+[2019.01.26-23.31.23:098][487]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-23.31.23:118][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Player_BP_Base.uasset" SILENT=true
+[2019.01.26-23.31.23:256][487]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Player_BP_Base94EA1E2844418CE8C4E6ED8AFE88D667.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Player_BP_Base.uasset'
+[2019.01.26-23.31.24:217][554]BlueprintLog: New page: Compile Player_BP_Base
+[2019.01.26-23.31.27:179][744]BlueprintLog: New page: Compile ClayAnimationController
+[2019.01.26-23.31.28:895][837]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-23.31.28:923][837]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.NewJohnNewLevel' with GeneratedClass '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel_C' with ClassGeneratedBy '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.NewJohnNewLevel'
+[2019.01.26-23.31.28:923][837]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-23.31.28:923][837]PIE: New page: PIE session: NewJohnNewLevel (26 Jan 2019 23:31:28)
+[2019.01.26-23.31.28:923][837]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel
+[2019.01.26-23.31.28:950][837]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026786s)
+[2019.01.26-23.31.28:951][837]LogAIModule: Creating AISystem for world NewJohnNewLevel
+[2019.01.26-23.31.28:951][837]LogPlayLevel: PIE: World Init took: (0.000886s)
+[2019.01.26-23.31.28:951][837]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel (0.028052s)
+[2019.01.26-23.31.29:033][837]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-23.31.29:048][837]LogInit: FAudioDevice initialized.
+[2019.01.26-23.31.29:085][837]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-23.31.29:092][837]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel up for play (max tick rate 0) at 2019.01.26-23.31.29
+[2019.01.26-23.31.29:095][837]LogWorld: Bringing up level for play took: 0.008681
+[2019.01.26-23.31.29:108][837]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel -0.716
+[2019.01.26-23.31.29:109][837]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.NewJohnNewLevel' with GeneratedClass '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel_C' with ClassGeneratedBy '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.NewJohnNewLevel'
+[2019.01.26-23.31.41:921][962]LogCharacterMovement: Player_BP_Base_5 is stuck and failed to move! Velocity: X=0.00 Y=22.38 Z=0.00 Location: X=-223.93 Y=193.74 Z=109.15 Normal: X=-0.94 Y=-0.34 Z=0.00 PenetrationDepth:25.627 Actor:Enemy_BP_Base_C_0 Component:Capsule BoneName:None (0 other events since notify)
+[2019.01.26-23.31.41:932][963]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Pickup_BP_Food_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-23.31.41:933][963]LogBlueprintUserMessages: [Player_BP_Base_5] picked up
+[2019.01.26-23.31.41:933][963]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_3
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:02B8
+[2019.01.26-23.31.41:933][963]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.31.41:933][963]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_3
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:02ED
+[2019.01.26-23.31.41:934][963]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.31.41:934][963]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue3
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_3
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:0322
+[2019.01.26-23.31.41:934][963]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue3". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.31.41:934][963]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue2
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_3
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:0357
+[2019.01.26-23.31.41:934][963]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue2". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.31.41:934][963]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_3
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:03C1
+[2019.01.26-23.31.41:935][963]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.31.41:946][964]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Pickup_BP_Food_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-23.31.41:947][964]LogBlueprintUserMessages: [Player_BP_Base_5] picked up
+[2019.01.26-23.31.41:947][964]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_3
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:02B8
+[2019.01.26-23.31.41:947][964]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.31.41:947][964]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_3
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:02ED
+[2019.01.26-23.31.41:948][964]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.31.41:948][964]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue3
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_3
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:0322
+[2019.01.26-23.31.41:948][964]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue3". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.31.41:948][964]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue2
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_3
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:0357
+[2019.01.26-23.31.41:948][964]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue2". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.31.41:948][964]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_3
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:03C1
+[2019.01.26-23.31.41:948][964]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.31.42:395][  4]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Pickup_BP_Food_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-23.31.42:395][  4]LogBlueprintUserMessages: [Player_BP_Base_5] picked up
+[2019.01.26-23.31.42:396][  4]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_0
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:02B8
+[2019.01.26-23.31.42:396][  4]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.31.42:396][  4]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_0
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:02ED
+[2019.01.26-23.31.42:396][  4]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.31.42:396][  4]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue3
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_0
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:0322
+[2019.01.26-23.31.42:396][  4]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue3". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.31.42:397][  4]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue2
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_0
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:0357
+[2019.01.26-23.31.42:397][  4]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue2". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.31.42:397][  4]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_0
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:03C1
+[2019.01.26-23.31.42:397][  4]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.31.42:930][ 46]LogCharacterMovement: Player_BP_Base_5 is stuck and failed to move! Velocity: X=74.44 Y=0.00 Z=0.00 Location: X=-223.93 Y=193.74 Z=109.15 Normal: X=-0.94 Y=-0.33 Z=0.00 PenetrationDepth:28.617 Actor:Enemy_BP_Base_C_0 Component:Capsule BoneName:None (2 other events since notify)
+[2019.01.26-23.31.43:730][107]LogBlueprintUserMessages: [Player_BP_Base_5] put in fridge
+[2019.01.26-23.31.46:036][302]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Pickup_BP_Food_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-23.31.46:037][302]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_7
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:02B8
+[2019.01.26-23.31.46:037][302]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.31.46:037][302]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_7
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:02ED
+[2019.01.26-23.31.46:037][302]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.31.46:038][302]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue3
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_7
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:0322
+[2019.01.26-23.31.46:038][302]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue3". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.31.46:038][302]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue2
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_7
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:0357
+[2019.01.26-23.31.46:038][302]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue2". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.31.46:038][302]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_7
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:03C1
+[2019.01.26-23.31.46:038][302]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.31.46:643][353]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Pickup_BP_Food_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-23.31.46:643][353]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_8
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:02B8
+[2019.01.26-23.31.46:643][353]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.31.46:643][353]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_8
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:02ED
+[2019.01.26-23.31.46:644][353]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.31.46:644][353]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue3
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_8
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:0322
+[2019.01.26-23.31.46:644][353]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue3". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.31.46:644][353]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue2
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_8
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:0357
+[2019.01.26-23.31.46:644][353]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue2". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.31.46:644][353]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_8
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:03C1
+[2019.01.26-23.31.46:645][353]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.31.46:891][374]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Pickup_BP_Food_C_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-23.31.46:891][374]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_9
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:02B8
+[2019.01.26-23.31.46:891][374]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.31.46:892][374]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_9
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:02ED
+[2019.01.26-23.31.46:892][374]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.31.46:892][374]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue3
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_9
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:0322
+[2019.01.26-23.31.46:892][374]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue3". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.31.46:892][374]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue2
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_9
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:0357
+[2019.01.26-23.31.46:892][374]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue2". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.31.46:892][374]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_9
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:03C1
+[2019.01.26-23.31.46:893][374]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.32.09:624][152]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.NewJohnNewLevel' with GeneratedClass '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel_C' with ClassGeneratedBy '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.NewJohnNewLevel'
+[2019.01.26-23.32.09:625][152]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-23.32.09:670][152]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-23.32.09:671][152]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.NewJohnNewLevel' with GeneratedClass '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel_C' with ClassGeneratedBy '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.NewJohnNewLevel'
+[2019.01.26-23.32.09:711][152]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-23.32.09:804][153]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2019.01.26-23.32.11:015][252]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-23.32.54:838][240]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-23.33.01:581][789]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-23.33.01:598][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Player_BP_Base.uasset" SILENT=true
+[2019.01.26-23.33.01:727][789]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Player_BP_Base3E51DBBA4854322DBE15D39CAADA7E4D.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Player_BP_Base.uasset'
+[2019.01.26-23.35.19:754][837]BlueprintLog: New page: Compile ClayAnimationController
+[2019.01.26-23.35.21:568][965]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-23.35.21:597][965]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.NewJohnNewLevel' with GeneratedClass '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel_C' with ClassGeneratedBy '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.NewJohnNewLevel'
+[2019.01.26-23.35.21:597][965]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-23.35.21:598][965]PIE: New page: PIE session: NewJohnNewLevel (26 Jan 2019 23:35:21)
+[2019.01.26-23.35.21:598][965]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel
+[2019.01.26-23.35.21:629][965]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031023s)
+[2019.01.26-23.35.21:630][965]LogAIModule: Creating AISystem for world NewJohnNewLevel
+[2019.01.26-23.35.21:630][965]LogPlayLevel: PIE: World Init took: (0.000818s)
+[2019.01.26-23.35.21:630][965]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel (0.032253s)
+[2019.01.26-23.35.21:674][965]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-23.35.21:685][965]LogInit: FAudioDevice initialized.
+[2019.01.26-23.35.21:729][965]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-23.35.21:741][965]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel up for play (max tick rate 0) at 2019.01.26-23.35.21
+[2019.01.26-23.35.21:744][965]LogWorld: Bringing up level for play took: 0.013470
+[2019.01.26-23.35.21:758][965]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel -0.068
+[2019.01.26-23.35.21:759][965]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.NewJohnNewLevel' with GeneratedClass '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel_C' with ClassGeneratedBy '/Game/StarterContent/Maps/NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.NewJohnNewLevel'
+[2019.01.26-23.35.26:757][369]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-23.35.35:638][ 97]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Pickup_BP_Food_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-23.35.35:639][ 97]LogBlueprintUserMessages: [Player_BP_Base_5] picked up
+[2019.01.26-23.35.35:639][ 97]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_3
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:02B8
+[2019.01.26-23.35.35:639][ 97]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.35.35:639][ 97]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_3
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:02ED
+[2019.01.26-23.35.35:640][ 97]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.35.35:640][ 97]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue3". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.35.35:640][ 97]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue2". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.35.35:640][ 97]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.35.35:653][ 98]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Pickup_BP_Food_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-23.35.35:653][ 98]LogBlueprintUserMessages: [Player_BP_Base_5] picked up
+[2019.01.26-23.35.35:654][ 98]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.35.35:654][ 98]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.35.35:654][ 98]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue3". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.35.35:654][ 98]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue2". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.35.35:654][ 98]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.35.35:680][ 99]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Pickup_BP_Food_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-23.35.35:681][ 99]LogBlueprintUserMessages: [Player_BP_Base_5] picked up
+[2019.01.26-23.35.35:681][ 99]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.35.35:681][ 99]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.35.35:681][ 99]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue3". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.35.35:682][ 99]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue2". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.35.35:682][ 99]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.35.36:164][138]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Pickup_BP_Food_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-23.35.36:164][138]LogBlueprintUserMessages: [Player_BP_Base_5] picked up
+[2019.01.26-23.35.36:164][138]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_0
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:02B8
+[2019.01.26-23.35.36:165][138]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.35.36:165][138]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_0
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:02ED
+[2019.01.26-23.35.36:165][138]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.35.36:165][138]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue3
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_0
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:0322
+[2019.01.26-23.35.36:165][138]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue3". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.35.36:165][138]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue2
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_0
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:0357
+[2019.01.26-23.35.36:166][138]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue2". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.35.36:166][138]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_0
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:03C1
+[2019.01.26-23.35.36:166][138]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.35.38:556][330]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Pickup_BP_Food_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-23.35.38:556][330]LogBlueprintUserMessages: [Player_BP_Base_5] picked up
+[2019.01.26-23.35.38:556][330]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_7
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:02B8
+[2019.01.26-23.35.38:557][330]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue5". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.35.38:557][330]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_7
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:02ED
+[2019.01.26-23.35.38:557][330]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue4". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.35.38:557][330]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue3
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_7
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:0322
+[2019.01.26-23.35.38:557][330]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue3". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.35.38:557][330]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue2
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_7
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:0357
+[2019.01.26-23.35.38:557][330]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue2". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.35.38:558][330]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnNewLevel.NewJohnNewLevel:PersistentLevel.Enemy_BP_Base_C_7
+	Function /Game/Enemy_BP_Base.Enemy_BP_Base_C:ExecuteUbergraph_Enemy_BP_Base:03C1
+[2019.01.26-23.35.38:558][330]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Enemy_BP_Base Function:  Execute Ubergraph Enemy BP Base Graph:  EventGraph Node:  AttachToActor
+[2019.01.26-23.36.36:365][310]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Exit_C (NavigationNode_BP_Exit6)
+[2019.01.26-23.36.39:070][411]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Exit_C (NavigationNode_BP_Exit5)
+[2019.01.26-23.36.41:506][493]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Exit_C (NavigationNode_BP_Exit6)
