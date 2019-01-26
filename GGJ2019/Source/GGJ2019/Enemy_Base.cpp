@@ -5,6 +5,7 @@
 #include "NavigationNode_Base.h"
 #include "MyNavigationNode_Exit.h"
 #include "Fridge_Base.h"
+#include "UI_Manager.h"
 
 // Sets default values
 AEnemy_Base::AEnemy_Base()
@@ -26,6 +27,7 @@ AEnemy_Base::AEnemy_Base()
 void AEnemy_Base::BeginPlay()
 {
 	Super::BeginPlay();
+	GetUIManager();
 }
 
 // Called every frame
@@ -53,6 +55,7 @@ void AEnemy_Base::CheckDeadStatus()
 void AEnemy_Base::Kill()
 {
 	_alive = false;
+	UI->KillCount(1);
 	//change the _body to the splodge
 }
 
@@ -189,4 +192,9 @@ float AEnemy_Base::DistanceToMe(AActor* actor)
 	distance.Y = FMath::Abs(actor->GetActorLocation().Y - this->GetActorLocation().Y);
 	distance.Z = FMath::Abs(actor->GetActorLocation().Z - this->GetActorLocation().Z);
 	return FMath::Sqrt(FMath::Pow(distance.X, 2) + FMath::Pow(distance.Y, 2) + FMath::Pow(distance.Z, 2));
+}
+
+void AEnemy_Base::GiveUI(AUI_Manager* UI)
+{
+	this->UI = UI;
 }
