@@ -2,6 +2,8 @@
 #include "Enemy_Base.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "NavigationNode_Base.h"
+#include "MyNavigationNode_Exit.h"
+#include "Fridge_Base.h"
 
 // Sets default values
 AEnemy_Base::AEnemy_Base()
@@ -11,23 +13,18 @@ AEnemy_Base::AEnemy_Base()
 	_alive = true;
 	_health = 1;
 	_hasFood = false;
-	_movementSpeed = 5;
+	_movementSpeed = 3;
 	_carriedObject = nullptr;
+	fridgePos = FVector(-237.0, 156.0, 104.0);
 	_body = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Body"));
+	_exitPos = FVector(9999, 9999, 9999);
+	_carriedFood = FoodTypes::None;
 }
 
 // Called when the game starts or when spawned
 void AEnemy_Base::BeginPlay()
 {
 	Super::BeginPlay();
-	if (_alive)
-	{
-		if (!_hasFood)
-			GoToFridge(); 
-		else
-			Escape();
-		CheckDeadStatus();
-	}
 }
 
 // Called every frame
@@ -36,11 +33,9 @@ void AEnemy_Base::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	if (_alive)
 	{
-		if (!_hasFood)
-			GoToFridge();
-		else
-			Escape();
-		CheckDeadStatus();
+		GoToFridge();
+		TryToTakeFood();
+		Escape();
 	}
 }
 
@@ -72,17 +67,33 @@ void AEnemy_Base::GoToFridge()
 
 void AEnemy_Base::TryToTakeFood()
 {
-
+	FVector distanceFromFridge;
+	distanceFromFridge.X = FMath::Abs(fridgePos.X - this->GetActorLocation().X);
+	distanceFromFridge.Y = FMath::Abs(fridgePos.Y - this->GetActorLocation().Y);
+	distanceFromFridge.Z = FMath::Abs(fridgePos.Z - this->GetActorLocation().Z);
+	float distance = FMath::Sqrt(FMath::Pow(distanceFromFridge.X, 2) + FMath::Pow(distanceFromFridge.Y, 2) + FMath::Pow(distanceFromFridge.Z, 2));
+	if (distance < 50)
+	{
+		GetFridge();
+		_hasFood = true;
+		_movementSpeed = 1.5f;
+		FindExitNodes();
+	}
 }
 
 void AEnemy_Base::Escape()
 {
-	FindNodes();
-	if (targetNode != nullptr)
+	if (_hasFood)
 	{
-		FVector movementDirection = this->GetActorLocation() - targetNode->GetActorLocation();
-		movementDirection.Normalize();
-		this->SetActorLocation(this->GetActorLocation() + (movementDirection * _movementSpeed));
+		FVector distanceFromExit;
+		distanceFromExit.X = FMath::Abs(_exitPos.X - this->GetActorLocation().X);
+		distanceFromExit.Y = FMath::Abs(_exitPos.Y - this->GetActorLocation().Y);
+		distanceFromExit.Z = FMath::Abs(_exitPos.Z - this->GetActorLocation().Z);
+		float distance = FMath::Sqrt(FMath::Pow(distanceFromExit.X, 2) + FMath::Pow(distanceFromExit.Y, 2) + FMath::Pow(distanceFromExit.Z, 2));
+		if (distance < 50)
+		{
+			Destroy();
+		}
 	}
 }
 
@@ -98,7 +109,7 @@ void AEnemy_Base::PathUsingNodes(TArray<ANavigationNode_Base*> nodes)
 	{
 		for (int i = 0; i < nodes.Num(); i++)
 		{
-			if (DistanceToMe(nodes[i]) > 2 && DistanceToMe(nodes[i]) < 150)
+			if (DistanceToMe(nodes[i]) > 2 && DistanceToMe(nodes[i]) < 200)
 			{
 				nodesWithinDistance.Add(nodes[i]);
 			}
@@ -106,18 +117,45 @@ void AEnemy_Base::PathUsingNodes(TArray<ANavigationNode_Base*> nodes)
 
 		if (nodesWithinDistance.Num() > 0)
 		{
-			ANavigationNode_Base* currentBest;
-			currentBest = nodesWithinDistance[0];
-			for (int i = 1; i < nodesWithinDistance.Num(); i++)
+			if (!_hasFood)
 			{
-				if (nodesWithinDistance[i]->GetDistanceToFridge() < currentBest->GetDistanceToFridge())
+				ANavigationNode_Base* currentBest;
+				currentBest = nodesWithinDistance[0];
+				for (int i = 1; i < nodesWithinDistance.Num(); i++)
 				{
-					currentBest = nodesWithinDistance[i];
+					if (nodesWithinDistance[i]->GetDistanceToFridge() < currentBest->GetDistanceToFridge())
+					{
+						currentBest = nodesWithinDistance[i];
+					}
 				}
+				targetNode = currentBest;
 			}
-			targetNode = currentBest;
+			else
+			{
+				ANavigationNode_Base* currentBest;
+				currentBest = nodesWithinDistance[0];
+				for (int i = 1; i < nodesWithinDistance.Num(); i++)
+				{
+					if (nodesWithinDistance[i]->GetDistanceToPoint(_exitPos) < currentBest->GetDistanceToPoint(_exitPos))
+					{
+						currentBest = nodesWithinDistance[i];
+					}
+				}
+				targetNode = currentBest;
+			}
 		}
 	}
+}
+
+void AEnemy_Base::SetExitPositions(TArray<AMyNavigationNode_Exit*> nodes)
+{
+	int exit = FMath::FRandRange(0, nodes.Num());
+	_exitPos = nodes[exit]->GetActorLocation();
+}
+
+void AEnemy_Base::TakeFood(AFridge_Base* fridge)
+{
+	_carriedFood = fridge->RemoveFood();
 }
 
 

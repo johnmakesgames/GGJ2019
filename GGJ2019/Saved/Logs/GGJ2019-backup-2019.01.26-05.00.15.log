@@ -1,0 +1,452 @@
+﻿Log file open, 01/26/19 04:57:27
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: GGJ2019
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.421221
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.300s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) CPU E5-1620 v3 @ 3.50GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.006s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.26-04.57.27:623][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.26-04.57.27:623][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.26-04.57.27:653][  0]LogHAL: Display: Platform has ~ 16 GB [17092038656 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.26-04.57.27:653][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.26-04.57.27:653][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.26-04.57.27:654][  0]LogInit: Computer: C115-11
+[2019.01.26-04.57.27:654][  0]LogInit: User: w017177h
+[2019.01.26-04.57.27:654][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.26-04.57.27:654][  0]LogInit: High frequency timer resolution =3.410072 MHz
+[2019.01.26-04.57.27:655][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.26-04.57.27:655][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.26-04.57.27:655][  0]LogMemory: Process Physical Memory: 101.36 MB used, 101.36 MB peak
+[2019.01.26-04.57.27:655][  0]LogMemory: Process Virtual Memory: 89.44 MB used, 89.44 MB peak
+[2019.01.26-04.57.27:655][  0]LogMemory: Physical Memory: 6850.28 MB used,  9449.96 MB free, 16300.24 MB total
+[2019.01.26-04.57.27:655][  0]LogMemory: Virtual Memory: 4638.79 MB used,  9449.96 MB free, 134217728.00 MB total
+[2019.01.26-04.57.27:793][  0]LogInit: Using OS detected language (en-US).
+[2019.01.26-04.57.27:793][  0]LogInit: Using OS detected locale (en-GB).
+[2019.01.26-04.57.27:797][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.26-04.57.28:217][  0]LogStreaming: Display: Took  0.423s to InitEngineTextLocalization.
+[2019.01.26-04.57.28:217][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.26-04.57.28:310][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.26-04.57.28:310][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.26-04.57.28:648][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.26-04.57.28:648][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.26-04.57.28:751][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.01.26-04.57.28:751][  0]LogD3D11RHI:       4043/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.01.26-04.57.28:757][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.26-04.57.28:757][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.26-04.57.28:757][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.26-04.57.28:766][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.26-04.57.28:766][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.26-04.57.28:766][  0]LogWindows: EnumDisplayDevices:
+[2019.01.26-04.57.28:766][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.01.26-04.57.28:767][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2019.01.26-04.57.28:767][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.26-04.57.28:768][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.26-04.57.28:768][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.26-04.57.28:768][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.01.26-04.57.28:768][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2019.01.26-04.57.28:768][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2019.01.26-04.57.28:768][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2019.01.26-04.57.28:818][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.26-04.57.28:837][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.26-04.57.28:883][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Intermediate/Shaders/WorkingDirectory/21352/).
+[2019.01.26-04.57.28:883][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/w017177h.STUDENT/AppData/Local/Temp/UnrealShaderWorkingDir/055C04374417C6F71D555EA77FAD8A15/'.
+[2019.01.26-04.57.29:221][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.26-04.57.29:240][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.26-04.57.29:259][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.26-04.57.29:278][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.26-04.57.29:297][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.26-04.57.29:317][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.26-04.57.29:336][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.26-04.57.29:355][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.26-04.57.29:366][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.26-04.57.29:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-04.57.29:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-04.57.29:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-04.57.29:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-04.57.29:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-04.57.29:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-04.57.29:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-04.57.29:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-04.57.29:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-04.57.29:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-04.57.29:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-04.57.29:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-04.57.29:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-04.57.29:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-04.57.29:458][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-04.57.29:458][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-04.57.29:458][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-04.57.29:458][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-04.57.29:464][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.26-04.57.29:547][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.26-04.57.29:547][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.26-04.57.29:576][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.26-04.57.29:577][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.26-04.57.29:601][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.26-04.57.29:622][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.26-04.57.29:639][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.26-04.57.29:656][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.26-04.57.29:669][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.26-04.57.29:669][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.26-04.57.29:831][  0]LogXGEController: Cleaning working directory: C:/Users/w017177h.STUDENT/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.26-04.57.29:832][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.26-04.57.29:832][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.26-04.57.29:832][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.26-04.57.30:952][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.26-04.57.31:049][  0]LogDerivedDataCache: Loaded boot cache 0.10s 71MB C:/Users/w017177h.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.26-04.57.31:050][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/w017177h.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.26-04.57.31:051][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.26-04.57.31:051][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.26-04.57.31:051][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.26-04.57.31:051][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.26-04.57.31:066][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.26-04.57.31:080][  0]LogDerivedDataCache: Using Local data cache path C:/Users/w017177h.STUDENT/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.26-04.57.31:080][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.26-04.57.31:080][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.26-04.57.31:102][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.26-04.57.31:104][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.26-04.57.31:105][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.26-04.57.31:199][  0]LogAssetRegistry: FAssetRegistry took 0.0301 seconds to start up
+[2019.01.26-04.57.31:613][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.26-04.57.31:749][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.26-04.57.31:762][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.26-04.57.31:762][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.26-04.57.31:762][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.26-04.57.31:762][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.26-04.57.31:879][  0]LogNetVersion: GGJ2019 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 54619999)
+[2019.01.26-04.57.32:610][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.160814 seconds
+[2019.01.26-04.57.32:616][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.26-04.57.32:616][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.01.26-04.57.32:616][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.26-04.57.33:918][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.26-04.57.33:935][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.26-04.57.34:310][  0]SourceControl: Source control is disabled
+[2019.01.26-04.57.34:311][  0]SourceControl: Source control is disabled
+[2019.01.26-04.57.34:316][  0]SourceControl: Source control is disabled
+[2019.01.26-04.57.34:322][  0]SourceControl: Source control is disabled
+[2019.01.26-04.57.34:689][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.26-04.57.34:837][  0]LogOcInput: OculusInput pre-init called
+[2019.01.26-04.57.34:919][  0]LogEngine: Initializing Engine...
+[2019.01.26-04.57.34:921][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.26-04.57.34:923][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.26-04.57.34:923][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.26-04.57.34:923][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.26-04.57.34:923][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.26-04.57.35:216][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.26-04.57.35:241][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.26-04.57.35:270][  0]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-04.57.35:304][  0]LogInit: FAudioDevice initialized.
+[2019.01.26-04.57.35:304][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.26-04.57.35:404][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/w017177h.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.26-04.57.35:419][  0]LogInit: Texture streaming: Enabled
+[2019.01.26-04.57.35:458][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.26-04.57.35:475][  0]LogInit: Transaction tracking system initialized
+[2019.01.26-04.57.35:530][  0]BlueprintLog: New page: Editor Load
+[2019.01.26-04.57.35:715][  0]LocalizationService: Localization service is disabled
+[2019.01.26-04.57.36:094][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.26-04.57.36:094][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.26-04.57.36:095][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.26-04.57.36:095][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.26-04.57.36:095][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.26-04.57.36:095][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.26-04.57.36:095][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.26-04.57.36:345][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/' took 0.02s
+[2019.01.26-04.57.36:345][  0]SourceControl: Source control is disabled
+[2019.01.26-04.57.36:346][  0]Cmd: MAP LOAD FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/GameLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.26-04.57.36:347][  0]LightingResults: New page: Lighting Build
+[2019.01.26-04.57.36:354][  0]MapCheck: New page: Map Check
+[2019.01.26-04.57.36:354][  0]LightingResults: New page: Lighting Build
+[2019.01.26-04.57.36:619][  0]LogAIModule: Creating AISystem for world GameLevel
+[2019.01.26-04.57.36:631][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.26-04.57.36:655][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.26-04.57.36:847][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 191.33ms to complete.
+[2019.01.26-04.57.36:847][  0]LogFileHelpers: Loading map 'GameLevel' took 0.501
+[2019.01.26-04.57.37:011][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-04.57.37:020][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-04.57.37:028][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-04.57.37:036][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-04.57.37:049][  0]LogCollectionManager: Loaded 0 collections in 0.003565 seconds
+[2019.01.26-04.57.37:100][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Collections/' took 0.01s
+[2019.01.26-04.57.37:100][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Developers/w017177h/Collections/' took 0.01s
+[2019.01.26-04.57.37:100][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Collections/' took 0.01s
+[2019.01.26-04.57.37:100][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.01.26-04.57.37:111][  0]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2581 classes and 606 folders.
+[2019.01.26-04.57.37:121][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.26-04.57.37:202][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.01.26-04.57.37:212][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.01.26-04.57.37:244][  0]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.26-04.57.37:247][  0]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.26-04.57.37:255][  0]LogSlate: Took 0.000419 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.26-04.57.37:338][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.01.26-04.57.37:405][  0]LogSlate: Took 0.000291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.26-04.57.37:511][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.26-04.57.37:511][  0]LogLoad: (Engine Initialization) Total time: 13.43 seconds
+[2019.01.26-04.57.37:511][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.26-04.57.37:558][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.26-04.57.37:581][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/' took 0.05s
+[2019.01.26-04.57.37:598][  1]LogAssetRegistry: Asset discovery search completed in 6.4247 seconds
+[2019.01.26-04.57.37:601][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.01.26-04.57.37:601][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000194 seconds (updated 0 objects)
+[2019.01.26-04.57.55:394][118]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-04.57.58:036][428]LogStaticMesh: Building static mesh LevelMesh...
+[2019.01.26-04.57.58:044][428]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.26-04.57.58:167][428]LogStaticMesh: Built static mesh [0.13s] /Game/StarterContent/Maps/LevelMesh.LevelMesh
+[2019.01.26-04.57.58:209][428]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/StarterContent/Maps/LevelMesh.LevelMesh
+[2019.01.26-04.57.58:966][428]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.26-04.58.00:254][562]LogSlate: Window 'LevelMesh' being destroyed
+[2019.01.26-04.58.02:036][738]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-04.58.02:096][738]LogAssetEditorManager: Opening Asset editor for World /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel
+[2019.01.26-04.58.02:125][738]Cmd: MAP LOAD FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.26-04.58.02:126][738]LightingResults: New page: Lighting Build
+[2019.01.26-04.58.02:126][738]LoadErrors: New page: Loading map: NewJohnLevel.umap
+[2019.01.26-04.58.02:128][738]MapCheck: New page: Map Check
+[2019.01.26-04.58.02:128][738]LightingResults: New page: Lighting Build
+[2019.01.26-04.58.02:239][738]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.26-04.58.02:307][738]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.26-04.58.02:535][738]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 228.453ms to complete.
+[2019.01.26-04.58.02:540][738]LogFileHelpers: Loading map 'NewJohnLevel' took 0.416
+[2019.01.26-04.58.04:359][944]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-04.58.04:382][944]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-04.58.04:396][944]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 04:58:04)
+[2019.01.26-04.58.04:397][944]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-04.58.04:423][944]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026946s)
+[2019.01.26-04.58.04:425][944]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-04.58.04:425][944]LogPlayLevel: PIE: World Init took: (0.001711s)
+[2019.01.26-04.58.04:426][944]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.029416s)
+[2019.01.26-04.58.04:457][944]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-04.58.04:468][944]LogInit: FAudioDevice initialized.
+[2019.01.26-04.58.04:702][944]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-04.58.04:715][944]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-04.58.04
+[2019.01.26-04.58.04:719][944]LogWorld: Bringing up level for play took: 0.014512
+[2019.01.26-04.58.04:752][944]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 10 classes and 0 folders.
+[2019.01.26-04.58.04:756][944]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=108.759 Y=-60.405 Z=475.405] for [Player_BP_Base_C]
+[2019.01.26-04.58.04:756][944]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type Player_BP_Base_C at Rotation: Pitch 0.000000 Yaw 146.562851 Roll 0.000000
+Translation: 108.758881 -60.404903 475.405182
+Scale3D: 1.000000 1.000000 1.000000
+
+[2019.01.26-04.58.04:758][944]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel -0.223
+[2019.01.26-04.58.04:775][944]LogActor: Warning: Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel:PersistentLevel.Enemy_BP_Base_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-04.58.04:777][944]LogActor: Warning: Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel:PersistentLevel.Enemy_BP_Base_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-04.58.04:778][944]LogActor: Warning: Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel:PersistentLevel.Enemy_BP_Base_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-04.58.04:779][944]LogActor: Warning: Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel:PersistentLevel.Enemy_BP_Base_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-04.58.04:779][944]LogActor: Warning: Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel:PersistentLevel.Enemy_BP_Base_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-04.58.04:780][944]LogActor: Warning: Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel:PersistentLevel.Enemy_BP_Base_C_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-04.58.06:024][ 85]LogActor: Warning: Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel:PersistentLevel.Enemy_BP_Base_C_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-04.58.06:400][130]LogActor: Warning: Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel:PersistentLevel.Enemy_BP_Base_C_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-04.58.07:310][239]LogActor: Warning: Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel:PersistentLevel.Enemy_BP_Base_C_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-04.58.07:420][252]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-04.58.07:457][252]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-04.58.07:480][252]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-04.58.07:521][255]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.01.26-04.58.08:543][376]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-04.58.09:531][494]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-04.58.10:498][494]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.01.26-04.58.10:610][497]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GGJ2019
+[2019.01.26-04.58.10:610][497]LogTemp: CWD: C:\Epic\UE4\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.01.26-04.58.10:611][497]LogTemp: Initial Dir: C:\Epic\UE4\UE_4.20
+[2019.01.26-04.58.10:611][497]LogTemp: Env CWD: C:\Epic\UE4\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.01.26-04.58.10:611][497]LogTemp: BranchPath = C115-11/C/Epic/UE4/UE_4.20/Engine/Binaries --- GameBranchPath = C115-11/C/Epic/UE4/UE_4.20/Engine/Binaries
+[2019.01.26-04.58.10:643][499]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\w017177h.STUDENT\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.01.26-04.58.12:815][749]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-04.58.16:315][162]LogSlate: Window 'Project Settings' being destroyed
+[2019.01.26-04.58.16:318][162]LogSlate: Window 'Project Settings' being destroyed
+[2019.01.26-04.58.16:671][202]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-04.58.17:384][230]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel0B1AC053471EDB2A4813398E7C194C94.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-04.58.17:890][286]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-04.58.17:957][294]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-04.58.17:976][294]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-04.58.17:977][294]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 04:58:17)
+[2019.01.26-04.58.17:977][294]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-04.58.18:004][294]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027407s)
+[2019.01.26-04.58.18:005][294]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-04.58.18:005][294]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2019.01.26-04.58.18:005][294]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.028586s)
+[2019.01.26-04.58.18:044][294]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-04.58.18:055][294]LogInit: FAudioDevice initialized.
+[2019.01.26-04.58.18:089][294]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-04.58.18:096][294]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-04.58.18
+[2019.01.26-04.58.18:099][294]LogWorld: Bringing up level for play took: 0.009195
+[2019.01.26-04.58.18:114][294]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 1.133
+[2019.01.26-04.58.18:114][294]LogActor: Warning: Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel:PersistentLevel.Enemy_BP_Base_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-04.58.18:115][294]LogActor: Warning: Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel:PersistentLevel.Enemy_BP_Base_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-04.58.18:116][294]LogActor: Warning: Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel:PersistentLevel.Enemy_BP_Base_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-04.58.18:117][294]LogActor: Warning: Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel:PersistentLevel.Enemy_BP_Base_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-04.58.18:118][294]LogActor: Warning: Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel:PersistentLevel.Enemy_BP_Base_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-04.58.18:118][294]LogActor: Warning: Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel:PersistentLevel.Enemy_BP_Base_C_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-04.58.18:749][366]LogActor: Warning: Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel:PersistentLevel.Enemy_BP_Base_C_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-04.58.18:920][386]LogActor: Warning: Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel:PersistentLevel.Enemy_BP_Base_C_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-04.58.20:012][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-04.58.20:051][517]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-04.58.20:095][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-04.58.20:120][518]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.01.26-04.58.24:701][ 64]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-04.58.25:155][ 64]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel44E520C542E90DD638E275AB4CF116F2.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-04.58.26:188][151]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-04.58.26:263][160]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-04.58.26:283][160]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-04.58.26:284][160]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 04:58:26)
+[2019.01.26-04.58.26:284][160]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-04.58.26:313][160]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029327s)
+[2019.01.26-04.58.26:314][160]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-04.58.26:314][160]LogPlayLevel: PIE: World Init took: (0.000757s)
+[2019.01.26-04.58.26:314][160]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.030465s)
+[2019.01.26-04.58.26:347][160]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-04.58.26:357][160]LogInit: FAudioDevice initialized.
+[2019.01.26-04.58.26:394][160]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-04.58.26:401][160]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-04.58.26
+[2019.01.26-04.58.26:403][160]LogWorld: Bringing up level for play took: 0.007633
+[2019.01.26-04.58.26:416][160]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel -0.564
+[2019.01.26-04.58.26:417][160]LogActor: Warning: Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel:PersistentLevel.Enemy_BP_Base_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-04.58.26:417][160]LogActor: Warning: Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel:PersistentLevel.Enemy_BP_Base_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-04.58.26:417][160]LogActor: Warning: Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel:PersistentLevel.Enemy_BP_Base_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-04.58.26:418][160]LogActor: Warning: Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel:PersistentLevel.Enemy_BP_Base_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-04.58.26:419][160]LogActor: Warning: Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel:PersistentLevel.Enemy_BP_Base_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-04.58.26:419][160]LogActor: Warning: Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel:PersistentLevel.Enemy_BP_Base_C_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-04.58.27:977][342]LogActor: Warning: Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel:PersistentLevel.Enemy_BP_Base_C_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-04.58.29:813][562]LogActor: Warning: Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel:PersistentLevel.Enemy_BP_Base_C_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-04.58.30:771][677]LogActor: Warning: Enemy_BP_Base_C /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel:PersistentLevel.Enemy_BP_Base_C_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
