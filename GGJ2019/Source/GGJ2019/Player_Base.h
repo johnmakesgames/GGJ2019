@@ -69,6 +69,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 		FoodTypes getFoodType() { return currentFood; }
 
+	UFUNCTION(BlueprintCallable)
+		WeaponType getWeaponType() { return currentWeapon; }
+
 	UPROPERTY(BlueprintReadWrite)
 		bool holdingFood;
 
