@@ -22,7 +22,6 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 	GGJ2019_API UFunction* Z_Construct_UFunction_APlayer_Base_pickUpFood();
 	GGJ2019_API UFunction* Z_Construct_UFunction_APlayer_Base_putFoodInFridge();
 	GGJ2019_API UClass* Z_Construct_UClass_AFridge_Base_NoRegister();
-	GGJ2019_API UFunction* Z_Construct_UFunction_APlayer_Base_setFoodType();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
@@ -34,7 +33,6 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 			{ "getFoodType", &APlayer_Base::execgetFoodType },
 			{ "pickUpFood", &APlayer_Base::execpickUpFood },
 			{ "putFoodInFridge", &APlayer_Base::execputFoodInFridge },
-			{ "setFoodType", &APlayer_Base::execsetFoodType },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -126,6 +124,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlayer_Base_putFoodInFridge_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "Player_Base.h" },
+		{ "ToolTip", ", APickup_Food* food" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayer_Base_putFoodInFridge_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayer_Base, "putFoodInFridge", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(Player_Base_eventputFoodInFridge_Parms), Z_Construct_UFunction_APlayer_Base_putFoodInFridge_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_APlayer_Base_putFoodInFridge_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APlayer_Base_putFoodInFridge_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_APlayer_Base_putFoodInFridge_Statics::Function_MetaDataParams)) };
@@ -135,38 +134,6 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayer_Base_putFoodInFridge_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_APlayer_Base_setFoodType_Statics
-	{
-		struct Player_Base_eventsetFoodType_Parms
-		{
-			TEnumAsByte<FoodTypes> food;
-		};
-		static const UE4CodeGen_Private::FBytePropertyParams NewProp_food;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_APlayer_Base_setFoodType_Statics::NewProp_food = { UE4CodeGen_Private::EPropertyClass::Byte, "food", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(Player_Base_eventsetFoodType_Parms, food), Z_Construct_UEnum_GGJ2019_FoodTypes, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APlayer_Base_setFoodType_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayer_Base_setFoodType_Statics::NewProp_food,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlayer_Base_setFoodType_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "Player_Base.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayer_Base_setFoodType_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayer_Base, "setFoodType", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(Player_Base_eventsetFoodType_Parms), Z_Construct_UFunction_APlayer_Base_setFoodType_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_APlayer_Base_setFoodType_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APlayer_Base_setFoodType_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_APlayer_Base_setFoodType_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_APlayer_Base_setFoodType()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayer_Base_setFoodType_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -217,8 +184,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_APlayer_Base_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_APlayer_Base_getFoodType, "getFoodType" }, // 2171921492
 		{ &Z_Construct_UFunction_APlayer_Base_pickUpFood, "pickUpFood" }, // 3621886077
-		{ &Z_Construct_UFunction_APlayer_Base_putFoodInFridge, "putFoodInFridge" }, // 1102333734
-		{ &Z_Construct_UFunction_APlayer_Base_setFoodType, "setFoodType" }, // 4130179701
+		{ &Z_Construct_UFunction_APlayer_Base_putFoodInFridge, "putFoodInFridge" }, // 94874998
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayer_Base_Statics::Class_MetaDataParams[] = {
@@ -309,7 +275,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayer_Base, 2565191909);
+	IMPLEMENT_CLASS(APlayer_Base, 2353330718);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayer_Base(Z_Construct_UClass_APlayer_Base, &APlayer_Base::StaticClass, TEXT("/Script/GGJ2019"), TEXT("APlayer_Base"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayer_Base);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -145,7 +145,7 @@ void EmptyLinkFunctionForGeneratedCodePickup_Food() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APickup_Food, 2273128767);
+	IMPLEMENT_CLASS(APickup_Food, 3476661733);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APickup_Food(Z_Construct_UClass_APickup_Food, &APickup_Food::StaticClass, TEXT("/Script/GGJ2019"), TEXT("APickup_Food"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APickup_Food);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -6,6 +6,7 @@
 #include "GameFramework/Character.h"
 #include "Fridge_Base.h"
 #include "Global_Variables.h"
+#include "Pickup_Food.h"
 #include "Player_Base.generated.h"
 
 class UCharacterMovementComponent;
@@ -67,7 +68,7 @@ public:
 		bool holdingFood;
 
 	UFUNCTION(BlueprintCallable)
-		void pickUpFood(FoodTypes food);
+		void pickUpFood(FoodTypes food); //, APickup_Food* food
 
 	UFUNCTION(BlueprintCallable)
 		void putFoodInFridge(AFridge_Base* fridge, FoodTypes food);

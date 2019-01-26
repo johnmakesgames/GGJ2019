@@ -19,6 +19,7 @@ class GGJ2019_API APickup_Food : public APickup_Base
 
 	FoodTypes foodType = None;
 
+	
 		
 	UFUNCTION(BlueprintCallable)
 		FoodTypes getFoodType() { return foodType; }

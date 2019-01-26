@@ -61,10 +61,14 @@ void APlayer_Base::MoveRight(float value)
 void APlayer_Base::putFoodInFridge(AFridge_Base* fridge, FoodTypes food)
 {
 	fridge->ReplaceFood(food);
+	currentFood = None;
+	holdingFood = false;
 }
 
-void APlayer_Base::pickUpFood(FoodTypes food)
+void APlayer_Base::pickUpFood(FoodTypes food) // APickup_Food* food
 {
 	holdingFood = true;
 	currentFood = food;
+
+	//food->
 }
