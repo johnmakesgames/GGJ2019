@@ -84,11 +84,7 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-<<<<<<< HEAD
-		<ProjectGuid>{5AA0BB2B-B6B4-4CC9-B4FB-219847C45D2B}</ProjectGuid>
-=======
-		<ProjectGuid>{693A86E5-A4AB-4027-8CAC-B952697C41DD}</ProjectGuid>
->>>>>>> master
+		<ProjectGuid>{B088B8DD-C023-4275-A344-949E4BB2FBCD}</ProjectGuid>
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>GGJ2019</RootNamespace>
 		<PlatformToolset>v141</PlatformToolset>

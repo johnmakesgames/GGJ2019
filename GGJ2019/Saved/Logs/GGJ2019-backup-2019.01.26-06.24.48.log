@@ -1,0 +1,1181 @@
+﻿Log file open, 01/26/19 06:05:45
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: GGJ2019
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.456127
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.349s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) CPU E5-1620 v3 @ 3.50GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.009s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.26-06.05.46:373][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.26-06.05.46:373][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.26-06.05.46:393][  0]LogHAL: Display: Platform has ~ 16 GB [17092038656 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.26-06.05.46:393][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.26-06.05.46:393][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.26-06.05.46:393][  0]LogInit: Computer: C115-11
+[2019.01.26-06.05.46:394][  0]LogInit: User: w017177h
+[2019.01.26-06.05.46:394][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.26-06.05.46:394][  0]LogInit: High frequency timer resolution =3.410072 MHz
+[2019.01.26-06.05.46:394][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.26-06.05.46:394][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.26-06.05.46:394][  0]LogMemory: Process Physical Memory: 101.58 MB used, 101.58 MB peak
+[2019.01.26-06.05.46:394][  0]LogMemory: Process Virtual Memory: 89.48 MB used, 89.48 MB peak
+[2019.01.26-06.05.46:394][  0]LogMemory: Physical Memory: 6481.16 MB used,  9819.08 MB free, 16300.24 MB total
+[2019.01.26-06.05.46:394][  0]LogMemory: Virtual Memory: 4638.79 MB used,  9819.08 MB free, 134217728.00 MB total
+[2019.01.26-06.05.46:526][  0]LogInit: Using OS detected language (en-US).
+[2019.01.26-06.05.46:526][  0]LogInit: Using OS detected locale (en-GB).
+[2019.01.26-06.05.46:528][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.26-06.05.46:973][  0]LogStreaming: Display: Took  0.447s to InitEngineTextLocalization.
+[2019.01.26-06.05.46:973][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.26-06.05.47:029][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.26-06.05.47:029][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.26-06.05.47:394][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.26-06.05.47:394][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.26-06.05.47:495][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.01.26-06.05.47:495][  0]LogD3D11RHI:       4043/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.01.26-06.05.47:504][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.26-06.05.47:504][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.26-06.05.47:504][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.26-06.05.47:513][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.26-06.05.47:513][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.26-06.05.47:513][  0]LogWindows: EnumDisplayDevices:
+[2019.01.26-06.05.47:514][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.01.26-06.05.47:514][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2019.01.26-06.05.47:515][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.26-06.05.47:515][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.26-06.05.47:515][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.26-06.05.47:515][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.01.26-06.05.47:515][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2019.01.26-06.05.47:515][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2019.01.26-06.05.47:516][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2019.01.26-06.05.47:568][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.26-06.05.47:587][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.26-06.05.47:634][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Intermediate/Shaders/WorkingDirectory/19384/).
+[2019.01.26-06.05.47:635][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/w017177h.STUDENT/AppData/Local/Temp/UnrealShaderWorkingDir/6C34C38A416BC1DEBB18BA9EC054F8F7/'.
+[2019.01.26-06.05.48:028][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.26-06.05.48:048][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.26-06.05.48:069][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.26-06.05.48:090][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.26-06.05.48:112][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.26-06.05.48:131][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.26-06.05.48:151][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.26-06.05.48:170][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.26-06.05.48:181][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.26-06.05.48:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.05.48:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.05.48:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.05.48:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.05.48:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.05.48:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.05.48:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.05.48:283][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.05.48:283][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.05.48:283][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.05.48:283][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.05.48:283][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.05.48:283][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.05.48:283][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.05.48:283][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.05.48:283][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.05.48:283][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.05.48:284][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-06.05.48:289][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.26-06.05.48:379][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.26-06.05.48:379][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.26-06.05.48:413][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.26-06.05.48:413][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.26-06.05.48:430][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.26-06.05.48:447][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.26-06.05.48:468][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.26-06.05.48:496][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.26-06.05.48:521][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.26-06.05.48:521][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.26-06.05.48:688][  0]LogXGEController: Cleaning working directory: C:/Users/w017177h.STUDENT/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.26-06.05.48:688][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.26-06.05.48:689][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.26-06.05.48:689][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.26-06.05.49:764][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.26-06.05.49:863][  0]LogDerivedDataCache: Loaded boot cache 0.10s 71MB C:/Users/w017177h.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.26-06.05.49:863][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/w017177h.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.26-06.05.49:863][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.26-06.05.49:864][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.26-06.05.49:864][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.26-06.05.49:864][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.26-06.05.49:878][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.26-06.05.49:891][  0]LogDerivedDataCache: Using Local data cache path C:/Users/w017177h.STUDENT/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.26-06.05.49:891][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.26-06.05.49:891][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.26-06.05.49:916][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.26-06.05.49:921][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.26-06.05.49:923][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.26-06.05.50:021][  0]LogAssetRegistry: FAssetRegistry took 0.0310 seconds to start up
+[2019.01.26-06.05.50:498][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.26-06.05.50:725][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.26-06.05.50:738][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.26-06.05.50:738][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.26-06.05.50:738][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.26-06.05.50:738][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.26-06.05.50:761][  0]LogNetVersion: GGJ2019 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 54619999)
+[2019.01.26-06.05.51:476][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.163328 seconds
+[2019.01.26-06.05.51:483][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.26-06.05.51:483][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.01.26-06.05.51:483][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.26-06.05.52:671][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.26-06.05.52:688][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.26-06.05.52:913][  0]SourceControl: Source control is disabled
+[2019.01.26-06.05.52:913][  0]SourceControl: Source control is disabled
+[2019.01.26-06.05.52:917][  0]SourceControl: Source control is disabled
+[2019.01.26-06.05.52:921][  0]SourceControl: Source control is disabled
+[2019.01.26-06.05.53:242][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.26-06.05.53:379][  0]LogOcInput: OculusInput pre-init called
+[2019.01.26-06.05.53:467][  0]LogEngine: Initializing Engine...
+[2019.01.26-06.05.53:468][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.26-06.05.53:470][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.26-06.05.53:470][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.26-06.05.53:471][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.26-06.05.53:471][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.26-06.05.53:710][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.26-06.05.53:739][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.26-06.05.53:760][  0]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-06.05.53:782][  0]LogInit: FAudioDevice initialized.
+[2019.01.26-06.05.53:782][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.26-06.05.53:873][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/w017177h.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.26-06.05.53:916][  0]LogInit: Texture streaming: Enabled
+[2019.01.26-06.05.53:957][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.26-06.05.53:957][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={355A4164-49F5-86B9-10B6-68BC5CA4D403}
+[2019.01.26-06.05.53:974][  0]LogInit: Transaction tracking system initialized
+[2019.01.26-06.05.54:029][  0]BlueprintLog: New page: Editor Load
+[2019.01.26-06.05.54:203][  0]LocalizationService: Localization service is disabled
+[2019.01.26-06.05.54:580][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.26-06.05.54:580][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.26-06.05.54:580][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.26-06.05.54:581][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.26-06.05.54:581][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.26-06.05.54:581][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.26-06.05.54:581][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.26-06.05.54:817][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/' took 0.02s
+[2019.01.26-06.05.54:817][  0]SourceControl: Source control is disabled
+[2019.01.26-06.05.54:817][  0]Cmd: MAP LOAD FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/GameLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.26-06.05.54:818][  0]LightingResults: New page: Lighting Build
+[2019.01.26-06.05.54:823][  0]MapCheck: New page: Map Check
+[2019.01.26-06.05.54:823][  0]LightingResults: New page: Lighting Build
+[2019.01.26-06.05.55:121][  0]LogAIModule: Creating AISystem for world GameLevel
+[2019.01.26-06.05.55:134][  0]LogEditorServer: Finished looking for orphan Actors (0.004 secs)
+[2019.01.26-06.05.55:173][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.26-06.05.55:370][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 197.376ms to complete.
+[2019.01.26-06.05.55:371][  0]LogFileHelpers: Loading map 'GameLevel' took 0.553
+[2019.01.26-06.05.55:496][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.05.55:504][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.05.55:512][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.05.55:525][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.05.55:538][  0]LogCollectionManager: Loaded 0 collections in 0.004054 seconds
+[2019.01.26-06.05.55:612][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Collections/' took 0.01s
+[2019.01.26-06.05.55:612][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Developers/w017177h/Collections/' took 0.01s
+[2019.01.26-06.05.55:612][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Collections/' took 0.03s
+[2019.01.26-06.05.55:612][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.26-06.05.55:623][  0]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2581 classes and 606 folders.
+[2019.01.26-06.05.55:633][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.01.26-06.05.55:715][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.26-06.05.55:725][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.01.26-06.05.55:741][  0]LogSlate: Took 0.000291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.26-06.05.55:744][  0]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.26-06.05.55:750][  0]LogSlate: Took 0.000363 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.26-06.05.55:838][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.01.26-06.05.55:908][  0]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.26-06.05.56:041][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2019.01.26-06.05.56:041][  0]LogLoad: (Engine Initialization) Total time: 13.27 seconds
+[2019.01.26-06.05.56:042][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.26-06.05.56:054][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.26-06.05.56:096][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.26-06.05.56:137][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/' took 0.07s
+[2019.01.26-06.05.56:151][  1]LogAssetRegistry: Asset discovery search completed in 6.1560 seconds
+[2019.01.26-06.05.56:153][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.26-06.05.56:154][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000151 seconds (updated 0 objects)
+[2019.01.26-06.05.58:988][328]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.06.05:248][ 53]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.26-06.06.05:255][ 53]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Enemy_BP_Base.Enemy_BP_Base
+[2019.01.26-06.06.05:765][ 53]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2019.01.26-06.06.06:756][ 53]LogActor: Warning: Enemy_BP_Base_C /Engine/Transient.World_1:PersistentLevel.Enemy_BP_Base_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-06.06.06:770][ 53]LogActor: Warning: Enemy_BP_Base_C /Engine/Transient.World_0:PersistentLevel.Enemy_BP_Base_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.26-06.06.06:775][ 53]LogSlate: Took 0.000310 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.26-06.06.06:840][ 54]LogSlate: Took 0.000304 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.26-06.06.09:841][383]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
+[2019.01.26-06.06.11:476][573]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.06.24:941][130]LogSkeletalMesh: Building Skeletal Mesh SKM_dimples...
+[2019.01.26-06.06.25:167][130]LogSkeletalMesh: Built Skeletal Mesh [0.23s] /Game/Animation/Skeleton+Meshes/SKM_dimples.SKM_dimples
+[2019.01.26-06.06.28:239][480]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.06.36:554][451]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.06.44:153][328]LogEditorTransaction: Undo Remove Components
+[2019.01.26-06.06.45:741][506]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.06.54:340][484]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.07.06:165][868]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.07.06:190][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset" SILENT=true
+[2019.01.26-06.07.06:245][868]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Enemy_BP_Base9F57DEA3483F6C46A3B1439EB543E65F.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset'
+[2019.01.26-06.07.08:843][157]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset" SILENT=true
+[2019.01.26-06.07.08:894][157]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Enemy_BP_Base7E84745544ECD1E60E26C185DDD75024.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset'
+[2019.01.26-06.07.15:929][984]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.07.15:934][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset" SILENT=true
+[2019.01.26-06.07.15:985][984]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Enemy_BP_Base0BDCC40546C43D3E072796BFA7F6DDBD.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset'
+[2019.01.26-06.07.55:709][306]Candidate modules for hot reload:
+[2019.01.26-06.07.55:709][306]  GGJ2019
+[2019.01.26-06.07.55:709][306]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GGJ2019,3735 Win64 Development -TargetType=Editor -Project="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/GGJ2019.uproject" -canskiplink "C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/GGJ2019.uproject" ]
+[2019.01.26-06.07.55:713][306]Warning: Starting HotReload took  0.0s.
+[2019.01.26-06.08.00:759][869]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.08.15:842][149]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameLevel" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/GameLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.26-06.08.16:103][149]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/GameLevel1DE41749482C4C8EEC3AA097BA9CEB0A.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/GameLevel.umap'
+[2019.01.26-06.08.16:863][219]CompilerResultsLog: New page: Compilation - 26 Jan 2019 06:08:16
+[2019.01.26-06.08.16:864][219]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.01.26-06.08.16:864][219]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.26-06.08.16:864][219]CompilerResultsLog: Parsing headers for GGJ2019Editor
+[2019.01.26-06.08.16:864][219]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\GGJ2019.uproject" "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\GGJ2019Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.01.26-06.08.16:864][219]CompilerResultsLog: Reflection code generated for GGJ2019Editor in 13.4155786 seconds
+[2019.01.26-06.08.16:864][219]CompilerResultsLog: Building 8 actions with 8 processes...
+[2019.01.26-06.08.16:864][219]CompilerResultsLog:   [1/8] GGJ2019.init.gen.cpp
+[2019.01.26-06.08.16:864][219]CompilerResultsLog:   [2/8] Pickup_Weapon.cpp
+[2019.01.26-06.08.16:864][219]CompilerResultsLog:   [3/8] Enemy_Base.cpp
+[2019.01.26-06.08.16:865][219]CompilerResultsLog:   [4/8] Enemy_Base.gen.cpp
+[2019.01.26-06.08.16:865][219]CompilerResultsLog:   [5/8] Pickup_Weapon.gen.cpp
+[2019.01.26-06.08.16:865][219]CompilerResultsLog:   [6/8] EnemySpawner_Base.cpp
+[2019.01.26-06.08.16:865][219]CompilerResultsLog:   [7/8] UE4Editor-GGJ2019-3735.lib
+[2019.01.26-06.08.16:865][219]CompilerResultsLog:      Creating library C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-3735.lib and object C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-3735.exp
+[2019.01.26-06.08.16:865][219]CompilerResultsLog:   [8/8] UE4Editor-GGJ2019-3735.dll
+[2019.01.26-06.08.16:865][219]CompilerResultsLog:      Creating library C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-3735.suppressed.lib and object C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-3735.suppressed.exp
+[2019.01.26-06.08.16:865][219]CompilerResultsLog: Total build time: 20.77 seconds (Parallel executor: 3.21 seconds)
+[2019.01.26-06.08.16:866][219]LogMainFrame: MainFrame: Module compiling took 21.163 seconds
+[2019.01.26-06.08.16:924][219]LogClass: Could not find existing class Enemy_Base in package /Script/GGJ2019 for HotReload, assuming new class
+[2019.01.26-06.08.16:924][219]LogClass: Function PathUsingNodes is new.
+[2019.01.26-06.08.16:924][219]LogClass: Function SetExitPositions is new.
+[2019.01.26-06.08.16:924][219]LogClass: Function TakeFood is new.
+[2019.01.26-06.08.16:946][219]LogHotReload: Re-instancing Enemy_Base after hot-reload.
+[2019.01.26-06.08.16:956][219]LogBlueprint: Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find native parent component 'Collider' for 'SkeletalMesh' in BlueprintGeneratedClass 'Enemy_BP_Base_C' (it may have been removed)
+[2019.01.26-06.08.17:167][219]LogContentBrowser: Native class hierarchy updated for 'GGJ2019' in 0.0006 seconds. Added 9 classes and 3 folders.
+[2019.01.26-06.08.17:172][219]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.01.26-06.08.17:674][219]LogContentBrowser: Native class hierarchy populated in 0.0148 seconds. Added 2582 classes and 608 folders.
+[2019.01.26-06.08.17:674][219]Display: HotReload took 22.0s.
+[2019.01.26-06.08.19:273][376]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.01.26-06.08.21:335][578]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.08.23:879][868]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.09.03:791][476]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.09.03:808][476]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset" SILENT=true
+[2019.01.26-06.09.03:866][476]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Enemy_BP_Base6F154AF647236F1D064FE2961B286958.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset'
+[2019.01.26-06.09.05:772][677]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.09.05:777][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset" SILENT=true
+[2019.01.26-06.09.05:821][677]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Enemy_BP_Base27AFB50D46C31055D93BAC841B2BC693.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset'
+[2019.01.26-06.09.08:173][937]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.09.08:535][977]BlueprintLog: New page: Compile Enemy_BP_Base
+[2019.01.26-06.09.10:149][125]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-06.09.10:175][125]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-06.09.10:189][125]PIE: New page: PIE session: GameLevel (26 Jan 2019 06:09:10)
+[2019.01.26-06.09.10:190][125]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GameLevel
+[2019.01.26-06.09.10:208][125]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018235s)
+[2019.01.26-06.09.10:209][125]LogAIModule: Creating AISystem for world GameLevel
+[2019.01.26-06.09.10:209][125]LogPlayLevel: PIE: World Init took: (0.000974s)
+[2019.01.26-06.09.10:209][125]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameLevel.GameLevel to /Game/UEDPIE_0_GameLevel.GameLevel (0.019675s)
+[2019.01.26-06.09.10:255][125]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-06.09.10:266][125]LogInit: FAudioDevice initialized.
+[2019.01.26-06.09.10:325][125]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-06.09.10:329][125]LogWorld: Bringing World /Game/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2019.01.26-06.09.10
+[2019.01.26-06.09.10:330][125]LogWorld: Bringing up level for play took: 0.002034
+[2019.01.26-06.09.10:390][125]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2019.01.26-06.09.10:392][125]PIE: Play in editor start time for /Game/UEDPIE_0_GameLevel -0.597
+[2019.01.26-06.09.13:368][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.09.13:406][470]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-06.09.13:439][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.09.13:475][472]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.01.26-06.09.14:180][555]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.09.20:024][217]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-06.09.20:087][217]LogAssetEditorManager: Opening Asset editor for World /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel
+[2019.01.26-06.09.20:125][217]Cmd: MAP LOAD FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.26-06.09.20:126][217]LightingResults: New page: Lighting Build
+[2019.01.26-06.09.20:126][217]LoadErrors: New page: Loading map: NewJohnLevel.umap
+[2019.01.26-06.09.20:128][217]MapCheck: New page: Map Check
+[2019.01.26-06.09.20:128][217]LightingResults: New page: Lighting Build
+[2019.01.26-06.09.20:250][217]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.26-06.09.20:323][217]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.26-06.09.20:540][217]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 217.064ms to complete.
+[2019.01.26-06.09.20:542][217]LogFileHelpers: Loading map 'NewJohnLevel' took 0.418
+[2019.01.26-06.09.21:779][292]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel05A9054E4360893F6469BAAF99A43358.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-06.09.22:302][347]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-06.09.22:327][347]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-06.09.22:328][347]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 06:09:22)
+[2019.01.26-06.09.22:328][347]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-06.09.22:360][347]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032095s)
+[2019.01.26-06.09.22:361][347]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-06.09.22:361][347]LogPlayLevel: PIE: World Init took: (0.000853s)
+[2019.01.26-06.09.22:361][347]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.033402s)
+[2019.01.26-06.09.22:398][347]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-06.09.22:409][347]LogInit: FAudioDevice initialized.
+[2019.01.26-06.09.22:448][347]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-06.09.22:458][347]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-06.09.22
+[2019.01.26-06.09.22:460][347]LogWorld: Bringing up level for play took: 0.011198
+[2019.01.26-06.09.22:475][347]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel -0.514
+[2019.01.26-06.09.34:711][758]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.09.34:755][758]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-06.09.34:796][758]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.09.34:821][759]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.01.26-06.09.35:527][841]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.09.41:159][498]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.09.41:176][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset" SILENT=true
+[2019.01.26-06.09.41:229][498]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Enemy_BP_BaseB016F2504DAC5788B60F94821F509351.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset'
+[2019.01.26-06.09.42:402][625]BlueprintLog: New page: Compile Enemy_BP_Base
+[2019.01.26-06.09.43:935][774]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-06.09.43:961][774]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-06.09.43:962][774]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 06:09:43)
+[2019.01.26-06.09.43:962][774]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-06.09.43:992][774]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030382s)
+[2019.01.26-06.09.43:993][774]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-06.09.43:993][774]LogPlayLevel: PIE: World Init took: (0.000948s)
+[2019.01.26-06.09.43:994][774]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.031802s)
+[2019.01.26-06.09.44:036][774]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-06.09.44:046][774]LogInit: FAudioDevice initialized.
+[2019.01.26-06.09.44:085][774]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-06.09.44:094][774]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-06.09.44
+[2019.01.26-06.09.44:096][774]LogWorld: Bringing up level for play took: 0.009427
+[2019.01.26-06.09.44:111][774]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 1.122
+[2019.01.26-06.09.49:732][428]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.09.49:773][428]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-06.09.49:807][428]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.09.49:834][429]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.01.26-06.09.50:395][495]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.09.56:558][216]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.09.56:574][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset" SILENT=true
+[2019.01.26-06.09.56:626][216]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Enemy_BP_BaseC88CB15B4857F363EF87F1A24BEE3A5C.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset'
+[2019.01.26-06.09.57:759][344]BlueprintLog: New page: Compile Enemy_BP_Base
+[2019.01.26-06.09.59:181][484]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-06.09.59:211][484]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-06.09.59:211][484]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 06:09:59)
+[2019.01.26-06.09.59:211][484]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-06.09.59:240][484]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029359s)
+[2019.01.26-06.09.59:241][484]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-06.09.59:241][484]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2019.01.26-06.09.59:242][484]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.030585s)
+[2019.01.26-06.09.59:279][484]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-06.09.59:290][484]LogInit: FAudioDevice initialized.
+[2019.01.26-06.09.59:328][484]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-06.09.59:338][484]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-06.09.59
+[2019.01.26-06.09.59:340][484]LogWorld: Bringing up level for play took: 0.010551
+[2019.01.26-06.09.59:354][484]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 0.364
+[2019.01.26-06.10.10:143][743]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.10.10:184][743]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-06.10.10:218][743]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.10.10:246][744]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.01.26-06.10.10:825][813]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.10.13:209][ 85]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.10.18:260][675]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.10.18:276][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset" SILENT=true
+[2019.01.26-06.10.18:332][675]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Enemy_BP_Base8EDA9DB646DC096200C31D9E0D6DF9CD.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset'
+[2019.01.26-06.10.19:417][794]BlueprintLog: New page: Compile Enemy_BP_Base
+[2019.01.26-06.10.21:053][959]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-06.10.21:077][959]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-06.10.21:077][959]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 06:10:21)
+[2019.01.26-06.10.21:077][959]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-06.10.21:106][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029002s)
+[2019.01.26-06.10.21:107][959]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-06.10.21:108][959]LogPlayLevel: PIE: World Init took: (0.001284s)
+[2019.01.26-06.10.21:108][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.030782s)
+[2019.01.26-06.10.21:160][959]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-06.10.21:172][959]LogInit: FAudioDevice initialized.
+[2019.01.26-06.10.21:208][959]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-06.10.21:215][959]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-06.10.21
+[2019.01.26-06.10.21:217][959]LogWorld: Bringing up level for play took: 0.008538
+[2019.01.26-06.10.21:232][959]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 0.243
+[2019.01.26-06.10.26:150][535]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.10.26:189][535]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-06.10.26:221][535]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.10.26:256][537]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.01.26-06.10.26:814][600]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.10.41:061][267]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.10.41:077][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset" SILENT=true
+[2019.01.26-06.10.41:131][267]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Enemy_BP_BaseF9F8A8BA4BA98F04CD0D4198165B2F42.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset'
+[2019.01.26-06.10.47:527][  4]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.10.47:543][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset" SILENT=true
+[2019.01.26-06.10.47:594][  4]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Enemy_BP_Base5A9DE9E74DA0624386A9F3ABDD2C7750.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset'
+[2019.01.26-06.10.48:748][139]BlueprintLog: New page: Compile Enemy_BP_Base
+[2019.01.26-06.10.50:244][287]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-06.10.50:268][287]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-06.10.50:269][287]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 06:10:50)
+[2019.01.26-06.10.50:269][287]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-06.10.50:296][287]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027372s)
+[2019.01.26-06.10.50:297][287]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-06.10.50:298][287]LogPlayLevel: PIE: World Init took: (0.001418s)
+[2019.01.26-06.10.50:298][287]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.029317s)
+[2019.01.26-06.10.50:348][287]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-06.10.50:359][287]LogInit: FAudioDevice initialized.
+[2019.01.26-06.10.50:392][287]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-06.10.50:400][287]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-06.10.50
+[2019.01.26-06.10.50:402][287]LogWorld: Bringing up level for play took: 0.008386
+[2019.01.26-06.10.50:416][287]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel -0.574
+[2019.01.26-06.10.58:926][280]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.10.58:970][280]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-06.10.59:001][280]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.10.59:027][281]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.01.26-06.10.59:687][358]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.11.01:311][544]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.11.23:591][113]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.11.29:428][787]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.11.29:446][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset" SILENT=true
+[2019.01.26-06.11.29:498][787]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Enemy_BP_BaseB84A2FB34D10C2E1AA5F5D9A00B6E91B.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset'
+[2019.01.26-06.11.34:178][325]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.11.34:193][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset" SILENT=true
+[2019.01.26-06.11.34:250][325]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Enemy_BP_BaseFBA816C94A97C1B28A7E9C817A08DB4B.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset'
+[2019.01.26-06.11.35:688][487]BlueprintLog: New page: Compile Enemy_BP_Base
+[2019.01.26-06.11.36:793][584]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-06.11.36:819][584]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-06.11.36:819][584]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 06:11:36)
+[2019.01.26-06.11.36:819][584]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-06.11.36:849][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029798s)
+[2019.01.26-06.11.36:850][584]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-06.11.36:850][584]LogPlayLevel: PIE: World Init took: (0.000775s)
+[2019.01.26-06.11.36:850][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.030984s)
+[2019.01.26-06.11.36:892][584]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-06.11.36:904][584]LogInit: FAudioDevice initialized.
+[2019.01.26-06.11.36:942][584]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-06.11.36:950][584]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-06.11.36
+[2019.01.26-06.11.36:951][584]LogWorld: Bringing up level for play took: 0.008025
+[2019.01.26-06.11.36:966][584]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel -0.024
+[2019.01.26-06.11.43:637][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.11.43:675][360]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-06.11.43:724][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.11.43:752][361]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.01.26-06.11.44:440][443]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.11.54:545][625]BlueprintLog: New page: Compile Enemy_BP_Base
+[2019.01.26-06.11.58:546][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset" SILENT=true
+[2019.01.26-06.11.58:600][ 54]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Enemy_BP_Base283A2B7D478F7D1D28A001971F68FEA8.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset'
+[2019.01.26-06.11.59:660][175]BlueprintLog: New page: Compile Enemy_BP_Base
+[2019.01.26-06.12.01:395][342]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-06.12.01:426][342]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-06.12.01:427][342]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 06:12:01)
+[2019.01.26-06.12.01:427][342]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-06.12.01:464][342]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036763s)
+[2019.01.26-06.12.01:464][342]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-06.12.01:465][342]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2019.01.26-06.12.01:465][342]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.038072s)
+[2019.01.26-06.12.01:508][342]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-06.12.01:519][342]LogInit: FAudioDevice initialized.
+[2019.01.26-06.12.01:553][342]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-06.12.01:560][342]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-06.12.01
+[2019.01.26-06.12.01:562][342]LogWorld: Bringing up level for play took: 0.007739
+[2019.01.26-06.12.01:577][342]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 0.588
+[2019.01.26-06.12.01:578][342]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_0.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.12.01:578][342]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_1.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.12.01:579][342]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_2.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.12.01:580][342]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_3.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.12.01:580][342]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_4.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.12.01:581][342]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_5.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.12.03:124][516]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_6.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.12.04:400][666]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_7.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.12.04:490][677]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.12.05:628][812]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_8.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.12.06:500][914]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.12.06:825][953]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_9.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.12.06:853][956]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_10.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.12.09:953][318]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.12.13:827][721]LogEditorViewport: Clicking on Actor (LMB): Enemy_BP_Base_C (Enemy_BP_Base2)
+[2019.01.26-06.12.23:891][775]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.12.26:664][ 29]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_11.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.12.27:344][ 97]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_12.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.12.27:903][132]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.12.28:634][212]LogEditorViewport: Clicking on Actor (context menu): Enemy_BP_Base_C (Enemy_BP_Base6)
+[2019.01.26-06.12.28:674][212]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.12.30:629][422]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_13.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.12.31:448][510]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_14.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.12.32:184][586]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_15.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.12.37:186][101]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.12.37:227][101]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-06.12.37:264][101]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.12.37:296][102]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.01.26-06.12.38:388][208]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.12.38:880][208]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel9E4F709148B0751B195A5A9A42A4294A.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-06.12.42:863][666]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.12.52:673][625]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.12.53:210][625]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel0B4C94574806E17BFD334C8696C25B87.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-06.12.53:894][696]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.12.53:944][702]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-06.12.53:968][702]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-06.12.53:968][702]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 06:12:53)
+[2019.01.26-06.12.53:968][702]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-06.12.53:997][702]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028520s)
+[2019.01.26-06.12.53:998][702]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-06.12.53:998][702]LogPlayLevel: PIE: World Init took: (0.000792s)
+[2019.01.26-06.12.53:998][702]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.029769s)
+[2019.01.26-06.12.54:041][702]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-06.12.54:053][702]LogInit: FAudioDevice initialized.
+[2019.01.26-06.12.54:088][702]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-06.12.54:098][702]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-06.12.54
+[2019.01.26-06.12.54:099][702]LogWorld: Bringing up level for play took: 0.010178
+[2019.01.26-06.12.54:114][702]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 1.124
+[2019.01.26-06.12.54:115][702]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_0.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.12.54:116][702]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_1.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.12.54:116][702]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_2.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.12.54:116][702]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_3.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.12.54:117][702]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_4.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.12.54:118][702]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_5.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.12.54:865][784]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_6.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.12.56:882][ 21]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_7.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.12.59:233][220]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.12.59:651][223]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_8.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.13.00:237][291]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_9.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.13.02:313][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.13.02:355][533]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-06.13.02:388][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.13.02:424][534]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.01.26-06.13.03:751][688]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.13.15:917][ 24]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.13.16:423][ 24]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel681D46444E545DFCFA4B0D898C0D2D91.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-06.13.16:860][ 68]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.13.16:935][ 77]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-06.13.16:959][ 77]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-06.13.16:959][ 77]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 06:13:16)
+[2019.01.26-06.13.16:959][ 77]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-06.13.16:987][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027427s)
+[2019.01.26-06.13.16:988][ 77]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-06.13.16:988][ 77]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2019.01.26-06.13.16:988][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.028744s)
+[2019.01.26-06.13.17:026][ 77]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-06.13.17:041][ 77]LogInit: FAudioDevice initialized.
+[2019.01.26-06.13.17:078][ 77]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-06.13.17:086][ 77]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-06.13.17
+[2019.01.26-06.13.17:087][ 77]LogWorld: Bringing up level for play took: 0.008101
+[2019.01.26-06.13.17:102][ 77]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 0.112
+[2019.01.26-06.13.17:103][ 77]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_0.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.13.17:104][ 77]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_1.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.13.17:104][ 77]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_2.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.13.17:105][ 77]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_3.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.13.17:105][ 77]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_4.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.13.17:106][ 77]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_5.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.13.18:483][235]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_6.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.13.21:933][639]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_7.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.13.25:663][ 76]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_8.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.13.26:048][122]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_9.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.13.29:152][485]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_10.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.13.31:357][743]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_11.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.13.31:563][765]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_12.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.13.31:949][811]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.13.31:989][811]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-06.13.32:029][811]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.13.32:066][812]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.01.26-06.13.35:331][162]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.13.49:116][640]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.01.26-06.13.49:413][668]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.13.49:908][668]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel4ED71B8D4AE6C7881F301FA651EBC9BA.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-06.13.50:205][697]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.13.50:280][706]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-06.13.50:305][706]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-06.13.50:305][706]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 06:13:50)
+[2019.01.26-06.13.50:306][706]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-06.13.50:338][706]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032203s)
+[2019.01.26-06.13.50:339][706]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-06.13.50:340][706]LogPlayLevel: PIE: World Init took: (0.001623s)
+[2019.01.26-06.13.50:340][706]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.034341s)
+[2019.01.26-06.13.50:381][706]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-06.13.50:392][706]LogInit: FAudioDevice initialized.
+[2019.01.26-06.13.50:432][706]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-06.13.50:439][706]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-06.13.50
+[2019.01.26-06.13.50:441][706]LogWorld: Bringing up level for play took: 0.007597
+[2019.01.26-06.13.50:456][706]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel -0.533
+[2019.01.26-06.13.50:457][706]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_0.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.13.50:458][706]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_1.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.13.50:458][706]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_2.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.13.50:458][706]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_3.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.13.50:459][706]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_4.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.13.50:459][706]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_5.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.13.53:811][ 95]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.13.53:854][ 95]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-06.13.53:887][ 95]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.13.53:920][ 96]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.01.26-06.13.54:633][178]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.14.00:370][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset" SILENT=true
+[2019.01.26-06.14.00:423][848]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Enemy_BP_BaseB3A1B23C4F39444B0BDFFB986E6634C7.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset'
+[2019.01.26-06.14.01:536][977]BlueprintLog: New page: Compile Enemy_BP_Base
+[2019.01.26-06.14.03:550][179]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-06.14.03:581][179]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-06.14.03:581][179]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 06:14:03)
+[2019.01.26-06.14.03:581][179]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-06.14.03:613][179]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031323s)
+[2019.01.26-06.14.03:613][179]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-06.14.03:614][179]LogPlayLevel: PIE: World Init took: (0.000820s)
+[2019.01.26-06.14.03:614][179]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.032568s)
+[2019.01.26-06.14.03:656][179]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-06.14.03:668][179]LogInit: FAudioDevice initialized.
+[2019.01.26-06.14.03:705][179]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-06.14.03:713][179]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-06.14.03
+[2019.01.26-06.14.03:715][179]LogWorld: Bringing up level for play took: 0.008846
+[2019.01.26-06.14.03:728][179]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 0.739
+[2019.01.26-06.14.03:729][179]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_0.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.03:730][179]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_1.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.03:730][179]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_2.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.03:730][179]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_3.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.03:731][179]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_4.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.03:731][179]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_5.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.04:870][308]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_6.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.05:214][349]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_7.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.05:716][404]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_8.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.06:066][446]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_9.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.06:452][488]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_10.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.07:692][635]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_11.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.08:343][713]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_12.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.09:099][799]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_13.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.11:426][ 72]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_14.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.13:071][256]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_15.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.13:978][359]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_16.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.15:836][576]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_17.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.16:180][617]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.14.16:226][617]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-06.14.16:260][617]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.14.16:293][618]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.01.26-06.14.16:930][690]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.14.22:649][361]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.14.22:665][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset" SILENT=true
+[2019.01.26-06.14.22:724][361]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Enemy_BP_Base02EAC3C24B2CE9A019A62DB1BC079040.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset'
+[2019.01.26-06.14.23:918][497]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.14.26:123][757]BlueprintLog: New page: Compile Enemy_BP_Base
+[2019.01.26-06.14.27:953][940]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-06.14.27:977][940]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-06.14.27:977][940]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 06:14:27)
+[2019.01.26-06.14.27:978][940]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-06.14.28:005][940]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027269s)
+[2019.01.26-06.14.28:006][940]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-06.14.28:006][940]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2019.01.26-06.14.28:006][940]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.028382s)
+[2019.01.26-06.14.28:047][940]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-06.14.28:059][940]LogInit: FAudioDevice initialized.
+[2019.01.26-06.14.28:091][940]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-06.14.28:099][940]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-06.14.28
+[2019.01.26-06.14.28:100][940]LogWorld: Bringing up level for play took: 0.007924
+[2019.01.26-06.14.28:115][940]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 1.125
+[2019.01.26-06.14.28:115][940]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_0.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.28:116][940]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_1.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.28:116][940]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_2.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.28:117][940]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_3.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.28:117][940]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_4.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.28:117][940]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_5.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.28:538][986]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_6.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.29:853][142]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_7.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.30:178][178]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_8.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.33:428][558]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_9.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.34:952][739]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_10.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.35:688][824]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_11.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.36:228][883]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.14.36:266][883]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-06.14.36:302][883]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.14.36:334][884]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.01.26-06.14.36:823][941]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.14.42:731][627]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.14.42:748][627]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset" SILENT=true
+[2019.01.26-06.14.42:804][627]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Enemy_BP_BaseDFC097CA4F8E18F4A9A4A38BFF735ED5.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset'
+[2019.01.26-06.14.43:444][685]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.14.43:769][724]BlueprintLog: New page: Compile Enemy_BP_Base
+[2019.01.26-06.14.45:172][859]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-06.14.45:202][859]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-06.14.45:202][859]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 06:14:45)
+[2019.01.26-06.14.45:202][859]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-06.14.45:233][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031881s)
+[2019.01.26-06.14.45:234][859]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-06.14.45:234][859]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2019.01.26-06.14.45:234][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.033195s)
+[2019.01.26-06.14.45:276][859]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-06.14.45:287][859]LogInit: FAudioDevice initialized.
+[2019.01.26-06.14.45:325][859]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-06.14.45:333][859]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-06.14.45
+[2019.01.26-06.14.45:335][859]LogWorld: Bringing up level for play took: 0.009522
+[2019.01.26-06.14.45:350][859]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 0.36
+[2019.01.26-06.14.45:350][859]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_0.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.45:351][859]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_1.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.45:351][859]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_2.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.45:352][859]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_3.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.45:352][859]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_4.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.45:353][859]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_5.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.45:669][891]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_6.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.46:095][942]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_7.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.46:443][982]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_8.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.48:099][178]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_9.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.50:137][418]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_10.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.50:916][508]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_11.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.50:957][513]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_12.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.51:551][582]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_13.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.14.52:658][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.14.52:705][710]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-06.14.52:742][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.14.52:778][711]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.01.26-06.14.53:447][789]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.15.04:648][ 95]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.15.04:663][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset" SILENT=true
+[2019.01.26-06.15.04:715][ 95]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Enemy_BP_Base639F8BC743FD1014F7E82282327D28F5.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset'
+[2019.01.26-06.15.05:322][161]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.15.05:422][173]BlueprintLog: New page: Compile Enemy_BP_Base
+[2019.01.26-06.15.07:602][399]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-06.15.07:626][399]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-06.15.07:627][399]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 06:15:07)
+[2019.01.26-06.15.07:627][399]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-06.15.07:655][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028045s)
+[2019.01.26-06.15.07:655][399]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-06.15.07:656][399]LogPlayLevel: PIE: World Init took: (0.000760s)
+[2019.01.26-06.15.07:656][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.029190s)
+[2019.01.26-06.15.07:696][399]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-06.15.07:706][399]LogInit: FAudioDevice initialized.
+[2019.01.26-06.15.07:745][399]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-06.15.07:760][399]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-06.15.07
+[2019.01.26-06.15.07:764][399]LogWorld: Bringing up level for play took: 0.017714
+[2019.01.26-06.15.07:781][399]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 0.791
+[2019.01.26-06.15.07:782][399]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_0.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.15.07:783][399]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_1.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.15.07:783][399]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_2.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.15.07:784][399]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_3.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.15.07:785][399]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_4.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.15.07:786][399]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_5.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.15.09:254][565]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_6.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.15.09:745][624]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_7.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.15.09:761][626]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_8.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.15.10:585][723]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_9.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.15.11:606][842]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_10.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.15.12:707][968]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.15.12:753][968]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-06.15.12:794][968]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.15.12:826][969]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.01.26-06.15.13:423][ 35]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.15.18:822][661]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.15.18:838][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset" SILENT=true
+[2019.01.26-06.15.18:894][661]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Enemy_BP_Base91DB6B714B790F98200F278757AC3E37.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset'
+[2019.01.26-06.15.19:581][740]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.15.19:648][748]BlueprintLog: New page: Compile Enemy_BP_Base
+[2019.01.26-06.15.21:476][933]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-06.15.21:501][933]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-06.15.21:501][933]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 06:15:21)
+[2019.01.26-06.15.21:501][933]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-06.15.21:531][933]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029963s)
+[2019.01.26-06.15.21:532][933]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-06.15.21:532][933]LogPlayLevel: PIE: World Init took: (0.000840s)
+[2019.01.26-06.15.21:532][933]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.031189s)
+[2019.01.26-06.15.21:573][933]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-06.15.21:584][933]LogInit: FAudioDevice initialized.
+[2019.01.26-06.15.21:618][933]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-06.15.21:626][933]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-06.15.21
+[2019.01.26-06.15.21:627][933]LogWorld: Bringing up level for play took: 0.008058
+[2019.01.26-06.15.21:641][933]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 0.652
+[2019.01.26-06.15.21:643][933]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_0.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.15.21:643][933]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_1.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.15.21:644][933]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_2.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.15.21:644][933]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_3.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.15.21:645][933]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_4.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.15.21:646][933]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_5.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.15.21:833][949]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_6.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.15.22:534][ 30]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.15.22:577][ 30]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-06.15.22:612][ 30]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.15.22:640][ 31]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.01.26-06.15.23:562][138]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.15.47:589][900]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.15.47:607][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset" SILENT=true
+[2019.01.26-06.15.47:665][900]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Enemy_BP_Base7AE1676240E678C550C509B22635DA71.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset'
+[2019.01.26-06.15.58:107][103]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.15.58:123][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset" SILENT=true
+[2019.01.26-06.15.58:178][103]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Enemy_BP_BaseC53714F242FB60F2DE2E02B5ABEE5DA8.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset'
+[2019.01.26-06.15.59:015][192]BlueprintLog: New page: Compile Enemy_BP_Base
+[2019.01.26-06.16.00:941][379]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-06.16.00:966][379]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-06.16.00:966][379]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 06:16:00)
+[2019.01.26-06.16.00:966][379]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-06.16.00:994][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028103s)
+[2019.01.26-06.16.00:995][379]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-06.16.00:995][379]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2019.01.26-06.16.00:995][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.029325s)
+[2019.01.26-06.16.01:034][379]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-06.16.01:046][379]LogInit: FAudioDevice initialized.
+[2019.01.26-06.16.01:085][379]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-06.16.01:091][379]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-06.16.01
+[2019.01.26-06.16.01:093][379]LogWorld: Bringing up level for play took: 0.008005
+[2019.01.26-06.16.01:109][379]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 0.119
+[2019.01.26-06.16.01:110][379]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_0.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.01:111][379]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_1.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.01:111][379]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_2.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.01:112][379]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_3.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.01:113][379]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_4.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.01:113][379]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_5.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.02:368][521]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.16.02:411][521]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-06.16.02:453][521]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.16.02:487][522]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.01.26-06.16.03:092][593]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.16.07:981][160]BlueprintLog: New page: Compile Enemy_BP_Base
+[2019.01.26-06.16.09:386][295]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-06.16.09:411][295]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-06.16.09:411][295]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 06:16:09)
+[2019.01.26-06.16.09:411][295]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-06.16.09:445][295]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033133s)
+[2019.01.26-06.16.09:445][295]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-06.16.09:445][295]LogPlayLevel: PIE: World Init took: (0.000741s)
+[2019.01.26-06.16.09:446][295]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.034367s)
+[2019.01.26-06.16.09:484][295]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-06.16.09:495][295]LogInit: FAudioDevice initialized.
+[2019.01.26-06.16.09:529][295]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-06.16.09:537][295]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-06.16.09
+[2019.01.26-06.16.09:540][295]LogWorld: Bringing up level for play took: 0.009813
+[2019.01.26-06.16.09:555][295]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 0.565
+[2019.01.26-06.16.09:556][295]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_0.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.09:556][295]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_1.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.09:557][295]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_2.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.09:558][295]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_3.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.09:558][295]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_4.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.09:559][295]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_5.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.09:657][300]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_6.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.09:665][301]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_7.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.12:002][571]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_8.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.12:069][579]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_9.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.12:523][633]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.16.12:569][633]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-06.16.12:606][633]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.16.12:637][634]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.01.26-06.16.13:016][676]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.16.20:633][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset" SILENT=true
+[2019.01.26-06.16.20:688][563]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Enemy_BP_Base4B5BEED340E60118DAD8318306871FF3.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset'
+[2019.01.26-06.16.21:043][603]BlueprintLog: New page: Compile Enemy_BP_Base
+[2019.01.26-06.16.22:441][739]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-06.16.22:466][739]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-06.16.22:466][739]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 06:16:22)
+[2019.01.26-06.16.22:467][739]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-06.16.22:504][739]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037729s)
+[2019.01.26-06.16.22:506][739]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-06.16.22:507][739]LogPlayLevel: PIE: World Init took: (0.001943s)
+[2019.01.26-06.16.22:507][739]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.040224s)
+[2019.01.26-06.16.22:549][739]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-06.16.22:560][739]LogInit: FAudioDevice initialized.
+[2019.01.26-06.16.22:593][739]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-06.16.22:600][739]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-06.16.22
+[2019.01.26-06.16.22:602][739]LogWorld: Bringing up level for play took: 0.007817
+[2019.01.26-06.16.22:616][739]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel -0.374
+[2019.01.26-06.16.22:617][739]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_0.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.22:617][739]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_1.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.22:618][739]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_2.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.22:618][739]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_3.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.22:618][739]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_4.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.22:619][739]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_5.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.22:817][759]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_6.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.25:997][133]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_7.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.26:022][136]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_8.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.27:159][270]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.16.27:204][270]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-06.16.27:238][270]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.16.27:272][271]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.01.26-06.16.28:051][361]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.16.35:961][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset" SILENT=true
+[2019.01.26-06.16.36:015][288]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Enemy_BP_BaseDF8A24EF4F51EB11BABF99B7FA9DF0D7.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset'
+[2019.01.26-06.16.36:579][351]BlueprintLog: New page: Compile Enemy_BP_Base
+[2019.01.26-06.16.37:939][481]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-06.16.37:963][481]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-06.16.37:963][481]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 06:16:37)
+[2019.01.26-06.16.37:963][481]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-06.16.37:991][481]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027483s)
+[2019.01.26-06.16.37:992][481]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-06.16.37:992][481]LogPlayLevel: PIE: World Init took: (0.001145s)
+[2019.01.26-06.16.37:993][481]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.029125s)
+[2019.01.26-06.16.38:032][481]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-06.16.38:043][481]LogInit: FAudioDevice initialized.
+[2019.01.26-06.16.38:078][481]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-06.16.38:085][481]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-06.16.38
+[2019.01.26-06.16.38:088][481]LogWorld: Bringing up level for play took: 0.009248
+[2019.01.26-06.16.38:103][481]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 1.113
+[2019.01.26-06.16.38:104][481]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_0.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.38:104][481]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_1.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.38:105][481]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_2.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.38:107][481]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_3.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.38:108][481]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_4.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.38:108][481]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_5.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.38:694][545]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_6.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.41:320][852]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_7.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.41:552][877]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_8.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.44:180][186]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_9.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.45:079][292]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_10.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.46:592][462]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_11.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.46:726][478]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_12.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.47:135][527]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_13.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.49:478][802]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_14.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.50:505][921]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_15.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.50:605][933]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_16.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.51:989][ 93]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_17.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.53:333][249]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_18.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.54:047][331]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_19.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.16.57:941][773]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_20.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.17.01:371][155]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_21.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.17.03:551][401]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_22.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.17.03:661][414]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_23.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.17.06:467][734]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_24.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.17.06:782][771]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_25.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.17.07:824][890]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_26.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.17.07:950][905]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_27.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.17.07:951][905]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_28.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.17.07:951][905]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_29.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.17.07:952][905]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_30.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.17.07:953][905]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_31.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.17.07:953][905]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_32.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.17.08:498][964]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_33.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.17.08:769][995]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_34.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.17.08:800][998]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_35.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.17.11:922][335]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_36.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.17.13:129][444]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_37.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.17.14:265][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.17.14:321][528]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-06.17.14:353][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.17.14:395][529]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.01.26-06.17.15:157][617]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.17.15:829][636]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel443F91224F9A6998EF0C33A06845B626.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-06.17.25:884][787]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.17.25:899][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset" SILENT=true
+[2019.01.26-06.17.25:961][787]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Enemy_BP_Base08CD99FF4A679F199CE8EFB595D9ED18.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset'
+[2019.01.26-06.17.27:374][952]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.17.30:441][304]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.17.30:445][304]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset" SILENT=true
+[2019.01.26-06.17.30:490][304]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Enemy_BP_BaseFDA0D14A4C662C723840BF82586212F4.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset'
+[2019.01.26-06.17.33:254][608]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.17.42:335][669]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.17.42:352][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset" SILENT=true
+[2019.01.26-06.17.42:409][669]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Enemy_BP_Base5F7570514D671D3D6A9FDD82B6D4EFC2.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset'
+[2019.01.26-06.17.45:921][ 46]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.17.45:927][ 46]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset" SILENT=true
+[2019.01.26-06.17.45:975][ 46]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Enemy_BP_Base5452576B452338E61666F595E6868527.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset'
+[2019.01.26-06.17.47:202][173]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.17.47:271][180]BlueprintLog: New page: Compile Enemy_BP_Base
+[2019.01.26-06.17.49:015][349]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_BP_Base" FILE="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset" SILENT=true
+[2019.01.26-06.17.49:074][349]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/Enemy_BP_Base23ED234148792EE51B483FB955C8A33F.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/Enemy_BP_Base.uasset'
+[2019.01.26-06.17.58:490][599]LogEditorViewport: Clicking on Actor (LMB): Fridge_BP_Base_C (Fridge_BP_Base)
+[2019.01.26-06.18.04:134][192]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.18.19:398][626]Cmd: ACTOR SELECT ALL
+[2019.01.26-06.18.21:525][811]LogEditorViewport: Clicking on Actor (LMB): Fridge_BP_Base_C (Fridge_BP_Base)
+[2019.01.26-06.18.22:759][936]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.18.27:978][ 80]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base144)
+[2019.01.26-06.18.28:341][113]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base144)
+[2019.01.26-06.18.29:635][259]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.18.41:770][754]Cmd: ACTOR SELECT ALL
+[2019.01.26-06.18.43:668][963]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Base_C (NavigationNode_BP_Base144)
+[2019.01.26-06.18.44:720][ 82]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.18.50:775][253]Candidate modules for hot reload:
+[2019.01.26-06.18.50:775][253]  GGJ2019
+[2019.01.26-06.18.50:776][253]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GGJ2019,8837 Win64 Development -TargetType=Editor -Project="../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/GGJ2019.uproject" -canskiplink "C:/Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/GGJ2019.uproject" ]
+[2019.01.26-06.18.50:780][253]Warning: Starting HotReload took  0.0s.
+[2019.01.26-06.18.54:032][476]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.01.26-06.18.54:472][502]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.18.55:009][502]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel6CCE115A49CDDA707DA4C79074B07685.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-06.19.11:178][228]CompilerResultsLog: New page: Compilation - 26 Jan 2019 06:19:11
+[2019.01.26-06.19.11:178][228]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.01.26-06.19.11:178][228]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.26-06.19.11:179][228]CompilerResultsLog: Parsing headers for GGJ2019Editor
+[2019.01.26-06.19.11:179][228]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\GGJ2019.uproject" "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\GGJ2019Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.01.26-06.19.11:179][228]CompilerResultsLog: Reflection code generated for GGJ2019Editor in 12.9700355 seconds
+[2019.01.26-06.19.11:179][228]CompilerResultsLog: Building 7 actions with 8 processes...
+[2019.01.26-06.19.11:179][228]CompilerResultsLog:   [1/7] Pickup_Weapon.cpp
+[2019.01.26-06.19.11:179][228]CompilerResultsLog:   [2/7] Pickup_Weapon.gen.cpp
+[2019.01.26-06.19.11:179][228]CompilerResultsLog:   [3/7] EnemySpawner_Base.cpp
+[2019.01.26-06.19.11:179][228]CompilerResultsLog:   [4/7] Enemy_Base.cpp
+[2019.01.26-06.19.11:179][228]CompilerResultsLog:   [5/7] Enemy_Base.gen.cpp
+[2019.01.26-06.19.11:179][228]CompilerResultsLog:   [6/7] UE4Editor-GGJ2019-8837.lib
+[2019.01.26-06.19.11:179][228]CompilerResultsLog:      Creating library C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-8837.lib and object C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-8837.exp
+[2019.01.26-06.19.11:179][228]CompilerResultsLog:   [7/7] UE4Editor-GGJ2019-8837.dll
+[2019.01.26-06.19.11:180][228]CompilerResultsLog:      Creating library C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-8837.suppressed.lib and object C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-8837.suppressed.exp
+[2019.01.26-06.19.11:180][228]CompilerResultsLog: Total build time: 20.01 seconds (Parallel executor: 3.25 seconds)
+[2019.01.26-06.19.11:180][228]LogMainFrame: MainFrame: Module compiling took 20.413 seconds
+[2019.01.26-06.19.11:285][228]LogContentBrowser: Native class hierarchy updated for 'GGJ2019' in 0.0006 seconds. Added 9 classes and 3 folders.
+[2019.01.26-06.19.11:289][228]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2019.01.26-06.19.11:641][228]LogContentBrowser: Native class hierarchy populated in 0.0147 seconds. Added 2582 classes and 608 folders.
+[2019.01.26-06.19.11:644][228]Display: HotReload took 20.9s.
+[2019.01.26-06.19.13:875][486]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.19.13:942][494]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-06.19.13:968][494]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-06.19.13:968][494]PIE: New page: PIE session: NewJohnLevel (26 Jan 2019 06:19:13)
+[2019.01.26-06.19.13:969][494]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel
+[2019.01.26-06.19.13:997][494]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028579s)
+[2019.01.26-06.19.13:998][494]LogAIModule: Creating AISystem for world NewJohnLevel
+[2019.01.26-06.19.13:998][494]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2019.01.26-06.19.13:998][494]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/NewJohnLevel.NewJohnLevel to /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel (0.029785s)
+[2019.01.26-06.19.14:074][494]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-06.19.14:086][494]LogInit: FAudioDevice initialized.
+[2019.01.26-06.19.14:123][494]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.26-06.19.14:131][494]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel.NewJohnLevel up for play (max tick rate 0) at 2019.01.26-06.19.14
+[2019.01.26-06.19.14:132][494]LogWorld: Bringing up level for play took: 0.007460
+[2019.01.26-06.19.14:148][494]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_NewJohnLevel 1.159
+[2019.01.26-06.19.14:150][494]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_0.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.19.14:151][494]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_1.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.19.14:151][494]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_2.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.19.14:152][494]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_3.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.19.14:152][494]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_4.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.19.14:154][494]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_5.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.19.17:627][894]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_6.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.19.22:303][440]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_7.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.19.24:705][724]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_8.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.19.24:913][749]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_9.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.19.26:629][951]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_10.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.19.27:129][ 11]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_11.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.19.30:109][360]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_12.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.19.31:187][488]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_13.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.19.31:821][561]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_14.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.19.34:509][877]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_15.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.19.35:903][ 39]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_16.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.19.36:253][ 81]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_17.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.19.40:324][556]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_18.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.19.41:549][701]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_19.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.19.43:972][985]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_20.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.19.43:973][985]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_21.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.19.43:973][985]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_22.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.19.43:974][985]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_23.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.19.43:974][985]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_24.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.19.43:975][985]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_25.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.19.44:428][ 39]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_26.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.19.45:577][174]PIE: Warning: Invalid Simulate Options: Body (Enemy_BP_Base_C_27.SkeletalMesh SKM_dimples) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.26-06.19.47:176][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.19.47:218][360]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-06.19.47:252][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-06.19.47:303][361]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.01.26-06.19.50:805][772]LogEditorViewport: Clicking on Actor (LMB): NavigationNode_BP_Exit_C (NavigationNode_BP_Exit5)
+[2019.01.26-06.19.52:929][ 14]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.19.53:427][ 14]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevelD80E5E9D46FED0AA3C331D87630D735A.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-06.20.01:518][932]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.20.01:986][932]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel13E5BDB3414A39B302FA64B309970AD5.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-06.20.20:171][ 47]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.20.20:614][ 47]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel344267304AE28DF276F1F8A093B827A4.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-06.20.33:577][541]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.20.34:024][541]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevelF747898A4AFA7FF5933D8DB17A3A1604.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-06.20.36:231][780]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-06.20.36:775][780]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevelD06977EE43DEC626A69757B92B5DF329.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'
+[2019.01.26-06.20.36:996][801]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-06.20.43:613][509]LogSavePackage: Moving '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Saved/NewJohnLevel5E13A42A47B7C43E3A684393C9B4CC76.tmp' to '../../../../../../Users/w017177h.STUDENT/Documents/Github/GGJ2019/GGJ2019/Content/StarterContent/Maps/NewJohnLevel.umap'

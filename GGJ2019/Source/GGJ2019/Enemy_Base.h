@@ -7,6 +7,7 @@
 #include "Enemy_Base.generated.h"
 
 class USkeletalMeshComponent;
+class UCapsuleComponent;
 class AMyNavigationNode_Base;
 class AMyNavigationNode_Exit;
 class AFridge_Base;
@@ -27,11 +28,11 @@ private:
 	FoodTypes _carriedFood;
 
 protected:
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Model") 
-	USkeletalMeshComponent* _body;
-
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Model")
 		AActor* _carriedObject;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Rotation")
+		float _rotationAmountZ;
+
 
 private:
 	void CheckDeadStatus();
@@ -39,7 +40,7 @@ private:
 	void GoToFridge();
 	void TryToTakeFood();
 	void Escape();
-
+	void UpdateRotation();
 	float DistanceToMe(AActor* actor);
 
 protected:
@@ -51,6 +52,8 @@ protected:
 		void FindExitNodes();
 	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "Food Theft")
 		void GetFridge();
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "Rotation")
+		void RotateFromTheta(float theta);
 	UFUNCTION(BlueprintCallable, Category = "Navigation")
 		void PathUsingNodes(TArray<ANavigationNode_Base*> nodes);
 	UFUNCTION(BlueprintCallable, Category = "Navigation")

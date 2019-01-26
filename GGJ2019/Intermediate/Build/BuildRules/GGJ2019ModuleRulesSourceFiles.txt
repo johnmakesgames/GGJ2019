@@ -1,9 +1,3 @@
-<<<<<<< HEAD
 C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Source\GGJ2019\GGJ2019.Build.cs
 C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Source\GGJ2019.Target.cs
 C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Source\GGJ2019Editor.Target.cs
-=======
-C:\Users\t020251g\Documents\GGJ2019\GGJ2019\Source\GGJ2019\GGJ2019.Build.cs
-C:\Users\t020251g\Documents\GGJ2019\GGJ2019\Source\GGJ2019.Target.cs
-C:\Users\t020251g\Documents\GGJ2019\GGJ2019\Source\GGJ2019Editor.Target.cs
->>>>>>> master

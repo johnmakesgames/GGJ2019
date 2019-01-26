@@ -4,11 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\GGJ2019.uproject" />
 		<Filter Include="Source">
-<<<<<<< HEAD
-			<UniqueIdentifier>{BB8BDB4F-8577-4CB6-9AA2-4A7D1B651A6A}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{33A54A24-6058-4BEF-B181-7B95C16DDCDC}</UniqueIdentifier>
->>>>>>> master
+			<UniqueIdentifier>{0251C9C5-B76F-4C7E-9C85-674FFC0F1F3C}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\GGJ2019.Target.cs">
 			<Filter>Source</Filter>
@@ -17,11 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-<<<<<<< HEAD
-			<UniqueIdentifier>{A3A50AC4-9D75-4B6D-A692-A932DC757150}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{1C737B63-C69F-499C-9716-2ABD0C44603A}</UniqueIdentifier>
->>>>>>> master
+			<UniqueIdentifier>{6D6F4FD3-23A9-4625-8CFB-BA59281505E7}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -36,11 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\GGJ2019">
-<<<<<<< HEAD
-			<UniqueIdentifier>{4AF6EFDC-8C01-41C9-969B-8A64DAA1AD86}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{2F6B01E4-12BD-44CD-83E8-305669AB7808}</UniqueIdentifier>
->>>>>>> master
+			<UniqueIdentifier>{C733775F-1305-42B1-96B0-9BF041B9B2CA}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\GGJ2019\EnemySpawner_Base.cpp">
 			<Filter>Source\GGJ2019</Filter>
@@ -88,11 +76,7 @@
 			<Filter>Source\GGJ2019</Filter>
 		</ClInclude >
 		<Filter Include="Source\GGJ2019\Private">
-<<<<<<< HEAD
-			<UniqueIdentifier>{F1992100-B362-4DFB-9CBC-DFBDDAF73124}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{483A7242-95B9-44F2-86AC-4AC0742B0A70}</UniqueIdentifier>
->>>>>>> master
+			<UniqueIdentifier>{FB0E85C4-0B53-4782-9E45-84C3EB43FEBB}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\GGJ2019\Private\Fridge_Base.cpp">
 			<Filter>Source\GGJ2019\Private</Filter>
@@ -107,11 +91,7 @@
 			<Filter>Source\GGJ2019\Private</Filter>
 		</ClCompile >
 		<Filter Include="Source\GGJ2019\Public">
-<<<<<<< HEAD
-			<UniqueIdentifier>{DE6DC292-2B86-4B35-9596-6BB69B1BAC85}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{E0E8D36A-CFAB-46AF-B6AC-0CD3B29B4424}</UniqueIdentifier>
->>>>>>> master
+			<UniqueIdentifier>{082B2AFE-59B0-4BE8-BAFA-72AB11926C33}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Source\GGJ2019\Public\Fridge_Base.h">
 			<Filter>Source\GGJ2019\Public</Filter>
