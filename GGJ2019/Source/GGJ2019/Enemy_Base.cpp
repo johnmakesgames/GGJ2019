@@ -39,6 +39,7 @@ void AEnemy_Base::Tick(float DeltaTime)
 		GoToFridge();
 		TryToTakeFood();
 		Escape();
+		CheckFoodStatus();
 		UpdateRotation();
 	}
 }
@@ -80,9 +81,9 @@ void AEnemy_Base::TryToTakeFood()
 	if (distance < 50)
 	{
 		GetFridge();
-		_hasFood = true;
-		_movementSpeed = 1.5f;
+		CheckFoodStatus();
 		FindExitNodes();
+		_checkedFridge = true;
 	}
 }
 
@@ -90,6 +91,7 @@ void AEnemy_Base::Escape()
 {
 	if (_hasFood)
 	{
+		_movementSpeed = 1.5f;
 		FVector distanceFromExit;
 		distanceFromExit.X = FMath::Abs(_exitPos.X - this->GetActorLocation().X);
 		distanceFromExit.Y = FMath::Abs(_exitPos.Y - this->GetActorLocation().Y);
@@ -122,7 +124,7 @@ void AEnemy_Base::PathUsingNodes(TArray<ANavigationNode_Base*> nodes)
 
 		if (nodesWithinDistance.Num() > 0)
 		{
-			if (!_hasFood)
+			if (!_checkedFridge)
 			{
 				ANavigationNode_Base* currentBest;
 				currentBest = nodesWithinDistance[0];
@@ -197,4 +199,16 @@ float AEnemy_Base::DistanceToMe(AActor* actor)
 void AEnemy_Base::GiveUI(AUI_Manager* UI)
 {
 	this->UI = UI;
+}
+
+void AEnemy_Base::CheckFoodStatus()
+{
+	if (_carriedFood != FoodTypes::None)
+	{
+		_hasFood = true;
+	}
+	else
+	{
+		_hasFood = false;
+	}
 }

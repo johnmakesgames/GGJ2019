@@ -21,6 +21,7 @@ class GGJ2019_API AEnemy_Base : public AActor
 private:
 	bool _alive;
 	bool _hasFood;
+	bool _checkedFridge;
 	float _health;
 	float _movementSpeed;
 	ANavigationNode_Base* targetNode;
@@ -43,6 +44,7 @@ private:
 	void TryToTakeFood();
 	void Escape();
 	void UpdateRotation();
+	void CheckFoodStatus();
 	float DistanceToMe(AActor* actor);
 
 protected:
