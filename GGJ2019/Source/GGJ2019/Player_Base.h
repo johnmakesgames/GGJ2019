@@ -33,7 +33,7 @@ public:
 	//Movement
 	virtual void MoveRight(float value);
 	virtual void MoveForward(float value);
-	virtual void Rotate(float value);
+
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	FVector movementVelocity;
