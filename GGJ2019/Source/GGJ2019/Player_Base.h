@@ -4,6 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Fridge_Base.h"
+#include "Global_Variables.h"
+#include "Pickup_Food.h"
 #include "Player_Base.generated.h"
 
 class UCharacterMovementComponent;
@@ -33,7 +36,7 @@ public:
 	//Movement
 	virtual void MoveRight(float value);
 	virtual void MoveForward(float value);
-	virtual void Rotate(float value);
+
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	FVector movementVelocity;
@@ -54,4 +57,19 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	UCameraComponent* playerCamera;
 
+	// PICK UP STUFF //
+
+	FoodTypes currentFood;
+
+	UFUNCTION(BlueprintCallable)
+		FoodTypes getFoodType() { return currentFood; }
+
+	UPROPERTY(BlueprintReadWrite)
+		bool holdingFood;
+
+	UFUNCTION(BlueprintCallable)
+		void pickUpFood(FoodTypes food); //, APickup_Food* food
+
+	UFUNCTION(BlueprintCallable)
+		void putFoodInFridge(AFridge_Base* fridge, FoodTypes food);
 };

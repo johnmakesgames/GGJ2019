@@ -20,8 +20,9 @@ APlayer_Base::APlayer_Base()
 	//Set up variables
 	maxHealth  = 100.0f;
 	playerHealth = maxHealth;
-
 	movementSpeed = 75.0f;
+	holdingFood = false;
+	
 }
 
 // Called when the game starts or when spawned
@@ -45,9 +46,6 @@ void APlayer_Base::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	PlayerInputComponent->BindAxis("MoveForward", this, &APlayer_Base::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &APlayer_Base::MoveRight);
-	//PlayerInputComponent->BindAxis("Rotate", this, &APlayer_Base::Rotate);
-
-	//PlayerInputComponent->BindAction("Attack", IE_Pressed, this, &APlayer_Base::AttackEnemy);
 }
 
 void APlayer_Base::MoveForward(float value)
@@ -60,7 +58,17 @@ void APlayer_Base::MoveRight(float value)
 	movementVelocity.Y = value * 100;
 }
 
-void APlayer_Base::Rotate(float value)
+void APlayer_Base::putFoodInFridge(AFridge_Base* fridge, FoodTypes food)
 {
-	playerBaseComponent->AddWorldRotation(FQuat(FRotator(0.0f, value, 0.0f)));
+	fridge->ReplaceFood(food);
+	currentFood = None;
+	holdingFood = false;
+}
+
+void APlayer_Base::pickUpFood(FoodTypes food) // APickup_Food* food
+{
+	holdingFood = true;
+	currentFood = food;
+
+	//food->
 }
