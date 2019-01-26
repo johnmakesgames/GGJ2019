@@ -1,86 +1,38 @@
-<<<<<<< HEAD
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-<<<<<<< HEAD
-  Building 3 actions with 8 processes...
-    [1/3] Fridge_Base.cpp
-    [2/3] UE4Editor-GGJ2019.lib
-       Creating library C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.lib and object C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.exp
-    [3/3] UE4Editor-GGJ2019.dll
-       Creating library C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.lib and object C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.exp
-  Deploying GGJ2019Editor Win64 Development...
-  Total build time: 5.02 seconds (Parallel executor: 2.71 seconds)
-=======
-﻿  Performing full C++ include scan (building a new target)
-  Using 'git status' to determine working set for adaptive non-unity build.
   Creating makefile for GGJ2019Editor (no existing makefile)
-  Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Parsing headers for GGJ2019Editor
-    Running UnrealHeaderTool "C:\Users\t020251g\Documents\GGJ2019\GGJ2019\GGJ2019.uproject" "C:\Users\t020251g\Documents\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\GGJ2019Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for GGJ2019Editor in 12.3165828 seconds
-  Building 25 actions with 8 processes...
-    [1/25] PCLaunch.rc
-    [2/25] SharedPCH.Engine.cpp
-    [3/25] GGJ2019.init.gen.cpp
-    [4/25] Fridge_Base.gen.cpp
-    [5/25] NavigationNode_Base.gen.cpp
-    [6/25] Pickup_Base.gen.cpp
-    [7/25] MyNavigationNode_Exit.gen.cpp
-    [8/25] GGJ2019GameModeBase.gen.cpp
-    [9/25] Enemy_Base.gen.cpp
-    [10/25] Pickup_Weapon.gen.cpp
-    [11/25] Global_Variables.cpp
-    [12/25] Pickup_Weapon.cpp
-    [13/25] Fridge_Base.cpp
-    [14/25] MyNavigationNode_Exit.cpp
-    [15/25] NavigationNode_Base.cpp
-    [16/25] GGJ2019.cpp
-    [17/25] EnemySpawner_Base.gen.cpp
-    [18/25] GGJ2019GameModeBase.cpp
-    [19/25] Enemy_Base.cpp
-    [20/25] Pickup_Base.cpp
-    [21/25] EnemySpawner_Base.cpp
-    [22/25] Player_Base.gen.cpp
-    [23/25] Player_Base.cpp
-    [24/25] UE4Editor-GGJ2019.lib
-       Creating library C:\Users\t020251g\Documents\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.lib and object C:\Users\t020251g\Documents\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.exp
-    [25/25] UE4Editor-GGJ2019.dll
-       Creating library C:\Users\t020251g\Documents\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.lib and object C:\Users\t020251g\Documents\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.exp
-  Deploying GGJ2019Editor Win64 Development...
-  Total build time: 97.65 seconds (Parallel executor: 43.10 seconds)
->>>>>>> master
-=======
-  Creating makefile for GGJ2019Editor (no existing makefile)
+  Performing full C++ include scan (no include cache file)
   Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for GGJ2019Editor
     Running UnrealHeaderTool "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\GGJ2019.uproject" "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\GGJ2019Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for GGJ2019Editor in 11.866477 seconds
-  Deleting old hot reload file: "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-2812.dll".
-  Deleting old hot reload file: "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-2812.pdb".
-  Building 22 actions with 8 processes...
-    [1/22] SharedPCH.Engine.cpp
-    [2/22] GGJ2019.init.gen.cpp
-    [3/22] Pickup_Base.gen.cpp
-    [4/22] Fridge_Base.gen.cpp
-    [5/22] NavigationNode_Base.gen.cpp
-    [6/22] Pickup_Food.gen.cpp
-    [7/22] Pickup_Weapon.cpp
-    [8/22] GGJ2019GameModeBase.gen.cpp
-    [9/22] Pickup_Weapon.gen.cpp
-    [10/22] Global_Variables.cpp
-    [11/22] Enemy_Base.gen.cpp
-    [12/22] Pickup_Base.cpp
-    [13/22] NavigationNode_Base.cpp
-    [14/22] GGJ2019.cpp
-    [15/22] Fridge_Base.cpp
-    [16/22] GGJ2019GameModeBase.cpp
-    [17/22] Enemy_Base.cpp
-    [18/22] Pickup_Food.cpp
-    [19/22] Player_Base.gen.cpp
-    [20/22] Player_Base.cpp
-    [21/22] UE4Editor-GGJ2019.lib
+  Reflection code generated for GGJ2019Editor in 12.156421 seconds
+  Building 26 actions with 8 processes...
+    [1/26] SharedPCH.Engine.cpp
+    [2/26] GGJ2019.init.gen.cpp
+    [3/26] Pickup_Food.gen.cpp
+    [4/26] MyNavigationNode_Exit.gen.cpp
+    [5/26] NavigationNode_Base.gen.cpp
+    [6/26] Pickup_Base.gen.cpp
+    [7/26] Fridge_Base.gen.cpp
+    [8/26] GGJ2019GameModeBase.gen.cpp
+    [9/26] Pickup_Weapon.gen.cpp
+    [10/26] Global_Variables.cpp
+    [11/26] Pickup_Weapon.cpp
+    [12/26] Enemy_Base.gen.cpp
+    [13/26] Pickup_Base.cpp
+    [14/26] NavigationNode_Base.cpp
+    [15/26] Fridge_Base.cpp
+    [16/26] EnemySpawner_Base.gen.cpp
+    [17/26] GGJ2019.cpp
+    [18/26] MyNavigationNode_Exit.cpp
+    [19/26] Pickup_Food.cpp
+    [20/26] GGJ2019GameModeBase.cpp
+    [21/26] Enemy_Base.cpp
+    [22/26] EnemySpawner_Base.cpp
+    [23/26] Player_Base.gen.cpp
+    [24/26] Player_Base.cpp
+    [25/26] UE4Editor-GGJ2019.lib
        Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.exp
-    [22/22] UE4Editor-GGJ2019.dll
+    [26/26] UE4Editor-GGJ2019.dll
        Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.exp
   Deploying GGJ2019Editor Win64 Development...
-  Total build time: 65.56 seconds (Parallel executor: 44.69 seconds)
->>>>>>> AngBranch
+  Total build time: 70.58 seconds (Parallel executor: 47.48 seconds)
