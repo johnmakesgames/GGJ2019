@@ -4,10 +4,15 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Fridge_Base.h"
+#include "Global_Variables.h"
+#include "Pickup_Food.h"
+#include "Pickup_Weapon.h"
 #include "Player_Base.generated.h"
 
 class UCharacterMovementComponent;
 class USkeletalMeshComponent;
+class UCameraComponent;
 
 UCLASS()
 class GGJ2019_API APlayer_Base : public ACharacter
@@ -33,20 +38,49 @@ public:
 	virtual void MoveRight(float value);
 	virtual void MoveForward(float value);
 
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	FVector movementVelocity;
+
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Stats")
 	float movementSpeed;
-
-	//Damage
-	void TakeDamage();
-
-	//Stats
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Stats")
-	int maxHealth;
-
-	int playerHealth;
 
 	//Player
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	USkeletalMeshComponent* playerBaseComponent;
+		
+	//Stats
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Stats")
+	int maxHealth;
+	int playerHealth;
+
+	// CAMERA //
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	UCameraComponent* playerCamera;
+
+	// PICK UP STUFF //
+
+	FoodTypes currentFood = None;
+	WeaponType currentWeapon = NoneW;
+
+	UPROPERTY(BlueprintReadWrite)
+		APickup_Base* currentItemHeld;
+
+	UFUNCTION(BlueprintCallable)
+		FoodTypes getFoodType() { return currentFood; }
+
+	UPROPERTY(BlueprintReadWrite)
+		bool holdingFood;
+
+	UFUNCTION(BlueprintCallable)
+		void pickUpFood(FoodTypes food, APickup_Food* foodRef); 
+
+	UFUNCTION(BlueprintCallable)
+		void pickUpWeapon(APickup_Weapon* weaponRef);
+
+	UFUNCTION(BlueprintCallable)
+		void dropCurrentItem();
+
+	UFUNCTION(BlueprintCallable)
+		void putFoodInFridge(AFridge_Base* fridge, FoodTypes food);
 };
