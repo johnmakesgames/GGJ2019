@@ -18,6 +18,14 @@ class ANavigationNode_Base;
 
 #define GGJ2019_Source_GGJ2019_Enemy_Base_h_18_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetHasFood) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetHasFood(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execTakeFood) \
 	{ \
 		P_GET_OBJECT(AFridge_Base,Z_Param_fridge); \
@@ -47,6 +55,14 @@ class ANavigationNode_Base;
 
 
 #define GGJ2019_Source_GGJ2019_Enemy_Base_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetHasFood) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetHasFood(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execTakeFood) \
 	{ \
