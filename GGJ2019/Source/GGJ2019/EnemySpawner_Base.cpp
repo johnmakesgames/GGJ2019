@@ -9,6 +9,7 @@ AEnemySpawner_Base::AEnemySpawner_Base()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	_maxCooldown = 15;
+	_minCooldown = 2;
 	_cooldown = 0;
 	_active = true;
 	_totalSpawnedEnemies = 0;
@@ -45,12 +46,26 @@ void AEnemySpawner_Base::Tick(float DeltaTime)
 			_totalSpawnedEnemies++;
 		}
 	}
-	_maxCooldown -= _totalSpawnedEnemies / 2000;
+	
+	if (FMath::FRandRange(1, 3) < 2)
+	{
+		_maxCooldown += _totalSpawnedEnemies / FMath::FRandRange(4000, 10000);
+	}
+	else
+	{
+		_maxCooldown -= _totalSpawnedEnemies / FMath::FRandRange(800, 7000);
+	}
 	FString TheFloatStr = FString::SanitizeFloat(_maxCooldown);
 	GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, *TheFloatStr);
-	if (_maxCooldown < 1)
+
+	if (FMath::FRandRange(0, 1000) < 1)
 	{
-		_maxCooldown = 1;
+		SpawnDimples();
+	}
+
+	if (_maxCooldown < _minCooldown)
+	{
+		_maxCooldown = _minCooldown;
 	}
 }
 

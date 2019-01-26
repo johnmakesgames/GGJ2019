@@ -13,6 +13,7 @@ class GGJ2019_API AEnemySpawner_Base : public AActor
 	GENERATED_BODY()
 private:
 	float _maxCooldown;
+	float _minCooldown;
 	float _cooldown;
 
 public:	

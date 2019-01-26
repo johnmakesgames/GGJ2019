@@ -1,60 +1,9 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-<<<<<<< HEAD
   Building 3 actions with 8 processes...
-    [1/3] Player_Base.cpp
-=======
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-1615.dll".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-1615.pdb".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-1765.dll".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-1765.pdb".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-1892.dll".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-1892.pdb".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-1940.dll".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-1940.pdb".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-4099.dll".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-4099.pdb".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-4437.dll".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-4437.pdb".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-4529.dll".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-4529.pdb".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-5809.dll".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-5809.pdb".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-63.dll".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-63.pdb".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-6429.dll".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-6429.pdb".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-6954.dll".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-6954.pdb".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-7636.dll".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-7636.pdb".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-785.dll".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-785.pdb".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-8147.dll".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-8147.pdb".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-8690.dll".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-8690.pdb".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-87.dll".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-87.pdb".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-9126.dll".
-  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-9126.pdb".
-  Building 3 actions with 8 processes...
-    [1/3] EnemySpawner_Base.cpp
->>>>>>> JohnBranch
+    [1/3] Fridge_Base.cpp
     [2/3] UE4Editor-GGJ2019.lib
-<<<<<<< HEAD
-       Creating library C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.lib and object C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.exp
+       Creating library C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.lib and object C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.exp
     [3/3] UE4Editor-GGJ2019.dll
-       Creating library C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.lib and object C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.exp
+       Creating library C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.lib and object C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.exp
   Deploying GGJ2019Editor Win64 Development...
-<<<<<<< HEAD
-  Total build time: 14.61 seconds (Parallel executor: 12.06 seconds)
-=======
-       Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.exp
-    [3/3] UE4Editor-GGJ2019.dll
-       Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.exp
-  Deploying GGJ2019Editor Win64 Development...
-  Total build time: 12.95 seconds (Parallel executor: 10.67 seconds)
->>>>>>> AngBranch
-=======
-  Total build time: 4.11 seconds (Parallel executor: 1.84 seconds)
->>>>>>> JohnBranch
+  Total build time: 5.02 seconds (Parallel executor: 2.71 seconds)
