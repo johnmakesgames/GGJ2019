@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\GGJ2019.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{FB23F5A2-7064-40A0-8BA0-C0B8312761A7}</UniqueIdentifier>
+			<UniqueIdentifier>{0F511BB6-2EF7-4403-A6AD-EC06ABEBBCC8}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\GGJ2019.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{254E480A-9B7F-4C0A-91F8-A24559AA7511}</UniqueIdentifier>
+			<UniqueIdentifier>{E330A04B-2CA8-43B0-9B47-3839CF37D1D1}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,7 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\GGJ2019">
-			<UniqueIdentifier>{CB2A74CA-40C5-417A-AC15-D185E1C88688}</UniqueIdentifier>
+			<UniqueIdentifier>{6DE4456B-B992-4934-8F86-F556F02F4CFD}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\GGJ2019\Enemy_Base.cpp">
 			<Filter>Source\GGJ2019</Filter>
@@ -64,7 +64,7 @@
 			<Filter>Source\GGJ2019</Filter>
 		</ClInclude >
 		<Filter Include="Source\GGJ2019\Private">
-			<UniqueIdentifier>{26F61454-13C3-4A3F-BF53-E677EF55EDF9}</UniqueIdentifier>
+			<UniqueIdentifier>{D4186D45-70D1-40E6-A4B8-715ED84C4753}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\GGJ2019\Private\Fridge_Base.cpp">
 			<Filter>Source\GGJ2019\Private</Filter>
@@ -79,7 +79,7 @@
 			<Filter>Source\GGJ2019\Private</Filter>
 		</ClCompile >
 		<Filter Include="Source\GGJ2019\Public">
-			<UniqueIdentifier>{BE844D71-9A03-4F32-881A-A4A97A8FC49A}</UniqueIdentifier>
+			<UniqueIdentifier>{ABBCD3BF-142E-4787-A6BF-1264BDE417E4}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Source\GGJ2019\Public\Fridge_Base.h">
 			<Filter>Source\GGJ2019\Public</Filter>

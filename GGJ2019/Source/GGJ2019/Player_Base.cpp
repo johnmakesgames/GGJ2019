@@ -53,11 +53,33 @@ void APlayer_Base::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 void APlayer_Base::MoveForward(float value)
 {
 	movementVelocity.X = value * 100;
+
+	/*if (value > 0)
+	{
+		FVector forwardVector = FVector(0, 1, 0);
+		SetActorRotation(forwardVector.Rotation());
+	}
+	else
+	{
+		FVector forwardVector = FVector(0, -1, 0);
+		SetActorRotation(forwardVector.Rotation());
+	}*/
 }
 
 void APlayer_Base::MoveRight(float value)
 {
 	movementVelocity.Y = value * 100;
+
+	/*if (value > 0)
+	{
+		FVector rightVector = FVector(1, 0, 0);
+		SetActorRotation(rightVector.Rotation());
+	}
+	else
+	{
+		FVector rightVector = FVector(1, 0, 0);
+		SetActorRotation(rightVector.Rotation());
+	}*/
 }
 
 void APlayer_Base::Rotate(float value)
