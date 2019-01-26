@@ -14,6 +14,7 @@ public:
 	~Global_Variables();
 };
 
+UENUM()
 enum FoodTypes
 {
 	None,

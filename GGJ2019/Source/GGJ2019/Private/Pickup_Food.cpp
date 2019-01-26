@@ -2,6 +2,3 @@
 
 #include "Pickup_Food.h"
 
-
-
-

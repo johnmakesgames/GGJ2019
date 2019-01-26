@@ -13,8 +13,30 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GGJ2019_Pickup_Base_generated_h
 
-#define GGJ2019_Source_GGJ2019_Public_Pickup_Base_h_15_RPC_WRAPPERS
-#define GGJ2019_Source_GGJ2019_Public_Pickup_Base_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define GGJ2019_Source_GGJ2019_Public_Pickup_Base_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execsetActive) \
+	{ \
+		P_GET_UBOOL(Z_Param_active); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->setActive(Z_Param_active); \
+		P_NATIVE_END; \
+	}
+
+
+#define GGJ2019_Source_GGJ2019_Public_Pickup_Base_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execsetActive) \
+	{ \
+		P_GET_UBOOL(Z_Param_active); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->setActive(Z_Param_active); \
+		P_NATIVE_END; \
+	}
+
+
 #define GGJ2019_Source_GGJ2019_Public_Pickup_Base_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPickup_Base(); \
