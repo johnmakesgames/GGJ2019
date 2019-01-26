@@ -27,6 +27,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool pickupActive;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		AActor* pickedUpBy; 
+		
+	void setActive(bool active) { pickupActive = active; }
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

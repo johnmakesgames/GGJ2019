@@ -1,7 +1,10 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 #include "Enemy_Base.h"
 #include "Components/SkeletalMeshComponent.h"
+#include "Components/CapsuleComponent.h"
 #include "NavigationNode_Base.h"
+#include "MyNavigationNode_Exit.h"
+#include "Fridge_Base.h"
 
 // Sets default values
 AEnemy_Base::AEnemy_Base()
@@ -11,23 +14,18 @@ AEnemy_Base::AEnemy_Base()
 	_alive = true;
 	_health = 1;
 	_hasFood = false;
-	_movementSpeed = 5;
+	_movementSpeed = 3;
 	_carriedObject = nullptr;
-	_body = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Body"));
+	fridgePos = FVector(-237.0, 156.0, 18.0);
+	_exitPos = FVector(9999, 9999, 9999);
+	_carriedFood = FoodTypes::None;
+	_rotationAmountZ = 0;
 }
 
 // Called when the game starts or when spawned
 void AEnemy_Base::BeginPlay()
 {
 	Super::BeginPlay();
-	if (_alive)
-	{
-		if (!_hasFood)
-			GoToFridge(); 
-		else
-			Escape();
-		CheckDeadStatus();
-	}
 }
 
 // Called every frame
@@ -36,11 +34,10 @@ void AEnemy_Base::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	if (_alive)
 	{
-		if (!_hasFood)
-			GoToFridge();
-		else
-			Escape();
-		CheckDeadStatus();
+		GoToFridge();
+		TryToTakeFood();
+		Escape();
+		UpdateRotation();
 	}
 }
 
@@ -72,17 +69,33 @@ void AEnemy_Base::GoToFridge()
 
 void AEnemy_Base::TryToTakeFood()
 {
-
+	FVector distanceFromFridge;
+	distanceFromFridge.X = FMath::Abs(fridgePos.X - this->GetActorLocation().X);
+	distanceFromFridge.Y = FMath::Abs(fridgePos.Y - this->GetActorLocation().Y);
+	distanceFromFridge.Z = FMath::Abs(fridgePos.Z - this->GetActorLocation().Z);
+	float distance = FMath::Sqrt(FMath::Pow(distanceFromFridge.X, 2) + FMath::Pow(distanceFromFridge.Y, 2) + FMath::Pow(distanceFromFridge.Z, 2));
+	if (distance < 50)
+	{
+		GetFridge();
+		_hasFood = true;
+		_movementSpeed = 1.5f;
+		FindExitNodes();
+	}
 }
 
 void AEnemy_Base::Escape()
 {
-	FindNodes();
-	if (targetNode != nullptr)
+	if (_hasFood)
 	{
-		FVector movementDirection = this->GetActorLocation() - targetNode->GetActorLocation();
-		movementDirection.Normalize();
-		this->SetActorLocation(this->GetActorLocation() + (movementDirection * _movementSpeed));
+		FVector distanceFromExit;
+		distanceFromExit.X = FMath::Abs(_exitPos.X - this->GetActorLocation().X);
+		distanceFromExit.Y = FMath::Abs(_exitPos.Y - this->GetActorLocation().Y);
+		distanceFromExit.Z = FMath::Abs(_exitPos.Z - this->GetActorLocation().Z);
+		float distance = FMath::Sqrt(FMath::Pow(distanceFromExit.X, 2) + FMath::Pow(distanceFromExit.Y, 2) + FMath::Pow(distanceFromExit.Z, 2));
+		if (distance < 50)
+		{
+			Destroy();
+		}
 	}
 }
 
@@ -98,7 +111,7 @@ void AEnemy_Base::PathUsingNodes(TArray<ANavigationNode_Base*> nodes)
 	{
 		for (int i = 0; i < nodes.Num(); i++)
 		{
-			if (DistanceToMe(nodes[i]) > 2 && DistanceToMe(nodes[i]) < 150)
+			if (DistanceToMe(nodes[i]) > 2 && DistanceToMe(nodes[i]) < 200)
 			{
 				nodesWithinDistance.Add(nodes[i]);
 			}
@@ -106,20 +119,60 @@ void AEnemy_Base::PathUsingNodes(TArray<ANavigationNode_Base*> nodes)
 
 		if (nodesWithinDistance.Num() > 0)
 		{
-			ANavigationNode_Base* currentBest;
-			currentBest = nodesWithinDistance[0];
-			for (int i = 1; i < nodesWithinDistance.Num(); i++)
+			if (!_hasFood)
 			{
-				if (nodesWithinDistance[i]->GetDistanceToFridge() < currentBest->GetDistanceToFridge())
+				ANavigationNode_Base* currentBest;
+				currentBest = nodesWithinDistance[0];
+				for (int i = 1; i < nodesWithinDistance.Num(); i++)
 				{
-					currentBest = nodesWithinDistance[i];
+					if (nodesWithinDistance[i]->GetDistanceToFridge() < currentBest->GetDistanceToFridge())
+					{
+						currentBest = nodesWithinDistance[i];
+					}
 				}
+				targetNode = currentBest;
 			}
-			targetNode = currentBest;
+			else
+			{
+				ANavigationNode_Base* currentBest;
+				currentBest = nodesWithinDistance[0];
+				for (int i = 1; i < nodesWithinDistance.Num(); i++)
+				{
+					if (nodesWithinDistance[i]->GetDistanceToPoint(_exitPos) < currentBest->GetDistanceToPoint(_exitPos))
+					{
+						currentBest = nodesWithinDistance[i];
+					}
+				}
+				targetNode = currentBest;
+			}
 		}
 	}
 }
 
+void AEnemy_Base::SetExitPositions(TArray<AMyNavigationNode_Exit*> nodes)
+{
+	int exit = FMath::FRandRange(0, nodes.Num());
+	_exitPos = nodes[exit]->GetActorLocation();
+}
+
+void AEnemy_Base::TakeFood(AFridge_Base* fridge)
+{
+	_carriedFood = fridge->RemoveFood();
+}
+
+void AEnemy_Base::UpdateRotation()
+{
+	FVector forward = this->GetActorForwardVector();
+	FVector movementDirection = targetNode->GetActorLocation() - this->GetActorLocation();
+	float forwardMag = FMath::Sqrt(FMath::Pow(forward.X,2) + FMath::Pow(forward.Y, 2) + FMath::Pow(forward.Z, 2));
+	float directionMag = FMath::Sqrt(FMath::Pow(movementDirection.X, 2) + FMath::Pow(movementDirection.Y, 2) + FMath::Pow(movementDirection.Z, 2));
+	float dot = ((forward.X * movementDirection.X) + (forward.Y * movementDirection.Y) + (forward.Z * movementDirection.Z));
+	float theta = (dot / (forwardMag * directionMag));
+	//theta *= (180 / 3.14);
+	if (movementDirection.Y < forward.Y)
+		theta = -theta;
+	RotateFromTheta(theta);
+}
 
 float AEnemy_Base::DistanceToMe(AActor* actor)
 {

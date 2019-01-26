@@ -14,7 +14,7 @@ class AActor;
 #endif
 #define GGJ2019_Pickup_Weapon_generated_h
 
-#define GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_18_RPC_WRAPPERS \
+#define GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_19_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnWeaponBeginOverlap) \
 	{ \
@@ -23,10 +23,18 @@ class AActor;
 		P_NATIVE_BEGIN; \
 		P_THIS->OnWeaponBeginOverlap(Z_Param_actor); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execgetWeaponType) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(TEnumAsByte<WeaponType>*)Z_Param__Result=P_THIS->getWeaponType(); \
+		P_NATIVE_END; \
 	}
 
 
-#define GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+#define GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnWeaponBeginOverlap) \
 	{ \
@@ -35,10 +43,18 @@ class AActor;
 		P_NATIVE_BEGIN; \
 		P_THIS->OnWeaponBeginOverlap(Z_Param_actor); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execgetWeaponType) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(TEnumAsByte<WeaponType>*)Z_Param__Result=P_THIS->getWeaponType(); \
+		P_NATIVE_END; \
 	}
 
 
-#define GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_18_INCLASS_NO_PURE_DECLS \
+#define GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPickup_Weapon(); \
 	friend struct Z_Construct_UClass_APickup_Weapon_Statics; \
@@ -47,7 +63,7 @@ public: \
 	DECLARE_SERIALIZER(APickup_Weapon)
 
 
-#define GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_18_INCLASS \
+#define GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_19_INCLASS \
 private: \
 	static void StaticRegisterNativesAPickup_Weapon(); \
 	friend struct Z_Construct_UClass_APickup_Weapon_Statics; \
@@ -56,7 +72,7 @@ public: \
 	DECLARE_SERIALIZER(APickup_Weapon)
 
 
-#define GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_18_STANDARD_CONSTRUCTORS \
+#define GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_19_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APickup_Weapon(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APickup_Weapon) \
@@ -69,7 +85,7 @@ private: \
 public:
 
 
-#define GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_18_ENHANCED_CONSTRUCTORS \
+#define GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API APickup_Weapon(APickup_Weapon&&); \
@@ -80,26 +96,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APickup_Weapon); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APickup_Weapon)
 
 
-#define GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_18_PRIVATE_PROPERTY_OFFSET
-#define GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_15_PROLOG
-#define GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_18_GENERATED_BODY_LEGACY \
+#define GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_19_PRIVATE_PROPERTY_OFFSET
+#define GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_16_PROLOG
+#define GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_19_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_18_PRIVATE_PROPERTY_OFFSET \
-	GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_18_RPC_WRAPPERS \
-	GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_18_INCLASS \
-	GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_18_STANDARD_CONSTRUCTORS \
+	GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_19_PRIVATE_PROPERTY_OFFSET \
+	GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_19_RPC_WRAPPERS \
+	GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_19_INCLASS \
+	GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_19_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_18_GENERATED_BODY \
+#define GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_18_PRIVATE_PROPERTY_OFFSET \
-	GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
-	GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_18_INCLASS_NO_PURE_DECLS \
-	GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_18_ENHANCED_CONSTRUCTORS \
+	GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_19_PRIVATE_PROPERTY_OFFSET \
+	GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_19_INCLASS_NO_PURE_DECLS \
+	GGJ2019_Source_GGJ2019_Public_Pickup_Weapon_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

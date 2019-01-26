@@ -16,8 +16,11 @@ AFridge_Base::AFridge_Base()
 void AFridge_Base::BeginPlay()
 {
 	Super::BeginPlay();
-	
-
+	foodInFridge.Add(FoodTypes::Pizza);
+	foodInFridge.Add(FoodTypes::Pizza);
+	foodInFridge.Add(FoodTypes::Pizza);
+	foodInFridge.Add(FoodTypes::Pizza);
+	foodInFridge.Add(FoodTypes::Pizza);
 }
 
 // Called every frame
@@ -29,8 +32,12 @@ void AFridge_Base::Tick(float DeltaTime)
 
 FoodTypes AFridge_Base::RemoveFood()
 {
-	FoodTypes foodToTake = foodInFridge[foodInFridge.Num()];
-	foodInFridge.Pop();
+	FoodTypes foodToTake = FoodTypes::None;
+	if (foodInFridge.Num() > 0)
+	{
+		foodToTake = foodInFridge[foodInFridge.Num()-1];
+		foodInFridge.Pop();
+	}
 
 	if (foodInFridge.Num() == 0)
 	{

@@ -8,13 +8,33 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AFridge_Base;
+class AMyNavigationNode_Exit;
 class ANavigationNode_Base;
 #ifdef GGJ2019_Enemy_Base_generated_h
 #error "Enemy_Base.generated.h already included, missing '#pragma once' in Enemy_Base.h"
 #endif
 #define GGJ2019_Enemy_Base_generated_h
 
-#define GGJ2019_Source_GGJ2019_Enemy_Base_h_13_RPC_WRAPPERS \
+#define GGJ2019_Source_GGJ2019_Enemy_Base_h_18_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execTakeFood) \
+	{ \
+		P_GET_OBJECT(AFridge_Base,Z_Param_fridge); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->TakeFood(Z_Param_fridge); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetExitPositions) \
+	{ \
+		P_GET_TARRAY(AMyNavigationNode_Exit*,Z_Param_nodes); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetExitPositions(Z_Param_nodes); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execPathUsingNodes) \
 	{ \
@@ -26,7 +46,25 @@ class ANavigationNode_Base;
 	}
 
 
-#define GGJ2019_Source_GGJ2019_Enemy_Base_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+#define GGJ2019_Source_GGJ2019_Enemy_Base_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execTakeFood) \
+	{ \
+		P_GET_OBJECT(AFridge_Base,Z_Param_fridge); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->TakeFood(Z_Param_fridge); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetExitPositions) \
+	{ \
+		P_GET_TARRAY(AMyNavigationNode_Exit*,Z_Param_nodes); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetExitPositions(Z_Param_nodes); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execPathUsingNodes) \
 	{ \
@@ -38,9 +76,15 @@ class ANavigationNode_Base;
 	}
 
 
-#define GGJ2019_Source_GGJ2019_Enemy_Base_h_13_EVENT_PARMS
-#define GGJ2019_Source_GGJ2019_Enemy_Base_h_13_CALLBACK_WRAPPERS
-#define GGJ2019_Source_GGJ2019_Enemy_Base_h_13_INCLASS_NO_PURE_DECLS \
+#define GGJ2019_Source_GGJ2019_Enemy_Base_h_18_EVENT_PARMS \
+	struct Enemy_Base_eventRotateFromTheta_Parms \
+	{ \
+		float theta; \
+	};
+
+
+#define GGJ2019_Source_GGJ2019_Enemy_Base_h_18_CALLBACK_WRAPPERS
+#define GGJ2019_Source_GGJ2019_Enemy_Base_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAEnemy_Base(); \
 	friend struct Z_Construct_UClass_AEnemy_Base_Statics; \
@@ -49,7 +93,7 @@ public: \
 	DECLARE_SERIALIZER(AEnemy_Base)
 
 
-#define GGJ2019_Source_GGJ2019_Enemy_Base_h_13_INCLASS \
+#define GGJ2019_Source_GGJ2019_Enemy_Base_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesAEnemy_Base(); \
 	friend struct Z_Construct_UClass_AEnemy_Base_Statics; \
@@ -58,7 +102,7 @@ public: \
 	DECLARE_SERIALIZER(AEnemy_Base)
 
 
-#define GGJ2019_Source_GGJ2019_Enemy_Base_h_13_STANDARD_CONSTRUCTORS \
+#define GGJ2019_Source_GGJ2019_Enemy_Base_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AEnemy_Base(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AEnemy_Base) \
@@ -71,7 +115,7 @@ private: \
 public:
 
 
-#define GGJ2019_Source_GGJ2019_Enemy_Base_h_13_ENHANCED_CONSTRUCTORS \
+#define GGJ2019_Source_GGJ2019_Enemy_Base_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AEnemy_Base(AEnemy_Base&&); \
@@ -82,34 +126,35 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemy_Base); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AEnemy_Base)
 
 
-#define GGJ2019_Source_GGJ2019_Enemy_Base_h_13_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO___body() { return STRUCT_OFFSET(AEnemy_Base, _body); }
+#define GGJ2019_Source_GGJ2019_Enemy_Base_h_18_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO___carriedObject() { return STRUCT_OFFSET(AEnemy_Base, _carriedObject); } \
+	FORCEINLINE static uint32 __PPO___rotationAmountZ() { return STRUCT_OFFSET(AEnemy_Base, _rotationAmountZ); }
 
 
-#define GGJ2019_Source_GGJ2019_Enemy_Base_h_10_PROLOG \
-	GGJ2019_Source_GGJ2019_Enemy_Base_h_13_EVENT_PARMS
+#define GGJ2019_Source_GGJ2019_Enemy_Base_h_15_PROLOG \
+	GGJ2019_Source_GGJ2019_Enemy_Base_h_18_EVENT_PARMS
 
 
-#define GGJ2019_Source_GGJ2019_Enemy_Base_h_13_GENERATED_BODY_LEGACY \
+#define GGJ2019_Source_GGJ2019_Enemy_Base_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GGJ2019_Source_GGJ2019_Enemy_Base_h_13_PRIVATE_PROPERTY_OFFSET \
-	GGJ2019_Source_GGJ2019_Enemy_Base_h_13_RPC_WRAPPERS \
-	GGJ2019_Source_GGJ2019_Enemy_Base_h_13_CALLBACK_WRAPPERS \
-	GGJ2019_Source_GGJ2019_Enemy_Base_h_13_INCLASS \
-	GGJ2019_Source_GGJ2019_Enemy_Base_h_13_STANDARD_CONSTRUCTORS \
+	GGJ2019_Source_GGJ2019_Enemy_Base_h_18_PRIVATE_PROPERTY_OFFSET \
+	GGJ2019_Source_GGJ2019_Enemy_Base_h_18_RPC_WRAPPERS \
+	GGJ2019_Source_GGJ2019_Enemy_Base_h_18_CALLBACK_WRAPPERS \
+	GGJ2019_Source_GGJ2019_Enemy_Base_h_18_INCLASS \
+	GGJ2019_Source_GGJ2019_Enemy_Base_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define GGJ2019_Source_GGJ2019_Enemy_Base_h_13_GENERATED_BODY \
+#define GGJ2019_Source_GGJ2019_Enemy_Base_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GGJ2019_Source_GGJ2019_Enemy_Base_h_13_PRIVATE_PROPERTY_OFFSET \
-	GGJ2019_Source_GGJ2019_Enemy_Base_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	GGJ2019_Source_GGJ2019_Enemy_Base_h_13_CALLBACK_WRAPPERS \
-	GGJ2019_Source_GGJ2019_Enemy_Base_h_13_INCLASS_NO_PURE_DECLS \
-	GGJ2019_Source_GGJ2019_Enemy_Base_h_13_ENHANCED_CONSTRUCTORS \
+	GGJ2019_Source_GGJ2019_Enemy_Base_h_18_PRIVATE_PROPERTY_OFFSET \
+	GGJ2019_Source_GGJ2019_Enemy_Base_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	GGJ2019_Source_GGJ2019_Enemy_Base_h_18_CALLBACK_WRAPPERS \
+	GGJ2019_Source_GGJ2019_Enemy_Base_h_18_INCLASS_NO_PURE_DECLS \
+	GGJ2019_Source_GGJ2019_Enemy_Base_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

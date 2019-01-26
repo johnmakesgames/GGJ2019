@@ -4,7 +4,11 @@
 	<ItemGroup>
 		<None Include="..\..\GGJ2019.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{402DC60D-B73C-404E-88AC-1DC1BFD5734A}</UniqueIdentifier>
+<<<<<<< HEAD
+			<UniqueIdentifier>{617A06AD-4D9A-43BE-BA11-284336DC2A89}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{0251C9C5-B76F-4C7E-9C85-674FFC0F1F3C}</UniqueIdentifier>
+>>>>>>> JohnBranch
 		</Filter>
 		<None Include="..\..\Source\GGJ2019.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +17,11 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{65A020F9-56A2-41A4-862E-2DCB522B493B}</UniqueIdentifier>
+<<<<<<< HEAD
+			<UniqueIdentifier>{6F588F69-0456-4AC5-B56A-35C1941303B9}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{6D6F4FD3-23A9-4625-8CFB-BA59281505E7}</UniqueIdentifier>
+>>>>>>> JohnBranch
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,8 +36,18 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\GGJ2019">
-			<UniqueIdentifier>{8CE10741-49F2-4948-8C50-8EC940F8FEE2}</UniqueIdentifier>
+<<<<<<< HEAD
+			<UniqueIdentifier>{5B05BCAC-C51C-47C2-AA46-66CC2B70C832}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{C733775F-1305-42B1-96B0-9BF041B9B2CA}</UniqueIdentifier>
+>>>>>>> JohnBranch
 		</Filter>
+		<ClCompile Include="..\..\Source\GGJ2019\EnemySpawner_Base.cpp">
+			<Filter>Source\GGJ2019</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\GGJ2019\EnemySpawner_Base.h">
+			<Filter>Source\GGJ2019</Filter>
+		</ClInclude >
 		<ClCompile Include="..\..\Source\GGJ2019\Enemy_Base.cpp">
 			<Filter>Source\GGJ2019</Filter>
 		</ClCompile >
@@ -51,6 +69,12 @@
 		<ClInclude Include="..\..\Source\GGJ2019\GGJ2019GameModeBase.h">
 			<Filter>Source\GGJ2019</Filter>
 		</ClInclude >
+		<ClCompile Include="..\..\Source\GGJ2019\MyNavigationNode_Exit.cpp">
+			<Filter>Source\GGJ2019</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\GGJ2019\MyNavigationNode_Exit.h">
+			<Filter>Source\GGJ2019</Filter>
+		</ClInclude >
 		<ClCompile Include="..\..\Source\GGJ2019\NavigationNode_Base.cpp">
 			<Filter>Source\GGJ2019</Filter>
 		</ClCompile >
@@ -64,7 +88,11 @@
 			<Filter>Source\GGJ2019</Filter>
 		</ClInclude >
 		<Filter Include="Source\GGJ2019\Private">
-			<UniqueIdentifier>{4843F877-51DB-4970-AC02-B7F82B73FE05}</UniqueIdentifier>
+<<<<<<< HEAD
+			<UniqueIdentifier>{8410F59B-DF24-4F59-90F6-0CBF0339EA7F}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{FB0E85C4-0B53-4782-9E45-84C3EB43FEBB}</UniqueIdentifier>
+>>>>>>> JohnBranch
 		</Filter>
 		<ClCompile Include="..\..\Source\GGJ2019\Private\Fridge_Base.cpp">
 			<Filter>Source\GGJ2019\Private</Filter>
@@ -75,11 +103,18 @@
 		<ClCompile Include="..\..\Source\GGJ2019\Private\Pickup_Base.cpp">
 			<Filter>Source\GGJ2019\Private</Filter>
 		</ClCompile >
+		<ClCompile Include="..\..\Source\GGJ2019\Private\Pickup_Food.cpp">
+			<Filter>Source\GGJ2019\Private</Filter>
+		</ClCompile >
 		<ClCompile Include="..\..\Source\GGJ2019\Private\Pickup_Weapon.cpp">
 			<Filter>Source\GGJ2019\Private</Filter>
 		</ClCompile >
 		<Filter Include="Source\GGJ2019\Public">
-			<UniqueIdentifier>{7DEDD7F8-A0CF-4ED0-B4D0-54DDE7116BCD}</UniqueIdentifier>
+<<<<<<< HEAD
+			<UniqueIdentifier>{381E361F-3910-403A-85B8-C358ECF0BB82}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{082B2AFE-59B0-4BE8-BAFA-72AB11926C33}</UniqueIdentifier>
+>>>>>>> JohnBranch
 		</Filter>
 		<ClInclude Include="..\..\Source\GGJ2019\Public\Fridge_Base.h">
 			<Filter>Source\GGJ2019\Public</Filter>
@@ -88,6 +123,9 @@
 			<Filter>Source\GGJ2019\Public</Filter>
 		</ClInclude >
 		<ClInclude Include="..\..\Source\GGJ2019\Public\Pickup_Base.h">
+			<Filter>Source\GGJ2019\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\GGJ2019\Public\Pickup_Food.h">
 			<Filter>Source\GGJ2019\Public</Filter>
 		</ClInclude >
 		<ClInclude Include="..\..\Source\GGJ2019\Public\Pickup_Weapon.h">

@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Pickup_Base.h"
 #include "Enemy_Base.h"
+#include "Global_Variables.h"
 #include "Pickup_Weapon.generated.h"
 
 /**
@@ -28,6 +29,12 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float damage;
+
+	
+	WeaponType weaponType;
+
+	UFUNCTION(BlueprintCallable)
+		WeaponType getWeaponType() { return weaponType; }
 
 	UFUNCTION(BlueprintCallable)
 		void OnWeaponBeginOverlap(TArray<AActor*> actor);
