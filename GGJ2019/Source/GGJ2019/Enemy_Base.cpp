@@ -83,6 +83,10 @@ void AEnemy_Base::TryToTakeFood()
 		GetFridge();
 		CheckFoodStatus();
 		FindExitNodes();
+		if (_hasFood)
+		{
+			StartHoldingFood(_carriedFood);
+		}
 		_checkedFridge = true;
 	}
 }

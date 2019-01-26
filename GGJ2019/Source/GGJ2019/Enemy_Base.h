@@ -56,6 +56,10 @@ protected:
 		void FindExitNodes();
 	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "Food Theft")
 		void GetFridge();
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "Food Theft")
+		void StartHoldingFood(FoodTypes food);
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "Food Theft")
+		void DropFoodFood(FoodTypes food);
 	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "Rotation")
 		void RotateFromTheta(float theta);
 	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "UI")
@@ -68,6 +72,8 @@ protected:
 		void TakeFood(AFridge_Base* fridge);
 	UFUNCTION(BlueprintCallable, Category = "Food Theft")
 		bool GetHasFood() { return _hasFood; };
+	UFUNCTION(BlueprintCallable, Category = "Animations")
+		bool GetAliveStatus() { return _alive; };
 	UFUNCTION(BlueprintCallable, Category = "UI")
 		void GiveUI(AUI_Manager* UI);
 

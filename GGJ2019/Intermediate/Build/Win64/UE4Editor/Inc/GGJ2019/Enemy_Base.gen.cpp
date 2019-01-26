@@ -17,8 +17,11 @@ void EmptyLinkFunctionForGeneratedCodeEnemy_Base() {}
 	GGJ2019_API UClass* Z_Construct_UClass_AEnemy_Base();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_GGJ2019();
+	GGJ2019_API UFunction* Z_Construct_UFunction_AEnemy_Base_DropFoodFood();
+	GGJ2019_API UEnum* Z_Construct_UEnum_GGJ2019_FoodTypes();
 	GGJ2019_API UFunction* Z_Construct_UFunction_AEnemy_Base_FindExitNodes();
 	GGJ2019_API UFunction* Z_Construct_UFunction_AEnemy_Base_FindNodes();
+	GGJ2019_API UFunction* Z_Construct_UFunction_AEnemy_Base_GetAliveStatus();
 	GGJ2019_API UFunction* Z_Construct_UFunction_AEnemy_Base_GetFridge();
 	GGJ2019_API UFunction* Z_Construct_UFunction_AEnemy_Base_GetHasFood();
 	GGJ2019_API UFunction* Z_Construct_UFunction_AEnemy_Base_GetUIManager();
@@ -29,10 +32,18 @@ void EmptyLinkFunctionForGeneratedCodeEnemy_Base() {}
 	GGJ2019_API UFunction* Z_Construct_UFunction_AEnemy_Base_RotateFromTheta();
 	GGJ2019_API UFunction* Z_Construct_UFunction_AEnemy_Base_SetExitPositions();
 	GGJ2019_API UClass* Z_Construct_UClass_AMyNavigationNode_Exit_NoRegister();
+	GGJ2019_API UFunction* Z_Construct_UFunction_AEnemy_Base_StartHoldingFood();
 	GGJ2019_API UFunction* Z_Construct_UFunction_AEnemy_Base_TakeFood();
 	GGJ2019_API UClass* Z_Construct_UClass_AFridge_Base_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
+	static FName NAME_AEnemy_Base_DropFoodFood = FName(TEXT("DropFoodFood"));
+	void AEnemy_Base::DropFoodFood(FoodTypes food)
+	{
+		Enemy_Base_eventDropFoodFood_Parms Parms;
+		Parms.food=food;
+		ProcessEvent(FindFunctionChecked(NAME_AEnemy_Base_DropFoodFood),&Parms);
+	}
 	static FName NAME_AEnemy_Base_FindExitNodes = FName(TEXT("FindExitNodes"));
 	void AEnemy_Base::FindExitNodes()
 	{
@@ -60,10 +71,18 @@ void EmptyLinkFunctionForGeneratedCodeEnemy_Base() {}
 		Parms.theta=theta;
 		ProcessEvent(FindFunctionChecked(NAME_AEnemy_Base_RotateFromTheta),&Parms);
 	}
+	static FName NAME_AEnemy_Base_StartHoldingFood = FName(TEXT("StartHoldingFood"));
+	void AEnemy_Base::StartHoldingFood(FoodTypes food)
+	{
+		Enemy_Base_eventStartHoldingFood_Parms Parms;
+		Parms.food=food;
+		ProcessEvent(FindFunctionChecked(NAME_AEnemy_Base_StartHoldingFood),&Parms);
+	}
 	void AEnemy_Base::StaticRegisterNativesAEnemy_Base()
 	{
 		UClass* Class = AEnemy_Base::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "GetAliveStatus", &AEnemy_Base::execGetAliveStatus },
 			{ "GetHasFood", &AEnemy_Base::execGetHasFood },
 			{ "GiveUI", &AEnemy_Base::execGiveUI },
 			{ "PathUsingNodes", &AEnemy_Base::execPathUsingNodes },
@@ -71,6 +90,35 @@ void EmptyLinkFunctionForGeneratedCodeEnemy_Base() {}
 			{ "TakeFood", &AEnemy_Base::execTakeFood },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AEnemy_Base_DropFoodFood_Statics
+	{
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_food;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_AEnemy_Base_DropFoodFood_Statics::NewProp_food = { UE4CodeGen_Private::EPropertyClass::Byte, "food", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(Enemy_Base_eventDropFoodFood_Parms, food), Z_Construct_UEnum_GGJ2019_FoodTypes, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AEnemy_Base_DropFoodFood_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AEnemy_Base_DropFoodFood_Statics::NewProp_food,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemy_Base_DropFoodFood_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Food Theft" },
+		{ "ModuleRelativePath", "Enemy_Base.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemy_Base_DropFoodFood_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemy_Base, "DropFoodFood", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x0C080800, sizeof(Enemy_Base_eventDropFoodFood_Parms), Z_Construct_UFunction_AEnemy_Base_DropFoodFood_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AEnemy_Base_DropFoodFood_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemy_Base_DropFoodFood_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AEnemy_Base_DropFoodFood_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AEnemy_Base_DropFoodFood()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemy_Base_DropFoodFood_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AEnemy_Base_FindExitNodes_Statics
 	{
@@ -115,6 +163,44 @@ void EmptyLinkFunctionForGeneratedCodeEnemy_Base() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemy_Base_FindNodes_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AEnemy_Base_GetAliveStatus_Statics
+	{
+		struct Enemy_Base_eventGetAliveStatus_Parms
+		{
+			bool ReturnValue;
+		};
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_AEnemy_Base_GetAliveStatus_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((Enemy_Base_eventGetAliveStatus_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AEnemy_Base_GetAliveStatus_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Bool, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(Enemy_Base_eventGetAliveStatus_Parms), &Z_Construct_UFunction_AEnemy_Base_GetAliveStatus_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AEnemy_Base_GetAliveStatus_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AEnemy_Base_GetAliveStatus_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemy_Base_GetAliveStatus_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Animations" },
+		{ "ModuleRelativePath", "Enemy_Base.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemy_Base_GetAliveStatus_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemy_Base, "GetAliveStatus", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04080401, sizeof(Enemy_Base_eventGetAliveStatus_Parms), Z_Construct_UFunction_AEnemy_Base_GetAliveStatus_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AEnemy_Base_GetAliveStatus_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemy_Base_GetAliveStatus_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AEnemy_Base_GetAliveStatus_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AEnemy_Base_GetAliveStatus()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemy_Base_GetAliveStatus_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -336,6 +422,35 @@ void EmptyLinkFunctionForGeneratedCodeEnemy_Base() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AEnemy_Base_StartHoldingFood_Statics
+	{
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_food;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_AEnemy_Base_StartHoldingFood_Statics::NewProp_food = { UE4CodeGen_Private::EPropertyClass::Byte, "food", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(Enemy_Base_eventStartHoldingFood_Parms, food), Z_Construct_UEnum_GGJ2019_FoodTypes, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AEnemy_Base_StartHoldingFood_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AEnemy_Base_StartHoldingFood_Statics::NewProp_food,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemy_Base_StartHoldingFood_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Food Theft" },
+		{ "ModuleRelativePath", "Enemy_Base.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemy_Base_StartHoldingFood_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemy_Base, "StartHoldingFood", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x0C080800, sizeof(Enemy_Base_eventStartHoldingFood_Parms), Z_Construct_UFunction_AEnemy_Base_StartHoldingFood_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AEnemy_Base_StartHoldingFood_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemy_Base_StartHoldingFood_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AEnemy_Base_StartHoldingFood_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AEnemy_Base_StartHoldingFood()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemy_Base_StartHoldingFood_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AEnemy_Base_TakeFood_Statics
 	{
 		struct Enemy_Base_eventTakeFood_Parms
@@ -397,8 +512,10 @@ void EmptyLinkFunctionForGeneratedCodeEnemy_Base() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_GGJ2019,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AEnemy_Base_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AEnemy_Base_DropFoodFood, "DropFoodFood" }, // 3550597763
 		{ &Z_Construct_UFunction_AEnemy_Base_FindExitNodes, "FindExitNodes" }, // 2258427761
 		{ &Z_Construct_UFunction_AEnemy_Base_FindNodes, "FindNodes" }, // 1129213385
+		{ &Z_Construct_UFunction_AEnemy_Base_GetAliveStatus, "GetAliveStatus" }, // 3584422082
 		{ &Z_Construct_UFunction_AEnemy_Base_GetFridge, "GetFridge" }, // 4138507860
 		{ &Z_Construct_UFunction_AEnemy_Base_GetHasFood, "GetHasFood" }, // 1965677961
 		{ &Z_Construct_UFunction_AEnemy_Base_GetUIManager, "GetUIManager" }, // 2774835192
@@ -406,6 +523,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemy_Base() {}
 		{ &Z_Construct_UFunction_AEnemy_Base_PathUsingNodes, "PathUsingNodes" }, // 3170798506
 		{ &Z_Construct_UFunction_AEnemy_Base_RotateFromTheta, "RotateFromTheta" }, // 4014688813
 		{ &Z_Construct_UFunction_AEnemy_Base_SetExitPositions, "SetExitPositions" }, // 1410972294
+		{ &Z_Construct_UFunction_AEnemy_Base_StartHoldingFood, "StartHoldingFood" }, // 1029738891
 		{ &Z_Construct_UFunction_AEnemy_Base_TakeFood, "TakeFood" }, // 2410648492
 	};
 #if WITH_METADATA
@@ -455,7 +573,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemy_Base() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemy_Base, 1248349077);
+	IMPLEMENT_CLASS(AEnemy_Base, 3434136597);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AEnemy_Base(Z_Construct_UClass_AEnemy_Base, &AEnemy_Base::StaticClass, TEXT("/Script/GGJ2019"), TEXT("AEnemy_Base"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AEnemy_Base);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
