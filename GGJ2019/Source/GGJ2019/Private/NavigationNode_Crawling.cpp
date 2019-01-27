@@ -5,5 +5,5 @@
 void ANavigationNode_Crawling::BeginPlay()
 {
 	Super::BeginPlay();
-	_nodeType = NodeTypes::Climbing;
+	_nodeType = NodeTypes::Crawling;
 }

@@ -15,7 +15,6 @@ void APickup_Weapon::OnWeaponBeginOverlap(TArray<AActor*> actorArray)
 	for (int i = 0; i < actorArray.Num(); i++)
 	{
 		AEnemy_Base* enemy = Cast<AEnemy_Base>(actorArray[i]);
-
 		enemy->Damage(damage);
 	}
 }

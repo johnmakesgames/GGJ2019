@@ -40,11 +40,16 @@ void AEnemy_Base::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	if (_alive)
 	{
+		if (this->GetActorLocation() == FVector(943.278809, 1844.338379, -14.194184))
+		{
+			UpdateMovementType();
+		}
 		GoToFridge();
 		TryToTakeFood();
 		Escape();
 		CheckFoodStatus();
 		UpdateRotation();
+		UpdateMovementType();
 	}
 	else
 	{
@@ -65,6 +70,7 @@ void AEnemy_Base::Kill()
 {
 	_alive = false;
 	UI->KillCount(1);
+	Destroy();
 	//change the _body to the splodge
 }
 
@@ -118,7 +124,8 @@ void AEnemy_Base::Escape()
 void AEnemy_Base::Damage(float damage)
 {
 	_health -= damage;
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, "I have taken damage!");
+	CheckDeadStatus();
+	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, "I have taken damage!");
 }
 
 void AEnemy_Base::PathUsingNodes(TArray<ANavigationNode_Base*> nodes)
@@ -162,6 +169,15 @@ void AEnemy_Base::PathUsingNodes(TArray<ANavigationNode_Base*> nodes)
 				}
 				targetNode = currentBest;
 			}
+
+			closestNode = nodesWithinDistance[0];
+			for (int i = 1; i < nodesWithinDistance.Num(); i++)
+			{
+				if (DistanceToMe(nodesWithinDistance[i]) < DistanceToMe(closestNode))
+				{
+					closestNode = nodesWithinDistance[i];
+				}
+			}
 		}
 	}
 }
@@ -184,9 +200,9 @@ void AEnemy_Base::UpdateRotation()
 	FVector movementDirection = targetNode->GetActorLocation() - this->GetActorLocation();
 	//FVector movementDirection = fridgePos - this->GetActorLocation();
 
-	float forwardMag = FMath::Sqrt(FMath::Pow(forward.X,2) + FMath::Pow(forward.Y, 2) + FMath::Pow(forward.Z, 2));
-	float directionMag = FMath::Sqrt(FMath::Pow(movementDirection.X, 2) + FMath::Pow(movementDirection.Y, 2) + FMath::Pow(movementDirection.Z, 2));
-	float dot = ((forward.X * movementDirection.X) + (forward.Y * movementDirection.Y) + (forward.Z * movementDirection.Z));
+	float forwardMag = FMath::Sqrt(FMath::Pow(forward.X, 2) + FMath::Pow(forward.Y, 2) + 0);
+	float directionMag = FMath::Sqrt(FMath::Pow(movementDirection.X, 2) + FMath::Pow(movementDirection.Y, 2) + 0);
+	float dot = ((forward.X * movementDirection.X) + (forward.Y * movementDirection.Y) + (0));
 	float theta = FMath::Acos(dot / (forwardMag * directionMag));
 	//theta *= (180 / 3.14);
 	//float thetaDeg = theta * (180 / 3.14);
@@ -194,12 +210,29 @@ void AEnemy_Base::UpdateRotation()
 
 	if (theta > 25.0f)
 	{
-		/*if (movementDirection.Y < forward.Y)
-			theta = -theta;*/
-		theta /= 100;
-		RotateFromTheta(5);
+		if (movementDirection.Y < forward.Y)
+		{
+			if (movementDirection.X > forward.X)
+			{
+				RotateFromTheta(5);
+			}
+			else if (movementDirection.X < forward.X)
+			{
+				RotateFromTheta(-5);
+			}
+		}
+		else
+		{
+			if (movementDirection.X > forward.X)
+			{
+				RotateFromTheta(-5);
+			}
+			else if (movementDirection.X < forward.X)
+			{
+				RotateFromTheta(5);
+			}
+		}
 	}
-	
 }
 
 float AEnemy_Base::DistanceToMe(AActor* actor)
@@ -230,8 +263,23 @@ void AEnemy_Base::CheckFoodStatus()
 
 void AEnemy_Base::UpdateMovementType()
 {
-	switch (targetNode->_nodeType)
+	switch (closestNode->_nodeType)
 	{
+	case ANavigationNode_Base::NodeTypes::Walking:
+		_walking = true;
+		_crawling = false;
+		_climbing = false;
+		break;
+	case ANavigationNode_Base::NodeTypes::Crawling:
+		_crawling = true;
+		_walking = false;
+		_climbing = false;
+		break;
+	case ANavigationNode_Base::NodeTypes::Climbing:
+		_climbing = true;
+		_walking = false;
+		_crawling = false;
+		break;
 	default:
 		break;
 	}

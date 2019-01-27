@@ -19,12 +19,19 @@ class ANavigationNode_Base;
 
 #define GGJ2019_Source_GGJ2019_Enemy_Base_h_19_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execGiveUI) \
+	DECLARE_FUNCTION(execGetClimbingStatus) \
 	{ \
-		P_GET_OBJECT(AUI_Manager,Z_Param_UI); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->GiveUI(Z_Param_UI); \
+		*(bool*)Z_Param__Result=P_THIS->GetClimbingStatus(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetCrawlingStatus) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetCrawlingStatus(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -41,6 +48,15 @@ class ANavigationNode_Base;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(bool*)Z_Param__Result=P_THIS->GetAliveStatus(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGiveUI) \
+	{ \
+		P_GET_OBJECT(AUI_Manager,Z_Param_UI); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->GiveUI(Z_Param_UI); \
 		P_NATIVE_END; \
 	} \
  \
@@ -82,12 +98,19 @@ class ANavigationNode_Base;
 
 #define GGJ2019_Source_GGJ2019_Enemy_Base_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execGiveUI) \
+	DECLARE_FUNCTION(execGetClimbingStatus) \
 	{ \
-		P_GET_OBJECT(AUI_Manager,Z_Param_UI); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->GiveUI(Z_Param_UI); \
+		*(bool*)Z_Param__Result=P_THIS->GetClimbingStatus(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetCrawlingStatus) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetCrawlingStatus(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -104,6 +127,15 @@ class ANavigationNode_Base;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(bool*)Z_Param__Result=P_THIS->GetAliveStatus(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGiveUI) \
+	{ \
+		P_GET_OBJECT(AUI_Manager,Z_Param_UI); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->GiveUI(Z_Param_UI); \
 		P_NATIVE_END; \
 	} \
  \
