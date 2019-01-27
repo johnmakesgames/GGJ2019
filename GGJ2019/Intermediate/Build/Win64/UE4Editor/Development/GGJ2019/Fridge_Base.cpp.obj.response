@@ -26,6 +26,7 @@
 /I .
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /I C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Source\GGJ2019\Private
 =======
 /I C:\Users\w018030h.STUDENT\Documents\newGGJ2019\GGJ2019\GGJ2019\Source\GGJ2019\Private
@@ -33,6 +34,9 @@
 =======
 /I C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Source\GGJ2019\Private
 >>>>>>> NewNewNewRhiannonBranch
+=======
+/I "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Source\GGJ2019\Private"
+>>>>>>> Cine_Camera_Branch
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -412,6 +416,7 @@
 /I ThirdParty\libSampleRate
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /I C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Inc\GGJ2019
 /I C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Source
 /I C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Source\GGJ2019\Public
@@ -428,12 +433,19 @@
 /I C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Source\GGJ2019\Public
 /I C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Source\GGJ2019
 >>>>>>> NewNewNewRhiannonBranch
+=======
+/I "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Inc\GGJ2019"
+/I "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Source"
+/I "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Source\GGJ2019\Public"
+/I "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Source\GGJ2019"
+>>>>>>> Cine_Camera_Branch
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 /FI"C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h"
@@ -458,6 +470,14 @@
 /FI"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\Definitions.GGJ2019.h"
 /Fo"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\Fridge_Base.cpp.obj"
 >>>>>>> NewNewNewRhiannonBranch
+=======
+/FI"C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Source\GGJ2019\Private\Fridge_Base.cpp"
+/FI"C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\Definitions.GGJ2019.h"
+/Fo"C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\Fridge_Base.cpp.obj"
+>>>>>>> Cine_Camera_Branch
 /TP
 /GR-
 /W4

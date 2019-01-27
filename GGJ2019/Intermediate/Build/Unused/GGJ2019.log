@@ -1,6 +1,7 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   Creating makefile for GGJ2019Editor (no existing makefile)
   Performing full C++ include scan (no include cache file)
   Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
@@ -99,3 +100,8 @@
   Deploying GGJ2019Editor Win64 Development...
   Total build time: 2.60 seconds (NoActionsToExecute executor: 0.00 seconds)
 >>>>>>> NewNewNewRhiannonBranch
+=======
+  Target is up to date
+  Deploying GGJ2019Editor Win64 Development...
+  Total build time: 2.93 seconds (NoActionsToExecute executor: 0.00 seconds)
+>>>>>>> Cine_Camera_Branch

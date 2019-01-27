@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Source\GGJ2019\GGJ2019.Build.cs
 C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Source\GGJ2019.Target.cs
 C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Source\GGJ2019Editor.Target.cs
@@ -13,3 +14,8 @@ C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Source\GGJ2019\GGJ20
 C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Source\GGJ2019.Target.cs
 C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Source\GGJ2019Editor.Target.cs
 >>>>>>> NewNewNewRhiannonBranch
+=======
+C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Source\GGJ2019\GGJ2019.Build.cs
+C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Source\GGJ2019.Target.cs
+C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Source\GGJ2019Editor.Target.cs
+>>>>>>> Cine_Camera_Branch
