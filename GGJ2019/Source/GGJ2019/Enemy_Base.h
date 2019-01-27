@@ -86,7 +86,7 @@ protected:
 	UFUNCTION(BlueprintCallable, Category = "Animations")
 		bool GetCrawlingStatus() { return _crawling; };
 	UFUNCTION(BlueprintCallable, Category = "Animations")
-		bool GetAliveStatus() { return _climbing; };
+		bool GetClimbingStatus() { return _climbing; };
 
 
 public:	

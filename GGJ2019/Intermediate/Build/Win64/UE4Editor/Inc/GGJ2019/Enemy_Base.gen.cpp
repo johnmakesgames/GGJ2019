@@ -22,6 +22,8 @@ void EmptyLinkFunctionForGeneratedCodeEnemy_Base() {}
 	GGJ2019_API UFunction* Z_Construct_UFunction_AEnemy_Base_FindExitNodes();
 	GGJ2019_API UFunction* Z_Construct_UFunction_AEnemy_Base_FindNodes();
 	GGJ2019_API UFunction* Z_Construct_UFunction_AEnemy_Base_GetAliveStatus();
+	GGJ2019_API UFunction* Z_Construct_UFunction_AEnemy_Base_GetClimbingStatus();
+	GGJ2019_API UFunction* Z_Construct_UFunction_AEnemy_Base_GetCrawlingStatus();
 	GGJ2019_API UFunction* Z_Construct_UFunction_AEnemy_Base_GetDeathFrame();
 	GGJ2019_API UFunction* Z_Construct_UFunction_AEnemy_Base_GetFridge();
 	GGJ2019_API UFunction* Z_Construct_UFunction_AEnemy_Base_GetHasFood();
@@ -84,6 +86,8 @@ void EmptyLinkFunctionForGeneratedCodeEnemy_Base() {}
 		UClass* Class = AEnemy_Base::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "GetAliveStatus", &AEnemy_Base::execGetAliveStatus },
+			{ "GetClimbingStatus", &AEnemy_Base::execGetClimbingStatus },
+			{ "GetCrawlingStatus", &AEnemy_Base::execGetCrawlingStatus },
 			{ "GetDeathFrame", &AEnemy_Base::execGetDeathFrame },
 			{ "GetHasFood", &AEnemy_Base::execGetHasFood },
 			{ "GiveUI", &AEnemy_Base::execGiveUI },
@@ -203,6 +207,82 @@ void EmptyLinkFunctionForGeneratedCodeEnemy_Base() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemy_Base_GetAliveStatus_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AEnemy_Base_GetClimbingStatus_Statics
+	{
+		struct Enemy_Base_eventGetClimbingStatus_Parms
+		{
+			bool ReturnValue;
+		};
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_AEnemy_Base_GetClimbingStatus_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((Enemy_Base_eventGetClimbingStatus_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AEnemy_Base_GetClimbingStatus_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Bool, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(Enemy_Base_eventGetClimbingStatus_Parms), &Z_Construct_UFunction_AEnemy_Base_GetClimbingStatus_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AEnemy_Base_GetClimbingStatus_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AEnemy_Base_GetClimbingStatus_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemy_Base_GetClimbingStatus_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Animations" },
+		{ "ModuleRelativePath", "Enemy_Base.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemy_Base_GetClimbingStatus_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemy_Base, "GetClimbingStatus", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04080401, sizeof(Enemy_Base_eventGetClimbingStatus_Parms), Z_Construct_UFunction_AEnemy_Base_GetClimbingStatus_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AEnemy_Base_GetClimbingStatus_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemy_Base_GetClimbingStatus_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AEnemy_Base_GetClimbingStatus_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AEnemy_Base_GetClimbingStatus()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemy_Base_GetClimbingStatus_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AEnemy_Base_GetCrawlingStatus_Statics
+	{
+		struct Enemy_Base_eventGetCrawlingStatus_Parms
+		{
+			bool ReturnValue;
+		};
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_AEnemy_Base_GetCrawlingStatus_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((Enemy_Base_eventGetCrawlingStatus_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AEnemy_Base_GetCrawlingStatus_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Bool, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(Enemy_Base_eventGetCrawlingStatus_Parms), &Z_Construct_UFunction_AEnemy_Base_GetCrawlingStatus_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AEnemy_Base_GetCrawlingStatus_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AEnemy_Base_GetCrawlingStatus_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemy_Base_GetCrawlingStatus_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Animations" },
+		{ "ModuleRelativePath", "Enemy_Base.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemy_Base_GetCrawlingStatus_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemy_Base, "GetCrawlingStatus", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04080401, sizeof(Enemy_Base_eventGetCrawlingStatus_Parms), Z_Construct_UFunction_AEnemy_Base_GetCrawlingStatus_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AEnemy_Base_GetCrawlingStatus_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemy_Base_GetCrawlingStatus_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AEnemy_Base_GetCrawlingStatus_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AEnemy_Base_GetCrawlingStatus()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemy_Base_GetCrawlingStatus_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -551,6 +631,8 @@ void EmptyLinkFunctionForGeneratedCodeEnemy_Base() {}
 		{ &Z_Construct_UFunction_AEnemy_Base_FindExitNodes, "FindExitNodes" }, // 2258427761
 		{ &Z_Construct_UFunction_AEnemy_Base_FindNodes, "FindNodes" }, // 1129213385
 		{ &Z_Construct_UFunction_AEnemy_Base_GetAliveStatus, "GetAliveStatus" }, // 3584422082
+		{ &Z_Construct_UFunction_AEnemy_Base_GetClimbingStatus, "GetClimbingStatus" }, // 2075044811
+		{ &Z_Construct_UFunction_AEnemy_Base_GetCrawlingStatus, "GetCrawlingStatus" }, // 600995004
 		{ &Z_Construct_UFunction_AEnemy_Base_GetDeathFrame, "GetDeathFrame" }, // 2368663838
 		{ &Z_Construct_UFunction_AEnemy_Base_GetFridge, "GetFridge" }, // 4138507860
 		{ &Z_Construct_UFunction_AEnemy_Base_GetHasFood, "GetHasFood" }, // 1965677961
@@ -609,7 +691,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemy_Base() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemy_Base, 881396928);
+	IMPLEMENT_CLASS(AEnemy_Base, 728779018);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AEnemy_Base(Z_Construct_UClass_AEnemy_Base, &AEnemy_Base::StaticClass, TEXT("/Script/GGJ2019"), TEXT("AEnemy_Base"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AEnemy_Base);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
