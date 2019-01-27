@@ -4,11 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\GGJ2019.uproject" />
 		<Filter Include="Source">
-<<<<<<< HEAD
-			<UniqueIdentifier>{B4BB455F-8722-46E1-94CD-CFB41F448D5A}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{2A315BA4-04DC-4B93-BADD-44CB00610303}</UniqueIdentifier>
->>>>>>> MattbranchNew
+			<UniqueIdentifier>{517B8F39-9800-4BF3-976F-7F74697FA221}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\GGJ2019.Target.cs">
 			<Filter>Source</Filter>
@@ -17,11 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-<<<<<<< HEAD
-			<UniqueIdentifier>{21B2202C-A509-4098-9B8A-3A676BA9178F}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{F46E0B59-4FD0-4DE5-BCA0-2B524E740B6A}</UniqueIdentifier>
->>>>>>> MattbranchNew
+			<UniqueIdentifier>{9FE85FE0-A598-4D9E-8296-D733A465EEFA}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -36,11 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\GGJ2019">
-<<<<<<< HEAD
-			<UniqueIdentifier>{73116390-7404-4002-BA30-267763F19356}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{083A9BB9-CE35-485E-93DB-C627A1C08BFC}</UniqueIdentifier>
->>>>>>> MattbranchNew
+			<UniqueIdentifier>{9DB07805-77C3-4E02-B1E9-CC46DE6D27B8}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\GGJ2019\EnemySpawner_Base.cpp">
 			<Filter>Source\GGJ2019</Filter>
@@ -88,11 +76,7 @@
 			<Filter>Source\GGJ2019</Filter>
 		</ClInclude >
 		<Filter Include="Source\GGJ2019\Private">
-<<<<<<< HEAD
-			<UniqueIdentifier>{FCA1AEBD-FBB0-4196-B149-6CFCDDC740BA}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{7EB03CBD-95AE-415C-B838-576BF609E78F}</UniqueIdentifier>
->>>>>>> MattbranchNew
+			<UniqueIdentifier>{B2A50A8E-F409-49F7-90E3-1C9F87ED84F2}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\GGJ2019\Private\Fridge_Base.cpp">
 			<Filter>Source\GGJ2019\Private</Filter>
@@ -119,11 +103,7 @@
 			<Filter>Source\GGJ2019\Private</Filter>
 		</ClCompile >
 		<Filter Include="Source\GGJ2019\Public">
-<<<<<<< HEAD
-			<UniqueIdentifier>{E1721587-E7E4-4331-87C7-900EECC1BC7B}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{E810A0B4-6660-41D3-B4C7-F44254998A68}</UniqueIdentifier>
->>>>>>> MattbranchNew
+			<UniqueIdentifier>{8E39DDD6-C5ED-4BD4-8191-C2D861AA1CD9}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Source\GGJ2019\Public\Fridge_Base.h">
 			<Filter>Source\GGJ2019\Public</Filter>
