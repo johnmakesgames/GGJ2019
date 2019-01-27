@@ -6,6 +6,7 @@
 #include "MyNavigationNode_Exit.h"
 #include "Fridge_Base.h"
 #include "UI_Manager.h"
+#include "Engine/GameEngine.h"
 
 // Sets default values
 AEnemy_Base::AEnemy_Base()
@@ -22,6 +23,8 @@ AEnemy_Base::AEnemy_Base()
 	_carriedFood = FoodTypes::None;
 	_rotationAmountZ = 0;
 	_deathCurrentFrame = 0.0f;
+	_crawling = false;
+	_climbing = false;
 }
 
 // Called when the game starts or when spawned
@@ -115,6 +118,7 @@ void AEnemy_Base::Escape()
 void AEnemy_Base::Damage(float damage)
 {
 	_health -= damage;
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, "I have taken damage!");
 }
 
 void AEnemy_Base::PathUsingNodes(TArray<ANavigationNode_Base*> nodes)
@@ -221,5 +225,14 @@ void AEnemy_Base::CheckFoodStatus()
 	else
 	{
 		_hasFood = false;
+	}
+}
+
+void AEnemy_Base::UpdateMovementType()
+{
+	switch (targetNode->_nodeType)
+	{
+	default:
+		break;
 	}
 }

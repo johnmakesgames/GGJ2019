@@ -16,6 +16,7 @@ void ANavigationNode_Base::BeginPlay()
 {
 	Super::BeginPlay();
 	FVector distance;
+	_nodeType = NodeTypes::Walking;
 	distance.X = FMath::Abs(this->GetActorLocation().X - fridgePos.X);
 	distance.Y = FMath::Abs(this->GetActorLocation().Y - fridgePos.Y);
 	distance.Z = FMath::Abs(this->GetActorLocation().Z - fridgePos.Z);
