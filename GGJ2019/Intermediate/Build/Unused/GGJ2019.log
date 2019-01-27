@@ -1,7 +1,4 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for GGJ2019Editor (no existing makefile)
-  Performing full C++ include scan (no include cache file)
-  Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for GGJ2019Editor
 <<<<<<< HEAD
     Running UnrealHeaderTool "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\GGJ2019.uproject" "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\GGJ2019Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
@@ -14,6 +11,7 @@
     [5/29] MyNavigationNode_Exit.gen.cpp
 =======
     Running UnrealHeaderTool "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\GGJ2019.uproject" "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\GGJ2019Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+<<<<<<< HEAD
   Reflection code generated for GGJ2019Editor in 11.2132781 seconds
   Building 29 actions with 8 processes...
     [1/29] SharedPCH.Engine.cpp
@@ -59,9 +57,39 @@
   Deploying GGJ2019Editor Win64 Development...
   Total build time: 65.17 seconds (Parallel executor: 42.20 seconds)
 =======
+=======
+  Reflection code generated for GGJ2019Editor in 11.3202524 seconds
+  Deleting old hot reload file: "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-1236.dll".
+  Deleting old hot reload file: "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-1236.pdb".
+  Deleting old hot reload file: "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-5460.dll".
+  Deleting old hot reload file: "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-5460.pdb".
+  Deleting old hot reload file: "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-6314.dll".
+  Deleting old hot reload file: "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-6314.pdb".
+  Deleting old hot reload file: "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-6458.dll".
+  Deleting old hot reload file: "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-6458.pdb".
+  Deleting old hot reload file: "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-6771.dll".
+  Deleting old hot reload file: "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-6771.pdb".
+  Deleting old hot reload file: "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-7248.dll".
+  Deleting old hot reload file: "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-7248.pdb".
+  Deleting old hot reload file: "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-7735.dll".
+  Deleting old hot reload file: "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-7735.pdb".
+  Deleting old hot reload file: "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-836.dll".
+  Deleting old hot reload file: "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-836.pdb".
+  Deleting old hot reload file: "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-8707.dll".
+  Deleting old hot reload file: "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-8707.pdb".
+  Building 5 actions with 8 processes...
+    [1/5] UI_Manager.cpp
+    [2/5] Player_Base.gen.cpp
+    [3/5] Player_Base.cpp
+    [4/5] UE4Editor-GGJ2019.lib
+>>>>>>> NewAngBranch
        Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.exp
-    [29/29] UE4Editor-GGJ2019.dll
+    [5/5] UE4Editor-GGJ2019.dll
        Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.exp
   Deploying GGJ2019Editor Win64 Development...
+<<<<<<< HEAD
   Total build time: 59.75 seconds (Parallel executor: 38.99 seconds)
 >>>>>>> master
+=======
+  Total build time: 25.54 seconds (Parallel executor: 11.34 seconds)
+>>>>>>> NewAngBranch
