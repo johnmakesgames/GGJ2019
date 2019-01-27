@@ -30,6 +30,9 @@ private:
 	FoodTypes _carriedFood;
 	AUI_Manager* UI;
 	float _deathCurrentFrame;
+	bool _crawling;
+	bool _climbing;
+	bool _walking;
 
 protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Model")
@@ -46,6 +49,7 @@ private:
 	void Escape();
 	void UpdateRotation();
 	void CheckFoodStatus();
+	void UpdateMovementType();
 	float DistanceToMe(AActor* actor);
 
 protected:
@@ -73,12 +77,16 @@ protected:
 		void TakeFood(AFridge_Base* fridge);
 	UFUNCTION(BlueprintCallable, Category = "Food Theft")
 		bool GetHasFood() { return _hasFood; };
+	UFUNCTION(BlueprintCallable, Category = "UI")
+		void GiveUI(AUI_Manager* UI);
 	UFUNCTION(BlueprintCallable, Category = "Animations")
 		bool GetAliveStatus() { return _alive; };
 	UFUNCTION(BlueprintCallable, Category = "Animations")
 		float GetDeathFrame() { return _deathCurrentFrame; };
-	UFUNCTION(BlueprintCallable, Category = "UI")
-		void GiveUI(AUI_Manager* UI);
+	UFUNCTION(BlueprintCallable, Category = "Animations")
+		bool GetCrawlingStatus() { return _crawling; };
+	UFUNCTION(BlueprintCallable, Category = "Animations")
+		bool GetAliveStatus() { return _climbing; };
 
 
 public:	
