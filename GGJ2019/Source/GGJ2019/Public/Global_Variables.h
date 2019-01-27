@@ -30,6 +30,7 @@ UENUM()
 enum WeaponType
 {
 	NoneW,
-	Spoon,
-	Spatula,
+	MeatCleaver,
+	FryingPan,
+	RollingPin,
 };

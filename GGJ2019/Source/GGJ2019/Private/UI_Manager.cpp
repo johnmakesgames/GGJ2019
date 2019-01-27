@@ -47,5 +47,5 @@ void AUI_Manager::SetFridgerRef(AFridge_Base* pfridge)
 
 void AUI_Manager::SetPlayerRef(APlayer_Base* pPlayer)
 {
-	//this->player = pPlayer;
+	this->player = pPlayer;
 }
