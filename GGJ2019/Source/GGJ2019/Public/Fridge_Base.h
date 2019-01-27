@@ -26,6 +26,9 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool opened;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UStaticMeshComponent* fridgeMesh;
