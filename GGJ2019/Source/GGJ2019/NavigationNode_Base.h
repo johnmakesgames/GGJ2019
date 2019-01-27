@@ -11,12 +11,15 @@ class GGJ2019_API ANavigationNode_Base : public AActor
 {
 	GENERATED_BODY()
 
-private:
+public:
+	enum NodeTypes { Walking, Crawling, Climbing, Exit };
+	NodeTypes _nodeType;
+
+protected:
 	FVector fridgePos;
 
 public:	
 	// Sets default values for this actor's properties
-	ANavigationNode_Base();
 
 protected:
 	// Called when the game starts or when spawned
@@ -25,6 +28,7 @@ protected:
 
 
 public:	
+	ANavigationNode_Base();
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	float GetDistanceToFridge() { return distanceToFridge; };

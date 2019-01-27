@@ -11,5 +11,5 @@ UCLASS()
 class GGJ2019_API AMyNavigationNode_Exit : public ANavigationNode_Base
 {
 	GENERATED_BODY()
-
+	virtual void BeginPlay() override;
 };
