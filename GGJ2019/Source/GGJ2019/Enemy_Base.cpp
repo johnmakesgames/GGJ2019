@@ -14,7 +14,7 @@ AEnemy_Base::AEnemy_Base()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	_alive = true;
-	_health = 1;
+	_health = 10;
 	_hasFood = false;
 	_movementSpeed = 1.5f;
 	_carriedObject = nullptr;
@@ -215,25 +215,11 @@ void AEnemy_Base::UpdateRotation()
 	{
 		if (movementDirection.Y < forward.Y)
 		{
-			if (movementDirection.X > forward.X)
-			{
-				RotateFromTheta(5);
-			}
-			else if (movementDirection.X < forward.X)
-			{
-				RotateFromTheta(-5);
-			}
+			RotateFromTheta(5);
 		}
 		else
 		{
-			if (movementDirection.X > forward.X)
-			{
-				RotateFromTheta(-5);
-			}
-			else if (movementDirection.X < forward.X)
-			{
-				RotateFromTheta(5);
-			}
+			RotateFromTheta(-5);
 		}
 	}
 }

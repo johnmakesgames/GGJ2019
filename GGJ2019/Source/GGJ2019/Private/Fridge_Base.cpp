@@ -18,16 +18,24 @@ void AFridge_Base::BeginPlay()
 	Super::BeginPlay();
 	foodInFridge.Add(FoodTypes::Pizza);
 	foodInFridge.Add(FoodTypes::Pizza);
+	foodInFridge.Add(FoodTypes::Ham);
+	foodInFridge.Add(FoodTypes::Chicken);
+	foodInFridge.Add(FoodTypes::Ham);
+	foodInFridge.Add(FoodTypes::Cheese);
+	foodInFridge.Add(FoodTypes::Tomatos);
+	foodInFridge.Add(FoodTypes::Sandwich);
+	foodInFridge.Add(FoodTypes::Sandwich);
 	foodInFridge.Add(FoodTypes::Pizza);
-	foodInFridge.Add(FoodTypes::Pizza);
-	foodInFridge.Add(FoodTypes::Pizza);
+	foodInFridge.Add(FoodTypes::Ham);
+	foodInFridge.Add(FoodTypes::Ham);
+	foodInFridge.Add(FoodTypes::Tomatos);
 }
 
 // Called every frame
 void AFridge_Base::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	opened = false;
 }
 
 FoodTypes AFridge_Base::RemoveFood()
@@ -37,6 +45,7 @@ FoodTypes AFridge_Base::RemoveFood()
 	{
 		foodToTake = foodInFridge[foodInFridge.Num()-1];
 		foodInFridge.Pop();
+		opened = true;
 	}
 
 	if (foodInFridge.Num() == 0)
@@ -50,6 +59,7 @@ FoodTypes AFridge_Base::RemoveFood()
 void AFridge_Base::ReplaceFood(FoodTypes food)
 {
 	foodInFridge.Add(food);
+	opened = true;
 }
 
 void AFridge_Base::FridgeEmptied()
