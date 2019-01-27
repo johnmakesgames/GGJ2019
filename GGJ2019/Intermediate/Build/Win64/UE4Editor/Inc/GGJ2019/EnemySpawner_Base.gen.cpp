@@ -61,6 +61,11 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawner_Base() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__secondsTillActive_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp__secondsTillActive;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -77,6 +82,16 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawner_Base() {}
 		{ "ModuleRelativePath", "EnemySpawner_Base.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemySpawner_Base_Statics::NewProp__secondsTillActive_MetaData[] = {
+		{ "Category", "Spawning" },
+		{ "ModuleRelativePath", "EnemySpawner_Base.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AEnemySpawner_Base_Statics::NewProp__secondsTillActive = { UE4CodeGen_Private::EPropertyClass::Float, "_secondsTillActive", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AEnemySpawner_Base, _secondsTillActive), METADATA_PARAMS(Z_Construct_UClass_AEnemySpawner_Base_Statics::NewProp__secondsTillActive_MetaData, ARRAY_COUNT(Z_Construct_UClass_AEnemySpawner_Base_Statics::NewProp__secondsTillActive_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AEnemySpawner_Base_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemySpawner_Base_Statics::NewProp__secondsTillActive,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AEnemySpawner_Base_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AEnemySpawner_Base>::IsAbstract,
 	};
@@ -85,7 +100,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawner_Base() {}
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x009000A0u,
 		FuncInfo, ARRAY_COUNT(FuncInfo),
-		nullptr, 0,
+		Z_Construct_UClass_AEnemySpawner_Base_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_AEnemySpawner_Base_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
 		nullptr, 0,
@@ -100,7 +115,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawner_Base() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemySpawner_Base, 2318565527);
+	IMPLEMENT_CLASS(AEnemySpawner_Base, 1032145440);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AEnemySpawner_Base(Z_Construct_UClass_AEnemySpawner_Base, &AEnemySpawner_Base::StaticClass, TEXT("/Script/GGJ2019"), TEXT("AEnemySpawner_Base"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AEnemySpawner_Base);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

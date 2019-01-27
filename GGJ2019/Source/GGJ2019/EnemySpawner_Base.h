@@ -21,6 +21,8 @@ public:
 	enemies _enemyToSpawn;
 	bool _active;
 	float _totalSpawnedEnemies;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Spawning")
+		float _secondsTillActive;
 	// Sets default values for this actor's properties
 	AEnemySpawner_Base();
 

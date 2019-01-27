@@ -59,10 +59,13 @@ void AEnemy_Base::Tick(float DeltaTime)
 
 void AEnemy_Base::CheckDeadStatus()
 {
-	if (_health <= 0)
+	if (_alive)
 	{
-		_health = 0;
-		Kill();
+		if (_health <= 0)
+		{
+			_health = 0;
+			Kill();
+		}
 	}
 }
 
