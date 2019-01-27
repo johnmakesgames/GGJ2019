@@ -25,6 +25,7 @@ private:
 	float _health;
 	float _movementSpeed;
 	ANavigationNode_Base* targetNode;
+	ANavigationNode_Base* closestNode;
 	FVector fridgePos;
 	FVector _exitPos;
 	FoodTypes _carriedFood;
