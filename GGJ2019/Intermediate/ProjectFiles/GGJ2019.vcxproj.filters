@@ -4,7 +4,11 @@
 	<ItemGroup>
 		<None Include="..\..\GGJ2019.uproject" />
 		<Filter Include="Source">
+<<<<<<< HEAD
 			<UniqueIdentifier>{1B04F7B1-4588-4918-873F-AA0F4B4BEA9C}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{111613F9-9940-41FB-A948-8C48EE32E710}</UniqueIdentifier>
+>>>>>>> AngBranch
 		</Filter>
 		<None Include="..\..\Source\GGJ2019.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +17,11 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
+<<<<<<< HEAD
 			<UniqueIdentifier>{F72630C1-F874-4323-98C3-E8EF0AA54A13}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{63D94FE8-B1C8-4871-9859-0DE2081BED80}</UniqueIdentifier>
+>>>>>>> AngBranch
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,7 +36,11 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\GGJ2019">
+<<<<<<< HEAD
 			<UniqueIdentifier>{6621AE51-139A-4BCB-826F-12AB9A55CD98}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{29186733-D708-49A2-88D5-2A7572E3F049}</UniqueIdentifier>
+>>>>>>> AngBranch
 		</Filter>
 		<ClCompile Include="..\..\Source\GGJ2019\EnemySpawner_Base.cpp">
 			<Filter>Source\GGJ2019</Filter>
@@ -76,7 +88,11 @@
 			<Filter>Source\GGJ2019</Filter>
 		</ClInclude >
 		<Filter Include="Source\GGJ2019\Private">
+<<<<<<< HEAD
 			<UniqueIdentifier>{7BFC4D83-F6B0-4339-8030-D849EAB0C92E}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{E607EEE6-E0CA-4EE0-B31F-A546A6A71691}</UniqueIdentifier>
+>>>>>>> AngBranch
 		</Filter>
 		<ClCompile Include="..\..\Source\GGJ2019\Private\Fridge_Base.cpp">
 			<Filter>Source\GGJ2019\Private</Filter>
@@ -97,7 +113,11 @@
 			<Filter>Source\GGJ2019\Private</Filter>
 		</ClCompile >
 		<Filter Include="Source\GGJ2019\Public">
+<<<<<<< HEAD
 			<UniqueIdentifier>{33F5BA71-9CFD-4B79-AD94-B07E7B33D79C}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{75E2D7B3-E288-4635-98E4-75FF1051E734}</UniqueIdentifier>
+>>>>>>> AngBranch
 		</Filter>
 		<ClInclude Include="..\..\Source\GGJ2019\Public\Fridge_Base.h">
 			<Filter>Source\GGJ2019\Public</Filter>

@@ -4,6 +4,7 @@
 	{
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"GGJ2019": "UE4Editor-GGJ2019-5127.dll"
 =======
 		"GGJ2019": "UE4Editor-GGJ2019-4077.dll"
@@ -11,5 +12,8 @@
 =======
 		"GGJ2019": "UE4Editor-GGJ2019.dll"
 >>>>>>> JohnBranch
+=======
+		"GGJ2019": "UE4Editor-GGJ2019.dll"
+>>>>>>> AngBranch
 	}
 }
