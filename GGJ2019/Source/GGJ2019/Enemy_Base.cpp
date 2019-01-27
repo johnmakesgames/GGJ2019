@@ -88,10 +88,6 @@ void AEnemy_Base::TryToTakeFood()
 		GetFridge();
 		CheckFoodStatus();
 		FindExitNodes();
-		if (_hasFood)
-		{
-			StartHoldingFood(_carriedFood);
-		}
 		_checkedFridge = true;
 	}
 }
@@ -172,6 +168,7 @@ void AEnemy_Base::SetExitPositions(TArray<AMyNavigationNode_Exit*> nodes)
 void AEnemy_Base::TakeFood(AFridge_Base* fridge)
 {
 	_carriedFood = fridge->RemoveFood();
+	StartHoldingFood(_carriedFood);
 }
 
 void AEnemy_Base::UpdateRotation()
