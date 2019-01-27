@@ -263,13 +263,6 @@ void AEnemy_Base::CheckFoodStatus()
 
 void AEnemy_Base::UpdateMovementType()
 {
-<<<<<<< HEAD
-	//switch (targetNode->_nodeType)
-	//{
-	//default:
-	//	break;
-	//}
-=======
 	switch (closestNode->_nodeType)
 	{
 	case ANavigationNode_Base::NodeTypes::Walking:
@@ -290,5 +283,4 @@ void AEnemy_Base::UpdateMovementType()
 	default:
 		break;
 	}
->>>>>>> NewJohnBranch
 }
