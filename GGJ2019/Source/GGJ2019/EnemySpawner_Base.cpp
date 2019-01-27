@@ -11,7 +11,7 @@ AEnemySpawner_Base::AEnemySpawner_Base()
 	_maxCooldown = 30;
 	_minCooldown = 2;
 	_cooldown = 0;
-	_active = true;
+	_active = false;
 	_totalSpawnedEnemies = 0;
 }
 
@@ -25,6 +25,10 @@ void AEnemySpawner_Base::BeginPlay()
 void AEnemySpawner_Base::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	if(_secondsTillActive > 0)
+		_secondsTillActive -= DeltaTime;
+	else if (_secondsTillActive <= 0)
+		_active = true;
 
 	if (_active)
 	{
@@ -45,27 +49,28 @@ void AEnemySpawner_Base::Tick(float DeltaTime)
 			_cooldown = _maxCooldown;
 			_totalSpawnedEnemies++;
 		}
-	}
-	
-	if (FMath::FRandRange(1, 3) < 2)
-	{
-		_maxCooldown += _totalSpawnedEnemies / FMath::FRandRange(4000, 10000);
-	}
-	else
-	{
-		_maxCooldown -= _totalSpawnedEnemies / FMath::FRandRange(800, 7000);
-	}
-	FString TheFloatStr = FString::SanitizeFloat(_maxCooldown);
-	//GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, *TheFloatStr);
 
-	if (FMath::FRandRange(0, 1000) < 1)
-	{
-		SpawnDimples();
-	}
 
-	if (_maxCooldown < _minCooldown)
-	{
-		_maxCooldown = _minCooldown;
+		if (FMath::FRandRange(1, 3) < 2)
+		{
+			_maxCooldown += _totalSpawnedEnemies / FMath::FRandRange(4000, 10000);
+		}
+		else
+		{
+			_maxCooldown -= _totalSpawnedEnemies / FMath::FRandRange(800, 7000);
+		}
+		FString TheFloatStr = FString::SanitizeFloat(_maxCooldown);
+		//GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, *TheFloatStr);
+
+		if (FMath::FRandRange(0, 1000) < 1)
+		{
+			SpawnDimples();
+		}
+
+		if (_maxCooldown < _minCooldown)
+		{
+			_maxCooldown = _minCooldown;
+		}
 	}
 }
 
