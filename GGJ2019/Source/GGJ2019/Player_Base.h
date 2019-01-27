@@ -37,7 +37,8 @@ public:
 	//Movement
 	virtual void MoveRight(float value);
 	virtual void MoveForward(float value);
-
+	virtual void JumpUp();
+	virtual void AttackEnemy();
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	FVector movementVelocity;

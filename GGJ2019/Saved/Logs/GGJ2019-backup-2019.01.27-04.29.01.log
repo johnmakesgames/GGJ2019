@@ -1,0 +1,1091 @@
+﻿Log file open, 01/27/19 04:13:29
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: GGJ2019
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.474425
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.280s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) CPU E5-1620 v3 @ 3.50GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.011s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.27-04.13.30:199][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.27-04.13.30:200][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.27-04.13.30:216][  0]LogHAL: Display: Platform has ~ 16 GB [17092038656 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.27-04.13.30:216][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.27-04.13.30:216][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.27-04.13.30:217][  0]LogInit: Computer: C115-12
+[2019.01.27-04.13.30:217][  0]LogInit: User: h017026h
+[2019.01.27-04.13.30:217][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.27-04.13.30:217][  0]LogInit: High frequency timer resolution =3.410072 MHz
+[2019.01.27-04.13.30:217][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.27-04.13.30:217][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.27-04.13.30:217][  0]LogMemory: Process Physical Memory: 103.05 MB used, 103.05 MB peak
+[2019.01.27-04.13.30:217][  0]LogMemory: Process Virtual Memory: 93.43 MB used, 93.43 MB peak
+[2019.01.27-04.13.30:217][  0]LogMemory: Physical Memory: 6070.80 MB used,  10229.43 MB free, 16300.24 MB total
+[2019.01.27-04.13.30:217][  0]LogMemory: Virtual Memory: 4642.79 MB used,  10229.43 MB free, 134217728.00 MB total
+[2019.01.27-04.13.30:359][  0]LogInit: Using OS detected language (en-US).
+[2019.01.27-04.13.30:359][  0]LogInit: Using OS detected locale (en-GB).
+[2019.01.27-04.13.30:361][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.27-04.13.30:766][  0]LogStreaming: Display: Took  0.407s to InitEngineTextLocalization.
+[2019.01.27-04.13.30:766][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.27-04.13.30:844][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.27-04.13.30:844][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.27-04.13.31:219][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.27-04.13.31:219][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.27-04.13.31:310][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.01.27-04.13.31:310][  0]LogD3D11RHI:       4043/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.01.27-04.13.31:315][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.27-04.13.31:315][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.27-04.13.31:316][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.27-04.13.31:325][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.27-04.13.31:325][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.27-04.13.31:325][  0]LogWindows: EnumDisplayDevices:
+[2019.01.27-04.13.31:325][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.01.27-04.13.31:326][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2019.01.27-04.13.31:326][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.27-04.13.31:326][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.27-04.13.31:327][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.27-04.13.31:327][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.01.27-04.13.31:327][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2019.01.27-04.13.31:327][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2019.01.27-04.13.31:327][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2019.01.27-04.13.31:381][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.27-04.13.31:400][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.27-04.13.31:447][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Intermediate/Shaders/WorkingDirectory/15176/).
+[2019.01.27-04.13.31:448][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/h017026h/AppData/Local/Temp/UnrealShaderWorkingDir/C2E399624AEE77DA3BB354B4AC91A7FA/'.
+[2019.01.27-04.13.31:804][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.27-04.13.31:824][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.27-04.13.31:842][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.27-04.13.31:861][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.27-04.13.31:883][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.27-04.13.31:901][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.27-04.13.31:920][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.27-04.13.31:939][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.27-04.13.31:950][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.27-04.13.32:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-04.13.32:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-04.13.32:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-04.13.32:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-04.13.32:044][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-04.13.32:044][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-04.13.32:044][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-04.13.32:044][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-04.13.32:044][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-04.13.32:044][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-04.13.32:044][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-04.13.32:044][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-04.13.32:044][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-04.13.32:044][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-04.13.32:044][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-04.13.32:044][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-04.13.32:044][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-04.13.32:044][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-04.13.32:048][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.27-04.13.32:122][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.27-04.13.32:122][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.27-04.13.32:152][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.27-04.13.32:152][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.27-04.13.32:169][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.27-04.13.32:185][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.27-04.13.32:201][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.27-04.13.32:221][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.27-04.13.32:234][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.27-04.13.32:234][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.27-04.13.32:420][  0]LogXGEController: Cleaning working directory: C:/Users/h017026h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.27-04.13.32:420][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.27-04.13.32:421][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.27-04.13.32:421][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.27-04.13.33:446][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.27-04.13.33:547][  0]LogDerivedDataCache: Loaded boot cache 0.10s 71MB C:/Users/h017026h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.27-04.13.33:547][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/h017026h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.27-04.13.33:548][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.27-04.13.33:548][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.27-04.13.33:548][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.27-04.13.33:548][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.27-04.13.33:575][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.27-04.13.33:589][  0]LogDerivedDataCache: Using Local data cache path C:/Users/h017026h/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.27-04.13.33:589][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.27-04.13.33:589][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.27-04.13.33:632][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.27-04.13.33:636][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.27-04.13.33:639][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.27-04.13.33:754][  0]LogAssetRegistry: FAssetRegistry took 0.0309 seconds to start up
+[2019.01.27-04.13.34:225][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.27-04.13.34:406][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.27-04.13.34:417][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.27-04.13.34:417][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.27-04.13.34:417][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.27-04.13.34:417][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.27-04.13.34:442][  0]LogNetVersion: GGJ2019 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 54619999)
+[2019.01.27-04.13.35:115][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.177887 seconds
+[2019.01.27-04.13.35:122][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.27-04.13.35:122][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.01.27-04.13.35:122][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.27-04.13.36:364][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.27-04.13.36:381][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.27-04.13.36:611][  0]SourceControl: Source control is disabled
+[2019.01.27-04.13.36:611][  0]SourceControl: Source control is disabled
+[2019.01.27-04.13.36:615][  0]SourceControl: Source control is disabled
+[2019.01.27-04.13.36:619][  0]SourceControl: Source control is disabled
+[2019.01.27-04.13.36:951][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.27-04.13.37:101][  0]LogOcInput: OculusInput pre-init called
+[2019.01.27-04.13.37:185][  0]LogEngine: Initializing Engine...
+[2019.01.27-04.13.37:186][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.27-04.13.37:188][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.27-04.13.37:188][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.27-04.13.37:188][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.27-04.13.37:188][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.27-04.13.37:455][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.27-04.13.37:486][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.27-04.13.37:509][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.27-04.13.37:533][  0]LogInit: FAudioDevice initialized.
+[2019.01.27-04.13.37:534][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.27-04.13.37:637][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/h017026h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.27-04.13.37:660][  0]LogInit: Texture streaming: Enabled
+[2019.01.27-04.13.37:704][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.27-04.13.37:727][  0]LogInit: Transaction tracking system initialized
+[2019.01.27-04.13.37:786][  0]BlueprintLog: New page: Editor Load
+[2019.01.27-04.13.37:992][  0]LocalizationService: Localization service is disabled
+[2019.01.27-04.13.38:375][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.27-04.13.38:376][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.27-04.13.38:376][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.27-04.13.38:376][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.27-04.13.38:376][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.27-04.13.38:377][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.27-04.13.38:377][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.27-04.13.38:607][  0]LogFileCache: Scanning file cache for directory 'C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/' took 0.02s
+[2019.01.27-04.13.38:607][  0]SourceControl: Source control is disabled
+[2019.01.27-04.13.38:607][  0]Cmd: MAP LOAD FILE="../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/GameLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.27-04.13.38:608][  0]LightingResults: New page: Lighting Build
+[2019.01.27-04.13.38:613][  0]MapCheck: New page: Map Check
+[2019.01.27-04.13.38:613][  0]LightingResults: New page: Lighting Build
+[2019.01.27-04.13.38:899][  0]LogAIModule: Creating AISystem for world GameLevel
+[2019.01.27-04.13.38:923][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.27-04.13.38:958][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.27-04.13.39:141][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 182.652ms to complete.
+[2019.01.27-04.13.39:141][  0]LogFileHelpers: Loading map 'GameLevel' took 0.534
+[2019.01.27-04.13.39:291][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-04.13.39:303][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-04.13.39:319][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-04.13.39:337][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-04.13.39:353][  0]LogCollectionManager: Loaded 0 collections in 0.004423 seconds
+[2019.01.27-04.13.39:407][  0]LogFileCache: Scanning file cache for directory 'C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Saved/Collections/' took 0.01s
+[2019.01.27-04.13.39:407][  0]LogFileCache: Scanning file cache for directory 'C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/Developers/h017026h/Collections/' took 0.01s
+[2019.01.27-04.13.39:407][  0]LogFileCache: Scanning file cache for directory 'C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/Collections/' took 0.01s
+[2019.01.27-04.13.39:407][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.27-04.13.39:423][  0]LogContentBrowser: Native class hierarchy populated in 0.0152 seconds. Added 2583 classes and 606 folders.
+[2019.01.27-04.13.39:433][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.27-04.13.39:525][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.27-04.13.39:535][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.01.27-04.13.39:552][  0]LogSlate: Took 0.000573 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.27-04.13.39:555][  0]LogSlate: Took 0.000291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.27-04.13.39:563][  0]LogSlate: Took 0.000381 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.27-04.13.39:656][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.01.27-04.13.39:713][  0]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.27-04.13.39:801][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.27-04.13.39:801][  0]LogLoad: (Engine Initialization) Total time: 13.11 seconds
+[2019.01.27-04.13.39:801][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.27-04.13.39:811][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.27-04.13.39:831][  0]LogActor: Warning: Fridge_BP_Base_C /Engine/Transient.World_0:PersistentLevel.Fridge_BP_Base_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.27-04.13.39:851][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.27-04.13.39:929][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/' took 0.10s
+[2019.01.27-04.13.39:948][  1]LogAssetRegistry: Asset discovery search completed in 6.2198 seconds
+[2019.01.27-04.13.39:950][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.27-04.13.39:950][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000137 seconds (updated 0 objects)
+[2019.01.27-04.13.45:616][664]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-04.13.49:070][ 71]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.27-04.13.49:828][ 71]LogAIModule: Creating AISystem for world AngPaths
+[2019.01.27-04.13.49:911][ 71]LogAssetEditorManager: Opening Asset editor for World /Game/StarterContent/Maps/AngPaths.AngPaths
+[2019.01.27-04.13.49:941][ 71]Cmd: MAP LOAD FILE="../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/Content/StarterContent/Maps/AngPaths.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.27-04.13.49:941][ 71]LightingResults: New page: Lighting Build
+[2019.01.27-04.13.49:942][ 71]LoadErrors: New page: Loading map: AngPaths.umap
+[2019.01.27-04.13.49:944][ 71]MapCheck: New page: Map Check
+[2019.01.27-04.13.49:944][ 71]LightingResults: New page: Lighting Build
+[2019.01.27-04.13.50:050][ 71]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.27-04.13.50:115][ 71]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.27-04.13.50:352][ 71]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 236.79ms to complete.
+[2019.01.27-04.13.50:354][ 71]LogFileHelpers: Loading map 'AngPaths' took 0.413
+[2019.01.27-04.13.51:343][177]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-04.13.51:367][177]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-04.13.51:381][177]PIE: New page: PIE session: AngPaths (27 Jan 2019 04:13:51)
+[2019.01.27-04.13.51:381][177]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_AngPaths
+[2019.01.27-04.13.51:405][177]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022989s)
+[2019.01.27-04.13.51:406][177]LogAIModule: Creating AISystem for world AngPaths
+[2019.01.27-04.13.51:406][177]LogPlayLevel: PIE: World Init took: (0.001639s)
+[2019.01.27-04.13.51:407][177]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/AngPaths.AngPaths to /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths (0.025340s)
+[2019.01.27-04.13.51:449][177]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.27-04.13.51:460][177]LogInit: FAudioDevice initialized.
+[2019.01.27-04.13.51:527][177]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.27-04.13.51:544][177]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths up for play (max tick rate 0) at 2019.01.27-04.13.51
+[2019.01.27-04.13.51:551][177]LogWorld: Bringing up level for play took: 0.020822
+[2019.01.27-04.13.51:579][177]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 10 classes and 0 folders.
+[2019.01.27-04.13.51:587][177]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_AngPaths -0.411
+[2019.01.27-04.14.08:316][171]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths:PersistentLevel.Pickup_BP_Food_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.27-04.14.09:446][306]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths:PersistentLevel.Pickup_BP_Food_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.27-04.14.09:697][336]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths:PersistentLevel.Pickup_BP_Food_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.27-04.14.10:371][416]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths:PersistentLevel.Pickup_BP_Food_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.27-04.14.10:406][420]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths:PersistentLevel.Pickup_BP_Food_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.27-04.14.22:514][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-04.14.22:557][724]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.27-04.14.22:590][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-04.14.22:624][725]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.01.27-04.17.53:865][472]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-04.17.53:989][482]Candidate modules for hot reload:
+[2019.01.27-04.17.53:989][482]  GGJ2019
+[2019.01.27-04.17.53:990][482]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GGJ2019,6771 Win64 Development -TargetType=Editor -Project="../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/GGJ2019.uproject" -canskiplink "C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/GGJ2019.uproject" ]
+[2019.01.27-04.17.53:994][482]Warning: Starting HotReload took  0.0s.
+[2019.01.27-04.18.16:570][162]CompilerResultsLog: New page: Compilation - 27 Jan 2019 04:18:16
+[2019.01.27-04.18.16:570][162]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.01.27-04.18.16:570][162]CompilerResultsLog: Creating makefile for hot reloading GGJ2019Editor (game project files are newer)
+[2019.01.27-04.18.16:570][162]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.27-04.18.16:570][162]CompilerResultsLog: Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.27-04.18.16:570][162]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.01.27-04.18.16:570][162]CompilerResultsLog:   [1/3] Player_Base.cpp
+[2019.01.27-04.18.16:570][162]CompilerResultsLog:   [2/3] UE4Editor-GGJ2019-6771.lib
+[2019.01.27-04.18.16:570][162]CompilerResultsLog:      Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-6771.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-6771.exp
+[2019.01.27-04.18.16:571][162]CompilerResultsLog:   [3/3] UE4Editor-GGJ2019-6771.dll
+[2019.01.27-04.18.16:571][162]CompilerResultsLog:      Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-6771.suppressed.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-6771.suppressed.exp
+[2019.01.27-04.18.16:571][162]CompilerResultsLog: Total build time: 22.23 seconds (Parallel executor: 14.32 seconds)
+[2019.01.27-04.18.16:571][162]LogMainFrame: MainFrame: Module compiling took 22.589 seconds
+[2019.01.27-04.18.16:631][162]LogClass: WeaponType HotReload.
+[2019.01.27-04.18.16:631][162]LogClass: FoodTypes HotReload.
+[2019.01.27-04.18.16:637][162]LogContentBrowser: Native class hierarchy updated for 'GGJ2019' in 0.0007 seconds. Added 11 classes and 3 folders.
+[2019.01.27-04.18.16:641][162]Display: HotReload successful (25 functions remapped  0 scriptstructs remapped)
+[2019.01.27-04.18.16:787][162]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2584 classes and 608 folders.
+[2019.01.27-04.18.16:788][162]Display: HotReload took 22.8s.
+[2019.01.27-04.18.19:376][470]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-04.18.19:400][470]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-04.18.19:400][470]PIE: New page: PIE session: AngPaths (27 Jan 2019 04:18:19)
+[2019.01.27-04.18.19:400][470]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_AngPaths
+[2019.01.27-04.18.19:424][470]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023072s)
+[2019.01.27-04.18.19:425][470]LogAIModule: Creating AISystem for world AngPaths
+[2019.01.27-04.18.19:425][470]LogPlayLevel: PIE: World Init took: (0.001472s)
+[2019.01.27-04.18.19:425][470]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/AngPaths.AngPaths to /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths (0.025007s)
+[2019.01.27-04.18.19:461][470]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.27-04.18.19:474][470]LogInit: FAudioDevice initialized.
+[2019.01.27-04.18.19:513][470]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.27-04.18.19:522][470]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths up for play (max tick rate 0) at 2019.01.27-04.18.19
+[2019.01.27-04.18.19:526][470]LogWorld: Bringing up level for play took: 0.011934
+[2019.01.27-04.18.19:542][470]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_AngPaths -0.456
+[2019.01.27-04.18.31:617][909]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-04.18.31:653][909]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.27-04.18.31:679][909]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-04.18.31:722][912]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.01.27-04.18.46:076][139]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-04.18.46:213][144]Candidate modules for hot reload:
+[2019.01.27-04.18.46:213][144]  GGJ2019
+[2019.01.27-04.18.46:214][144]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GGJ2019,836 Win64 Development -TargetType=Editor -Project="../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/GGJ2019.uproject" -canskiplink "C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/GGJ2019.uproject" ]
+[2019.01.27-04.18.46:218][144]Warning: Starting HotReload took  0.0s.
+[2019.01.27-04.19.04:887][ 89]CompilerResultsLog: New page: Compilation - 27 Jan 2019 04:19:04
+[2019.01.27-04.19.04:887][ 89]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.01.27-04.19.04:887][ 89]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.27-04.19.04:888][ 89]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.01.27-04.19.04:888][ 89]CompilerResultsLog:   [1/3] Player_Base.cpp
+[2019.01.27-04.19.04:888][ 89]CompilerResultsLog:   [2/3] UE4Editor-GGJ2019-836.lib
+[2019.01.27-04.19.04:888][ 89]CompilerResultsLog:      Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-836.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-836.exp
+[2019.01.27-04.19.04:888][ 89]CompilerResultsLog:   [3/3] UE4Editor-GGJ2019-836.dll
+[2019.01.27-04.19.04:888][ 89]CompilerResultsLog:      Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-836.suppressed.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-836.suppressed.exp
+[2019.01.27-04.19.04:888][ 89]CompilerResultsLog: Total build time: 18.22 seconds (Parallel executor: 14.33 seconds)
+[2019.01.27-04.19.04:888][ 89]LogMainFrame: MainFrame: Module compiling took 18.687 seconds
+[2019.01.27-04.19.04:942][ 89]LogClass: WeaponType HotReload.
+[2019.01.27-04.19.04:942][ 89]LogClass: FoodTypes HotReload.
+[2019.01.27-04.19.04:948][ 89]LogContentBrowser: Native class hierarchy updated for 'GGJ2019' in 0.0006 seconds. Added 11 classes and 3 folders.
+[2019.01.27-04.19.04:951][ 89]Display: HotReload successful (25 functions remapped  0 scriptstructs remapped)
+[2019.01.27-04.19.05:021][ 89]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2584 classes and 608 folders.
+[2019.01.27-04.19.05:021][ 89]Display: HotReload took 18.8s.
+[2019.01.27-04.19.13:416][ 94]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-04.19.13:440][ 94]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-04.19.13:440][ 94]PIE: New page: PIE session: AngPaths (27 Jan 2019 04:19:13)
+[2019.01.27-04.19.13:440][ 94]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_AngPaths
+[2019.01.27-04.19.13:463][ 94]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022612s)
+[2019.01.27-04.19.13:463][ 94]LogAIModule: Creating AISystem for world AngPaths
+[2019.01.27-04.19.13:464][ 94]LogPlayLevel: PIE: World Init took: (0.000758s)
+[2019.01.27-04.19.13:464][ 94]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/AngPaths.AngPaths to /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths (0.023741s)
+[2019.01.27-04.19.13:494][ 94]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.27-04.19.13:507][ 94]LogInit: FAudioDevice initialized.
+[2019.01.27-04.19.13:541][ 94]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.27-04.19.13:548][ 94]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths up for play (max tick rate 0) at 2019.01.27-04.19.13
+[2019.01.27-04.19.13:553][ 94]LogWorld: Bringing up level for play took: 0.010890
+[2019.01.27-04.19.13:567][ 94]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_AngPaths -0.431
+[2019.01.27-04.19.18:556][686]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-04.19.18:598][686]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.27-04.19.18:622][686]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-04.19.18:660][688]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.01.27-04.19.29:180][  9]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-04.19.29:331][ 15]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-04.19.29:358][ 15]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-04.19.29:358][ 15]PIE: New page: PIE session: AngPaths (27 Jan 2019 04:19:29)
+[2019.01.27-04.19.29:358][ 15]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_AngPaths
+[2019.01.27-04.19.29:385][ 15]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026632s)
+[2019.01.27-04.19.29:385][ 15]LogAIModule: Creating AISystem for world AngPaths
+[2019.01.27-04.19.29:386][ 15]LogPlayLevel: PIE: World Init took: (0.000919s)
+[2019.01.27-04.19.29:386][ 15]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/AngPaths.AngPaths to /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths (0.028145s)
+[2019.01.27-04.19.29:428][ 15]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.27-04.19.29:439][ 15]LogInit: FAudioDevice initialized.
+[2019.01.27-04.19.29:479][ 15]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.27-04.19.29:494][ 15]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths up for play (max tick rate 0) at 2019.01.27-04.19.29
+[2019.01.27-04.19.29:505][ 15]LogWorld: Bringing up level for play took: 0.025135
+[2019.01.27-04.19.29:523][ 15]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_AngPaths -0.475
+[2019.01.27-04.19.30:957][178]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-04.19.30:997][178]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.27-04.19.31:031][178]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-04.19.31:060][180]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.01.27-04.19.31:916][280]Candidate modules for hot reload:
+[2019.01.27-04.19.31:916][280]  GGJ2019
+[2019.01.27-04.19.31:917][280]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GGJ2019,7735 Win64 Development -TargetType=Editor -Project="../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/GGJ2019.uproject" -canskiplink "C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/GGJ2019.uproject" ]
+[2019.01.27-04.19.31:920][280]Warning: Starting HotReload took  0.0s.
+[2019.01.27-04.19.50:052][435]CompilerResultsLog: New page: Compilation - 27 Jan 2019 04:19:50
+[2019.01.27-04.19.50:052][435]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.01.27-04.19.50:052][435]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.27-04.19.50:052][435]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.01.27-04.19.50:052][435]CompilerResultsLog:   [1/3] Player_Base.cpp
+[2019.01.27-04.19.50:052][435]CompilerResultsLog:   [2/3] UE4Editor-GGJ2019-7735.lib
+[2019.01.27-04.19.50:052][435]CompilerResultsLog:      Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-7735.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-7735.exp
+[2019.01.27-04.19.50:052][435]CompilerResultsLog:   [3/3] UE4Editor-GGJ2019-7735.dll
+[2019.01.27-04.19.50:052][435]CompilerResultsLog:      Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-7735.suppressed.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-7735.suppressed.exp
+[2019.01.27-04.19.50:052][435]CompilerResultsLog: Total build time: 17.80 seconds (Parallel executor: 14.36 seconds)
+[2019.01.27-04.19.50:052][435]LogMainFrame: MainFrame: Module compiling took 18.143 seconds
+[2019.01.27-04.19.50:106][435]LogClass: WeaponType HotReload.
+[2019.01.27-04.19.50:107][435]LogClass: FoodTypes HotReload.
+[2019.01.27-04.19.50:112][435]LogContentBrowser: Native class hierarchy updated for 'GGJ2019' in 0.0006 seconds. Added 11 classes and 3 folders.
+[2019.01.27-04.19.50:115][435]Display: HotReload successful (25 functions remapped  0 scriptstructs remapped)
+[2019.01.27-04.19.50:170][435]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2584 classes and 608 folders.
+[2019.01.27-04.19.50:171][435]Display: HotReload took 18.3s.
+[2019.01.27-04.19.52:505][714]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-04.19.52:530][714]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-04.19.52:531][714]PIE: New page: PIE session: AngPaths (27 Jan 2019 04:19:52)
+[2019.01.27-04.19.52:531][714]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_AngPaths
+[2019.01.27-04.19.52:554][714]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023848s)
+[2019.01.27-04.19.52:554][714]LogAIModule: Creating AISystem for world AngPaths
+[2019.01.27-04.19.52:555][714]LogPlayLevel: PIE: World Init took: (0.000853s)
+[2019.01.27-04.19.52:555][714]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/AngPaths.AngPaths to /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths (0.025078s)
+[2019.01.27-04.19.52:589][714]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.27-04.19.52:601][714]LogInit: FAudioDevice initialized.
+[2019.01.27-04.19.52:635][714]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.27-04.19.52:643][714]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths up for play (max tick rate 0) at 2019.01.27-04.19.52
+[2019.01.27-04.19.52:647][714]LogWorld: Bringing up level for play took: 0.011082
+[2019.01.27-04.19.52:663][714]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_AngPaths 0.666
+[2019.01.27-04.19.57:499][287]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-04.19.57:540][287]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.27-04.19.57:565][287]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-04.19.57:604][290]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.01.27-04.20.06:940][741]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-04.20.07:040][747]Candidate modules for hot reload:
+[2019.01.27-04.20.07:040][747]  GGJ2019
+[2019.01.27-04.20.07:040][747]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GGJ2019,1236 Win64 Development -TargetType=Editor -Project="../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/GGJ2019.uproject" -canskiplink "C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/GGJ2019.uproject" ]
+[2019.01.27-04.20.07:044][747]Warning: Starting HotReload took  0.0s.
+[2019.01.27-04.20.13:574][491]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.01.27-04.20.26:287][941]CompilerResultsLog: New page: Compilation - 27 Jan 2019 04:20:26
+[2019.01.27-04.20.26:288][941]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.01.27-04.20.26:288][941]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.27-04.20.26:288][941]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.01.27-04.20.26:288][941]CompilerResultsLog:   [1/3] Player_Base.cpp
+[2019.01.27-04.20.26:288][941]CompilerResultsLog:   [2/3] UE4Editor-GGJ2019-1236.lib
+[2019.01.27-04.20.26:288][941]CompilerResultsLog:      Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-1236.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-1236.exp
+[2019.01.27-04.20.26:288][941]CompilerResultsLog:   [3/3] UE4Editor-GGJ2019-1236.dll
+[2019.01.27-04.20.26:288][941]CompilerResultsLog:      Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-1236.suppressed.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-1236.suppressed.exp
+[2019.01.27-04.20.26:288][941]CompilerResultsLog: Total build time: 18.91 seconds (Parallel executor: 15.28 seconds)
+[2019.01.27-04.20.26:288][941]LogMainFrame: MainFrame: Module compiling took 19.256 seconds
+[2019.01.27-04.20.26:348][941]LogClass: WeaponType HotReload.
+[2019.01.27-04.20.26:348][941]LogClass: FoodTypes HotReload.
+[2019.01.27-04.20.26:354][941]LogContentBrowser: Native class hierarchy updated for 'GGJ2019' in 0.0006 seconds. Added 11 classes and 3 folders.
+[2019.01.27-04.20.26:357][941]Display: HotReload successful (25 functions remapped  0 scriptstructs remapped)
+[2019.01.27-04.20.26:412][941]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2584 classes and 608 folders.
+[2019.01.27-04.20.26:412][941]Display: HotReload took 19.4s.
+[2019.01.27-04.20.28:852][225]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-04.20.29:018][245]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-04.20.29:042][245]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-04.20.29:042][245]PIE: New page: PIE session: AngPaths (27 Jan 2019 04:20:29)
+[2019.01.27-04.20.29:042][245]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_AngPaths
+[2019.01.27-04.20.29:065][245]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022705s)
+[2019.01.27-04.20.29:066][245]LogAIModule: Creating AISystem for world AngPaths
+[2019.01.27-04.20.29:066][245]LogPlayLevel: PIE: World Init took: (0.000732s)
+[2019.01.27-04.20.29:066][245]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/AngPaths.AngPaths to /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths (0.023837s)
+[2019.01.27-04.20.29:097][245]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.27-04.20.29:108][245]LogInit: FAudioDevice initialized.
+[2019.01.27-04.20.29:140][245]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.27-04.20.29:148][245]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths up for play (max tick rate 0) at 2019.01.27-04.20.29
+[2019.01.27-04.20.29:152][245]LogWorld: Bringing up level for play took: 0.010593
+[2019.01.27-04.20.29:168][245]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_AngPaths -0.83
+[2019.01.27-04.20.33:231][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-04.20.33:274][724]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.27-04.20.33:301][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-04.20.33:334][726]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.01.27-04.20.40:622][198]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-04.20.40:920][198]Candidate modules for hot reload:
+[2019.01.27-04.20.40:920][198]  GGJ2019
+[2019.01.27-04.20.40:921][198]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GGJ2019,6314 Win64 Development -TargetType=Editor -Project="../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/GGJ2019.uproject" -canskiplink "C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/GGJ2019.uproject" ]
+[2019.01.27-04.20.40:931][198]Warning: Starting HotReload took  0.0s.
+[2019.01.27-04.20.58:681][305]CompilerResultsLog: New page: Compilation - 27 Jan 2019 04:20:58
+[2019.01.27-04.20.58:682][305]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.01.27-04.20.58:682][305]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.27-04.20.58:682][305]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.01.27-04.20.58:682][305]CompilerResultsLog:   [1/3] Player_Base.cpp
+[2019.01.27-04.20.58:682][305]CompilerResultsLog:   [2/3] UE4Editor-GGJ2019-6314.lib
+[2019.01.27-04.20.58:682][305]CompilerResultsLog:      Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-6314.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-6314.exp
+[2019.01.27-04.20.58:682][305]CompilerResultsLog:   [3/3] UE4Editor-GGJ2019-6314.dll
+[2019.01.27-04.20.58:682][305]CompilerResultsLog:      Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-6314.suppressed.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-6314.suppressed.exp
+[2019.01.27-04.20.58:682][305]CompilerResultsLog: Total build time: 17.37 seconds (Parallel executor: 13.87 seconds)
+[2019.01.27-04.20.58:683][305]LogMainFrame: MainFrame: Module compiling took 17.780 seconds
+[2019.01.27-04.20.58:750][305]LogClass: WeaponType HotReload.
+[2019.01.27-04.20.58:750][305]LogClass: FoodTypes HotReload.
+[2019.01.27-04.20.58:756][305]LogContentBrowser: Native class hierarchy updated for 'GGJ2019' in 0.0006 seconds. Added 11 classes and 3 folders.
+[2019.01.27-04.20.58:759][305]Display: HotReload successful (25 functions remapped  0 scriptstructs remapped)
+[2019.01.27-04.20.58:818][305]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2584 classes and 608 folders.
+[2019.01.27-04.20.58:818][305]Display: HotReload took 17.9s.
+[2019.01.27-04.21.02:385][731]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-04.21.02:410][731]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-04.21.02:410][731]PIE: New page: PIE session: AngPaths (27 Jan 2019 04:21:02)
+[2019.01.27-04.21.02:410][731]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_AngPaths
+[2019.01.27-04.21.02:437][731]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026789s)
+[2019.01.27-04.21.02:438][731]LogAIModule: Creating AISystem for world AngPaths
+[2019.01.27-04.21.02:438][731]LogPlayLevel: PIE: World Init took: (0.000781s)
+[2019.01.27-04.21.02:438][731]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/AngPaths.AngPaths to /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths (0.027930s)
+[2019.01.27-04.21.02:473][731]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.27-04.21.02:489][731]LogInit: FAudioDevice initialized.
+[2019.01.27-04.21.02:527][731]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.27-04.21.02:534][731]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths up for play (max tick rate 0) at 2019.01.27-04.21.02
+[2019.01.27-04.21.02:545][731]LogWorld: Bringing up level for play took: 0.017374
+[2019.01.27-04.21.02:561][731]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_AngPaths 0.561
+[2019.01.27-04.21.08:265][406]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-04.21.08:303][406]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.27-04.21.08:328][406]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-04.21.08:369][410]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.01.27-04.21.15:729][660]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-04.21.18:645][952]Candidate modules for hot reload:
+[2019.01.27-04.21.18:645][952]  GGJ2019
+[2019.01.27-04.21.18:645][952]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GGJ2019,6458 Win64 Development -TargetType=Editor -Project="../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/GGJ2019.uproject" -canskiplink "C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/GGJ2019.uproject" ]
+[2019.01.27-04.21.18:649][952]Warning: Starting HotReload took  0.0s.
+[2019.01.27-04.21.36:668][ 99]CompilerResultsLog: New page: Compilation - 27 Jan 2019 04:21:36
+[2019.01.27-04.21.36:668][ 99]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.01.27-04.21.36:668][ 99]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.27-04.21.36:668][ 99]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.01.27-04.21.36:668][ 99]CompilerResultsLog:   [1/3] Player_Base.cpp
+[2019.01.27-04.21.36:668][ 99]CompilerResultsLog:   [2/3] UE4Editor-GGJ2019-6458.lib
+[2019.01.27-04.21.36:668][ 99]CompilerResultsLog:      Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-6458.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-6458.exp
+[2019.01.27-04.21.36:668][ 99]CompilerResultsLog:   [3/3] UE4Editor-GGJ2019-6458.dll
+[2019.01.27-04.21.36:668][ 99]CompilerResultsLog:      Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-6458.suppressed.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-6458.suppressed.exp
+[2019.01.27-04.21.36:668][ 99]CompilerResultsLog: Total build time: 17.71 seconds (Parallel executor: 14.28 seconds)
+[2019.01.27-04.21.36:669][ 99]LogMainFrame: MainFrame: Module compiling took 18.031 seconds
+[2019.01.27-04.21.36:731][ 99]LogClass: WeaponType HotReload.
+[2019.01.27-04.21.36:731][ 99]LogClass: FoodTypes HotReload.
+[2019.01.27-04.21.36:739][ 99]LogContentBrowser: Native class hierarchy updated for 'GGJ2019' in 0.0007 seconds. Added 11 classes and 3 folders.
+[2019.01.27-04.21.36:743][ 99]Display: HotReload successful (25 functions remapped  0 scriptstructs remapped)
+[2019.01.27-04.21.36:805][ 99]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2584 classes and 608 folders.
+[2019.01.27-04.21.36:805][ 99]Display: HotReload took 18.2s.
+[2019.01.27-04.21.45:953][195]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-04.21.45:976][195]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-04.21.45:977][195]PIE: New page: PIE session: AngPaths (27 Jan 2019 04:21:45)
+[2019.01.27-04.21.45:977][195]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_AngPaths
+[2019.01.27-04.21.46:000][195]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023360s)
+[2019.01.27-04.21.46:001][195]LogAIModule: Creating AISystem for world AngPaths
+[2019.01.27-04.21.46:001][195]LogPlayLevel: PIE: World Init took: (0.000970s)
+[2019.01.27-04.21.46:001][195]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/AngPaths.AngPaths to /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths (0.024807s)
+[2019.01.27-04.21.46:032][195]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.27-04.21.46:043][195]LogInit: FAudioDevice initialized.
+[2019.01.27-04.21.46:081][195]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.27-04.21.46:089][195]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths up for play (max tick rate 0) at 2019.01.27-04.21.46
+[2019.01.27-04.21.46:093][195]LogWorld: Bringing up level for play took: 0.011363
+[2019.01.27-04.21.46:109][195]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_AngPaths 0.109
+[2019.01.27-04.22.02:796][189]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths:PersistentLevel.Pickup_BP_Food_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.27-04.22.03:930][324]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths:PersistentLevel.Pickup_BP_Food_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.27-04.22.04:182][354]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths:PersistentLevel.Pickup_BP_Food_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.27-04.22.04:190][355]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths:PersistentLevel.Pickup_BP_Food_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.27-04.22.04:510][393]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths:PersistentLevel.Pickup_BP_Food_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.27-04.22.44:149][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-04.22.44:189][840]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.27-04.22.44:224][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-04.22.44:250][841]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.01.27-04.22.46:053][ 57]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-04.22.56:275][740]Candidate modules for hot reload:
+[2019.01.27-04.22.56:275][740]  GGJ2019
+[2019.01.27-04.22.56:276][740]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GGJ2019,7248 Win64 Development -TargetType=Editor -Project="../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/GGJ2019.uproject" -canskiplink "C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/GGJ2019.uproject" ]
+[2019.01.27-04.22.56:280][740]Warning: Starting HotReload took  0.0s.
+[2019.01.27-04.23.15:084][891]CompilerResultsLog: New page: Compilation - 27 Jan 2019 04:23:15
+[2019.01.27-04.23.15:084][891]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.01.27-04.23.15:084][891]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.27-04.23.15:084][891]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.01.27-04.23.15:084][891]CompilerResultsLog:   [1/3] Player_Base.cpp
+[2019.01.27-04.23.15:085][891]CompilerResultsLog:   [2/3] UE4Editor-GGJ2019-7248.lib
+[2019.01.27-04.23.15:085][891]CompilerResultsLog:      Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-7248.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-7248.exp
+[2019.01.27-04.23.15:085][891]CompilerResultsLog:   [3/3] UE4Editor-GGJ2019-7248.dll
+[2019.01.27-04.23.15:085][891]CompilerResultsLog:      Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-7248.suppressed.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-7248.suppressed.exp
+[2019.01.27-04.23.15:085][891]CompilerResultsLog: Total build time: 18.47 seconds (Parallel executor: 14.93 seconds)
+[2019.01.27-04.23.15:085][891]LogMainFrame: MainFrame: Module compiling took 18.833 seconds
+[2019.01.27-04.23.15:146][891]LogClass: WeaponType HotReload.
+[2019.01.27-04.23.15:146][891]LogClass: FoodTypes HotReload.
+[2019.01.27-04.23.15:152][891]LogContentBrowser: Native class hierarchy updated for 'GGJ2019' in 0.0006 seconds. Added 11 classes and 3 folders.
+[2019.01.27-04.23.15:154][891]Display: HotReload successful (25 functions remapped  0 scriptstructs remapped)
+[2019.01.27-04.23.15:209][891]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2584 classes and 608 folders.
+[2019.01.27-04.23.15:209][891]Display: HotReload took 19.0s.
+[2019.01.27-04.23.28:268][447]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-04.23.28:292][447]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-04.23.28:292][447]PIE: New page: PIE session: AngPaths (27 Jan 2019 04:23:28)
+[2019.01.27-04.23.28:293][447]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_AngPaths
+[2019.01.27-04.23.28:317][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024105s)
+[2019.01.27-04.23.28:317][447]LogAIModule: Creating AISystem for world AngPaths
+[2019.01.27-04.23.28:318][447]LogPlayLevel: PIE: World Init took: (0.000854s)
+[2019.01.27-04.23.28:318][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/AngPaths.AngPaths to /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths (0.025349s)
+[2019.01.27-04.23.28:348][447]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.27-04.23.28:359][447]LogInit: FAudioDevice initialized.
+[2019.01.27-04.23.28:395][447]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.27-04.23.28:403][447]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths up for play (max tick rate 0) at 2019.01.27-04.23.28
+[2019.01.27-04.23.28:415][447]LogWorld: Bringing up level for play took: 0.018319
+[2019.01.27-04.23.28:430][447]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_AngPaths 0.426
+[2019.01.27-04.23.34:264][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-04.23.34:306][137]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.27-04.23.34:330][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-04.23.34:362][139]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.01.27-04.23.40:408][336]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-04.23.40:631][336]Candidate modules for hot reload:
+[2019.01.27-04.23.40:631][336]  GGJ2019
+[2019.01.27-04.23.40:631][336]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GGJ2019,5460 Win64 Development -TargetType=Editor -Project="../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/GGJ2019.uproject" -canskiplink "C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/GGJ2019.uproject" ]
+[2019.01.27-04.23.40:635][336]Warning: Starting HotReload took  0.0s.
+[2019.01.27-04.23.59:935][602]CompilerResultsLog: New page: Compilation - 27 Jan 2019 04:23:59
+[2019.01.27-04.23.59:935][602]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.01.27-04.23.59:935][602]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.27-04.23.59:935][602]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.01.27-04.23.59:935][602]CompilerResultsLog:   [1/3] Player_Base.cpp
+[2019.01.27-04.23.59:936][602]CompilerResultsLog:   [2/3] UE4Editor-GGJ2019-5460.lib
+[2019.01.27-04.23.59:936][602]CompilerResultsLog:      Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-5460.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-5460.exp
+[2019.01.27-04.23.59:936][602]CompilerResultsLog:   [3/3] UE4Editor-GGJ2019-5460.dll
+[2019.01.27-04.23.59:936][602]CompilerResultsLog:      Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-5460.suppressed.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-5460.suppressed.exp
+[2019.01.27-04.23.59:936][602]CompilerResultsLog: Total build time: 18.88 seconds (Parallel executor: 14.82 seconds)
+[2019.01.27-04.23.59:936][602]LogMainFrame: MainFrame: Module compiling took 19.313 seconds
+[2019.01.27-04.23.59:996][602]LogClass: WeaponType HotReload.
+[2019.01.27-04.23.59:996][602]LogClass: FoodTypes HotReload.
+[2019.01.27-04.24.00:001][602]LogContentBrowser: Native class hierarchy updated for 'GGJ2019' in 0.0005 seconds. Added 11 classes and 3 folders.
+[2019.01.27-04.24.00:007][602]Display: HotReload successful (25 functions remapped  0 scriptstructs remapped)
+[2019.01.27-04.24.00:068][602]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2584 classes and 608 folders.
+[2019.01.27-04.24.00:068][602]Display: HotReload took 19.5s.
+[2019.01.27-04.24.05:162][210]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-04.24.05:186][210]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-04.24.05:186][210]PIE: New page: PIE session: AngPaths (27 Jan 2019 04:24:05)
+[2019.01.27-04.24.05:186][210]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_AngPaths
+[2019.01.27-04.24.05:209][210]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023000s)
+[2019.01.27-04.24.05:210][210]LogAIModule: Creating AISystem for world AngPaths
+[2019.01.27-04.24.05:210][210]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2019.01.27-04.24.05:211][210]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/AngPaths.AngPaths to /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths (0.024476s)
+[2019.01.27-04.24.05:245][210]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.27-04.24.05:255][210]LogInit: FAudioDevice initialized.
+[2019.01.27-04.24.05:291][210]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.27-04.24.05:300][210]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths up for play (max tick rate 0) at 2019.01.27-04.24.05
+[2019.01.27-04.24.05:306][210]LogWorld: Bringing up level for play took: 0.013036
+[2019.01.27-04.24.05:322][210]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_AngPaths -0.683
+[2019.01.27-04.24.10:866][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-04.24.10:907][864]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.27-04.24.10:933][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-04.24.10:971][866]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.01.27-04.24.18:691][ 40]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-04.24.21:146][287]Candidate modules for hot reload:
+[2019.01.27-04.24.21:147][287]  GGJ2019
+[2019.01.27-04.24.21:147][287]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GGJ2019,8707 Win64 Development -TargetType=Editor -Project="../../../../../../Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/GGJ2019.uproject" -canskiplink "C:/Users/h017026h/Documents/Game Jame/GGJ2019/GGJ2019/GGJ2019.uproject" ]
+[2019.01.27-04.24.21:151][287]Warning: Starting HotReload took  0.0s.
+[2019.01.27-04.24.39:105][425]CompilerResultsLog: New page: Compilation - 27 Jan 2019 04:24:39
+[2019.01.27-04.24.39:105][425]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.01.27-04.24.39:105][425]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.27-04.24.39:105][425]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.01.27-04.24.39:106][425]CompilerResultsLog:   [1/3] Player_Base.cpp
+[2019.01.27-04.24.39:106][425]CompilerResultsLog:   [2/3] UE4Editor-GGJ2019-8707.lib
+[2019.01.27-04.24.39:106][425]CompilerResultsLog:      Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-8707.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-8707.exp
+[2019.01.27-04.24.39:106][425]CompilerResultsLog:   [3/3] UE4Editor-GGJ2019-8707.dll
+[2019.01.27-04.24.39:106][425]CompilerResultsLog:      Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-8707.suppressed.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019-8707.suppressed.exp
+[2019.01.27-04.24.39:106][425]CompilerResultsLog: Total build time: 17.65 seconds (Parallel executor: 14.17 seconds)
+[2019.01.27-04.24.39:106][425]LogMainFrame: MainFrame: Module compiling took 17.966 seconds
+[2019.01.27-04.24.39:165][425]LogClass: WeaponType HotReload.
+[2019.01.27-04.24.39:165][425]LogClass: FoodTypes HotReload.
+[2019.01.27-04.24.39:171][425]LogContentBrowser: Native class hierarchy updated for 'GGJ2019' in 0.0005 seconds. Added 11 classes and 3 folders.
+[2019.01.27-04.24.39:174][425]Display: HotReload successful (25 functions remapped  0 scriptstructs remapped)
+[2019.01.27-04.24.39:232][425]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2584 classes and 608 folders.
+[2019.01.27-04.24.39:232][425]Display: HotReload took 18.1s.
+[2019.01.27-04.24.55:012][316]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-04.24.55:036][316]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-04.24.55:037][316]PIE: New page: PIE session: AngPaths (27 Jan 2019 04:24:55)
+[2019.01.27-04.24.55:037][316]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_AngPaths
+[2019.01.27-04.24.55:060][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023256s)
+[2019.01.27-04.24.55:061][316]LogAIModule: Creating AISystem for world AngPaths
+[2019.01.27-04.24.55:061][316]LogPlayLevel: PIE: World Init took: (0.000725s)
+[2019.01.27-04.24.55:061][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/AngPaths.AngPaths to /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths (0.024324s)
+[2019.01.27-04.24.55:100][316]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.27-04.24.55:110][316]LogInit: FAudioDevice initialized.
+[2019.01.27-04.24.55:143][316]LogLoad: Game class is 'GGJ2019GM_C'
+[2019.01.27-04.24.55:151][316]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths up for play (max tick rate 0) at 2019.01.27-04.24.55
+[2019.01.27-04.24.55:162][316]LogWorld: Bringing up level for play took: 0.017902
+[2019.01.27-04.24.55:178][316]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_AngPaths -0.828
+[2019.01.27-04.25.11:898][310]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths:PersistentLevel.Pickup_BP_Food_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.27-04.25.13:029][445]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths:PersistentLevel.Pickup_BP_Food_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.27-04.25.13:279][475]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths:PersistentLevel.Pickup_BP_Food_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.27-04.25.13:954][555]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths:PersistentLevel.Pickup_BP_Food_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.27-04.25.13:998][560]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths:PersistentLevel.Pickup_BP_Food_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.27-04.25.26:647][923]LogBlueprintUserMessages: [Player_BP_Base_C_0] picked up
+[2019.01.27-04.25.36:879][737]LogBlueprintUserMessages: [Player_BP_Base_C_0] put in fridge
+[2019.01.27-04.25.37:781][807]LogActor: Warning: Pickup_BP_Food_C /Game/StarterContent/Maps/UEDPIE_0_AngPaths.AngPaths:PersistentLevel.Pickup_BP_Food_C_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.27-04.25.48:256][584]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-04.25.48:300][584]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.27-04.25.48:332][584]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-04.25.48:367][585]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.01.27-04.26.15:729][865]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.27-04.26.18:648][212]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-04.26.18:940][231]LogSlate: Window 'GGJ2019 - Unreal Editor' being destroyed
+[2019.01.27-04.26.18:941][231]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.27-04.26.19:154][232]Cmd: QUIT_EDITOR
+[2019.01.27-04.26.19:392][232]LogExit: Preparing to exit.
+[2019.01.27-04.26.20:497][232]LogExit: Editor shut down
+[2019.01.27-04.26.20:498][232]LogExit: Transaction tracking system shut down
+[2019.01.27-04.26.21:252][232]LogExit: Object subsystem successfully closed.
+[2019.01.27-04.26.21:292][232]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.01.27-04.26.21:299][232]LogD3D11RHI: Shutdown
+[2019.01.27-04.26.21:300][232]LogD3D11RHI: CleanupD3DDevice
+[2019.01.27-04.26.21:302][232]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.01.27-04.26.21:355][232]LogModuleManager: Shutting down and abandoning module GGJ2019 (625)
+[2019.01.27-04.26.21:355][232]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (616)
+[2019.01.27-04.26.21:355][232]LogModuleManager: Shutting down and abandoning module Voice (614)
+[2019.01.27-04.26.21:355][232]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2019.01.27-04.26.21:356][232]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2019.01.27-04.26.21:356][232]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2019.01.27-04.26.21:356][232]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2019.01.27-04.26.21:356][232]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2019.01.27-04.26.21:356][232]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2019.01.27-04.26.21:357][232]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
+[2019.01.27-04.26.21:357][232]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
+[2019.01.27-04.26.21:357][232]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
+[2019.01.27-04.26.21:357][232]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
+[2019.01.27-04.26.21:357][232]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
+[2019.01.27-04.26.21:357][232]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
+[2019.01.27-04.26.21:358][232]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
+[2019.01.27-04.26.21:358][232]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
+[2019.01.27-04.26.21:358][232]LogModuleManager: Shutting down and abandoning module BspMode (584)
+[2019.01.27-04.26.21:358][232]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
+[2019.01.27-04.26.21:358][232]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
+[2019.01.27-04.26.21:358][232]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
+[2019.01.27-04.26.21:358][232]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
+[2019.01.27-04.26.21:358][232]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2019.01.27-04.26.21:358][232]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
+[2019.01.27-04.26.21:359][232]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
+[2019.01.27-04.26.21:359][232]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
+[2019.01.27-04.26.21:359][232]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
+[2019.01.27-04.26.21:359][232]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
+[2019.01.27-04.26.21:359][232]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
+[2019.01.27-04.26.21:359][232]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
+[2019.01.27-04.26.21:360][232]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
+[2019.01.27-04.26.21:360][232]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
+[2019.01.27-04.26.21:360][232]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
+[2019.01.27-04.26.21:360][232]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
+[2019.01.27-04.26.21:360][232]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
+[2019.01.27-04.26.21:360][232]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
+[2019.01.27-04.26.21:360][232]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
+[2019.01.27-04.26.21:360][232]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
+[2019.01.27-04.26.21:360][232]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
+[2019.01.27-04.26.21:361][232]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
+[2019.01.27-04.26.21:361][232]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
+[2019.01.27-04.26.21:361][232]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
+[2019.01.27-04.26.21:361][232]LogModuleManager: Shutting down and abandoning module SessionServices (534)
+[2019.01.27-04.26.21:361][232]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
+[2019.01.27-04.26.21:361][232]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
+[2019.01.27-04.26.21:361][232]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
+[2019.01.27-04.26.21:361][232]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
+[2019.01.27-04.26.21:361][232]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
+[2019.01.27-04.26.21:362][232]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
+[2019.01.27-04.26.21:362][232]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
+[2019.01.27-04.26.21:362][232]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
+[2019.01.27-04.26.21:362][232]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
+[2019.01.27-04.26.21:362][232]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
+[2019.01.27-04.26.21:362][232]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
+[2019.01.27-04.26.21:362][232]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
+[2019.01.27-04.26.21:905][232]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
+[2019.01.27-04.26.21:905][232]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
+[2019.01.27-04.26.21:905][232]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
+[2019.01.27-04.26.21:905][232]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
+[2019.01.27-04.26.21:906][232]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2019.01.27-04.26.21:906][232]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2019.01.27-04.26.21:906][232]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2019.01.27-04.26.21:906][232]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2019.01.27-04.26.21:907][232]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2019.01.27-04.26.21:907][232]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2019.01.27-04.26.21:907][232]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2019.01.27-04.26.21:907][232]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2019.01.27-04.26.21:907][232]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2019.01.27-04.26.21:908][232]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2019.01.27-04.26.21:908][232]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2019.01.27-04.26.21:908][232]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2019.01.27-04.26.21:908][232]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2019.01.27-04.26.21:909][232]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2019.01.27-04.26.21:909][232]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2019.01.27-04.26.21:909][232]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2019.01.27-04.26.21:909][232]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2019.01.27-04.26.21:910][232]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2019.01.27-04.26.21:976][232]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2019.01.27-04.26.21:976][232]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2019.01.27-04.26.21:976][232]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2019.01.27-04.26.21:976][232]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2019.01.27-04.26.21:976][232]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2019.01.27-04.26.21:977][232]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2019.01.27-04.26.21:977][232]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2019.01.27-04.26.21:977][232]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2019.01.27-04.26.21:977][232]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2019.01.27-04.26.21:978][232]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2019.01.27-04.26.21:979][232]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2019.01.27-04.26.21:979][232]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2019.01.27-04.26.21:979][232]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2019.01.27-04.26.21:979][232]LogModuleManager: Shutting down and abandoning module DesktopPlatform (439)
+[2019.01.27-04.26.21:980][232]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.01.27-04.26.21:980][232]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.01.27-04.26.21:980][232]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.01.27-04.26.21:980][232]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.01.27-04.26.21:980][232]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.01.27-04.26.21:981][232]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.01.27-04.26.21:981][232]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.01.27-04.26.21:981][232]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.01.27-04.26.21:981][232]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.01.27-04.26.21:981][232]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.01.27-04.26.21:982][232]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.01.27-04.26.21:982][232]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.01.27-04.26.21:982][232]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.01.27-04.26.21:982][232]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.01.27-04.26.21:982][232]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.01.27-04.26.21:982][232]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.01.27-04.26.21:982][232]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.01.27-04.26.21:983][232]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2019.01.27-04.26.22:028][232]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2019.01.27-04.26.22:028][232]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2019.01.27-04.26.22:028][232]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2019.01.27-04.26.22:028][232]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2019.01.27-04.26.22:028][232]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2019.01.27-04.26.22:029][232]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2019.01.27-04.26.22:029][232]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2019.01.27-04.26.22:029][232]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2019.01.27-04.26.22:029][232]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2019.01.27-04.26.22:029][232]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2019.01.27-04.26.22:029][232]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2019.01.27-04.26.22:029][232]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2019.01.27-04.26.22:029][232]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2019.01.27-04.26.22:030][232]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2019.01.27-04.26.22:030][232]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2019.01.27-04.26.22:030][232]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2019.01.27-04.26.22:030][232]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2019.01.27-04.26.22:030][232]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2019.01.27-04.26.22:043][232]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.01.27-04.26.22:043][232]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.01.27-04.26.22:044][232]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.01.27-04.26.22:044][232]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.01.27-04.26.22:044][232]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.01.27-04.26.22:044][232]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.01.27-04.26.22:044][232]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.01.27-04.26.22:044][232]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.01.27-04.26.22:044][232]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.01.27-04.26.22:044][232]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.01.27-04.26.22:044][232]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2019.01.27-04.26.22:044][232]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2019.01.27-04.26.22:046][232]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.01.27-04.26.22:046][232]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.01.27-04.26.22:047][232]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.01.27-04.26.22:047][232]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2019.01.27-04.26.22:047][232]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2019.01.27-04.26.22:047][232]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.01.27-04.26.22:047][232]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.01.27-04.26.22:047][232]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.01.27-04.26.22:047][232]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.01.27-04.26.22:047][232]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.01.27-04.26.22:048][232]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.01.27-04.26.22:048][232]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.01.27-04.26.22:048][232]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.01.27-04.26.22:048][232]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.01.27-04.26.22:048][232]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.01.27-04.26.22:048][232]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2019.01.27-04.26.22:048][232]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2019.01.27-04.26.22:048][232]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2019.01.27-04.26.22:049][232]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2019.01.27-04.26.22:049][232]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2019.01.27-04.26.22:049][232]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.01.27-04.26.22:049][232]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.01.27-04.26.22:049][232]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.01.27-04.26.22:049][232]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.01.27-04.26.22:049][232]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.01.27-04.26.22:049][232]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.01.27-04.26.22:049][232]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.01.27-04.26.22:050][232]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.01.27-04.26.22:050][232]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.01.27-04.26.22:151][232]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.01.27-04.26.22:252][232]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.01.27-04.26.22:252][232]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.01.27-04.26.22:252][232]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.01.27-04.26.22:252][232]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.01.27-04.26.22:252][232]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.01.27-04.26.22:252][232]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.01.27-04.26.22:252][232]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.01.27-04.26.22:253][232]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.01.27-04.26.22:254][232]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.01.27-04.26.22:254][232]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.01.27-04.26.22:255][232]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.01.27-04.26.22:256][232]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.01.27-04.26.22:257][232]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.01.27-04.26.22:257][232]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.01.27-04.26.22:257][232]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.01.27-04.26.22:257][232]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.01.27-04.26.22:258][232]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.01.27-04.26.22:258][232]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.01.27-04.26.22:262][232]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.01.27-04.26.22:269][232]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.01.27-04.26.22:269][232]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.01.27-04.26.22:269][232]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.01.27-04.26.22:270][232]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.01.27-04.26.22:270][232]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.01.27-04.26.22:270][232]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.01.27-04.26.22:270][232]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.01.27-04.26.22:270][232]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.01.27-04.26.22:270][232]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.01.27-04.26.22:270][232]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.01.27-04.26.22:270][232]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.01.27-04.26.22:271][232]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.01.27-04.26.22:271][232]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.01.27-04.26.22:271][232]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.01.27-04.26.22:271][232]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.01.27-04.26.22:271][232]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.01.27-04.26.22:271][232]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.01.27-04.26.22:272][232]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.01.27-04.26.22:272][232]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.01.27-04.26.22:272][232]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.01.27-04.26.22:274][232]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.01.27-04.26.22:274][232]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.01.27-04.26.22:274][232]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.01.27-04.26.22:274][232]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.01.27-04.26.22:274][232]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.01.27-04.26.22:274][232]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.01.27-04.26.22:274][232]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.01.27-04.26.22:275][232]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.01.27-04.26.22:275][232]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.01.27-04.26.22:275][232]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.01.27-04.26.22:275][232]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.01.27-04.26.22:275][232]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.01.27-04.26.22:275][232]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.01.27-04.26.22:275][232]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.01.27-04.26.22:275][232]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.01.27-04.26.22:276][232]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.01.27-04.26.22:276][232]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.01.27-04.26.22:276][232]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.01.27-04.26.22:331][232]LogDerivedDataCache: Shutdown
+[2019.01.27-04.26.22:331][232]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.01.27-04.26.22:331][232]LogXGEController: Cleaning working directory: C:/Users/h017026h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.27-04.26.22:333][232]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.01.27-04.26.22:333][232]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.01.27-04.26.22:333][232]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.01.27-04.26.22:333][232]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.01.27-04.26.22:333][232]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.01.27-04.26.22:334][232]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.01.27-04.26.22:334][232]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.01.27-04.26.22:334][232]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.01.27-04.26.22:334][232]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.01.27-04.26.22:334][232]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.01.27-04.26.22:337][232]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.01.27-04.26.22:337][232]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.01.27-04.26.22:337][232]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.01.27-04.26.22:338][232]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.01.27-04.26.22:338][232]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.01.27-04.26.22:338][232]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.01.27-04.26.22:338][232]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.01.27-04.26.22:338][232]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.01.27-04.26.22:338][232]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.01.27-04.26.22:339][232]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.01.27-04.26.22:339][232]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.01.27-04.26.22:339][232]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.01.27-04.26.22:341][232]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.01.27-04.26.22:341][232]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.01.27-04.26.22:351][232]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.01.27-04.26.22:351][232]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.01.27-04.26.22:364][232]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.01.27-04.26.22:365][232]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.01.27-04.26.22:365][232]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.01.27-04.26.22:365][232]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.01.27-04.26.22:365][232]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.01.27-04.26.22:365][232]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.01.27-04.26.22:365][232]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.01.27-04.26.22:365][232]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.01.27-04.26.22:365][232]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.01.27-04.26.22:365][232]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.01.27-04.26.22:365][232]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.01.27-04.26.22:366][232]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.01.27-04.26.22:366][232]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.01.27-04.26.22:366][232]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.01.27-04.26.22:366][232]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.01.27-04.26.22:366][232]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.01.27-04.26.22:366][232]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.01.27-04.26.22:366][232]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.01.27-04.26.22:369][232]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.01.27-04.26.22:369][232]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.01.27-04.26.22:382][232]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.01.27-04.26.22:382][232]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.01.27-04.26.22:382][232]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5FF0B72-495F-A566-67DB-E7A1B5DA0ABC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=474d903443ae8b63be4705ae78a3445b%7C%7Ce8798e7c-7c79-4e5f-9bf9-3ee525b6f63c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.01.27-04.26.22:416][232]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.01.27-04.26.22:418][232]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.01.27-04.26.22:418][232]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.01.27-04.26.22:418][232]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.01.27-04.26.22:418][232]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.01.27-04.26.22:418][232]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.01.27-04.26.22:418][232]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.01.27-04.26.22:418][232]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.01.27-04.26.22:418][232]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.01.27-04.26.22:418][232]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.01.27-04.26.22:418][232]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.01.27-04.26.22:418][232]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.01.27-04.26.22:418][232]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.01.27-04.26.22:419][232]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.01.27-04.26.22:419][232]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.01.27-04.26.22:419][232]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.01.27-04.26.22:421][232]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.01.27-04.26.22:421][232]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.01.27-04.26.22:421][232]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.01.27-04.26.22:421][232]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.01.27-04.26.22:421][232]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.01.27-04.26.22:421][232]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.01.27-04.26.22:422][232]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.01.27-04.26.22:422][232]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.01.27-04.26.22:422][232]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.01.27-04.26.22:422][232]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.01.27-04.26.22:422][232]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.01.27-04.26.22:422][232]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.01.27-04.26.22:422][232]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.01.27-04.26.22:422][232]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.01.27-04.26.22:436][232]LogExit: Exiting.
+[2019.01.27-04.26.22:442][232]Log file closed, 01/27/19 04:26:22

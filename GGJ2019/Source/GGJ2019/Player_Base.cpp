@@ -29,12 +29,15 @@ APlayer_Base::APlayer_Base()
 void APlayer_Base::BeginPlay()
 {
 	Super::BeginPlay();
+	GetCharacterMovement()->JumpZVelocity = 600;
 }
 
 // Called every frame
 void APlayer_Base::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	
 
 	AddMovementInput(GetActorForwardVector(), movementVelocity.X * DeltaTime);
 	AddMovementInput(GetActorRightVector(), movementVelocity.Y * DeltaTime);
@@ -46,6 +49,8 @@ void APlayer_Base::Tick(float DeltaTime)
 	{
 		moving = false;
 	}
+
+	attacking = false;
 }
 
 // Called to bind functionality to input
@@ -54,6 +59,8 @@ void APlayer_Base::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	PlayerInputComponent->BindAxis("MoveForward", this, &APlayer_Base::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &APlayer_Base::MoveRight);
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &APlayer_Base::JumpUp);
+	PlayerInputComponent->BindAction("Attack", IE_Pressed, this, &APlayer_Base::AttackEnemy);
 }
 
 void APlayer_Base::MoveForward(float value)
@@ -64,6 +71,16 @@ void APlayer_Base::MoveForward(float value)
 void APlayer_Base::MoveRight(float value)
 {
 	movementVelocity.Y = value * 100;
+}
+
+void APlayer_Base::JumpUp()
+{
+	Jump();
+}
+
+void APlayer_Base::AttackEnemy()
+{
+	attacking = true;
 }
 
 void APlayer_Base::putFoodInFridge(AFridge_Base* fridge, FoodTypes food)
