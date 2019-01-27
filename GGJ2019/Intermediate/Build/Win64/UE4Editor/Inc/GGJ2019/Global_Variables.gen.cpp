@@ -27,7 +27,7 @@ void EmptyLinkFunctionForGeneratedCodeGlobal_Variables() {}
 		return Singleton;
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_WeaponType(WeaponType_StaticEnum, TEXT("/Script/GGJ2019"), TEXT("WeaponType"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_GGJ2019_WeaponType_CRC() { return 1454916132U; }
+	uint32 Get_Z_Construct_UEnum_GGJ2019_WeaponType_CRC() { return 2022230495U; }
 	UEnum* Z_Construct_UEnum_GGJ2019_WeaponType()
 	{
 #if WITH_HOT_RELOAD
@@ -40,8 +40,9 @@ void EmptyLinkFunctionForGeneratedCodeGlobal_Variables() {}
 		{
 			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
 				{ "NoneW", (int64)NoneW },
-				{ "Spoon", (int64)Spoon },
-				{ "Spatula", (int64)Spatula },
+				{ "MeatCleaver", (int64)MeatCleaver },
+				{ "FryingPan", (int64)FryingPan },
+				{ "RollingPin", (int64)RollingPin },
 			};
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {

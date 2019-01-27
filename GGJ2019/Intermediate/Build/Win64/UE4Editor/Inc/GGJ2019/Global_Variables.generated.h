@@ -19,8 +19,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define FOREACH_ENUM_WEAPONTYPE(op) \
 	op(NoneW) \
-	op(Spoon) \
-	op(Spatula) 
+	op(MeatCleaver) \
+	op(FryingPan) \
+	op(RollingPin) 
 #define FOREACH_ENUM_FOODTYPES(op) \
 	op(None) \
 	op(Chicken) \
