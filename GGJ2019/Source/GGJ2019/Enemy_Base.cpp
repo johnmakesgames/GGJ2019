@@ -70,7 +70,7 @@ void AEnemy_Base::Kill()
 {
 	_alive = false;
 	UI->KillCount(1);
-	Destroy();
+	//Destroy();
 	//change the _body to the splodge
 }
 
