@@ -230,9 +230,9 @@ void AEnemy_Base::CheckFoodStatus()
 
 void AEnemy_Base::UpdateMovementType()
 {
-	switch (targetNode->_nodeType)
-	{
-	default:
-		break;
-	}
+	//switch (targetNode->_nodeType)
+	//{
+	//default:
+	//	break;
+	//}
 }
