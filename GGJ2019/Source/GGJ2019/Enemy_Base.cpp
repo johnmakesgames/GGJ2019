@@ -78,17 +78,20 @@ void AEnemy_Base::GoToFridge()
 
 void AEnemy_Base::TryToTakeFood()
 {
-	FVector distanceFromFridge;
-	distanceFromFridge.X = FMath::Abs(fridgePos.X - this->GetActorLocation().X);
-	distanceFromFridge.Y = FMath::Abs(fridgePos.Y - this->GetActorLocation().Y);
-	distanceFromFridge.Z = FMath::Abs(fridgePos.Z - this->GetActorLocation().Z);
-	float distance = FMath::Sqrt(FMath::Pow(distanceFromFridge.X, 2) + FMath::Pow(distanceFromFridge.Y, 2) + FMath::Pow(distanceFromFridge.Z, 2));
-	if (distance < 50)
+	if (!_hasFood)
 	{
-		GetFridge();
-		CheckFoodStatus();
-		FindExitNodes();
-		_checkedFridge = true;
+		FVector distanceFromFridge;
+		distanceFromFridge.X = FMath::Abs(fridgePos.X - this->GetActorLocation().X);
+		distanceFromFridge.Y = FMath::Abs(fridgePos.Y - this->GetActorLocation().Y);
+		distanceFromFridge.Z = FMath::Abs(fridgePos.Z - this->GetActorLocation().Z);
+		float distance = FMath::Sqrt(FMath::Pow(distanceFromFridge.X, 2) + FMath::Pow(distanceFromFridge.Y, 2) + FMath::Pow(distanceFromFridge.Z, 2));
+		if (distance < 50)
+		{
+			GetFridge();
+			CheckFoodStatus();
+			FindExitNodes();
+			_checkedFridge = true;
+		}
 	}
 }
 

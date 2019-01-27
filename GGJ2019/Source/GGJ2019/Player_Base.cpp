@@ -38,6 +38,14 @@ void APlayer_Base::Tick(float DeltaTime)
 
 	AddMovementInput(GetActorForwardVector(), movementVelocity.X * DeltaTime);
 	AddMovementInput(GetActorRightVector(), movementVelocity.Y * DeltaTime);
+	if (movementVelocity.X != 0 || movementVelocity.Y != 0)
+	{
+		moving = true;
+	}
+	else
+	{
+		moving = false;
+	}
 }
 
 // Called to bind functionality to input

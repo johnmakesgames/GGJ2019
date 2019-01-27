@@ -54,6 +54,11 @@ public:
 	int maxHealth;
 	int playerHealth;
 
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Animation")
+		bool moving;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Animation")
+		bool attacking;
+
 	// CAMERA //
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	UCameraComponent* playerCamera;
