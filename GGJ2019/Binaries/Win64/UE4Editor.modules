@@ -2,6 +2,10 @@
 	"BuildId": "4212847",
 	"Modules": 
 	{
+<<<<<<< HEAD
 		"GGJ2019": "UE4Editor-GGJ2019-76.dll"
+=======
+		"GGJ2019": "UE4Editor-GGJ2019.dll"
+>>>>>>> NewAngBranch
 	}
 }
