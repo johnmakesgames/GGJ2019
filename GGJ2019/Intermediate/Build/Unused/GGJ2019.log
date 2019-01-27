@@ -1,4 +1,5 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
+<<<<<<< HEAD
   Creating makefile for GGJ2019Editor (no existing makefile)
   Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for GGJ2019Editor
@@ -42,3 +43,18 @@
        Creating library C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.lib and object C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.exp
   Deploying GGJ2019Editor Win64 Development...
   Total build time: 62.95 seconds (Parallel executor: 43.11 seconds)
+=======
+  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-2588.dll".
+  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-2588.pdb".
+  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-4366.dll".
+  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-4366.pdb".
+  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-968.dll".
+  Deleting old hot reload file: "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019-968.pdb".
+  Building 2 actions with 8 processes...
+    [1/2] UE4Editor-GGJ2019.lib
+       Creating library C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.lib and object C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.exp
+    [2/2] UE4Editor-GGJ2019.dll
+       Creating library C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.lib and object C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.exp
+  Deploying GGJ2019Editor Win64 Development...
+  Total build time: 5.21 seconds (Parallel executor: 2.40 seconds)
+>>>>>>> FinalJohnBranch

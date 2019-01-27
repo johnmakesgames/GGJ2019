@@ -8,7 +8,7 @@ ANavigationNode_Base::ANavigationNode_Base()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	fridgePos = FVector(-237.0, 156.0, 104.0);
+	fridgePos = FVector(-248.0, 175.0, -11.0);
 }
 
 // Called when the game starts or when spawned

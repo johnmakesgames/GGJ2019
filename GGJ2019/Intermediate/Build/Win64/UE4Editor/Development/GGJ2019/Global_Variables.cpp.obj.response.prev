@@ -27,6 +27,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> FinalJohnBranch
 /I C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Source\GGJ2019\Private
 =======
 /I C:\Users\w018030h.STUDENT\Documents\newGGJ2019\GGJ2019\GGJ2019\Source\GGJ2019\Private
@@ -34,9 +37,12 @@
 =======
 /I C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Source\GGJ2019\Private
 >>>>>>> NewNewNewRhiannonBranch
+<<<<<<< HEAD
 =======
 /I "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Source\GGJ2019\Private"
 >>>>>>> Cine_Camera_Branch
+=======
+>>>>>>> FinalJohnBranch
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -417,6 +423,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> FinalJohnBranch
 /I C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Inc\GGJ2019
 /I C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Source
 /I C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Source\GGJ2019\Public
@@ -433,12 +442,15 @@
 /I C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Source\GGJ2019\Public
 /I C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Source\GGJ2019
 >>>>>>> NewNewNewRhiannonBranch
+<<<<<<< HEAD
 =======
 /I "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Inc\GGJ2019"
 /I "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Source"
 /I "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Source\GGJ2019\Public"
 /I "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Source\GGJ2019"
 >>>>>>> Cine_Camera_Branch
+=======
+>>>>>>> FinalJohnBranch
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"
@@ -448,6 +460,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> FinalJohnBranch
 /FI"C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h.pch"
@@ -470,6 +485,7 @@
 /FI"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\Definitions.GGJ2019.h"
 /Fo"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\Global_Variables.cpp.obj"
 >>>>>>> NewNewNewRhiannonBranch
+<<<<<<< HEAD
 =======
 /FI"C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h"
@@ -478,6 +494,8 @@
 /FI"C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\Definitions.GGJ2019.h"
 /Fo"C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\Global_Variables.cpp.obj"
 >>>>>>> Cine_Camera_Branch
+=======
+>>>>>>> FinalJohnBranch
 /TP
 /GR-
 /W4

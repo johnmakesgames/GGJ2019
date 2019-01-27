@@ -33,6 +33,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> FinalJohnBranch
 "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h.obj"
 "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\EnemySpawner_Base.cpp.obj"
 "C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\Enemy_Base.cpp.obj"
@@ -133,6 +136,7 @@
 "C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UI_Manager.gen.cpp.obj"
 "C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\PCLaunch.rc.res"
 >>>>>>> NewNewNewRhiannonBranch
+<<<<<<< HEAD
 =======
 "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h.obj"
 "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\EnemySpawner_Base.cpp.obj"
@@ -167,6 +171,8 @@
 "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UI_Manager.gen.cpp.obj"
 "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\PCLaunch.rc.res"
 >>>>>>> Cine_Camera_Branch
+=======
+>>>>>>> FinalJohnBranch
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
@@ -198,6 +204,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> FinalJohnBranch
 /OUT:"C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019.dll"
 /IMPLIB:"C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.lib"
 /PDB:"C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019.pdb"
@@ -211,9 +220,12 @@
 /IMPLIB:"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.lib"
 /PDB:"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019.pdb"
 >>>>>>> NewNewNewRhiannonBranch
+<<<<<<< HEAD
 =======
 /OUT:"C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019.dll"
 /IMPLIB:"C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\UE4Editor\Development\GGJ2019\UE4Editor-GGJ2019.suppressed.lib"
 /PDB:"C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Binaries\Win64\UE4Editor-GGJ2019.pdb"
 >>>>>>> Cine_Camera_Branch
+=======
+>>>>>>> FinalJohnBranch
 /ignore:4078

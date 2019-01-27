@@ -18,7 +18,7 @@ AEnemy_Base::AEnemy_Base()
 	_hasFood = false;
 	_movementSpeed = 1.5f;
 	_carriedObject = nullptr;
-	fridgePos = FVector(-237.0, 156.0, 17.0);
+	fridgePos = FVector(-248.0, 175.0, -11.0);
 	_exitPos = FVector(9999, 9999, 9999);
 	_carriedFood = FoodTypes::None;
 	_rotationAmountZ = 0;
