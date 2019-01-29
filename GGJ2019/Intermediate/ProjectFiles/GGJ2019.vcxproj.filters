@@ -4,15 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\GGJ2019.uproject" />
 		<Filter Include="Source">
-<<<<<<< HEAD
-<<<<<<< HEAD
-			<UniqueIdentifier>{ABE98215-52F3-4361-B738-169ED5E2B071}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{517B8F39-9800-4BF3-976F-7F74697FA221}</UniqueIdentifier>
->>>>>>> FinalJohnBranch
-=======
-			<UniqueIdentifier>{73C984EC-30B3-454D-AD23-42BF3F1F7DEB}</UniqueIdentifier>
->>>>>>> NewNewNewRhiannonBranch
+			<UniqueIdentifier>{25B7E529-D217-4E1B-B9D1-662552E14EF3}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\GGJ2019.Target.cs">
 			<Filter>Source</Filter>
@@ -21,15 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-<<<<<<< HEAD
-<<<<<<< HEAD
-			<UniqueIdentifier>{4C6F5FCA-94BF-45D9-A7CD-C8D8C92E21CF}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{9FE85FE0-A598-4D9E-8296-D733A465EEFA}</UniqueIdentifier>
->>>>>>> FinalJohnBranch
-=======
-			<UniqueIdentifier>{FF035864-3E27-4303-9BC3-EC489D3DEEFE}</UniqueIdentifier>
->>>>>>> NewNewNewRhiannonBranch
+			<UniqueIdentifier>{35FE24DD-5817-48A0-84D8-4D66D6FED736}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -44,15 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\GGJ2019">
-<<<<<<< HEAD
-<<<<<<< HEAD
-			<UniqueIdentifier>{242D65BE-D175-4CF3-951D-DB2FC76A277B}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{9DB07805-77C3-4E02-B1E9-CC46DE6D27B8}</UniqueIdentifier>
->>>>>>> FinalJohnBranch
-=======
-			<UniqueIdentifier>{B442DACA-29F9-41A4-AE92-BA6A56CEA647}</UniqueIdentifier>
->>>>>>> NewNewNewRhiannonBranch
+			<UniqueIdentifier>{C871CF97-49DF-483A-BBE3-32DCF9370F29}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\GGJ2019\EnemySpawner_Base.cpp">
 			<Filter>Source\GGJ2019</Filter>
@@ -100,15 +76,7 @@
 			<Filter>Source\GGJ2019</Filter>
 		</ClInclude >
 		<Filter Include="Source\GGJ2019\Private">
-<<<<<<< HEAD
-<<<<<<< HEAD
-			<UniqueIdentifier>{9F0E539D-F929-49F1-B01B-19E79B72D4C5}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{B2A50A8E-F409-49F7-90E3-1C9F87ED84F2}</UniqueIdentifier>
->>>>>>> FinalJohnBranch
-=======
-			<UniqueIdentifier>{94D857F5-67C2-4231-9CFE-C00A8D543324}</UniqueIdentifier>
->>>>>>> NewNewNewRhiannonBranch
+			<UniqueIdentifier>{4A7B91A8-04C1-496C-B506-A56D620A231A}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\GGJ2019\Private\Fridge_Base.cpp">
 			<Filter>Source\GGJ2019\Private</Filter>
@@ -135,15 +103,7 @@
 			<Filter>Source\GGJ2019\Private</Filter>
 		</ClCompile >
 		<Filter Include="Source\GGJ2019\Public">
-<<<<<<< HEAD
-<<<<<<< HEAD
-			<UniqueIdentifier>{9E7DC328-675F-4D97-A498-5356341E7316}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{8E39DDD6-C5ED-4BD4-8191-C2D861AA1CD9}</UniqueIdentifier>
->>>>>>> FinalJohnBranch
-=======
-			<UniqueIdentifier>{8363C89F-F3FC-41E7-B914-16DB7EA5A1C7}</UniqueIdentifier>
->>>>>>> NewNewNewRhiannonBranch
+			<UniqueIdentifier>{25E3FEDE-C9F5-42CD-9AB1-774F126865A6}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Source\GGJ2019\Public\Fridge_Base.h">
 			<Filter>Source\GGJ2019\Public</Filter>

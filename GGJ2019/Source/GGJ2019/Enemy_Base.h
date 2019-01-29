@@ -45,7 +45,7 @@ protected:
 private:
 	void CheckDeadStatus();
 	void Kill();
-	void GoToFridge();
+	void GoToFridge(float deltaTime);
 	void TryToTakeFood();
 	void Escape();
 	void UpdateRotation();

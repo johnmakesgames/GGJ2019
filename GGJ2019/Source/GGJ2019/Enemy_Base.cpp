@@ -14,9 +14,9 @@ AEnemy_Base::AEnemy_Base()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	_alive = true;
-	_health = 10;
+	_health = 100;
 	_hasFood = false;
-	_movementSpeed = 1.5f;
+	_movementSpeed = 100.0f;
 	_carriedObject = nullptr;
 	fridgePos = FVector(-248.0, 175.0, -11.0);
 	_exitPos = FVector(9999, 9999, 9999);
@@ -44,7 +44,7 @@ void AEnemy_Base::Tick(float DeltaTime)
 		{
 			UpdateMovementType();
 		}
-		GoToFridge();
+		GoToFridge(DeltaTime);
 		TryToTakeFood();
 		Escape();
 		CheckFoodStatus();
@@ -53,7 +53,7 @@ void AEnemy_Base::Tick(float DeltaTime)
 	}
 	else
 	{
-		_deathCurrentFrame++;
+		_deathCurrentFrame += DeltaTime;
 	}
 }
 
@@ -77,14 +77,14 @@ void AEnemy_Base::Kill()
 	//change the _body to the splodge
 }
 
-void AEnemy_Base::GoToFridge()
+void AEnemy_Base::GoToFridge(float deltaTime)
 {
 	FindNodes();
 	if (targetNode != nullptr)
 	{
 		FVector movementDirection = targetNode->GetActorLocation() - this->GetActorLocation();
 		movementDirection.Normalize();
-		this->SetActorLocation(this->GetActorLocation() + (movementDirection * _movementSpeed));
+		this->SetActorLocation(this->GetActorLocation() + (movementDirection * _movementSpeed) * deltaTime);
 	}
 }
 

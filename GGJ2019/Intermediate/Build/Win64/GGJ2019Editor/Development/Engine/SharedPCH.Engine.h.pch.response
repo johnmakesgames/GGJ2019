@@ -179,33 +179,17 @@
 /I Runtime\AudioMixer\Classes
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\INCLUDE"
+/I "D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"
-<<<<<<< HEAD
-<<<<<<< HEAD
-/I "C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine"
-/Yc"C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.cpp"
-/Fo"C:\Users\h017026h\Documents\Game Jame\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h.obj"
-=======
-/I C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine
-/Yc"C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.cpp"
-/Fo"C:\Users\w017177h.STUDENT\Documents\Github\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h.obj"
->>>>>>> FinalJohnBranch
-=======
-/I C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine
-/Yc"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.cpp"
-/Fo"C:\Users\p018236h.STUDENT\Documents\GameJam\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h.obj"
->>>>>>> NewNewNewRhiannonBranch
+/I D:\Git\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine
+/Yc"D:\Git\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\Git\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\Git\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.cpp"
+/Fo"D:\Git\GGJ2019\GGJ2019\Intermediate\Build\Win64\GGJ2019Editor\Development\Engine\SharedPCH.Engine.h.obj"
 /TP
 /GR-
 /W4
