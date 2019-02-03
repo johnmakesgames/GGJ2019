@@ -138,7 +138,7 @@ void AEnemy_Base::PathUsingNodes(TArray<ANavigationNode_Base*> nodes)
 	{
 		for (int i = 0; i < nodes.Num(); i++)
 		{
-			if (DistanceToMe(nodes[i]) > 2 && DistanceToMe(nodes[i]) < 200)
+			if (DistanceToMe(nodes[i]) > 2 && DistanceToMe(nodes[i]) < 300)
 			{
 				nodesWithinDistance.Add(nodes[i]);
 			}
@@ -146,6 +146,8 @@ void AEnemy_Base::PathUsingNodes(TArray<ANavigationNode_Base*> nodes)
 
 		if (nodesWithinDistance.Num() > 0)
 		{
+			closestNode = nodesWithinDistance[0];
+
 			if (!_checkedFridge)
 			{
 				ANavigationNode_Base* currentBest;
@@ -155,6 +157,10 @@ void AEnemy_Base::PathUsingNodes(TArray<ANavigationNode_Base*> nodes)
 					if (nodesWithinDistance[i]->GetDistanceToFridge() < currentBest->GetDistanceToFridge())
 					{
 						currentBest = nodesWithinDistance[i];
+					}
+					if (DistanceToMe(nodesWithinDistance[i]) < DistanceToMe(closestNode))
+					{
+						closestNode = nodesWithinDistance[i];
 					}
 				}
 				targetNode = currentBest;
@@ -169,17 +175,12 @@ void AEnemy_Base::PathUsingNodes(TArray<ANavigationNode_Base*> nodes)
 					{
 						currentBest = nodesWithinDistance[i];
 					}
+					if (DistanceToMe(nodesWithinDistance[i]) < DistanceToMe(closestNode))
+					{
+						closestNode = nodesWithinDistance[i];
+					}
 				}
 				targetNode = currentBest;
-			}
-
-			closestNode = nodesWithinDistance[0];
-			for (int i = 1; i < nodesWithinDistance.Num(); i++)
-			{
-				if (DistanceToMe(nodesWithinDistance[i]) < DistanceToMe(closestNode))
-				{
-					closestNode = nodesWithinDistance[i];
-				}
 			}
 		}
 	}
